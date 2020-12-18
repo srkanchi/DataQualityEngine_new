@@ -1,0 +1,11 @@
+{
+    "data": {
+        "colA": "testA",
+        "colB": 1000,
+        "colC": 123.123,
+        "colD": [1,2,3, "testD"],
+        "colE": {
+            "col_colEA": "testEA"
+        }
+    }
+}
