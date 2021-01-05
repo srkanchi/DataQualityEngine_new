@@ -28,12 +28,9 @@ class SchemaHandler(object):
     Use this class to create schemas and get existing schemas
     """
 
-    def __init__(self,schema_name):
-        print("Schema name")
-        self.schema_name = schema_name
+    def __init__(self):
+        self.schema_name = None
         
-        
-    
     def get_schema(self, schema_name):
         """
         Returns schema
@@ -41,21 +38,19 @@ class SchemaHandler(object):
         sr.get_schema_by_subject_from_client(schema_name)
         return self.schema
         
-    
-    def get_schema_format(self,schema):
+    def __get_schema_format(self,schema):
         
         schema = avro.schema.Parse(open("demo.avsc", "rb").read())
         
         return self.schema
             
-        
     ## creates schema for a test and writes to registry
-    def create_schema_for_test(self,schema_name):
+    def __create_schema_for_test(self,schema_name):
        print("Enter details to create schema") 
        schema_name = input()
        print(schema_name)
        dataFile    = open(schema_name + ".avro", "wb")
-       schema = get_schema_format()
+       schema = self.get_schema_format()
        ## writer for creating schema from schema format 
        writer = DataFileWriter(dataFile, DatumWriter(), schema)
        # Write data using DatumWriter

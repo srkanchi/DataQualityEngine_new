@@ -33,10 +33,22 @@ class RuleTemplate(object):
         """
         pass
 
+    def flatten_dict(self, data, keystring=''): 
+        if type(data) == dict: 
+            keystring = keystring + '_' if keystring else keystring 
+            for k in data: 
+                yield from self.__flatten_dict(data[k], keystring + str(k)) 
+        else: 
+            yield keystring, data 
+
     def run_rule(self, **kwargs):
         """
         Run the defined rule
         """
         # can perform extra transformatiosn that are shared across different rules
-        rtn = self._rule_definition(kwargs)
-        return rtn
+        if self._rule_input_check(**kwargs) == 1:
+            print("ERROR ON RULE INPUT. IGNORING IT.")
+            return None
+        else:
+            rtn = self._rule_definition(**kwargs)
+            return rtn

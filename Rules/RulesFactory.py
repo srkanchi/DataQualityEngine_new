@@ -1,4 +1,4 @@
-
+from Rules.FormatCheck import FormatCheck
 
 class RulesFactory(object):
     """
@@ -8,7 +8,10 @@ class RulesFactory(object):
         """
         class constructor
         """
-        self.rule_dict = {}
+        format_class = FormatCheck()
+        self.rule_dict = {
+            format_class.name: format_class
+        }
         """
         rule_repository = {
             "rule_name": rule_class,
