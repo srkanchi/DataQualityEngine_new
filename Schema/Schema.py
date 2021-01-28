@@ -22,48 +22,46 @@ demo = {'data': {json},
                     ]}
 
 
+import boto3
+
+
+
 class SchemaHandler(object):
     """
     class of Schema Handler 
     Use this class to create schemas and get existing schemas
     """
+    
 
     def __init__(self):
+        self.client = boto3.client('glue')
         self.schema_name = None
         
-    def get_schema(self, schema_name):
+        
+    def _list_schemas(self, registry_name):
         """
         Returns schema
         """
-        sr.get_schema_by_subject_from_client(schema_name)
-        return self.schema
         
-    def __get_schema_format(self,schema):
-        
-        schema = avro.schema.Parse(open("demo.avsc", "rb").read())
-        
-        return self.schema
+        response = self.client.list_schemas(
+            RegistryId={
+                'RegistryName': registry_name
+            },
+            MaxResults=10
+        ) 
             
-    ## creates schema for a test and writes to registry
-    def __create_schema_for_test(self,schema_name):
-       print("Enter details to create schema") 
-       schema_name = input()
-       print(schema_name)
-       dataFile    = open(schema_name + ".avro", "wb")
-       schema = self.get_schema_format()
-       ## writer for creating schema from schema format 
-       writer = DataFileWriter(dataFile, DatumWriter(), schema)
-       # Write data using DatumWriter
-       writer.append( {'data': 'sample_data.json',
-                    
-                     'test': [
-
-                    {'test_schema_format': 'range_test'},
-
-                    {'range': {'upper_bound': 50, 'lower_bound': 25}}
-
-                    ]})
-       writer.close()
-            
+        return response
+    
+        
+    def __get_schema(self,schema_name,registry_name):
+              
+        response = self.client.get_schema(
+                        SchemaId={
+                            'SchemaName': schema_name,
+                            'RegistryName': registry_name
+                        }
+                    )
+        return response
+        
 
     
