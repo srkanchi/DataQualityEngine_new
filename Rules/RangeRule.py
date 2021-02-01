@@ -1,5 +1,5 @@
 from Rules.RulesTemplate import RuleTemplate
-
+##import deque
 
 class RangeRule(RuleTemplate):
     """
@@ -46,7 +46,7 @@ class RangeRule(RuleTemplate):
                 elif v <= lower_bound:
                     results.append({k: "FAIL"})
                 else:
-                    results.append({k: "SUCESS"})
+                    results.append({k: "SUCCESS"})
         
         return {
             self.name: results
