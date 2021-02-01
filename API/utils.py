@@ -1,3 +1,5 @@
+from Tester.Tester import *
+
 
 
 def check_inputs(inputs):
@@ -13,7 +15,12 @@ def check_inputs(inputs):
 def call_tester(inputs):
     """
     """
-    return None
+    # TODO understand how inputs come thru, so we can split them up and feed the kwargs to the function
+    tester = Tester()
+    # data?
+    # schema_name
+    # testes to run from teh API
+    return tester.run_tests()
 
 
 def get_all_available_schemas():

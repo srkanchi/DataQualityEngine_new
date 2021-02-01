@@ -1,4 +1,4 @@
-
+### Rules Template class 
 
 
 class RuleTemplate(object):
@@ -25,18 +25,51 @@ class RuleTemplate(object):
         """
         Specific implementation of the rule
         """
-        pass
+        rd = RuleTemplate()
+                
+                
+                
+               
+        
+        pass     
 
     @abstractmethod
     def _rule_input_check(self, **kwargs):
         """
+        checks if rules exist in 
         """
-        pass
+        ## rules directory 
+        
+        ## rule name
+        rule_name_input = input("Enter rule name")
+        
+        ## rule category 
+        rule_category_input = input("Enter Rule category")
+        
+        ## application_specific
+        application_specific_input = input("Enter the application specific category")
+        
+        ## application name 
+        application_specific_name_input = input("Enter the application specific name")
+        
+        
+
+    def flatten_dict(self, data, keystring=''): 
+        if type(data) == dict: 
+            keystring = keystring + '_' if keystring else keystring 
+            for k in data: 
+                yield from self.__flatten_dict(data[k], keystring + str(k)) 
+        else: 
+            yield keystring, data 
 
     def run_rule(self, **kwargs):
         """
         Run the defined rule
         """
         # can perform extra transformatiosn that are shared across different rules
-        rtn = self._rule_definition(kwargs)
-        return rtn
+        if self._rule_input_check(**kwargs) == 1:
+            print("ERROR ON RULE INPUT. IGNORING IT.")
+            return None
+        else:
+            rtn = self._rule_definition(**kwargs)
+            return rtn
