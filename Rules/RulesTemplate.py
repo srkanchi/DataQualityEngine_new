@@ -24,13 +24,7 @@ class RuleTemplate(object):
     def _rule_definition(self, **kwargs):
         """
         Specific implementation of the rule
-        """
-        rd = RuleTemplate()
-                
-                
-                
-               
-        
+        """         
         pass     
 
     @abstractmethod
@@ -39,21 +33,8 @@ class RuleTemplate(object):
         checks if rules exist in 
         """
         ## rules directory 
+        pass
         
-        ## rule name
-        rule_name_input = input("Enter rule name")
-        
-        ## rule category 
-        rule_category_input = input("Enter Rule category")
-        
-        ## application_specific
-        application_specific_input = input("Enter the application specific category")
-        
-        ## application name 
-        application_specific_name_input = input("Enter the application specific name")
-        
-        
-
     def flatten_dict(self, data, keystring=''): 
         if type(data) == dict: 
             keystring = keystring + '_' if keystring else keystring 
