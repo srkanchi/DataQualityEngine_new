@@ -8,7 +8,6 @@ import json
 import avro
 from avro.datafile import DataFileWriter, DataFileReader
 from avro.io import DatumWriter, DatumReader
-import Schema.schema_registry as sr
 
 
 ### schema_format for performing test on range 
