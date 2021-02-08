@@ -1,5 +1,5 @@
-from Rules.RulesFactory import RulesFactory
-from Schema.Schema import SchemaHandler
+from DQE.Rules.RulesFactory import RulesFactory
+from DQE.Schema.Schema import SchemaHandler
 
 
 class Tester(object):

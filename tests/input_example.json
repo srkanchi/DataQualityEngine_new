@@ -7,5 +7,12 @@
         "colE": {
             "col_colEA": "testEA"
         }
-    }
+    },
+    "tests": [
+        {"range_rule"},
+        {"format_check": {
+            "schema_name": "schema1"
+            }
+        }
+    ]
 }

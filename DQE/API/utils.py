@@ -1,5 +1,4 @@
-from Tester.Tester import *
-
+from DQE.Tester.Tester import *
 
 
 def check_inputs(inputs):
@@ -17,10 +16,16 @@ def call_tester(inputs):
     """
     # TODO understand how inputs come thru, so we can split them up and feed the kwargs to the function
     tester = Tester()
-    # data?
-    # schema_name
-    # testes to run from teh API
-    return tester.run_tests()
+    data = inputs['data']
+    tests = inputs['tests']
+    schema_name = None
+    for t in tests:
+        for k,v in t.items():
+            if k == "format_check":
+                schema_name = v['schema_name']
+                break
+
+    return tester.run_tests(data=data, list_of_tests=tests, schema_name=schema_name)
 
 
 def get_all_available_schemas():
