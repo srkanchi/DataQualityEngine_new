@@ -8,21 +8,7 @@ import json
 import avro
 from avro.datafile import DataFileWriter, DataFileReader
 from avro.io import DatumWriter, DatumReader
-
-
-### schema_format for performing test on range 
-demo = {'data': {json},
-                     "test": [
-
-                    {'test_schema_format': 'range_test'},
-
-                    {'range': {'upper_bound': int, 'lower_bound': int}}
-
-                    ]}
-
-
 import boto3
-
 
 
 class SchemaHandler(object):
@@ -37,7 +23,7 @@ class SchemaHandler(object):
         self.schema_name = None
         
         
-    def _list_schemas(self, registry_name):
+    def list_schemas(self, registry_name):
         """
         Returns schema
         """
@@ -52,7 +38,7 @@ class SchemaHandler(object):
         return response
     
         
-    def __get_schema(self,schema_name,registry_name):
+    def get_schema(self,schema_name,registry_name):
               
         response = self.client.get_schema(
                         SchemaId={

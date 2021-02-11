@@ -1,4 +1,5 @@
 ### Rules Template class 
+from abc import ABC, abstractmethod
 
 
 class RuleTemplate(object):
@@ -21,14 +22,14 @@ class RuleTemplate(object):
             raise ValueError("Rule must have a name!")
     
     @abstractmethod
-    def _rule_definition(self, **kwargs):
+    def _rule_definition(self, data, inputs, schema=None):
         """
         Specific implementation of the rule
         """         
         pass     
 
     @abstractmethod
-    def _rule_input_check(self, **kwargs):
+    def _rule_input_check(self, data, inputs, schema=None):
         """
         checks if rules exist in 
         """
@@ -43,14 +44,14 @@ class RuleTemplate(object):
         else: 
             yield keystring, data 
 
-    def run_rule(self, **kwargs):
+    def run_rule(self, data, inputs, schema=None):
         """
         Run the defined rule
         """
         # can perform extra transformatiosn that are shared across different rules
-        if self._rule_input_check(**kwargs) == 1:
+        if self._rule_input_check(data, inputs, schema) == 1:
             print("ERROR ON RULE INPUT. IGNORING IT.")
             return None
         else:
-            rtn = self._rule_definition(**kwargs)
+            rtn = self._rule_definition(data, inputs, schema)
             return rtn

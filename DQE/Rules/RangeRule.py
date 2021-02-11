@@ -1,4 +1,4 @@
-from Rules.RulesTemplate import RuleTemplate
+from DQE.Rules.RulesTemplate import RuleTemplate
 ##import deque
 
 class RangeRule(RuleTemplate):
@@ -9,13 +9,13 @@ class RangeRule(RuleTemplate):
     def __init__(self):
         super(RangeRule, self).__init__(rule_name='range_check', rule_category='data_integrity')
     
-    def _rule_input_check(self, **kwargs):
+    def _rule_input_check(self, data, inputs, schema=None):
         """
         """
         try:
-            data = kwargs['data']
-            upper = kwargs['upper_bound']
-            lower = kwargs['lower_bound']
+            assert data is not None
+            upper = inputs['upper_bound']
+            lower = inputs['lower_bound']
             if isinstance(upper, float) is False:
                 raise ValueError("Upper bound value should be numeric.")
             if isinstance(lower, float) is False:
@@ -28,12 +28,11 @@ class RangeRule(RuleTemplate):
             print("value should be numeric.")
             return 1
 
-    def _rule_definition(self, **kwargs):
+    def _rule_definition(self,data, inputs, schema=None):
         """
         """
-        data = kwargs.get('data')
-        upper_bound = kwargs.get('upper_bound')
-        lower_bound = kwargs.get('lower_bound')
+        upper_bound = inputs.get('upper_bound')
+        lower_bound = inputs.get('lower_bound')
 
         results = []
         

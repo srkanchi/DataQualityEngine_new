@@ -15,16 +15,19 @@ class Tester(object):
         self.schema_handler = SchemaHandler()
     
     ## single run test
-    def __run_test(self, test_name, data, schema_name=None):
+    def __run_test(self, test_name, data, inputs, schema_name=None):
         rule = self.rules_factory.get_rule(test_name)
         if test_name == 'format_check':
             schema = self.schema_handler.get_schema(schema_name)
-        rule_results = rule.run_rule(data=data, schema=schema_name)
+        rule_results = rule.run_rule(data=data, inputs=inputs, schema=schema_name)
         return rule_results
     
     ## multiple tests 
     def run_tests(self, list_of_tests, data, schema_name=None):
         rtn = []
         for t in list_of_tests:
-            rtn.append(self.__run_test(t, data, schema_name))
+            rtn.append(self.__run_test(test_name=list(t.keys())[0], 
+                                       data=data, 
+                                       inputs=t.values(), 
+                                       schema_name=schema_name))
         return rtn

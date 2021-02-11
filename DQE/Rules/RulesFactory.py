@@ -1,6 +1,7 @@
 import importlib
 import os
 from glob import glob
+from pydoc import locate
 
 
 class RulesFactory(object):
@@ -20,12 +21,12 @@ class RulesFactory(object):
         # Step 1 read all files
         # Step 2 instanciates each file/class and save it to self dictionary
         # self.rule_repository = all_classes
-        module = importlib.import_module('Rules')
-        for file in os.listdir("./Rules/"):
+        
+        for file in os.listdir("./DQE/Rules/"):
             name = os.path.splitext(os.path.basename(file))[0]
             print(name)
             if name not in ['__init__', 'RulesTemplate', 'RulesFactory', '__pycache__']:
-                my_class = getattr(module, name)
+                my_class = my_class = locate('DQE.Rules.{0}.{1}'.format(name, name))
                 my_instance = my_class()
                 self.rule_dict[my_instance.name] = my_instance
                 
@@ -37,4 +38,4 @@ class RulesFactory(object):
     def list_rules_available(self):
         """
         """
-        return list(self.rule_dict.keys())                    
+        return list(self.rule_dict.keys())

@@ -24,7 +24,6 @@ def call_tester(inputs):
             if k == "format_check":
                 schema_name = v['schema_name']
                 break
-
     return tester.run_tests(data=data, list_of_tests=tests, schema_name=schema_name)
 
 
