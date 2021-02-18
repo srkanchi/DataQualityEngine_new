@@ -23,7 +23,7 @@ class SchemaHandler(object):
         self.schema_name = None
         
         
-    def list_schemas(self, registry_name):
+    def list_schemas(self, registry_name='DataQualityEngine'):
         """
         Returns schema
         """
@@ -38,7 +38,7 @@ class SchemaHandler(object):
         return response
     
         
-    def get_schema(self,schema_name,registry_name):
+    def get_schema(self,schema_name,registry_name='DataQualityEngine'):
               
         response = self.client.get_schema(
                         SchemaId={

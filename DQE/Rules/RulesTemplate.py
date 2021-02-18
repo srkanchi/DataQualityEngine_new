@@ -1,5 +1,6 @@
 ### Rules Template class 
 from abc import ABC, abstractmethod
+import collections
 
 
 class RuleTemplate(object):
@@ -35,14 +36,16 @@ class RuleTemplate(object):
         """
         ## rules directory 
         pass
-        
-    def flatten_dict(self, data, keystring=''): 
-        if type(data) == dict: 
-            keystring = keystring + '_' if keystring else keystring 
-            for k in data: 
-                yield from self.__flatten_dict(data[k], keystring + str(k)) 
-        else: 
-            yield keystring, data 
+
+    def flatten_dict(self, data, parent_key='', sep='_'):
+        items = []
+        for k, v in data.items():
+            new_key = parent_key + sep + k if parent_key else k
+            if isinstance(v, collections.MutableMapping):
+                items.extend(self.flatten_dict(v, new_key, sep=sep).items())
+            else:
+                items.append((new_key, v))
+        return dict(items)
 
     def run_rule(self, data, inputs, schema=None):
         """

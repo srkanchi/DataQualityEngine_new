@@ -28,6 +28,6 @@ class Tester(object):
         for t in list_of_tests:
             rtn.append(self.__run_test(test_name=list(t.keys())[0], 
                                        data=data, 
-                                       inputs=t.values(), 
+                                       inputs=list(t.values())[0], 
                                        schema_name=schema_name))
         return rtn

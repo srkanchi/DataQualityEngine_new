@@ -26,9 +26,12 @@ class RulesFactory(object):
             name = os.path.splitext(os.path.basename(file))[0]
             print(name)
             if name not in ['__init__', 'RulesTemplate', 'RulesFactory', '__pycache__']:
-                my_class = my_class = locate('DQE.Rules.{0}.{1}'.format(name, name))
-                my_instance = my_class()
-                self.rule_dict[my_instance.name] = my_instance
+                if name.startswith('tests') is False:
+                    my_class = locate('DQE.Rules.{0}.{1}'.format(name, name))
+                    my_instance = my_class()
+                    print(name)
+                    print(my_instance)
+                    self.rule_dict[my_instance.name] = my_instance
                 
     def get_rule(self, rule_name):
         """

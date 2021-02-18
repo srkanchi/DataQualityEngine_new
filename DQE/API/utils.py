@@ -11,6 +11,7 @@ def check_inputs(inputs):
     assert isinstance(inputs.get('tests'), list)
     # manage error criation
 
+
 def call_tester(inputs):
     """
     """
@@ -32,3 +33,4 @@ def get_all_available_schemas():
     function to get all schemas on the registry
     """
     return None
+
