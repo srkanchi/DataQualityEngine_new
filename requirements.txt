@@ -1,0 +1,7 @@
+Flask==1.0.4
+Flask-RESTful==0.3.7
+avro-python3==1.9.2
+boto3==1.17.11
+durable-rules==2.0.28
+json-flatten==0.1
+requests==2.22.0
