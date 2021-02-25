@@ -1,6 +1,11 @@
 from DQE.Rules.RulesTemplate import RuleTemplate
 from durable.lang import *
 
+
+score= 0
+fields = []
+
+
 class TDCompleteness(RuleTemplate):
     """
     class description here
@@ -9,11 +14,10 @@ class TDCompleteness(RuleTemplate):
     def __init__(self):
         super(TDCompleteness, self).__init__(rule_name='TDCompleteness', rule_category='data_quality')
     
-    def _rule_input_check(self, **kwargs):
+    def _rule_input_check(self, data, inputs, schema=None):
         """
         """
         try:
-            data = kwargs['data']
             return 0
         except KeyError:
             print("For this rule to work, it has to have the inputs of `data`, `upper_bound`, and `lower_bound`. Please refer to documentation.")
@@ -22,39 +26,60 @@ class TDCompleteness(RuleTemplate):
             print("value should be numeric.")
             return 1
 
-    def _rule_definition(self, **kwargs):
+    def _rule_definition(self, data, inputs, schema=None):
         """
         """
-        data = kwargs.get('data')
 
-        rtn = []
+        singleScores = {
+                "tpt_id_key": 0,
+                "year": 0,
+                "responsible": 4, 
+                "part_rated": 5,
+                "assessment_type": 4, 
+                "sample_size": 3,
+                "sample_size_unit": 3, 
+                "number_of_subsamples":2 , 
+                "assessment_target": 3, 
+                "assessment_crop": 3, 
+                "assessment_code": 5, 
+                "standard_evaluation": 5, 
+                "application_method": 5, 
+                "Crop": 5, 
+                "objectives": 5, 
+                "test_type": 3, 
+                "project_number": 4, 
+                "responsible_site_code":4 , 
+                "gep_code_synonym": 4, 
+                "guidelines": 5,
+                "site_type":5,
+                "technical_mager": 5,
+                "no_applications": 3, 
+                "no_assessments": 3, 
+                "location_of_control": 3, 
+                "data_deadline": 5,
+                "no_replicates": 4, 
+                "no_trials": 4, 
+                "experimental_season": 4, 
+                "no_harvest": 3, 
+                "target": 5}
 
-        with ruleset('animal'):
-            # will be triggered by 'Kermit eats flies'
-            @when_all((m.predicate == 'eats') & (m.object == 'flies'))
-            def frog(c):
-                c.assert_fact({ 'subject': c.m.subject, 'predicate': 'is', 'object': 'frog' })
 
-            @when_all((m.predicate == 'eats') & (m.object == 'worms'))
-            def bird(c):
-                c.assert_fact({ 'subject': c.m.subject, 'predicate': 'is', 'object': 'bird' })
+        with ruleset('TD'):
+            @when_all((m.key != ''))
+            def tpt_id_key(c):
+                global score
+                score = score + c.m.score
+                fields.append(c.m.attribute)
+                c.assert_fact({ 'score': score })
 
-            # will be chained after asserting 'Kermit is frog'
-            @when_all((m.predicate == 'is') & (m.object == 'frog'))
-            def green(c):
-                c.assert_fact({ 'subject': c.m.subject, 'predicate': 'is', 'object': 'green' })
 
-            @when_all((m.predicate == 'is') & (m.object == 'bird'))
-            def black(c):
-                c.assert_fact({ 'subject': c.m.subject, 'predicate': 'is', 'object': 'black' })
+        for key in data:
+            value = data[key]
+            assert_fact('TD',{ 'key': value, 'score': singleScores[key], 'attribute':key})
+        pass
 
-            @when_all(+m.subject)
-            def output(c):
-                rtn.append('Fact: {0} {1} {2}'.format(c.m.subject, c.m.predicate, c.m.object))
-
-        assert_fact('animal', { 'subject': 'Kermit', 'predicate': 'eats', 'object': 'flies' })
 
         return {
-            self.name: rtn
+            self.name: {"score":score, "emptyFields":fields}
         }
 

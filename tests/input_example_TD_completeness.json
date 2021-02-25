@@ -1,0 +1,40 @@
+{
+    "data": {
+        "tpt_id_key": "FA21WLD04BMX",
+        "year": 2021,
+        "responsible": "BMX",
+        "part_rated": "COMPLETE",
+        "assessment_type": "COMPLETE", 
+        "sample_size": "COMPLETE",
+        "sample_size_unit": "COMPLETE", 
+        "number_of_subsamples": "COMPLETE", 
+        "assessment_target": "COMPLETE", 
+        "assessment_crop": "COMPLETE", 
+        "assessment_code": "COMPLETE", 
+        "standard_evaluation": "COMPLETE", 
+        "application_method": "COMPLETE", 
+        "Crop": "COMPLETE", 
+        "objectives": "COMPLETE", 
+        "test_type": "COMPLETE", 
+        "project_number": "COMPLETE", 
+        "responsible_site_code": "COMPLETE", 
+        "gep_code_synonym": "COMPLETE", 
+        "guidelines": "COMPLETE",
+        "site_type": "COMPLETE",
+        "technical_mager": "COMPLETE",
+        "no_applications": "COMPLETE", 
+        "no_assessments": "COMPLETE", 
+        "location_of_control": "COMPLETE", 
+        "data_deadline": "COMPLETE",
+        "no_replicates": "COMPLETE", 
+        "no_trials": "COMPLETE", 
+        "experimental_season": "COMPLETE", 
+        "no_harvest": "COMPLETE", 
+        "target": "COMPLETE"
+    },
+    "tests": [
+        {"TDCompleteness": {}
+        }
+    ]
+}
+
