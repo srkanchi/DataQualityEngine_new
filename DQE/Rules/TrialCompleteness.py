@@ -4,20 +4,22 @@ import json
 from DQE.Utils.Weights import *
 import re
 
-
 score= 0
 mandatoryFields = []
 emptyFields = []
 nullCards = ['*','.','?']
 
 
-class TDCompleteness(RuleTemplate):
+
+
+class TrialCompleteness(RuleTemplate):
+
     """
     class description here
     """
 
     def __init__(self):
-        super(TDCompleteness, self).__init__(rule_name='TDCompleteness', rule_category='data_quality')
+        super(TrialCompleteness, self).__init__(rule_name='TrialCompleteness', rule_category='data_quality')
     
     def _rule_input_check(self, data, inputs, schema=None):
         """
@@ -35,9 +37,11 @@ class TDCompleteness(RuleTemplate):
     def _rule_definition(self, data, inputs, schema=None):
         """
         """
-
         NumberTypes = (int, float, complex)
-        whichScores = "weights_TD"
+        indication=str(data["name"])[0:1]
+        trialType=str(data["name"])[1:2]
+
+        whichScores = "weights_" + trialType + "_" + indication
 
         #Iterating all the fields of the JSON
         for element in data:
@@ -48,11 +52,14 @@ class TDCompleteness(RuleTemplate):
             #If Json Field value is a list
             elif (isinstance(data[element], list)):
                 self.check_list(data[element], element, whichScores)
+                self.calculate_score(element, whichScores)
             #If Json Field value is a string
             elif (isinstance(data[element], NumberTypes)):
+#                self.print_field(data[element], element)
                 self.calculate_score(element, whichScores)
             elif (isinstance(data[element], str)):
                 if((len(str.strip(data[element]))>1 ) & (data[element] not in nullCards)):
+#                    self.print_field(data[element], element)
                     self.calculate_score(element, whichScores)
                 else:
                     emptyFields.append(element)
@@ -60,17 +67,15 @@ class TDCompleteness(RuleTemplate):
                 emptyFields.append(element)
 
 
-        print ("Empty fields: +++++++++++++++++++")
+        print ("Empty fields: ")
         print(*emptyFields, sep = "\n") 
-
 
         return {
             self.name: {"score":score, "mandatoryFields": mandatoryFields}
         }
 
 
-
-
+        
 
     def check_list(self, ele, prefix, whichScores):
         NumberTypes = (int, float, complex)
@@ -79,16 +84,16 @@ class TDCompleteness(RuleTemplate):
 
             if (isinstance(ele[i], list)):
                 self.check_list(ele[i], prefix+"["+str(i)+"]", whichScores)
-            elif (isinstance(ele[i], NumberTypes)):
-                self.print_field(ele[i], prefix+"["+str(i)+"]")
+#            elif (isinstance(ele[i], NumberTypes)):
+#                self.print_field(ele[i], prefix+"["+str(i)+"]")
             elif (isinstance(ele[i], dict)):
                 self.check_dict(ele[i], prefix+"["+str(i)+"]", whichScores)
             elif (isinstance(ele[i], str)):
                 if((len(str.strip(ele[i]))>1 ) & (ele[i] not in nullCards)):
-                   self.calculate_score(prefix, whichScores)
+#                   self.print_field(ele[i], prefix+"["+str(i)+"]")
+                   self.calculate_score(ele[i], whichScores)
                 else:
                     emptyFields.append(i)
-
 
 
 
@@ -106,16 +111,19 @@ class TDCompleteness(RuleTemplate):
                 if((len(str.strip(jsonObject[ele]))>1 ) & (jsonObject[ele] not in nullCards)):
                    self.calculate_score(prefix+"."+ele, whichScores)
                 else:
-                    emptyFields.append(prefix+"."+ele)
+                    emptyPrefix = prefix+"."+ele
+                    emptyFields.append(emptyPrefix)
 
             elif (isinstance(jsonObject[ele], NumberTypes)):
                 self.calculate_score(prefix+"."+ele, whichScores)
             else:
-                emptyFields.append(prefix+"."+ele)
+                emptyPrefix = prefix+"."+ele
+                emptyFields.append(emptyPrefix)
 
 
-    def print_field(self, ele, prefix):
-        print (prefix, ":" , ele)
+
+#    def print_field(self, ele, prefix):
+#        print (prefix, ":" , ele)
 
     def calculate_score(self, ele, whichScores):
         global score
