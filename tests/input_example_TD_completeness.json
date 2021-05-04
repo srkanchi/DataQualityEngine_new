@@ -1,40 +1,79 @@
 {
-    "data": {
-        "tpt_id_key": "FA21WLD04BMX",
-        "year": 2021,
-        "responsible": "BMX",
-        "part_rated": "COMPLETE",
-        "assessment_type": "COMPLETE", 
-        "sample_size": "COMPLETE",
-        "sample_size_unit": "COMPLETE", 
-        "number_of_subsamples": "COMPLETE", 
-        "assessment_target": "COMPLETE", 
-        "assessment_crop": "COMPLETE", 
-        "assessment_code": "COMPLETE", 
-        "standard_evaluation": "COMPLETE", 
-        "application_method": "COMPLETE", 
-        "Crop": "COMPLETE", 
-        "objectives": "COMPLETE", 
-        "test_type": "COMPLETE", 
-        "project_number": "COMPLETE", 
-        "responsible_site_code": "COMPLETE", 
-        "gep_code_synonym": "COMPLETE", 
-        "guidelines": "COMPLETE",
-        "site_type": "COMPLETE",
-        "technical_mager": "COMPLETE",
-        "no_applications": "COMPLETE", 
-        "no_assessments": "COMPLETE", 
-        "location_of_control": "COMPLETE", 
-        "data_deadline": "COMPLETE",
-        "no_replicates": "COMPLETE", 
-        "no_trials": "COMPLETE", 
-        "experimental_season": "COMPLETE", 
-        "no_harvest": "COMPLETE", 
-        "target": "COMPLETE"
-    },
-    "tests": [
-        {"TDCompleteness": {}
-        }
+  "data": {
+    "name": "FD20RAP01DPR",
+    "projectNumbers": [
+      "DEVELOPMENT",
+      "N-4123"
+    ],
+    "keyword": null,
+    "testType": null, 
+    "siteType": null,
+    "plotArea": 45,
+    "experimentalSeason": "Tropic Humid",
+    "GEPLevel": "GEP Level",
+    "guidelines": null,
+    "responsibleSite": null,
+    "technicalManager": null,
+    "locationControl": "Region Asia Pacific",
+    "dataDeadline": null,
+    "numberHarvest": null,
+    "crops": [
+      {
+        "name": "Cucurbita pepo L. var. giromon"
+    }],
+    "targets": [
+      {
+        "name": "Fimbristylis miliacea (L.) VAH"
+      },
+      {
+        "name": "Sphenoclea zeylanica GAERTN."
+      },
+      {
+        "name": "Echinochloa spec."
+      },
+      {
+        "name": "Leptochloa chinensis (L.) NEES"
+      },
+      {
+        "name": "Annual broad-leaved plants"
+      },
+      {
+        "name": "Cyperus spec."
+      }
+    ],
+    "treatments": [
+      {
+        "assessmentMeanValues": [
+          {
+            "partRated": "PLANT",
+            "ratingType": "PHYGEN",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "numberOfSubsamples": 1,
+            "target": null,
+            "crop": {
+              "name": "Triticum aest., winter wheat"
+            },
+            "standardEvaluation":null,
+            "assessmentCode":null
+          }
+        ],
+        "applications": [
+          {
+            "products": [
+              {
+                "equipment": {
+                  "method": null
+                }
+              }
+            ]
+          }
+        ]
+      }
     ]
+  },
+  "tests": [
+      {"TDCompleteness": {}
+      }
+  ]
 }
-
