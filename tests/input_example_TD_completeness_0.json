@@ -1,0 +1,49 @@
+{
+  "data": {
+    "trialDescriptions": [
+      {
+        "tdKey": "HD21RAPC2RFR",
+        "crops": [
+          {
+            "name": "Corn, maize"
+          }
+        ],
+        "keywords": [
+          "APPLTIMING",
+          "DOSEDETERMI",
+          "ADJUVANT",
+          "EFFICACY",
+          "SELECTIVITY"
+        ],
+        "projectNumbers": [
+          "DEVELOPMENT",
+          "N-5817"
+        ],
+        "externalField": true,
+        "fieldTestingType": 3,
+        "siteType": "Open field",
+        "plotArea": 20,
+        "plannedTotalNumberOfTrials": 24,
+        "experimentalSeason": "Tropic Humid",
+        "targets": [
+          {
+            "name": "Anagallis arvensis L."
+          },
+          {
+            "name": "Cyperus rotundus L."
+          },
+          {
+            "name": "Polygonum plebeium R.BR."
+          },
+          {
+            "name": "Parthenium hysterophorus"
+          }
+        ]
+      }
+    ]
+  },
+  "tests": [
+    {"TDCompleteness_0": {}
+    }
+  ]
+}
