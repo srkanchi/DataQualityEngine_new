@@ -2,41 +2,34 @@
   "data": {
     "trialDescriptions": [
       {
-        "tdKey": "HD21RAPC2RFR",
+        "tptIdKey": "FE09EUR01PGR",
         "crops": [
           {
-            "name": "Corn, maize"
+            "name": "Lawn plants"
           }
         ],
         "keywords": [
-          "APPLTIMING",
-          "DOSEDETERMI",
-          "ADJUVANT",
-          "EFFICACY",
-          "SELECTIVITY"
+          "DOSE REDUCT",
+          "IPRODIONE"
         ],
         "projectNumbers": [
-          "DEVELOPMENT",
-          "N-5817"
+          "DEVELOPMENT"
         ],
-        "externalField": true,
-        "fieldTestingType": 3,
-        "siteType": "Open field",
-        "plotArea": 20,
-        "plannedTotalNumberOfTrials": 24,
-        "experimentalSeason": "Tropic Humid",
+        "siteType": "Turf",
+        "trialResponsibles": [
+          {
+            "hasName": true,
+            "testType": "FA29",
+            "internalValue": null,
+            "siteName": "cooperator UK",
+            "plannedNumberOfTrials": 2
+          }
+        ],
+        "plotArea": 10,
+        "experimentalSeason": null,
         "targets": [
           {
-            "name": "Anagallis arvensis L."
-          },
-          {
-            "name": "Cyperus rotundus L."
-          },
-          {
-            "name": "Polygonum plebeium R.BR."
-          },
-          {
-            "name": "Parthenium hysterophorus"
+            "name": "Monographella nivalis"
           }
         ]
       }
