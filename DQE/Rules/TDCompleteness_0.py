@@ -2,8 +2,8 @@ from DQE.Rules.RulesTemplate import RuleTemplate
 import json
 from DQE.Utils.Weights import *
 import re
-import textwrap
-
+#import textwrap
+import collections
 
 class TDCompleteness_0(RuleTemplate):
     """
@@ -30,128 +30,126 @@ class TDCompleteness_0(RuleTemplate):
     def _rule_definition(self, data, inputs, schema=None):
         """
         """
-        scores= {}
+        scoredData = data["trialDescriptions"] 
+        missingFields = []
+        score = {"score":0, "scoreMissing":0, "fields":-1}
+
+        keywords = data["trialDescriptions"][0]["keywords"]
+        weights= self.select_weights(keywords)
+
+        index = 0 
+        for element in data["trialDescriptions"]:
+            for item in element:
+                if (isinstance(data["trialDescriptions"][index][item], list)):
+                    self.check_list(data["trialDescriptions"][index][item], item, missingFields, score, weights)
+                else:
+                    self.score_no_list(element[item], item, missingFields, score, weights)
+
+
+            index = index + 1       
+
+
+        allFields = score["fields"] + len(missingFields) 
+        totalScore = (score["fields"]/allFields) * 100 
+        allWeightedScores = score["scoreMissing"] + score["score"]
+        totalWeightedScores = (score["score"] / allWeightedScores) * 100
+
+
+        return {
+            self.name: {"missingFields": missingFields, "score": totalScore, "weightedScore": totalWeightedScores}                        
+        }
+
+
+    def check_list(self, ele, prefix, missingFields, score, weights):
+        if (not ele):
+            missingFields.append(prefix)
+            score["scoreMissing"] = score["scoreMissing"] + self.find_score(prefix, None, weights)
+        else:  
+            for item in ele:
+                if (isinstance(item, dict)):
+                    self.score_nested_dict(ele, prefix, missingFields, score, weights)
+                    break
+                else:
+                    self.score_nested_list(ele, prefix, missingFields, score, weights)
+                    break
+
+
+
+
+    def score_nested_dict(self, ele, prefix, missingFields, score, weights):
+        nullCards = ['*','.','?','NA']
+        NumberTypes = (int, float, complex)
+
         index = 0
 
-
-        for item in data["trialDescriptions"]:
-            keywords = data["trialDescriptions"][index]["keywords"]
-            tableWeights= self.select_weights(keywords)
-
-            for element in item:
-                #If Json Field value is a Nested Json
-                if (isinstance(data["trialDescriptions"][index][element], dict)):
-                    self.check_dict(data[element], element, scores, tableWeights)
-                #If Json Field value is a list
-                elif (isinstance(data["trialDescriptions"][index][element], list)):
-                    self.check_list(data["trialDescriptions"][index][element], element, scores, tableWeights)
-                else:
-                    self.assign_score(element, data["trialDescriptions"][index][element], scores, tableWeights)
+        for element in ele:
+            for item in element:      
+                if(self.find_score(prefix, item, weights) > 0):
+                    if((element[item] not in nullCards) & (element[item] is not None) & (element[item] is not False)):
+                        score["score"] = score["score"] + self.find_score(prefix, item, weights)
+                        score["fields"] = score["fields"] + 1
+                    else:
+                        missingFields.append(prefix+"["+str(index)+"]."+item)
+                        score["scoreMissing"] = score["scoreMissing"] + self.find_score(prefix, item, weights)
 
             index= index + 1
 
 
-        totalScoreWeights = self.weights_score(scores)
-        missingFields = self.missing_fields(scores, tableWeights)
-        totalScoreFields = self.total_fields_score(scores, tableWeights)
-
-
-
-        return {
-            self.name: {"totalScoureFields":totalScoreFields, "missingFields": missingFields, "totalScoreWeights":totalScoreWeights}
-        }
-
-
-
-
-
-    def check_list(self, ele, prefix, scores, tableWeights):
-
-        for i in range(len(ele)):
-            if (isinstance(ele[i], list)):
-                self.check_list(ele[i], prefix+"["+str(i)+"]", scores, tableWeights)
-            elif (isinstance(ele[i], dict)):
-                self.check_dict(ele[i], prefix+"["+str(i)+"]", scores, tableWeights)
-            else:
-                self.assign_score(prefix, ele[i], scores, tableWeights)
-
-
-
-    def check_dict(self, jsonObject, prefix, scores, tableWeights):
-
-        for ele in jsonObject:
-            if (isinstance(jsonObject[ele], dict)):
-                self.check_dict(jsonObject[ele], prefix+"."+ele, scores, tableWeights)
-
-            elif (isinstance(jsonObject[ele], list)):
-                self.check_list(jsonObject[ele], prefix+"."+ele,  scores, tableWeights)
-            else:
-                self.assign_score(prefix+"."+ele, jsonObject[ele], scores, tableWeights)
-
-
-    def assign_score(self, ele, dataValue, scores, tableWeights):
-#        weightScores = "weights_TD_0"
+    def score_nested_list(self, ele, prefix, missingFields, score, weights):
         nullCards = ['*','.','?','NA']
-        NumberTypes = (int, float, complex)
+        emptyV= True
 
-        scorePrefix = re.sub(r'\[(?:[\d,]+)\]', '', ele)        
-
-        if((dataValue not in nullCards) & (dataValue is not None)):
-            if("fieldResponsibles" in ele):
-                print("Responsibles")
-            elif(isinstance(dataValue, bool)):
-                scores[scorePrefix]= weights[tableWeights][scorePrefix]
-            elif (isinstance(dataValue, NumberTypes)):
-                scores[scorePrefix]= weights[tableWeights][scorePrefix]
-            elif(len(str.strip(dataValue))>1):
-                scores[scorePrefix]= weights[tableWeights][scorePrefix]
-
-        
+        for element in ele:
+            if((element not in nullCards) & (element is not None)):
+                emptyV = False
 
 
+        if(emptyV== False):
+            score["fields"] = score["fields"] + 1
+            score["score"] = score["score"] + self.find_score(prefix, None, weights)
+        else:
+            missingFields.append(prefix)
+            score["scoreMissing"] = score["scoreMissing"] + self.find_score(prefix, None, weights)
 
-    def weights_score(self, scores):
-        totalScore = 0
-        for item in scores:
-            totalScore = totalScore +  scores[item]
 
-        return totalScore
+    def score_no_list(self, ele, prefix, missingFields, score, weights):
+        nullCards = ['*','.','?','NA']
 
+        if((ele not in nullCards) & (ele is not None)):
+            if(isinstance(ele, bool)):
+                if (ele==True):
+                   score["score"] = score["score"] + self.find_score(prefix, None, weights)
+                   score["fields"] = score["fields"] + 1 
+                else:
+                    missingFields.append(prefix)
+                    score["scoreMissing"] = score["scoreMissing"] + self.find_score(prefix, None, weights)
 
-    def total_fields_score(self, scores, tableWeights):
-        totalFields =0
-        totalAvailable = 0
-        weightScores = weights[tableWeights]
-
-        for item in weightScores:
-            if weightScores[item] > 0:
-                totalFields= totalFields+1
-                if item in scores:
-                    totalAvailable= totalAvailable + 1 
-
-        return totalAvailable/totalFields
+            else:
+                score["score"] = score["score"] + self.find_score(prefix, None, weights)
+                score["fields"] = score["fields"] + 1 
+        else:
+            score["scoreMissing"] = score["scoreMissing"] + self.find_score(prefix, None, weights)
+            missingFields.append(prefix)
 
 
 
-    def missing_fields(self, scores, tableWeights):
-        weightScores = weights[tableWeights]
-        missingFields=[]
+    def find_score(self, prefix,item, weightScores):
+        if(item is not None):
+            scorePrefix= prefix + "." + item
+        else:
+            scorePrefix= prefix
 
-        for item in weightScores:
-            if weightScores[item] > 0:
-                if item not in scores:
-                    missingFields.append(item) 
+        score= weights[weightScores][scorePrefix]        
 
-
-        return missingFields
+        return score
 
 
     def select_weights(self, keywords):
-
-        if "CROPSAFETY" in keywords:
-            tableWeights= "weights_TD_0_CROPSAFETY"
-        else:
-            tableWeights= "weights_TD_0"  
-
+        tableWeights= "weights_TD_0"  
+        if len(keywords) == 1:
+            if "CROPSAFETY" in keywords:
+                tableWeights= "weights_TD_0_CROPSAFETY"
 
         return tableWeights
+
+

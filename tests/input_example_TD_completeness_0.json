@@ -2,19 +2,20 @@
   "data": {
     "trialDescriptions": [
       {
+
         "tptIdKey": "FE09EUR01PGR",
         "crops": [
           {
-            "name": "Lawn plants"
+            "name": "."
+          },
+          {
+            "name": "."
           }
         ],
         "keywords": [
-          "DOSE REDUCT",
-          "IPRODIONE"
+          "CROPSAFETY"
         ],
-        "projectNumbers": [
-          "DEVELOPMENT"
-        ],
+        "projectNumbers": [],
         "siteType": "Turf",
         "trialResponsibles": [
           {
@@ -25,13 +26,16 @@
             "plannedNumberOfTrials": 2
           }
         ],
-        "plotArea": 10,
-        "experimentalSeason": null,
+        "plannedNumberOfApplications": 3,
+        "numberOfReplicates": 4,
+        "experimentalSeason": "Winter",
         "targets": [
           {
-            "name": "Monographella nivalis"
+            "name": null
           }
         ]
+
+
       }
     ]
   },
