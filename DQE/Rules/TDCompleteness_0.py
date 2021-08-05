@@ -157,7 +157,7 @@ class TDCompleteness_0(RuleTemplate):
 
     def read_rules(self, tptIdKey, version, indication, trialType):
 
-        pathVersion = "DQE\CSV\\" + version + ".csv"
+        pathVersion = version + ".csv"
 
         df = pd.read_csv(pathVersion, index_col="Field", converters=None)
 
