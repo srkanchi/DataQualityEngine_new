@@ -1,0 +1,308 @@
+{
+  "data": {
+    "trialDescriptions": [
+      {
+        "tptIdKey": "IA25WLDAGKVX",
+        "dataDeadline": null,
+        "gepCode": "10",
+        "gepCertification": null,
+        "guidelines": [],
+        "keywords": [
+          "BENEFICIALS"
+        ],
+        "plannedNumberOfApplications": "1",
+        "plannedNumberOfAssessments": 7,
+        "controlFieldCode": "ADJACENT",
+        "plannedAssessments": [
+          {
+            "partRated": "?",
+            "sampleSize": -1,
+            "sampleSizeUnit": "?",
+            "ratingDataType": "COUNT",
+            "standardEvaluationId": "EC13AD1",
+            "assessmentCode": null,
+            "target": {
+              "name": "Phytoseiulus persimilis"
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          },
+          {
+            "partRated": "?",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "ratingDataType": "COUNT",
+            "standardEvaluationId": "EC13AD4",
+            "assessmentCode": null,
+            "target": {
+              "name": "Phytoseiulus persimilis"
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          },
+          {
+            "partRated": "INSECT",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "ratingDataType": "COUNT",
+            "standardEvaluationId": "EC13AD3",
+            "assessmentCode": "A0-A1",
+            "target": {
+              "name": "Phytoseiulus persimilis"
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          },
+          {
+            "partRated": "PREDAT",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "ratingDataType": "COUNT",
+            "standardEvaluationId": "EC13AD7",
+            "assessmentCode": "A0-A1",
+            "target": {
+              "name": "Phytoseiulus persimilis"
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          },
+          {
+            "partRated": "TREATM",
+            "sampleSize": 1,
+            "sampleSizeUnit": "TREATM",
+            "ratingDataType": "COMPAT",
+            "standardEvaluationId": "PS1AAD2",
+            "assessmentCode": "OV",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          },
+          {
+            "partRated": "TREATM",
+            "sampleSize": 1,
+            "sampleSizeUnit": "TREATM",
+            "ratingDataType": "JUDSUB",
+            "standardEvaluationId": "ES1AAD3",
+            "assessmentCode": "OV",
+            "target": {
+              "name": "Phytoseiulus persimilis"
+            },
+            "crop": {
+              "name": "Vegetable plants"
+            }
+          }
+        ],
+        "treatments": [
+          {
+            "applications": []
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "26"
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "27"
+                  }
+                ],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "26"
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "27"
+                  }
+                ],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "26"
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "27"
+                  }
+                ],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Drip",
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Drip",
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "26"
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [
+                  {
+                    "cropStageCode": "27"
+                  }
+                ],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tests": [
+    {"TDCompleteness_1": {}
+    }
+  ]
+}
