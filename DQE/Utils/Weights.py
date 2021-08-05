@@ -59,6 +59,56 @@ weights = {
 #                "treatments.assessmentMeanValues.numberOfSubsamples": 1,
 
 
+        "weights_TD_1": {
+                "tptIdKey": 0,
+                "dataDeadline": 5,
+                "gepCode":  5,
+                "guidelines":  5,
+                "keywords":  5,
+                "plannedNumberOfApplications":  5,
+                "plannedNumberOfAssessments":  5,
+                "treatments": 0,
+                "treatments.applications": 0,
+                "treatments.applications.crops": 0, 
+                "treatments.applications.crops.cropStageCode": 5,
+                "treatments.applications.applicationCode": 5,
+                "treatments.applications.products": 0,
+                "treatments.applications.products.equipment": 0,
+                "treatments.applications.products.equipment.method": 5,
+                "treatments.applications.products.equipment.placement": 5             
+        },
+
+        "weights_TD_1_ASSESS": {
+                "plannedAssessments": 0, 
+                "plannedAssessments.standardEvaluationId": 5,
+                "plannedAssessments.sampleSize": 5,
+                "plannedAssessments.sampleSizeUnit": 5,
+                "plannedAssessments.assessmentCode": 5,
+                "plannedAssessments.partRated": 5,
+                "plannedAssessments.ratingType": 5,
+                "plannedAssessments.calculated": 0, 
+                "plannedAssessments.crop": 5, 
+                "plannedAssessments.crop.name": 5, 
+                "plannedAssessments.target": 5,
+                "plannedAssessments.target.name": 5
+
+        },
+
+        "weights_TD_1_ASSESS_PH": {
+                "plannedAssessments": 0, 
+                "plannedAssessments.standardEvaluationId": 5,
+                "plannedAssessments.sampleSize": 5,
+                "plannedAssessments.sampleSizeUnit": 5,
+                "plannedAssessments.assessmentCode": 5,
+                "plannedAssessments.partRated": 0,
+                "plannedAssessments.ratingType": 5,
+                "plannedAssessments.calculated": 0, 
+                "plannedAssessments.crop": 0, 
+                "plannedAssessments.crop.name": 0, 
+                "plannedAssessments.target": 0,
+                "plannedAssessments.target.name": 0
+        },
+
 
         "weights_A_I": {
                 "name": 0,
