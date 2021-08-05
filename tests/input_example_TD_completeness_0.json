@@ -4,9 +4,46 @@
       {
         "tptIdKey": "HA22ARG7AJPX",
         "siteType": "Open field",
+        "trialResponsibles": [
+          {
+            "siteName": "ARG (Country group)",
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          }
+        ],
         "plannedNumberOfApplications": "1",
         "numberOfReplicates": 3,
-        "experimentalSeason": "Autumn"
+        "crops": [
+          {
+            "name": "Arable land"
+          }
+        ],
+        "targets": [
+          {
+            "name": "Avena sativa L."
+          },
+          {
+            "name": "Hordeum vulgare (spring)"
+          },
+          {
+            "name": "Lolium spec."
+          },
+          {
+            "name": "Triticum aest., spring wheat"
+          }
+        ],
+        "experimentalSeason": "Autumn",
+        "keywords": [
+          "POSTEMEREAR",
+          "EFFICACY"
+        ],
+        "projectNumbers": [
+          "BIUT0001",
+          "DEVELOPMENT",
+          "EUR-DEV-H"
+        ]
       }
     ]
   },
