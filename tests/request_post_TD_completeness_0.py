@@ -7,7 +7,7 @@ import json
 # defining the api-endpoint  
 API_ENDPOINT = "http://127.0.0.1:8005/run"
 
-with open('C:/cls/codigo/qualityEngineN/DataQualityEngine/tests/input_example_TD_Completeness_0.json') as json_file:
+with open('./input_example_TD_Completeness_0.json') as json_file:
     data = json.load(json_file)
 
 
