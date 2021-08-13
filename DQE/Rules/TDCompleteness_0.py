@@ -26,10 +26,7 @@ class TDCompleteness_0(RuleTemplate):
         try:
             return 0
         except KeyError:
-            print("For this rule to work, it has to have the inputs of `data`, `upper_bound`, and `lower_bound`. Please refer to documentation.")
-            return 1
-        except ValueError:
-            print("value should be numeric.")
+            print("For this rule to work, it has to have the input of `data`. Please refer to documentation.")
             return 1
 
 
@@ -47,15 +44,16 @@ class TDCompleteness_0(RuleTemplate):
         keys = list(self.iterate_all(data,"key"))
 
         dictFinal = dict(zip(keys, values))
-##        pprint.pprint(dictFinal)
+#        pprint.pprint(dictFinal)
 
         dfRules = self.read_rules(tptIdKey, version, indication, trialType)
 
-##        pprint.pprint(dfRules)
+#        pprint.pprint(dfRules)
 
-        missingFields = self.find_missing_fields(dfRules, dictFinal)
 
-        scores= self.calculate_scores(dfRules, missingFields, indication)
+        cropsafetyException = self.exception_CROPSAFETY(dictFinal)
+        missingFields = self.find_missing_fields(dfRules, dictFinal, cropsafetyException)
+        scores= self.calculate_scores(dfRules, missingFields, indication, cropsafetyException)
 
         return {
             self.name: {"input": dictFinal, "version": version, "scores":scores, "missingFields":missingFields.tolist()
@@ -157,11 +155,10 @@ class TDCompleteness_0(RuleTemplate):
 
     def read_rules(self, tptIdKey, version, indication, trialType):
 
-        pathVersion = version + ".csv"
+        pathVersion = "DQE\CSV\\" + version + ".csv"
+#        pathVersion = "./DQE/CSV/" + version + ".csv"
 
         df = pd.read_csv(pathVersion, index_col="Field", converters=None)
-
-#        df = pd.read_csv(pathVersion, converters=None)
 
         conditions = [df[indication] == df[trialType], 
                       df[trialType] == df['EMEA']]
@@ -175,17 +172,20 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-    def find_missing_fields(self, dfRules, dictFinal):
+    def find_missing_fields(self, dfRules, dictFinal, cropsafetyException):
 
         fields = dfRules.index.values
+
+        if(cropsafetyException == True):
+            fields = fields[fields != 'Target']
 
         for key, value in dictFinal.items():
             keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
 
             if(keyNoIndex in mappings):
                 keyDF = mappings[keyNoIndex]
-                if(keyDF in fields):
-                    fields = fields[fields != keyDF]
+                if((keyDF in fields) & (value!="Missing")& (value!=False)):
+                    fields = fields[fields != keyDF] # Remove all occurrences of elements with value keyDF from numpy array
 
 
         return fields
@@ -193,96 +193,40 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-    def calculate_scores(self, dfRules, missingFields, indication):
+    def calculate_scores(self, dfRules, missingFields, indication, cropsafetyException):
 
         scores ={"rawScore":0, "weightedScore":0}
-
-        totalWeights = dfRules[indication].sum()
-        countRows= len(dfRules.index)
         countRowsMissing = len(missingFields)
 
+
+        if(cropsafetyException == True):
+            totalWeights = dfRules[dfRules['Exceptions']!="CROPSAFETY"][indication].sum()
+            countRows = dfRules[dfRules['Exceptions']!="CROPSAFETY"][indication].count()
+        else:
+            totalWeights = dfRules[indication].sum()
+            countRows= len(dfRules.index)
+
+
         totalMissing = 0
+
         for key in missingFields:
             totalMissing = totalMissing + int(dfRules.loc[[key],[indication]].values)
 
         scores["weightedScore"] = (totalWeights - totalMissing)/totalWeights
         scores["rawScore"] = (countRows - countRowsMissing)/countRows 
 
-
         return scores
 
 
 
 
-#        fields = dfRules.index.values
-
-#        inv_map = {v: k for k, v in mappings.items()}
-
-#        for key in fields:
-#            print("item ", key)
-#            if(key in inv_map):
-#                print("existe en el map ")
-#                dictKey = inv_map[key]
-#                print("Index a buscar ",dictKey)
-#                if(dictKey in dictFinal):
-#                    print("Existe en el diccionario final ", dictFinal[dictKey])
-#                    score = dfRules.loc[[key],[indication]].values
 
 
 
+    def exception_CROPSAFETY(delf, dictFinal):
+        objective = dictFinal['trialDescriptions[0].keywords[0]']
 
-
-
-
-
-
-#####
-
-
-
-
-
-###    def assign_weights(self, dfRules, dictFinal, indication, trialType):
-###        scores ={"countComplete":0, "countMissing":0, "scoreComplete":0, "scoreMissing":0}
-
-###        for key, value in dictFinal.items():
-
-###            dictKey= self.find_field(key)
-###            if(dictKey == "Not required"):
-###                dictFinal[key]= "Not required"
-###            else:
-###                scoreInd = int(dfRules.loc[[dictKey],[indication]].values)
-###                scoreTrial= int(dfRules.loc[[dictKey],[trialType]].values)
-###                exception = (dfRules.loc[[dictKey],["Exceptions"]].values)[0][0]            
-
-
-###                if((exception=="CROPSAFETY") & (self.exception_CROPSAFETY(key, value, dictFinal) == True)):   
-###                    dictFinal[key]= "Not required"
-###                else:
-###                    if((isinstance(value, list)) or (value != "Missing")):
-###                        scores["scoreComplete"]= scores["scoreComplete"] + scoreInd
-###                        scores["countComplete"]= scores["countComplete"] + 1
-###                    else:
-###                        scores["scoreMissing"]= scores["scoreMissing"] + scoreInd
-###                        scores["countMissing"]= scores["countMissing"] + 1
-
-###        return scores
-
-
-
-
-    def exception_CROPSAFETY(delf, key, value, dictFinal):
-        pathSE = ".".join(key.split(".", 1)[:1]) 
-        pathSE = pathSE + ".keywords[0]"
-
-
-        if(pathSE not in dictFinal):
-            return False
-        else:
-            objective = dictFinal[pathSE]
-
-
-        if objective == "CROPSAFETY":
+        if objective.strip() == "CROPSAFETY":
             return True
         else:
             return False
