@@ -1,11 +1,7 @@
 # DataQualityEngine
-insert description here
-
-
 ### Steps
 1. Run `server-api.py`. If run the codes on local, using port 8005
-2. Go to `tests`, run `python request_post.py`. This will use `input_example.json` as input, against the rules: ` DataQualityEngine/DQE/Rules/RangeRule.py
-`
+2. Go to `tests`, run `python request_post.py`. This will use `input_example.json` as input, against the rules: ` DataQualityEngine/DQE/Rules/RangeRule.py`
 3. Input format:
 ```
 {
@@ -27,7 +23,7 @@ insert description here
         }
     ]
 }
-
+```
 4. Expect results:
 ```The pastebin URL is:[
   {
