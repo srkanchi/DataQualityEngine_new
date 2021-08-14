@@ -4,9 +4,10 @@ import json
 
   
 # defining the api-endpoint  
+## range teest on local machine
 API_ENDPOINT = "http://127.0.0.1:8005/run"
   
-with open('C:/cls/codigo/qualityEngine/DataQualityEngine/tests/input_example.json') as json_file:
+with open('./input_example.json') as json_file:
     data = json.load(json_file)
 
 

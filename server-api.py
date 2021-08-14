@@ -32,6 +32,7 @@ api.add_resource(RunTests, '/run')
 # driver function
 if __name__ == '__main__':
     #from waitress import serve
-    #serve(app, host="0.0.0.0", port=8005)
-    app.run(host='0.0.0.0', port=10020 ,debug=True)
+    # serve(app, host="0.0.0.0", port=8005)
+    app.run(host='0.0.0.0', port=8005 ,debug=True) ## run on local machine
+    # app.run(host='0.0.0.0', port=10020 ,debug=True)
 
