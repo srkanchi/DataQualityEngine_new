@@ -1,13 +1,13 @@
 
+
 from DQE.Rules.RulesTemplate import RuleTemplate
-import json
-# from DQE.Utils.Weights import *
+from DQE.Utils.completeness_TD_V1_0_0 import *
 from DQE.Utils.mapping_scout_fields import *
-import re
 
 import pandas as pd
-import os
 import numpy as np 
+import re
+import sys
 
 import pprint
 
@@ -39,24 +39,27 @@ class TDCompleteness_0(RuleTemplate):
         trialType = self.get_trial_type(tptIdKey)
 
 
-
         values = list(self.iterate_all(data,"value"))
         keys = list(self.iterate_all(data,"key"))
 
         dictFinal = dict(zip(keys, values))
-#        pprint.pprint(dictFinal)
-
-        dfRules = self.read_rules(tptIdKey, version, indication, trialType)
-
-#        pprint.pprint(dfRules)
+        pprint.pprint(dictFinal)
 
 
+        df = self.read_rules(indication, trialType)
+
+#        pprint.pprint(df)
         cropsafetyException = self.exception_CROPSAFETY(dictFinal)
-        missingFields = self.find_missing_fields(dfRules, dictFinal, cropsafetyException)
-        scores= self.calculate_scores(dfRules, missingFields, indication, cropsafetyException)
+
+        missingFields = self.find_missing_fields(df, dictFinal, cropsafetyException)
+        scores= self.calculate_scores(df, missingFields, indication, cropsafetyException)
+
+
+
+
 
         return {
-            self.name: {"input": dictFinal, "version": version, "scores":scores, "missingFields":missingFields.tolist()
+            self.name: {"input": dictFinal, "scores":scores, "missingFields":missingFields.tolist()
             }
         }
 
@@ -152,68 +155,32 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-
-    def read_rules(self, tptIdKey, version, indication, trialType):
-
-        pathVersion = "DQE\CSV\\" + version + ".csv"
-#        pathVersion = "./DQE/CSV/" + version + ".csv"
-
-        df = pd.read_csv(pathVersion, index_col="Field", converters=None)
-
-        conditions = [df[indication] == df[trialType], 
-                      df[trialType] == df['EMEA']]
-        
-
-        choices = ['True', 'False']
-        df['Required'] = np.select(conditions, choices, default='None')
-        dfFiltered = df.query('Status == 0 & Required == "True"')
-
-        return dfFiltered
-
-
-
-    def find_missing_fields(self, dfRules, dictFinal, cropsafetyException):
-
-        fields = dfRules.index.values
-
-        if(cropsafetyException == True):
-            fields = fields[fields != 'Target']
-
-        for key, value in dictFinal.items():
-            keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
-
-            if(keyNoIndex in mappings):
-                keyDF = mappings[keyNoIndex]
-                if((keyDF in fields) & (value!="Missing")& (value!=False)):
-                    fields = fields[fields != keyDF] # Remove all occurrences of elements with value keyDF from numpy array
-
-
-        return fields
-
-
-
-
     def calculate_scores(self, dfRules, missingFields, indication, cropsafetyException):
 
-        scores ={"rawScore":0, "weightedScore":0}
-        countRowsMissing = len(missingFields)
+        try:
+
+            scores ={"rawScore":0, "weightedScore":0}
+            countRowsMissing = len(missingFields)
+
+            if(cropsafetyException == True):
+                totalWeights = dfRules[dfRules["Exception"]!="CROPSAFETY"]["Weight"].sum()
+                countRows = dfRules[dfRules["Exception"]!="CROPSAFETY"]["Weight"].count()
+            else:
+                totalWeights = dfRules["Weight"].sum()
+                countRows= len(dfRules.index)
 
 
-        if(cropsafetyException == True):
-            totalWeights = dfRules[dfRules['Exceptions']!="CROPSAFETY"][indication].sum()
-            countRows = dfRules[dfRules['Exceptions']!="CROPSAFETY"][indication].count()
-        else:
-            totalWeights = dfRules[indication].sum()
-            countRows= len(dfRules.index)
+            totalMissing = 0
+
+            for key in missingFields:
+                totalMissing = totalMissing + int(dfRules.loc[[key],["Weight"]].values)
+
+            scores["weightedScore"] = (totalWeights - totalMissing)/totalWeights
+            scores["rawScore"] = (countRows - countRowsMissing)/countRows 
 
 
-        totalMissing = 0
-
-        for key in missingFields:
-            totalMissing = totalMissing + int(dfRules.loc[[key],[indication]].values)
-
-        scores["weightedScore"] = (totalWeights - totalMissing)/totalWeights
-        scores["rawScore"] = (countRows - countRowsMissing)/countRows 
+        except:
+            raise ValueError("Unexpected error:", sys.exc_info()[0])
 
         return scores
 
@@ -221,51 +188,81 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
+    def find_missing_fields(self, dfRules, dictFinal, cropsafetyException):
+
+        try:
+
+            fields = dfRules.index.values
+
+            if(cropsafetyException == True):
+                fields = fields[fields != 'Target']
+
+            for key, value in dictFinal.items():
+                keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
+
+                if(keyNoIndex in mappings):
+                    keyDF = mappings[keyNoIndex]
+                    if((keyDF in fields) & (value!="Missing")& (value!=False)):
+                        fields = fields[fields != keyDF] # Remove all occurrences of elements with value keyDF from numpy array
+
+        except:
+            raise ValueError("Unexpected error:", sys.exc_info()[0])
+
+        return fields
+
+
+
+
 
 
     def exception_CROPSAFETY(delf, dictFinal):
-        objective = dictFinal['trialDescriptions[0].keywords[0]']
+        try:
+            objective = dictFinal['trialDescriptions[0].keywords[0]']
 
-        if objective.strip() == "CROPSAFETY":
-            return True
-        else:
-            return False
+            if objective.strip() == "CROPSAFETY":
+                caseException = True
+            else:
+                caseException = False
+
+        except pd.errors.EmptyDataError:
+            caseException = False
+
+        return caseException
+
+
+
+    def read_rules(self, indication, trialType):
+        try:
+            df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
+            dfFiltered = df.loc[(df["Status"] == 0) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
+
+        except pd.errors.EmptyDataError:
+            dfFiltered = pd.DataFrame()
+
+        except:
+            raise ValueError("Unexpected error:", sys.exc_info()[0])
+
+        return dfFiltered
 
 
 
     def get_indication(self, tptIdKey):
+
         indication = tptIdKey.strip()[0:1]
+
         if(indication not in ['I','F','H','S']):
-            indication = 'Z'
- 
+            indication = 'II'
+
         return indication
 
+
+
+
+
     def get_trial_type(self, tptIdKey):
+
         trialType = tptIdKey.strip()[1:2]
         if(trialType not in ['A','R','D']):
             trialType = 'TT'
 
         return trialType
-
-
-    def find_field(delf, key):
-        keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   # le quita el index al prefix    
-
-        if(keyNoIndex not in mappings):
-            return 'Not required'
-        else:
-            return mappings[keyNoIndex]
-
-
-    def calculate_totals(delf, scores):
-        scoresFinal= {"raw":0, "weight":0}
-
-        totalFields = scores["countComplete"] +  scores["countMissing"]
-        totalWeights = scores["scoreComplete"] +  scores["scoreMissing"]
-
-        if((scores["countComplete"]> 0) & (totalFields>0)):
-            scoresFinal["raw"] = (scores["countComplete"]/totalFields) * 100
-        if((scores["scoreComplete"]> 0) & (totalWeights>0)):
-            scoresFinal["weight"] = (scores["scoreComplete"]/totalWeights) * 100
-
-        return scoresFinal
