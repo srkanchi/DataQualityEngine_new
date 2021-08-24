@@ -1,13 +1,14 @@
 
 
 from DQE.Rules.RulesTemplate import RuleTemplate
-from DQE.Utils.completeness_TD_V1_0_0 import *
-from DQE.Utils.mapping_scout_fields import *
+#from DQE.Utils.completeness_TD_V1_0_0 import *
 
 import pandas as pd
 import numpy as np 
+import ast
 import re
 import sys
+import os
 
 import pprint
 
@@ -24,7 +25,21 @@ class TDCompleteness_0(RuleTemplate):
         """
         """
         try:
+            assert data is not None
+            weights = inputs['weights']
+            version = inputs['version']
+            attributeMapping = inputs['attributeMapping']
+
+            if weights is None:
+                raise ValueError("The weight matrix is empty.")
             return 0
+            if version is None:
+                raise ValueError("The version is empty.")
+            if attributeMapping is None:
+                raise ValueError("The attribute mapping file is empty.")
+
+            return 0
+
         except KeyError:
             print("For this rule to work, it has to have the input of `data`. Please refer to documentation.")
             return 1
@@ -32,9 +47,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def _rule_definition(self, data, inputs, schema=None):
-        version = "compl_TDs_V1.0.0"
-
         tptIdKey = data["trialDescriptions"][0].pop("tptIdKey")
+
+        weights = inputs.get('weights')
+        version = inputs.get('version')
+        attributeMapping = inputs.get('attributeMapping')
+        version = inputs.get('version')
+
+
         indication= self.get_indication(tptIdKey) 
         trialType = self.get_trial_type(tptIdKey)
 
@@ -46,12 +66,13 @@ class TDCompleteness_0(RuleTemplate):
         pprint.pprint(dictFinal)
 
 
-        df = self.read_rules(indication, trialType)
-
-#        pprint.pprint(df)
+        df = self.read_rules(indication, trialType, weights)
+        pprint.pprint(df)
         cropsafetyException = self.exception_CROPSAFETY(dictFinal)
 
-        missingFields = self.find_missing_fields(df, dictFinal, cropsafetyException)
+        missingFields = self.find_missing_fields(df, dictFinal, cropsafetyException, attributeMapping)
+        pprint.pprint(dictFinal)
+
         scores= self.calculate_scores(df, missingFields, indication, cropsafetyException)
 
 
@@ -59,7 +80,7 @@ class TDCompleteness_0(RuleTemplate):
 
 
         return {
-            self.name: {"input": dictFinal, "scores":scores, "missingFields":missingFields.tolist()
+            self.name: {"input": dictFinal, "scores":scores, "missingFields":missingFields.tolist(), "version":version
             }
         }
 
@@ -188,10 +209,11 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-    def find_missing_fields(self, dfRules, dictFinal, cropsafetyException):
+    def find_missing_fields(self, dfRules, dictFinal, cropsafetyException, attributeMapping):
 
         try:
 
+            fieldMappings = self.read_file_mappings(attributeMapping)
             fields = dfRules.index.values
 
             if(cropsafetyException == True):
@@ -200,8 +222,9 @@ class TDCompleteness_0(RuleTemplate):
             for key, value in dictFinal.items():
                 keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
 
-                if(keyNoIndex in mappings):
-                    keyDF = mappings[keyNoIndex]
+                if(keyNoIndex in fieldMappings):
+                    keyDF = fieldMappings[str(keyNoIndex)]
+
                     if((keyDF in fields) & (value!="Missing")& (value!=False)):
                         fields = fields[fields != keyDF] # Remove all occurrences of elements with value keyDF from numpy array
 
@@ -231,8 +254,10 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-    def read_rules(self, indication, trialType):
+    def read_rules(self, indication, trialType, weights):
+
         try:
+            dfWeights = os.path.join(weights)
             df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
             dfFiltered = df.loc[(df["Status"] == 0) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
 
@@ -241,8 +266,25 @@ class TDCompleteness_0(RuleTemplate):
 
         except:
             raise ValueError("Unexpected error:", sys.exc_info()[0])
+            return 1
+
 
         return dfFiltered
+
+
+
+
+
+###        try:
+###            df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
+###            dfFiltered = df.loc[(df["Status"] == 0) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
+
+###        except pd.errors.EmptyDataError:
+###            dfFiltered = pd.DataFrame()
+
+###        except:
+###            raise ValueError("Unexpected error:", sys.exc_info()[0])
+###        return dfFiltered
 
 
 
@@ -266,3 +308,16 @@ class TDCompleteness_0(RuleTemplate):
             trialType = 'TT'
 
         return trialType
+
+
+
+
+    def read_file_mappings(self, path):
+        try:
+            f = open(path, "r")
+            contents = f.read()
+            attributeMapping = ast.literal_eval(contents)
+
+        except:
+            raise ValueError("Unexpected error:", sys.exc_info()[0])
+        return attributeMapping

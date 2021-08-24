@@ -1,6 +1,4 @@
-from io import StringIO 
-
-dfWeights = StringIO('''Field,Status,Region,Trial,Indication,Weight,Exception
+Field,Status,Region,Trial,Indication,Weight,Exception
 Assessment table/Part rated,1,TBD,R,I,5,PHSES
 Assessment table/Part rated,1,TBD,R,F,5,PHSES
 Assessment table/Part rated,1,TBD,R,H,5,PHSES
@@ -681,4 +679,3 @@ Application code,1,LOCAL,TT,F,5,
 Application code,1,LOCAL,TT,H,5,
 Application code,1,LOCAL,TT,S,5,
 Application code,1,LOCAL,TT,Z,5,
-''')

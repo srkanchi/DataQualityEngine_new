@@ -1,6 +1,5 @@
 
-mappings = {
-
+{
     "trialDescriptions.tptIdKey":"TD key",
     "trialDescriptions.crops.name":"Crop",
     "trialDescriptions.trialResponsibles.internalValue":"INT EXT",

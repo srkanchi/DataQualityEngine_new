@@ -7,9 +7,9 @@
         "trialResponsibles": [
           {
             "siteName": "ARG (Country group)",
-            "internalValue": "I",
+            "internalValue": null,
             "testType": "TT01",
-            "hasName": true,
+            "hasName": false,
             "plannedNumberOfTrials": 1
           }
         ],
@@ -48,7 +48,12 @@
     ]
   },
   "tests": [
-    {"TDCompleteness_0": {}
+    {
+      "TDCompleteness_0": {
+        "attributeMapping": "./Files/attribute_mapping.py",
+        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        "version": "completeness_TD_V1_0_0"
+      }
     }
   ]
 }
