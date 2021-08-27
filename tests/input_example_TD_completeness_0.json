@@ -2,14 +2,14 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "HR22ARG7AJPX",
+        "tptIdKey": "FD22ARG7AJPX",
         "siteType": "Open field",
         "trialResponsibles": [
           {
             "siteName": "ARG (Country group)",
-            "internalValue": null,
+            "internalValue": "I",
             "testType": "TT01",
-            "hasName": false,
+            "hasName": true,
             "plannedNumberOfTrials": 1
           }
         ],
@@ -50,8 +50,8 @@
   "tests": [
     {
       "TDCompleteness_0": {
-        "attributeMapping": "./Files/attribute_mapping.py",
-        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        "attributeMapping": "C:/cls/codigo/qualityEngine/DataQualityEngine/tests/Files/attribute_mapping_0.py",
+        "weights": "C:/cls/codigo/qualityEngine/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
         "version": "completeness_TD_V1_0_0"
       }
     }

@@ -32,7 +32,6 @@ class TDCompleteness_0(RuleTemplate):
 
             if weights is None:
                 raise ValueError("The weight matrix is empty.")
-            return 0
             if version is None:
                 raise ValueError("The version is empty.")
             if attributeMapping is None:
@@ -47,8 +46,8 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def _rule_definition(self, data, inputs, schema=None):
-        tptIdKey = data["trialDescriptions"][0].pop("tptIdKey")
 
+        tptIdKey = data["trialDescriptions"][0].pop("tptIdKey")
         weights = inputs.get('weights')
         version = inputs.get('version')
         attributeMapping = inputs.get('attributeMapping')
@@ -63,15 +62,12 @@ class TDCompleteness_0(RuleTemplate):
         keys = list(self.iterate_all(data,"key"))
 
         dictFinal = dict(zip(keys, values))
-        pprint.pprint(dictFinal)
-
+    
 
         df = self.read_rules(indication, trialType, weights)
-        pprint.pprint(df)
         cropsafetyException = self.exception_CROPSAFETY(dictFinal)
 
         missingFields = self.find_missing_fields(df, dictFinal, cropsafetyException, attributeMapping)
-        pprint.pprint(dictFinal)
 
         scores= self.calculate_scores(df, missingFields, indication, cropsafetyException)
 
@@ -155,6 +151,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def add_key(self, value):                
+        """Returns a boolean which indicates if the value contains nested values 
+        
+        Arguments:
+            - value: <string> 
+            
+        Returns:
+            - <Boolean>
+        """
 
         if(isinstance(value, list)):
             if(len(value)<1):
@@ -177,6 +181,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def calculate_scores(self, dfRules, missingFields, indication, cropsafetyException):
+        """Returns a dictionary that contains the raw and weighted scores calculated for the data.
+        
+        Arguments:
+            - dfRules: <dataframe>
+            - missingFields: <dictionary> 
+            - indication: <string> 
+            - cropSafetyException: <boolean>
+
+        Returns:
+            - <dictionary>: <rawScore> and <weightedScore>
+        """
 
         try:
 
@@ -210,6 +225,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def find_missing_fields(self, dfRules, dictFinal, cropsafetyException, attributeMapping):
+        """Returns a list of fields with missing values.
+        
+        Arguments:
+            - dfRules: <dataframe>
+            - dictFinal: <dictionary> 
+            - cropSafetyException: <boolean>
+            - attributeMapping: <dictionary> 
+
+        Returns:
+            - <list>
+        """
 
         try:
 
@@ -239,6 +265,15 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def exception_CROPSAFETY(delf, dictFinal):
+        """Returns a boolean that indicates if the CROPSAFETY exception occurs.
+        
+        Arguments:
+            - dictFinal: <dictionary> 
+
+        Returns:
+            - <Boolean>
+        """
+
         try:
             objective = dictFinal['trialDescriptions[0].keywords[0]']
 
@@ -255,7 +290,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def read_rules(self, indication, trialType, weights):
+        """Returns a dataframe that contains the weights used to calculate the scores. 
+        The dataframe is filtered to contain only the correspondant indication and trial type   
+        
+        Arguments:
+            - indication: <string> 
+            - trialType: <string> 
+            - weights: <string> 
 
+        Returns:
+            - <dataframe>
+        """
         try:
             dfWeights = os.path.join(weights)
             df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
@@ -275,25 +320,20 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-###        try:
-###            df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
-###            dfFiltered = df.loc[(df["Status"] == 0) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
-
-###        except pd.errors.EmptyDataError:
-###            dfFiltered = pd.DataFrame()
-
-###        except:
-###            raise ValueError("Unexpected error:", sys.exc_info()[0])
-###        return dfFiltered
-
-
-
     def get_indication(self, tptIdKey):
+        """Returns the indication as defined in the tptIdKey
+          
+        Arguments:
+            - tptIdKey: <string> 
+
+        Returns:
+            - <string>
+        """
 
         indication = tptIdKey.strip()[0:1]
 
         if(indication not in ['I','F','H','S']):
-            indication = 'II'
+            indication = 'Z'
 
         return indication
 
@@ -302,6 +342,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def get_trial_type(self, tptIdKey):
+        """Returns the trial type as defined in the tptIdKey
+
+        Arguments:
+            - tptIdKey: <string> 
+
+        Returns:
+            - <string>
+        """
 
         trialType = tptIdKey.strip()[1:2]
         if(trialType not in ['A','R','D']):
@@ -313,6 +361,15 @@ class TDCompleteness_0(RuleTemplate):
 
 
     def read_file_mappings(self, path):
+        """Returns the trial type as defined in the tptIdKey
+
+        Arguments:
+            - tptIdKey: <string> 
+
+        Returns:
+            - <string>
+        """
+
         try:
             f = open(path, "r")
             contents = f.read()
