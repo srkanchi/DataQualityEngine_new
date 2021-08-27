@@ -302,7 +302,12 @@
     ]
   },
   "tests": [
-    {"TDCompleteness_1": {}
+    {
+      "TDCompleteness_1": {
+        "attributeMapping": "./Files/attribute_mapping.py",
+        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        "version": "completeness_TD_V1_0_0"
+      }
     }
   ]
 }
