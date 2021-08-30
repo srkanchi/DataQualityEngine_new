@@ -1,7 +1,7 @@
 from DQE.Rules.RulesTemplate import RuleTemplate
 #from durable.lang import *
 import json
-from DQE.Utils.Weights import *
+#from DQE.Utils.Weights import *
 import re
 
 score= 0

@@ -304,7 +304,7 @@
   "tests": [
     {
       "TDCompleteness_1": {
-        "attributeMapping": "./Files/attribute_mapping.py",
+        "attributeMapping": "./Files/attribute_mapping_1.py",
         "weights": "./Files/completeness_TD_V1_0_0.csv",
         "version": "completeness_TD_V1_0_0"
       }
