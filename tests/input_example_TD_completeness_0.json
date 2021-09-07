@@ -51,7 +51,8 @@
     {
       "TDCompleteness_0": {
         "attributeMapping": "./Files/attribute_mapping_0.py",
-        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        #"weights": "./Files/completeness_TD_V1_0_0.csv",
+        "weights": None,
         "version": "completeness_TD_V1_0_0"
       }
     }
