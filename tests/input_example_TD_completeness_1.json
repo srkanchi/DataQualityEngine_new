@@ -89,7 +89,7 @@
             "sampleSize": 1,
             "sampleSizeUnit": "TREATM",
             "ratingDataType": "JUDSUB",
-            "standardEvaluationId": "ES1AAD3",
+            "standardEvaluationId": "PS1AAD3",
             "assessmentCode": "OV",
             "target": {
               "name": "Phytoseiulus persimilis"

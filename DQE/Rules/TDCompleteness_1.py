@@ -1,6 +1,6 @@
-
-
 from DQE.Rules.RulesTemplate import RuleTemplate
+
+from collections import defaultdict, Counter
 
 import pandas as pd
 import numpy as np 
@@ -8,6 +8,7 @@ import ast
 import re
 import sys
 import os
+
 
 import pprint
 
@@ -51,131 +52,309 @@ class TDCompleteness_1(RuleTemplate):
         weights = inputs.get('weights')
         version = inputs.get('version')
         attributeMapping = inputs.get('attributeMapping')
-        version = inputs.get('version')
-
         indication= self.get_indication(tptIdKey) 
         trialType = self.get_trial_type(tptIdKey)
 
 
-        values = list(self.iterate_all(data,"value"))
-        keys = list(self.iterate_all(data,"key"))
+        dfScoringMatrix = self.read_rules(indication, trialType, weights) # scoring matrix
 
-        dictFinal = dict(zip(keys, values))
-        pprint.pprint(dictFinal)
+        fieldMapping = self.read_file_mappings(attributeMapping)    # attribute mapping file
 
-
-        df = self.read_rules(indication, trialType, weights)
-        pprint.pprint(df)
+        allFields = {}
 
 
-#        scores = self.calculate_scores(dictFinal, df, indication, trialType, attributeMapping)
+        #This part reads the JSON input and creates a flat list of input fields
+        index = 0 
+        for element in data["trialDescriptions"]:
+            for item in element:
+                if (isinstance(data["trialDescriptions"][index][item], list)):
+                    self.checkList(data["trialDescriptions"][index][item], "trialDescriptions." + item, allFields)
+                else:
+                    self.last_item("trialDescriptions." + item, data["trialDescriptions"][index][item], allFields)
+
+            index = index + 1       
+
+
+
+
+
+        # These variables are used to calculate the scores 
+        mydict = lambda: defaultdict(mydict)
+        newFields = mydict()
+        weights = defaultdict(Counter)       
+        counts = defaultdict(Counter)       
+        totalWeights = defaultdict(Counter)       
+        totalCounts = defaultdict(Counter)       
+
+        applIndex = 0
+        prevMainIndex = 0
+        prevSubindex =0
+
+        for key, value in allFields.items():
+            keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
+
+            if((keyNoIndex not in fieldMapping)):   # Fields not included in the attribute mapping file 
+                print(keyNoIndex, " could not be found in the scoring matrix" )
+                continue
+
+
+            keyDF = fieldMapping[keyNoIndex]
+            section = dfScoringMatrix.loc[[keyDF],['Section']].values[0][0]
+            exception = dfScoringMatrix.loc[[keyDF],['Exception']].values[0][0]
+            weight = int(dfScoringMatrix.loc[[keyDF],['Weight']].values[0][0])
+            weightTotal = weight
+            count = 1
+            countTotal = count
+
+
+
+            if(weight < 1):         # weights with a value of 0 indicated fields that are not required due to trial type or indication
+                value= "Not required"
+                weight=0
+                weightTotal = 0
+                countTotal = 0
+                count = 0 
+
+
+
+            if(pd.notna(exception)):    # If a standard evaluations starts with P or H some fields are not required
+                if(self.exception_PHSES(key, value, allFields)==True):
+                    value= "Not required"
+                    weight=0
+                    weightTotal = 0
+                    countTotal = 0
+                    count = 0 
+
+
+            if(value=='Missing'):       #missing or null values
+                weight = 0
+                count = 0
+
+
+
+            # More than one application may accur at a determined cropstage. This generates duplicated entries. The following code
+            # separates these duplicated entries into dictionary value-key pairs, which makes easier the calculation of scores
+            mainIndex = self.get_index(key, "mainIndex")            
+            subIndex = self.get_index(key, "subIndex")
+
+
+            if((mainIndex is not None) & (subIndex is not None)):
+                if((mainIndex != prevMainIndex) or (subIndex != prevSubIndex)  ):
+                    prevMainIndex = mainIndex
+                    prevSubIndex = subIndex
+                    applIndex = applIndex + 1
+
+            if(mainIndex is None):
+                newFields[section]['0'][keyDF]=value
+
+                weights[section]['0'] += weight          
+                counts[section]['0'] += count          
+                totalWeights[section]['0'] += weightTotal          
+                totalCounts[section]['0'] += countTotal          
+
+            elif(subIndex is None):
+                newFields[section][mainIndex][keyDF]=value
+
+                weights[section][mainIndex] += weight          
+                counts[section][mainIndex] += count          
+                totalWeights[section][mainIndex] += weightTotal          
+                totalCounts[section][mainIndex] += countTotal          
+
+            else:
+                newFields[section][applIndex][keyDF]=value
+
+                weights[section][applIndex] += weight          
+                counts[section][applIndex] += count          
+                totalWeights[section][applIndex] += weightTotal          
+                totalCounts[section][applIndex] += countTotal          
+
+
+
+
+        filteredApplications = self.remove_duplicated_applications(newFields)
+        newFields["applications"] = filteredApplications
+
+
+        allScores = self.final_scores(weights, counts, totalWeights, totalCounts, filteredApplications)
+
+
+
 
 
         return {
-            self.name: {"totalsAssess":0
+            self.name: {"input": newFields, "scores": allScores, "version": version
             }
         }
 
 
 
 
+    def checkList(self, ele, prefix, allFields):
+
+        if (not ele):
+            self.last_item(prefix, "Missing", allFields)
+        for i in range(len(ele)):
+            if (isinstance(ele[i], list)):
+                self.checkList(ele[i], prefix+"["+str(i)+"]", allFields)
+            elif (isinstance(ele[i], dict)):
+                self.checkDict(ele[i], prefix+"["+str(i)+"]", allFields)                
+            else:
+                self.last_item(prefix+"["+str(i)+"]", ele[i], allFields)
 
 
-    def iterate_all(self, iterable, returned="key", prefix = "0"):                
-        """Returns an iterator that returns all keys or values
-        of a (nested) iterable.
+    def checkDict(self, jsonObject, prefix, allFields):
+        for ele in jsonObject:
+            if (isinstance(jsonObject[ele], dict)):
+                self.checkDict(jsonObject[ele], prefix+"."+ele, allFields)
+
+            elif (isinstance(jsonObject[ele], list)):
+                self.checkList(jsonObject[ele], prefix+"."+ele, allFields)
+
+            else:
+                self.last_item(prefix+"."+ele, jsonObject[ele], allFields)
+
+
+
+
+
+    def remove_duplicated_applications(self, newFields):
+        """Returns a dictionary that contains non duplicated applications   
         
         Arguments:
-            - iterable: <list> or <dictionary>
-            - returned: <string> "key" or "value"
-            
+            - newFields: <dictionary> 
+
         Returns:
-            - <iterator>
+            - result <dictionary>
         """
-        nullCards = ['*','.','?']
-        if isinstance(iterable, dict):
-            index = 0
 
-            for key, value in iterable.items():
-                if returned == "key":
-                    if(self.add_key(value)):                
-                        yield key.strip() + "["+str(prefix)+"]"
- 
+        result = {}
+        
+        for key, value in newFields["applications"].items():
+            if value not in result.values():
+                result[key] = value
 
-
-                    for ret in self.iterate_all(value, returned=returned):
-                        yield key + "[" +prefix+"]." + ret  
- 
- 
-
-                elif returned == "value":
-                    if not (isinstance(value, dict) or isinstance(value, list)):
-                        if((value in nullCards) or (value is None)):
-                            yield "Missing"
-                        else:    
-                            yield value 
-                    else:
-                        #This part was added to catch empty lists []
-                        if(len(value)<1):
-                            yield "Missing"
+        return result
 
 
-                    for ret in self.iterate_all(value, returned=returned):
-                        yield ret
 
+
+
+
+
+    def final_scores(self, weights, counts, totalWeights, totalCounts, filteredApplications):
+        """Returns a dictionary that contains raw and weighted scores for each section:general, applications and assessments   
+        
+        Arguments:
+            - weights: <Counter> 
+            - counts: <Counter> 
+            - totalWeights: <Counter> 
+            - totalCounts: <Counter> 
+            - filteredApplications: <dictionary>
+
+        Returns:
+            - result <dictionary>
+        """
+
+        mydict = lambda: defaultdict(mydict)
+        results = mydict()
+
+        for key, value in weights.items():
+            for kk, vv in value.items():
+                if((counts[key][kk] > 0) & (vv > 0)):
+                    results[key][kk]["raw"] = counts[key][kk] / totalCounts[key][kk]
+                    results[key][kk]["weighted"] = vv / totalWeights[key][kk]
                 else:
-                    raise ValueError("'returned' keyword only accepts 'key' or 'value'.")
+                   results[key][kk]["raw"] = 0
+                   results[key][kk]["weighted"] = 0
 
 
-        elif isinstance(iterable, list):
-            index = 0      
-            for el in iterable:
+    #This following part is used to removed scores from duplicated applications 
+        applicationKeys= results["applications"].keys()
+        keysToRemove = []
+        for key in results["applications"].keys():
+            if not key in filteredApplications:
+                keysToRemove.append(key)
 
-                #This part was added to catch lists of string values (guidelines, keywords)
-                if(returned == "value"):                
-                    if not (isinstance(el, dict) or isinstance(el, list)):
-                        strValue = ', '.join(iterable)
-                        yield strValue
-                        break
-                #########        
-
-                for ret in self.iterate_all(el, returned=returned, prefix=str(index)):
-                    yield ret
+        for k in keysToRemove:
+            results["applications"].pop(k, None)
 
 
-                index = index + 1
+        return results
 
 
-
-
-    def add_key(self, value):                
-        """Returns a boolean which indicates if the value contains nested values 
+    def get_index(self, key, case):
+        """Returns an integer index that is used to store the applications into separate key-value pairs
         
         Arguments:
-            - value: <string> 
-            
+            - key: <string> 
+            - case: <string> 
+
         Returns:
-            - <Boolean>
+            - indexes[] <integer>
         """
 
-        if(isinstance(value, list)):
-            if(len(value)<1):
 
+
+        indexes = re.findall(r'\d+', key)
+
+        if(len(indexes)==0):
+            return None
+
+        if(case == 'subIndex'):
+            if(len(indexes)>1):
+                return indexes[1]
+            else:
+                return None
+        else:
+            return indexes[0]
+
+
+
+
+    def exception_PHSES(self, key, value, allFields):
+        """Returns a boolean to indicate if the exception is applicable
+        
+        Arguments:
+            - key: <string> 
+            - value: <string> 
+            - allFields: <dictionary> 
+
+        Returns:
+            - <boolean>
+        """
+
+        pathSE = ".".join(key.split(".", 2)[:2])
+        pathSE = pathSE + ".standardEvaluationId"
+
+        SE = (allFields[pathSE]).strip()[0:1]
+
+        if(SE != value):
+            if((SE == "P") or(SE == "H")):
                 return True
             else:
-
-                for item in value:
-
-                    if((isinstance(item, dict)) or (isinstance(item, list))):
-                        return False
-                    else:
-                        return True
-        elif(isinstance(value, dict)):                
-            return False
+                return False
         else:
+            return False
 
-            return True
 
+
+
+    def last_item(self, prefix, item, allFields):
+        """Returns the final value in the json input that does not contain any nested field
+        
+        Arguments:
+            - prefix: <string> 
+            - item: <string> 
+            - allFields: <dictionary> 
+
+        """
+
+        nullCards = ['*','.','?']
+
+        if((item in nullCards) or (item is None)):
+            allFields[str(prefix)]= 'Missing'
+        else:
+            allFields[str(prefix)]= item
 
 
 
@@ -208,120 +387,6 @@ class TDCompleteness_1(RuleTemplate):
 
 
 
-
-
-
-
-
-    def calculate_scores(self, dictFinal, dfRules, indication, trialType, attributeMapping):
-
-        fieldMapping = self.read_file_mappings(attributeMapping)
-        default_totals= self.calculate_default_totals(dfRules)
-
-        fields = dfRules.index.values
-
-        totals = {"assessments":0, "general":0, "applications":0}
-        counts = {"assessments":0, "general":0, "applications":0}
-        totalsMissing = {"assessments":0, "general":0, "applications":0}
-        countsMissing = {"assessments":0, "general":0, "applications":0}
-
-        missingFields= []
-
- 
-        for key, value in dictFinal.items():
-            keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
-
-            if((keyNoIndex not in fieldMapping)):
-                print(keyNoIndex, " could not be found in the scoring matrix" )
-                continue
-
-            keyDF = fieldMapping[keyNoIndex]
-            section = dfRules.loc[[keyDF],['Section']].values[0][0]
-            exception = dfRules.loc[[keyDF],['Exception']].values[0][0]
-            weight = dfRules.loc[[keyDF],['Weight']].values[0][0]
-
-
-            if(pd.notna(exception)):
-                if(self.exception_PHSES(key, value, dictFinal)==True):
-                    continue
-
-
-            if(value=='Missing'):
-                totalsMissing[section] = totalsMissing[section] + 1 
-                countsMissing[section] = countsMissing[section] + int(weight)
-#                missingFields.append(keyDF)
-                continue
-
-
-            totals[section]= totals[section] + int(weight)
-            counts[section] = counts[section] + 1
-
-
-            finalScores= self.calculate_final_scores(totals, counts, totalsMissing, countsMissing, default_totals)
-
-
-        
-
-
-        print("counts ", counts)
-        print("total ", totals)
-        print("totalsMissing ", totalsMissing)
-        print("countsMissing ", countsMissing)
-#        print("fieldazos ", fields)
-
-        return False
-
-
-
-
-
-    def calculate_final_scores(self, totals, counts, totalsMissing, countsMissing, default_totals):
-        scores={"generalRaw":0, "assessmentsRaw":0, "applicationsRaw":0, "generalWeight":0, "assessmentsWeight":0, "applicationsWeight":0}
-#        scores["generalRaw"] = (totals["general"] / (totals["general"] + totalsMissing["general"]) )
-
-#        if(default_totals["assessments"] > counts["assessments"]):
-#            print("mayor")
-#        else:
-#            scores["assessmentsRaw"] = (totals["assessments"] / (totals["assessments"] + totalsMissing["assessments"]) )
-        print("--RAW--> ", self.compare_totals("assessments", default_totals, totals, totalsMissing, "raw" ))
-        print("--WEIGHT--> ", self.compare_totals("assessments", default_totals, counts, countsMissing, "weighted"))
-
-
-
-        return scores
-
-
-    def compare_totals(self, section, default, totals, missing, typeScore):
-
-        if(default[section] > totals[section]):
-            print("mayor")
-        else:
-            score = (totals[section] / (totals[section] + totalsMissing[section]) )
-
-
-        return True
-
-
-
-    def exception_PHSES(self, key, value, dictFinal):
-        pathSE = ".".join(key.split(".", 2)[:2])
-#        pathSE = pathSE + ".standardEvaluationId"
-
-        pathSE = pathSE + ".standardEvaluationId[" + re.findall(r'\d+', key)[-1] +"]"
-
-        SE = (dictFinal[pathSE]).strip()[0:1]
-
-        if(SE != value):
-            if((SE == "P") or(SE == "H")):
-                return True
-            else:
-                return False
-        else:
-            return False
-
-
-
-
     def get_indication(self, tptIdKey):
         """Returns the indication as defined in the tptIdKey
           
@@ -338,19 +403,6 @@ class TDCompleteness_1(RuleTemplate):
             indication = 'II'
 
         return indication
-
-
-
-
-    def calculate_default_totals(self, dfRules):
-        totals = {"applications":0, "assessments":0}
-        totals["applications"] = dfRules[dfRules["Section"]=="applications"]["Weight"].sum()
-        totals["assessments"] = dfRules[dfRules["Section"]=="assessments"]["Weight"].sum()
-
-        return totals
-
-
-
 
 
     def get_trial_type(self, tptIdKey):
