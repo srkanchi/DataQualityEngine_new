@@ -50,8 +50,8 @@
   "tests": [
     {
       "TDCompleteness_0": {
-        "attributeMapping": "./Files/attribute_mapping_0.py",
-        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_0.py",
+        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
         "version": "completeness_TD_V1_0_0"
       }
     }
