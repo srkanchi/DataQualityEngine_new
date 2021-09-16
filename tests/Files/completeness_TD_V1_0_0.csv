@@ -214,11 +214,11 @@ Protocol description/Application Placement,1,TBD,D,F,0,,applications
 Protocol description/Application Placement,1,TBD,D,H,0,,applications
 Protocol description/Application Placement,1,TBD,D,S,0,,applications
 Protocol description/Application Placement,1,TBD,D,Z,0,,applications
-Protocol description/Application Placement,1,LOCAL,TT,I,4,,applications
-Protocol description/Application Placement,1,LOCAL,TT,F,4,,applications
-Protocol description/Application Placement,1,LOCAL,TT,H,4,,applications
-Protocol description/Application Placement,1,LOCAL,TT,S,4,,applications
-Protocol description/Application Placement,1,LOCAL,TT,Z,4,,applications
+Protocol description/Application Placement,1,LOCAL,TT,I,0,,applications
+Protocol description/Application Placement,1,LOCAL,TT,F,0,,applications
+Protocol description/Application Placement,1,LOCAL,TT,H,0,,applications
+Protocol description/Application Placement,1,LOCAL,TT,S,0,,applications
+Protocol description/Application Placement,1,LOCAL,TT,Z,0,,applications
 Crop,0,TBD,R,I,5,,
 Crop,0,TBD,R,F,5,,
 Crop,0,TBD,R,H,5,,

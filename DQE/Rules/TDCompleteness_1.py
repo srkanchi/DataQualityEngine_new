@@ -57,7 +57,7 @@ class TDCompleteness_1(RuleTemplate):
 
 
         dfScoringMatrix = self.read_rules(indication, trialType, weights) # scoring matrix
-
+#        pprint.pprint(dfScoringMatrix)
         fieldMapping = self.read_file_mappings(attributeMapping)    # attribute mapping file
 
         allFields = {}
@@ -68,7 +68,7 @@ class TDCompleteness_1(RuleTemplate):
         for element in data["trialDescriptions"]:
             for item in element:
                 if (isinstance(data["trialDescriptions"][index][item], list)):
-                    self.checkList(data["trialDescriptions"][index][item], "trialDescriptions." + item, allFields)
+                    self.check_list(data["trialDescriptions"][index][item], "trialDescriptions." + item, allFields)
                 else:
                     self.last_item("trialDescriptions." + item, data["trialDescriptions"][index][item], allFields)
 
@@ -144,7 +144,7 @@ class TDCompleteness_1(RuleTemplate):
                     prevSubIndex = subIndex
                     applIndex = applIndex + 1
 
-            if(mainIndex is None):
+            if(mainIndex is None):  #general
                 newFields[section]['0'][keyDF]=value
 
                 weights[section]['0'] += weight          
@@ -152,7 +152,7 @@ class TDCompleteness_1(RuleTemplate):
                 totalWeights[section]['0'] += weightTotal          
                 totalCounts[section]['0'] += countTotal          
 
-            elif(subIndex is None):
+            elif(subIndex is None): # Assessments
                 newFields[section][mainIndex][keyDF]=value
 
                 weights[section][mainIndex] += weight          
@@ -160,55 +160,60 @@ class TDCompleteness_1(RuleTemplate):
                 totalWeights[section][mainIndex] += weightTotal          
                 totalCounts[section][mainIndex] += countTotal          
 
-            else:
-                newFields[section][applIndex][keyDF]=value
+            else: # applications
+                thirdIndex = self.get_index(key, "thirdIndex")
 
-                weights[section][applIndex] += weight          
-                counts[section][applIndex] += count          
-                totalWeights[section][applIndex] += weightTotal          
-                totalCounts[section][applIndex] += countTotal          
+                if((thirdIndex is None) or (thirdIndex == "0")):
 
+                    newFields[section][applIndex][keyDF]=value
 
+                    weights[section][applIndex] += weight          
+                    counts[section][applIndex] += count          
+                    totalWeights[section][applIndex] += weightTotal          
+                    totalCounts[section][applIndex] += countTotal          
 
 
         filteredApplications = self.remove_duplicated_applications(newFields)
         newFields["applications"] = filteredApplications
 
-
         allScores = self.final_scores(weights, counts, totalWeights, totalCounts, filteredApplications)
 
-
-
+        missingFields = self.missing_fields(newFields, dfScoringMatrix)
 
 
         return {
-            self.name: {"input": newFields, "scores": allScores, "version": version
+            self.name: {"input": allFields, "translatedInput":newFields, "missingFields": missingFields, "scores": allScores, "version": version
             }
         }
 
 
 
 
-    def checkList(self, ele, prefix, allFields):
-
+    def check_list(self, ele, prefix, allFields):
         if (not ele):
             self.last_item(prefix, "Missing", allFields)
+        elif not (isinstance(ele[0], dict) or isinstance(ele[0], list)):
+            strValue = ', '.join(ele)
+            self.last_item(prefix, strValue, allFields)
+            return
+
         for i in range(len(ele)):
             if (isinstance(ele[i], list)):
-                self.checkList(ele[i], prefix+"["+str(i)+"]", allFields)
+                self.check_list(ele[i], prefix+"["+str(i)+"]", allFields)
             elif (isinstance(ele[i], dict)):
-                self.checkDict(ele[i], prefix+"["+str(i)+"]", allFields)                
+                self.check_dict(ele[i], prefix+"["+str(i)+"]", allFields)                
             else:
                 self.last_item(prefix+"["+str(i)+"]", ele[i], allFields)
 
 
-    def checkDict(self, jsonObject, prefix, allFields):
+
+    def check_dict(self, jsonObject, prefix, allFields):
         for ele in jsonObject:
             if (isinstance(jsonObject[ele], dict)):
-                self.checkDict(jsonObject[ele], prefix+"."+ele, allFields)
+                self.check_dict(jsonObject[ele], prefix+"."+ele, allFields)
 
             elif (isinstance(jsonObject[ele], list)):
-                self.checkList(jsonObject[ele], prefix+"."+ele, allFields)
+                self.check_list(jsonObject[ele], prefix+"."+ele, allFields)
 
             else:
                 self.last_item(prefix+"."+ele, jsonObject[ele], allFields)
@@ -282,6 +287,30 @@ class TDCompleteness_1(RuleTemplate):
         return results
 
 
+
+
+    def missing_fields(self, newFields, dfScoringMatrix):
+        """Returns the fields missing in the input data
+        
+        Arguments:
+            - newFields: <dictionary> 
+            - dfScoringMatrix: <dataframe> 
+
+        Returns:
+            - results <dictionary>
+        """
+
+
+        results = {}
+ 
+        keysDataFrame = list(dict.fromkeys(dfScoringMatrix['Section'].values))
+        for x in keysDataFrame:
+            if (x not in newFields.keys()) or (len(newFields[x]) <1):
+                results[x]=(dfScoringMatrix.loc[dfScoringMatrix["Section"]== x].index.values).tolist()
+
+        return results
+
+
     def get_index(self, key, case):
         """Returns an integer index that is used to store the applications into separate key-value pairs
         
@@ -305,8 +334,13 @@ class TDCompleteness_1(RuleTemplate):
                 return indexes[1]
             else:
                 return None
-        else:
+        elif(case == 'mainIndex'):
             return indexes[0]
+        else:
+            if(len(indexes)>2):
+                return indexes[2]
+            else:
+                return None
 
 
 
