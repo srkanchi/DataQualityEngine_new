@@ -11,6 +11,9 @@
     "trialDescriptions.numberOfReplicates":"Number of replicates/Plot Area",
     "trialDescriptions.crops.name":"Crop",
     "trialDescriptions.targets.name":"Target",
+    "trialDescriptions.crops":"Crop",
+    "trialDescriptions.targets":"Target",
+
 
     "trialDescriptions.experimentalSeason":"Experimental season",
     "trialDescriptions.keywords": "Objective",

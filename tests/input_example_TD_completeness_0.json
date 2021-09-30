@@ -2,47 +2,64 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "FD22ARG7AJPX",
+        "tptIdKey": "ID21ARGM1JWR",
         "siteType": "Open field",
-        "trialResponsibles": [
+       "trialResponsibles": [
           {
-            "siteName": "ARG (Country group)",
+            "siteName": "COL (Country group)",
             "internalValue": "I",
-            "testType": "TT01",
+            "testType": "TT04",
+            "hasName": true,
+            "plannedNumberOfTrials": 2
+          },
+          {
+            "siteName": "FPI (AD Field testing Philippines)",
+            "internalValue": "I",
+            "testType": "TT04",
+            "hasName": true,
+            "plannedNumberOfTrials": 2
+          },
+          {
+            "siteName": "MEX",
+            "internalValue": "I",
+            "testType": "TT04",
             "hasName": true,
             "plannedNumberOfTrials": 1
           }
         ],
         "plannedNumberOfApplications": "1",
-        "numberOfReplicates": 3,
+        "numberOfReplicates": 4,
         "crops": [
           {
-            "name": "Arable land"
+            "name": "Lycopersicon esculentum MILL."
+          },
+          {
+            "name": "Solanum tuberosum"
           }
         ],
         "targets": [
           {
-            "name": "Avena sativa L."
+            "name": "Homoptera, complex"
           },
           {
-            "name": "Hordeum vulgare (spring)"
+            "name": "Lepidoptera, complex"
           },
           {
-            "name": "Lolium spec."
+            "name": "Pectinophora gossypiella"
           },
           {
-            "name": "Triticum aest., spring wheat"
+            "name": "Thrips tabaci"
           }
         ],
-        "experimentalSeason": "Autumn",
+        "experimentalSeason": "Summer",
         "keywords": [
-          "POSTEMEREAR",
+          "PHYTOTOX",
+          "DEVELOPMENT",
           "EFFICACY"
         ],
         "projectNumbers": [
-          "BIUT0001",
           "DEVELOPMENT",
-          "EUR-DEV-H"
+          "N-2997"
         ]
       }
     ]
@@ -50,8 +67,8 @@
   "tests": [
     {     
         "TDCompleteness_0": {
-        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_0.py",
-        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
+        "attributeMapping": "./Files/attribute_mapping_0.py",
+        "weights": "./Files/completeness_TD_V1_0_0.csv",
         "version": "completeness_TD_V1_0_0"
       }
     }

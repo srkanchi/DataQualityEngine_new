@@ -219,26 +219,26 @@ Protocol description/Application Placement,1,LOCAL,TT,F,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,H,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,S,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,II,0,,applications
-Crop,0,TBD,R,I,5,,
-Crop,0,TBD,R,F,5,,
-Crop,0,TBD,R,H,5,,
-Crop,0,TBD,R,S,5,,
-Crop,0,TBD,R,II,5,,
-Crop,0,TBD,A,I,5,,
-Crop,0,TBD,A,F,5,,
-Crop,0,TBD,A,H,5,,
-Crop,0,TBD,A,S,5,,
-Crop,0,TBD,A,II,5,,
-Crop,0,TBD,D,I,5,,
-Crop,0,TBD,D,F,5,,
-Crop,0,TBD,D,H,5,,
-Crop,0,TBD,D,S,5,,
-Crop,0,TBD,D,II,5,,
-Crop,0,LOCAL,TT,I,5,,
-Crop,0,LOCAL,TT,F,5,,
-Crop,0,LOCAL,TT,H,5,,
-Crop,0,LOCAL,TT,S,5,,
-Crop,0,LOCAL,TT,II,5,,
+Crop,0,TBD,R,I,5,,crop
+Crop,0,TBD,R,F,5,,crop
+Crop,0,TBD,R,H,5,,crop
+Crop,0,TBD,R,S,5,,crop
+Crop,0,TBD,R,II,5,,crop
+Crop,0,TBD,A,I,5,,crop
+Crop,0,TBD,A,F,5,,crop
+Crop,0,TBD,A,H,5,,crop
+Crop,0,TBD,A,S,5,,crop
+Crop,0,TBD,A,II,5,,crop
+Crop,0,TBD,D,I,5,,crop
+Crop,0,TBD,D,F,5,,crop
+Crop,0,TBD,D,H,5,,crop
+Crop,0,TBD,D,S,5,,crop
+Crop,0,TBD,D,II,5,,crop
+Crop,0,LOCAL,TT,I,5,,crop
+Crop,0,LOCAL,TT,F,5,,crop
+Crop,0,LOCAL,TT,H,5,,crop
+Crop,0,LOCAL,TT,S,5,,crop
+Crop,0,LOCAL,TT,II,5,,crop
 Crop stage/App./Majority,1,TBD,R,I,4,,applications
 Crop stage/App./Majority,1,TBD,R,F,0,,applications
 Crop stage/App./Majority,1,TBD,R,H,4,,applications
@@ -279,26 +279,26 @@ Objective,1,LOCAL,TT,F,5,,general
 Objective,1,LOCAL,TT,H,5,,general
 Objective,1,LOCAL,TT,S,5,,general
 Objective,1,LOCAL,TT,II,5,,general
-Objective,0,TBD,R,I,5,,
-Objective,0,TBD,R,F,5,,
-Objective,0,TBD,R,H,5,,
-Objective,0,TBD,R,S,5,,
-Objective,0,TBD,R,II,5,,
-Objective,0,TBD,A,I,5,,
-Objective,0,TBD,A,F,5,,
-Objective,0,TBD,A,H,5,,
-Objective,0,TBD,A,S,5,,
-Objective,0,TBD,A,II,5,,
-Objective,0,TBD,D,I,5,,
-Objective,0,TBD,D,F,5,,
-Objective,0,TBD,D,H,5,,
-Objective,0,TBD,D,S,5,,
-Objective,0,TBD,D,II,5,,
-Objective,0,LOCAL,TT,I,5,,
-Objective,0,LOCAL,TT,F,5,,
-Objective,0,LOCAL,TT,H,5,,
-Objective,0,LOCAL,TT,S,5,,
-Objective,0,LOCAL,TT,II,5,,
+Objective,0,TBD,R,I,5,,general
+Objective,0,TBD,R,F,5,,general
+Objective,0,TBD,R,H,5,,general
+Objective,0,TBD,R,S,5,,general
+Objective,0,TBD,R,II,5,,general
+Objective,0,TBD,A,I,5,,general
+Objective,0,TBD,A,F,5,,general
+Objective,0,TBD,A,H,5,,general
+Objective,0,TBD,A,S,5,,general
+Objective,0,TBD,A,II,5,,general
+Objective,0,TBD,D,I,5,,general
+Objective,0,TBD,D,F,5,,general
+Objective,0,TBD,D,H,5,,general
+Objective,0,TBD,D,S,5,,general
+Objective,0,TBD,D,II,5,,general
+Objective,0,LOCAL,TT,I,5,,general
+Objective,0,LOCAL,TT,F,5,,general
+Objective,0,LOCAL,TT,H,5,,general
+Objective,0,LOCAL,TT,S,5,,general
+Objective,0,LOCAL,TT,II,5,,general
 INT EXT,0,TBD,R,I,5,,responsible
 INT EXT,0,TBD,R,F,5,,responsible
 INT EXT,0,TBD,R,H,5,,responsible
@@ -339,26 +339,26 @@ Test Type,0,LOCAL,TT,F,5,,responsible
 Test Type,0,LOCAL,TT,H,5,,responsible
 Test Type,0,LOCAL,TT,S,5,,responsible
 Test Type,0,LOCAL,TT,II,5,,responsible
-Project Number,0,TBD,R,I,5,,
-Project Number,0,TBD,R,F,5,,
-Project Number,0,TBD,R,H,5,,
-Project Number,0,TBD,R,S,5,,
-Project Number,0,TBD,R,II,5,,
-Project Number,0,TBD,A,I,5,,
-Project Number,0,TBD,A,F,5,,
-Project Number,0,TBD,A,H,5,,
-Project Number,0,TBD,A,S,5,,
-Project Number,0,TBD,A,II,5,,
-Project Number,0,TBD,D,I,5,,
-Project Number,0,TBD,D,F,5,,
-Project Number,0,TBD,D,H,5,,
-Project Number,0,TBD,D,S,5,,
-Project Number,0,TBD,D,II,5,,
-Project Number,0,LOCAL,TT,I,5,,
-Project Number,0,LOCAL,TT,F,5,,
-Project Number,0,LOCAL,TT,H,5,,
-Project Number,0,LOCAL,TT,S,5,,
-Project Number,0,LOCAL,TT,II,5,,
+Project Number,0,TBD,R,I,5,,general
+Project Number,0,TBD,R,F,5,,general
+Project Number,0,TBD,R,H,5,,general
+Project Number,0,TBD,R,S,5,,general
+Project Number,0,TBD,R,II,5,,general
+Project Number,0,TBD,A,I,5,,general
+Project Number,0,TBD,A,F,5,,general
+Project Number,0,TBD,A,H,5,,general
+Project Number,0,TBD,A,S,5,,general
+Project Number,0,TBD,A,II,5,,general
+Project Number,0,TBD,D,I,5,,general
+Project Number,0,TBD,D,F,5,,general
+Project Number,0,TBD,D,H,5,,general
+Project Number,0,TBD,D,S,5,,general
+Project Number,0,TBD,D,II,5,,general
+Project Number,0,LOCAL,TT,I,5,,general
+Project Number,0,LOCAL,TT,F,5,,general
+Project Number,0,LOCAL,TT,H,5,,general
+Project Number,0,LOCAL,TT,S,5,,general
+Project Number,0,LOCAL,TT,II,5,,general
 Site Code,0,TBD,R,I,5,,responsible
 Site Code,0,TBD,R,F,5,,responsible
 Site Code,0,TBD,R,H,5,,responsible
@@ -439,46 +439,46 @@ Guidelines,1,LOCAL,TT,F,0,,general
 Guidelines,1,LOCAL,TT,H,0,,general
 Guidelines,1,LOCAL,TT,S,0,,general
 Guidelines,1,LOCAL,TT,II,0,,general
-Site Type,0,TBD,R,I,5,,
-Site Type,0,TBD,R,F,5,,
-Site Type,0,TBD,R,H,5,,
-Site Type,0,TBD,R,S,5,,
-Site Type,0,TBD,R,II,5,,
-Site Type,0,TBD,A,I,5,,
-Site Type,0,TBD,A,F,5,,
-Site Type,0,TBD,A,H,5,,
-Site Type,0,TBD,A,S,5,,
-Site Type,0,TBD,A,II,5,,
-Site Type,0,TBD,D,I,5,,
-Site Type,0,TBD,D,F,5,,
-Site Type,0,TBD,D,H,5,,
-Site Type,0,TBD,D,S,5,,
-Site Type,0,TBD,D,II,5,,
-Site Type,0,LOCAL,TT,I,5,,
-Site Type,0,LOCAL,TT,F,5,,
-Site Type,0,LOCAL,TT,H,5,,
-Site Type,0,LOCAL,TT,S,5,,
-Site Type,0,LOCAL,TT,II,5,,
-Planned No. of Appl.,0,TBD,R,I,4,,
-Planned No. of Appl.,0,TBD,R,F,4,,
-Planned No. of Appl.,0,TBD,R,H,4,,
-Planned No. of Appl.,0,TBD,R,S,4,,
-Planned No. of Appl.,0,TBD,R,II,4,,
-Planned No. of Appl.,0,TBD,A,I,4,,
-Planned No. of Appl.,0,TBD,A,F,4,,
-Planned No. of Appl.,0,TBD,A,H,4,,
-Planned No. of Appl.,0,TBD,A,S,4,,
-Planned No. of Appl.,0,TBD,A,II,4,,
-Planned No. of Appl.,0,TBD,D,I,4,,
-Planned No. of Appl.,0,TBD,D,F,4,,
-Planned No. of Appl.,0,TBD,D,H,4,,
-Planned No. of Appl.,0,TBD,D,S,4,,
-Planned No. of Appl.,0,TBD,D,II,4,,
-Planned No. of Appl.,0,LOCAL,TT,I,4,,
-Planned No. of Appl.,0,LOCAL,TT,F,4,,
-Planned No. of Appl.,0,LOCAL,TT,H,4,,
-Planned No. of Appl.,0,LOCAL,TT,S,4,,
-Planned No. of Appl.,0,LOCAL,TT,II,4,,
+Site Type,0,TBD,R,I,5,,general
+Site Type,0,TBD,R,F,5,,general
+Site Type,0,TBD,R,H,5,,general
+Site Type,0,TBD,R,S,5,,general
+Site Type,0,TBD,R,II,5,,general
+Site Type,0,TBD,A,I,5,,general
+Site Type,0,TBD,A,F,5,,general
+Site Type,0,TBD,A,H,5,,general
+Site Type,0,TBD,A,S,5,,general
+Site Type,0,TBD,A,II,5,,general
+Site Type,0,TBD,D,I,5,,general
+Site Type,0,TBD,D,F,5,,general
+Site Type,0,TBD,D,H,5,,general
+Site Type,0,TBD,D,S,5,,general
+Site Type,0,TBD,D,II,5,,general
+Site Type,0,LOCAL,TT,I,5,,general
+Site Type,0,LOCAL,TT,F,5,,general
+Site Type,0,LOCAL,TT,H,5,,general
+Site Type,0,LOCAL,TT,S,5,,general
+Site Type,0,LOCAL,TT,II,5,,general
+Planned No. of Appl.,0,TBD,R,I,4,,general
+Planned No. of Appl.,0,TBD,R,F,4,,general
+Planned No. of Appl.,0,TBD,R,H,4,,general
+Planned No. of Appl.,0,TBD,R,S,4,,general
+Planned No. of Appl.,0,TBD,R,II,4,,general
+Planned No. of Appl.,0,TBD,A,I,4,,general
+Planned No. of Appl.,0,TBD,A,F,4,,general
+Planned No. of Appl.,0,TBD,A,H,4,,general
+Planned No. of Appl.,0,TBD,A,S,4,,general
+Planned No. of Appl.,0,TBD,A,II,4,,general
+Planned No. of Appl.,0,TBD,D,I,4,,general
+Planned No. of Appl.,0,TBD,D,F,4,,general
+Planned No. of Appl.,0,TBD,D,H,4,,general
+Planned No. of Appl.,0,TBD,D,S,4,,general
+Planned No. of Appl.,0,TBD,D,II,4,,general
+Planned No. of Appl.,0,LOCAL,TT,I,4,,general
+Planned No. of Appl.,0,LOCAL,TT,F,4,,general
+Planned No. of Appl.,0,LOCAL,TT,H,4,,general
+Planned No. of Appl.,0,LOCAL,TT,S,4,,general
+Planned No. of Appl.,0,LOCAL,TT,II,4,,general
 No. of Applications/Trial,1,TBD,R,I,5,,general
 No. of Applications/Trial,1,TBD,R,F,5,,general
 No. of Applications/Trial,1,TBD,R,H,5,,general
@@ -559,26 +559,26 @@ Data deadline,1,LOCAL,TT,F,5,,general
 Data deadline,1,LOCAL,TT,H,5,,general
 Data deadline,1,LOCAL,TT,S,5,,general
 Data deadline,1,LOCAL,TT,II,5,,general
-Number of replicates/Plot Area,0,TBD,R,I,5,,
-Number of replicates/Plot Area,0,TBD,R,F,5,,
-Number of replicates/Plot Area,0,TBD,R,H,5,,
-Number of replicates/Plot Area,0,TBD,R,S,5,,
-Number of replicates/Plot Area,0,TBD,R,II,5,,
-Number of replicates/Plot Area,0,TBD,A,I,5,,
-Number of replicates/Plot Area,0,TBD,A,F,5,,
-Number of replicates/Plot Area,0,TBD,A,H,5,,
-Number of replicates/Plot Area,0,TBD,A,S,5,,
-Number of replicates/Plot Area,0,TBD,A,II,5,,
-Number of replicates/Plot Area,0,TBD,D,I,5,,
-Number of replicates/Plot Area,0,TBD,D,F,5,,
-Number of replicates/Plot Area,0,TBD,D,H,5,,
-Number of replicates/Plot Area,0,TBD,D,S,5,,
-Number of replicates/Plot Area,0,TBD,D,II,5,,
-Number of replicates/Plot Area,0,LOCAL,TT,I,5,,
-Number of replicates/Plot Area,0,LOCAL,TT,F,5,,
-Number of replicates/Plot Area,0,LOCAL,TT,H,5,,
-Number of replicates/Plot Area,0,LOCAL,TT,S,5,,
-Number of replicates/Plot Area,0,LOCAL,TT,II,5,,
+Number of replicates/Plot Area,0,TBD,R,I,5,,general
+Number of replicates/Plot Area,0,TBD,R,F,5,,general
+Number of replicates/Plot Area,0,TBD,R,H,5,,general
+Number of replicates/Plot Area,0,TBD,R,S,5,,general
+Number of replicates/Plot Area,0,TBD,R,II,5,,general
+Number of replicates/Plot Area,0,TBD,A,I,5,,general
+Number of replicates/Plot Area,0,TBD,A,F,5,,general
+Number of replicates/Plot Area,0,TBD,A,H,5,,general
+Number of replicates/Plot Area,0,TBD,A,S,5,,general
+Number of replicates/Plot Area,0,TBD,A,II,5,,general
+Number of replicates/Plot Area,0,TBD,D,I,5,,general
+Number of replicates/Plot Area,0,TBD,D,F,5,,general
+Number of replicates/Plot Area,0,TBD,D,H,5,,general
+Number of replicates/Plot Area,0,TBD,D,S,5,,general
+Number of replicates/Plot Area,0,TBD,D,II,5,,general
+Number of replicates/Plot Area,0,LOCAL,TT,I,5,,general
+Number of replicates/Plot Area,0,LOCAL,TT,F,5,,general
+Number of replicates/Plot Area,0,LOCAL,TT,H,5,,general
+Number of replicates/Plot Area,0,LOCAL,TT,S,5,,general
+Number of replicates/Plot Area,0,LOCAL,TT,II,5,,general
 Responsible,0,TBD,R,I,4,,responsible
 Responsible,0,TBD,R,F,4,,responsible
 Responsible,0,TBD,R,H,4,,responsible
@@ -619,46 +619,46 @@ No. Of trials,0,LOCAL,TT,F,5,,responsible
 No. Of trials,0,LOCAL,TT,H,5,,responsible
 No. Of trials,0,LOCAL,TT,S,5,,responsible
 No. Of trials,0,LOCAL,TT,II,5,,responsible
-Experimental season,0,TBD,R,I,4,,
-Experimental season,0,TBD,R,F,4,,
-Experimental season,0,TBD,R,H,4,,
-Experimental season,0,TBD,R,S,4,,
-Experimental season,0,TBD,R,II,4,,
-Experimental season,0,TBD,A,I,4,,
-Experimental season,0,TBD,A,F,4,,
-Experimental season,0,TBD,A,H,4,,
-Experimental season,0,TBD,A,S,4,,
-Experimental season,0,TBD,A,II,4,,
-Experimental season,0,TBD,D,I,4,,
-Experimental season,0,TBD,D,F,4,,
-Experimental season,0,TBD,D,H,4,,
-Experimental season,0,TBD,D,S,4,,
-Experimental season,0,TBD,D,II,4,,
-Experimental season,0,LOCAL,TT,I,4,,
-Experimental season,0,LOCAL,TT,F,4,,
-Experimental season,0,LOCAL,TT,H,4,,
-Experimental season,0,LOCAL,TT,S,4,,
-Experimental season,0,LOCAL,TT,II,4,,
-Target,0,TBD,R,I,5,CROPSAFETY,
-Target,0,TBD,R,F,5,CROPSAFETY,
-Target,0,TBD,R,H,5,CROPSAFETY,
-Target,0,TBD,R,S,5,CROPSAFETY,
-Target,0,TBD,R,II,5,CROPSAFETY,
-Target,0,TBD,A,I,5,CROPSAFETY,
-Target,0,TBD,A,F,5,CROPSAFETY,
-Target,0,TBD,A,H,5,CROPSAFETY,
-Target,0,TBD,A,S,5,CROPSAFETY,
-Target,0,TBD,A,II,5,CROPSAFETY,
-Target,0,TBD,D,I,5,CROPSAFETY,
-Target,0,TBD,D,F,5,CROPSAFETY,
-Target,0,TBD,D,H,5,CROPSAFETY,
-Target,0,TBD,D,S,5,CROPSAFETY,
-Target,0,TBD,D,II,5,CROPSAFETY,
-Target,0,LOCAL,TT,I,5,CROPSAFETY,
-Target,0,LOCAL,TT,F,5,CROPSAFETY,
-Target,0,LOCAL,TT,H,5,CROPSAFETY,
-Target,0,LOCAL,TT,S,5,CROPSAFETY,
-Target,0,LOCAL,TT,II,5,CROPSAFETY,
+Experimental season,0,TBD,R,I,4,,general
+Experimental season,0,TBD,R,F,4,,general
+Experimental season,0,TBD,R,H,4,,general
+Experimental season,0,TBD,R,S,4,,general
+Experimental season,0,TBD,R,II,4,,general
+Experimental season,0,TBD,A,I,4,,general
+Experimental season,0,TBD,A,F,4,,general
+Experimental season,0,TBD,A,H,4,,general
+Experimental season,0,TBD,A,S,4,,general
+Experimental season,0,TBD,A,II,4,,general
+Experimental season,0,TBD,D,I,4,,general
+Experimental season,0,TBD,D,F,4,,general
+Experimental season,0,TBD,D,H,4,,general
+Experimental season,0,TBD,D,S,4,,general
+Experimental season,0,TBD,D,II,4,,general
+Experimental season,0,LOCAL,TT,I,4,,general
+Experimental season,0,LOCAL,TT,F,4,,general
+Experimental season,0,LOCAL,TT,H,4,,general
+Experimental season,0,LOCAL,TT,S,4,,general
+Experimental season,0,LOCAL,TT,II,4,,general
+Target,0,TBD,R,I,5,CROPSAFETY,target
+Target,0,TBD,R,F,5,CROPSAFETY,target
+Target,0,TBD,R,H,5,CROPSAFETY,target
+Target,0,TBD,R,S,5,CROPSAFETY,target
+Target,0,TBD,R,II,5,CROPSAFETY,target
+Target,0,TBD,A,I,5,CROPSAFETY,target
+Target,0,TBD,A,F,5,CROPSAFETY,target
+Target,0,TBD,A,H,5,CROPSAFETY,target
+Target,0,TBD,A,S,5,CROPSAFETY,target
+Target,0,TBD,A,II,5,CROPSAFETY,target
+Target,0,TBD,D,I,5,CROPSAFETY,target
+Target,0,TBD,D,F,5,CROPSAFETY,target
+Target,0,TBD,D,H,5,CROPSAFETY,target
+Target,0,TBD,D,S,5,CROPSAFETY,target
+Target,0,TBD,D,II,5,CROPSAFETY,target
+Target,0,LOCAL,TT,I,5,CROPSAFETY,target
+Target,0,LOCAL,TT,F,5,CROPSAFETY,target
+Target,0,LOCAL,TT,H,5,CROPSAFETY,target
+Target,0,LOCAL,TT,S,5,CROPSAFETY,target
+Target,0,LOCAL,TT,II,5,CROPSAFETY,target
 Application code,1,TBD,R,I,5,,applications
 Application code,1,TBD,R,F,5,,applications
 Application code,1,TBD,R,H,5,,applications

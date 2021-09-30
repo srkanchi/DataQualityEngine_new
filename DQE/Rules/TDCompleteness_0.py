@@ -1,6 +1,3 @@
-
-
-
 from DQE.Rules.RulesTemplate import RuleTemplate
 
 from collections import defaultdict, Counter
@@ -76,6 +73,27 @@ class TDCompleteness_0(RuleTemplate):
 
             index = index + 1       
 
+
+
+        newFields = self.translate_fields(allFields, fieldMapping, dfScoringMatrix)
+
+        newCrops = self.fields_to_string(newFields, "crop")
+        newFields["general"]["Crop"]= newCrops
+        newFields.pop('crop', None)
+        dfScoringMatrix.at['Crop', 'Section'] = "general"
+
+        newTargets = self.fields_to_string(newFields, "target")
+        newFields["general"]["Target"]= newTargets
+        newFields.pop('target', None)
+        dfScoringMatrix.at['Target', 'Section'] = "general"
+
+
+        allScores = self.calculate_scores(newFields, dfScoringMatrix)
+
+        missingFields = self.missing_fields(newFields, dfScoringMatrix)
+
+
+
         return {
             self.name: {"input": allFields, "translatedInput":newFields, "missingFields": missingFields, "scores": allScores, "version": version
             }
@@ -83,6 +101,112 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
+
+    def translate_fields(self, allFields, fieldMapping, dfScoringMatrix):
+        mydict = lambda: defaultdict(mydict)
+        newFields = mydict()
+
+        for key, value in allFields.items():
+            keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
+
+            if((keyNoIndex not in fieldMapping)):   # Fields not included in the attribute mapping file 
+                print(keyNoIndex, " could not be found in the scoring matrix" )
+                continue
+
+
+            keyDF = fieldMapping[keyNoIndex]
+            section = dfScoringMatrix.loc[[keyDF],['Section']].values[0][0]
+            exception = dfScoringMatrix.loc[[keyDF],['Exception']].values[0][0]
+            weight = int(dfScoringMatrix.loc[[keyDF],['Weight']].values[0][0])
+
+
+            if(weight < 1):         # weights with a value of 0 indicated fields that are not required due to trial type or indication
+                value= "Not required"
+
+            if(pd.notna(exception)):    # If the objective has a value = "cropsafety" then the target is not required 
+                if(self.exception_CROPSAFETY(allFields)):                                        
+                    value= "Not required"
+
+
+            if(value=='Missing'):       #Use the 'Missing' label instead of the null values
+                value= "Missing"
+
+            mainIndex = self.get_index(key, "mainIndex")            
+
+            if(mainIndex is None):  #general section
+                newFields[section][keyDF]=value
+            else:
+                newFields[section][mainIndex][keyDF]=value
+
+
+        return newFields
+
+
+
+
+    def calculate_scores(self, newFields, dfScoringMatrix):
+        """Returns raw and weighted scores for each section
+        
+        Arguments:
+            - newFields: <dictionary> 
+            - dfScoringMatrix: <dataframe> 
+
+        Returns:
+            - results: <dictionary>
+        """
+
+
+        mydict = lambda: defaultdict(mydict)
+        results = mydict()
+        weights = defaultdict(Counter)       
+        counts = defaultdict(Counter)       
+        hasException =False
+
+
+        # Here the data in the dictionary is read an the keys looked in the dataframe to collect the weights 
+        for k, v in newFields.items():
+            for kk, vv in v.items():
+                if(isinstance(vv, dict)):
+                    for kkk, vvv in vv.items():
+                        weight = int(dfScoringMatrix.loc[[kkk],['Weight']].values[0][0])
+
+                        if(vvv != 'Missing'):
+                            weights[k][kk] += weight          
+                            counts[k][kk] += 1          
+                        else:
+                            weights[k][kk] += 0          
+                            counts[k][kk] += 0          
+
+                else:
+                    if(vv == "Not required"):
+                        hasException = True
+                        continue
+
+                    weight = int(dfScoringMatrix.loc[[kk],['Weight']].values[0][0])
+
+                    if(vv != 'Missing'):
+                        weights[k]['0'] += weight          
+                        counts[k]['0'] += 1          
+                    else:
+                        weights[k]['0'] += 0          
+                        counts[k]['0'] += 0          
+
+
+        # the total counts and weights are calculated here so that the final score (count/totalCount) can be calculated 
+        for k, v in weights.items():
+            if(hasException):
+                totalWeights = dfScoringMatrix[(dfScoringMatrix["Section"]==k) & (dfScoringMatrix["Exception"]!="CROPSAFETY")]["Weight"].sum()
+                totalRows = dfScoringMatrix[(dfScoringMatrix["Section"]==k) & (dfScoringMatrix["Exception"]!="CROPSAFETY")]["Weight"].count()
+            else:
+                totalWeights = dfScoringMatrix[dfScoringMatrix["Section"]==k]["Weight"].sum()
+                totalRows = dfScoringMatrix[dfScoringMatrix["Section"]==k]["Weight"].count()
+
+            for kk, vv in v.items():
+                results[k][kk]['raw']= counts[k][kk]/totalRows
+                results[k][kk]['weighted']= vv/totalWeights
+
+
+        return results
 
 
     def check_list(self, ele, prefix, allFields):
@@ -120,50 +244,89 @@ class TDCompleteness_0(RuleTemplate):
 
 
 
-    def calculate_scores(self, allFields):
-
-        # These variables are used to calculate the scores 
-        mydict = lambda: defaultdict(mydict)
-        newFields = mydict()
-        weights = defaultdict(Counter)       
-        counts = defaultdict(Counter)       
-        totalWeights = defaultdict(Counter)       
-        totalCounts = defaultdict(Counter)       
-
-        applIndex = 0
-        prevMainIndex = 0
-        prevSubindex =0
-
-        for key, value in allFields.items():
-            keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
-
-            if((keyNoIndex not in fieldMapping)):   # Fields not included in the attribute mapping file 
-                print(keyNoIndex, " could not be found in the scoring matrix" )
-                continue
 
 
-            keyDF = fieldMapping[keyNoIndex]
-            section = dfScoringMatrix.loc[[keyDF],['Section']].values[0][0]
-            weight = int(dfScoringMatrix.loc[[keyDF],['Weight']].values[0][0])
-            weightTotal = weight
-            count = 1
-            countTotal = count
+    def missing_fields(self, newFields, dfScoringMatrix):
+        """Returns the fields missing in the input data
+        
+        Arguments:
+            - newFields: <dictionary> 
+            - dfScoringMatrix: <dataframe> 
+
+        Returns:
+            - results <dictionary>
+        """
 
 
-            if(weight < 1):         # weights with a value of 0 indicated fields that are not required due to trial type or indication
-                value= "Not required"
-                weight=0
-                weightTotal = 0
-                countTotal = 0
-                count = 0 
+        results = {}
+ 
+        keysDataFrame = list(dict.fromkeys(dfScoringMatrix['Section'].values))
+        for x in keysDataFrame:
+            if (x not in newFields.keys()) or (len(newFields[x]) <1):
+                results[x]=(dfScoringMatrix.loc[dfScoringMatrix["Section"]== x].index.values).tolist()
 
-
-            if(value=='Missing'):       #missing or null values
-                weight = 0
-                count = 0
+        return results
 
 
 
+    def exception_CROPSAFETY(self, allFields):
+        """Returns a boolean that indicates if the CROPSAFETY exception occurs.
+            
+        Arguments:
+            - dictFinal: <dictionary> 
+
+        Returns:
+            - <Boolean>
+        """
+
+        try:
+           objective = allFields['trialDescriptions.keywords']
+
+           if objective.strip() == "CROPSAFETY":
+               caseException = True
+           else:
+               caseException = False
+
+        except pd.errors.EmptyDataError:
+           caseException = False
+
+        return caseException
+
+
+
+
+
+
+
+    def fields_to_string(self, newFields, section):
+        """Returns a single string that contains all the values of a dictionary   
+        
+        Arguments:
+            - newFields: <dictionary> 
+            - section: <string> 
+
+        Returns:
+            - result <string>
+        """
+
+#        result = ' - '.join(str(v) for x in newFields[section].values() for k,v in x.items())
+
+        result= ""
+        for x in newFields[section].values():
+            if(x != "Not required") & (x != "Missing"):
+                for k,v in x.items():
+                    if(v == "Not required"):
+                        result = v
+                    else:
+                        result = result + str(v) + " - "
+            else:
+                result = x
+
+
+        if not result:
+            return "Missing"
+        else:
+            return result
 
 
 
@@ -181,7 +344,7 @@ class TDCompleteness_0(RuleTemplate):
 
         nullCards = ['*','.','?']
 
-        if((item in nullCards) or (item is None)):
+        if((item in nullCards) or (item is None) or (item is False)):
             allFields[str(prefix)]= 'Missing'
         else:
             allFields[str(prefix)]= item
@@ -203,7 +366,7 @@ class TDCompleteness_0(RuleTemplate):
         try:
             dfWeights = os.path.join(weights)
             df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
-            dfFiltered = df.loc[(df["Status"] == 1) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
+            dfFiltered = df.loc[(df["Status"] == 0) & (df["Trial"] == trialType) & (df["Indication"] == indication)]
 
         except pd.errors.EmptyDataError:
             dfFiltered = pd.DataFrame()
@@ -274,6 +437,41 @@ class TDCompleteness_0(RuleTemplate):
         return attributeMapping
 
 
+    def get_index(self, key, case):
+        """Returns an integer index that is used to store the applications into separate key-value pairs
+        
+        Arguments:
+            - key: <string> 
+            - case: <string> 
+
+        Returns:
+            - indexes[] <integer>
+        """
+
+
+
+        indexes = re.findall(r'\d+', key)
+
+        if(len(indexes)==0):
+            return None
+
+        if(case == 'subIndex'):
+            if(len(indexes)>1):
+                return indexes[1]
+            else:
+                return None
+        elif(case == 'mainIndex'):
+            return indexes[0]
+        else:
+            if(len(indexes)>2):
+                return indexes[2]
+            else:
+                return None
+
+
+
+
+
 
 
 
@@ -292,16 +490,16 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #class TDCompleteness_0(RuleTemplate):
-    """
-    class description here
-    """
+#    """
+#    class description here
+#    """
 
 #    def __init__(self):
 #        super(TDCompleteness_0, self).__init__(rule_name='TDCompleteness_0', rule_category='data_quality')
     
 #    def _rule_input_check(self, data, inputs, schema=None):
-        """
-        """
+#        """
+#        """
 #        try:
 #            assert data is not None
 #            weights = inputs['weights']
@@ -362,16 +560,16 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def iterate_all(self, iterable, returned="key", prefix = "0"):                
-        """Returns an iterator that returns all keys or values
-        of a (nested) iterable.
+#        """Returns an iterator that returns all keys or values
+#        of a (nested) iterable.
         
-        Arguments:
-            - iterable: <list> or <dictionary>
-            - returned: <string> "key" or "value"
+#        Arguments:
+#            - iterable: <list> or <dictionary>
+#            - returned: <string> "key" or "value"
             
-        Returns:
-            - <iterator>
-        """
+#        Returns:
+#            - <iterator>
+#        """
 #        nullCards = ['*','.','?']
 #        if isinstance(iterable, dict):
 #            index = 0
@@ -429,14 +627,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def add_key(self, value):                
-        """Returns a boolean which indicates if the value contains nested values 
+#        """Returns a boolean which indicates if the value contains nested values 
         
-        Arguments:
-            - value: <string> 
+#        Arguments:
+#            - value: <string> 
             
-        Returns:
-            - <Boolean>
-        """
+#        Returns:
+#            - <Boolean>
+#        """
 
 #        if(isinstance(value, list)):
 #            if(len(value)<1):
@@ -459,17 +657,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def calculate_scores(self, dfRules, missingFields, indication, cropsafetyException):
-        """Returns a dictionary that contains the raw and weighted scores calculated for the data.
+#        """Returns a dictionary that contains the raw and weighted scores calculated for the data.
         
-        Arguments:
-            - dfRules: <dataframe>
-            - missingFields: <dictionary> 
-            - indication: <string> 
-            - cropSafetyException: <boolean>
+#        Arguments:
+#            - dfRules: <dataframe>
+#            - missingFields: <dictionary> 
+#            - indication: <string> 
+#            - cropSafetyException: <boolean>
 
-        Returns:
-            - <dictionary>: <rawScore> and <weightedScore>
-        """
+#        Returns:
+#            - <dictionary>: <rawScore> and <weightedScore>
+#        """
 
 #        try:
 
@@ -503,17 +701,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
  #   def find_missing_fields(self, dfRules, dictFinal, cropsafetyException, attributeMapping):
-        """Returns a list of fields with missing values.
+#        """Returns a list of fields with missing values.
         
-        Arguments:
-            - dfRules: <dataframe>
-            - dictFinal: <dictionary> 
-            - cropSafetyException: <boolean>
-            - attributeMapping: <dictionary> 
+#        Arguments:
+#            - dfRules: <dataframe>
+#            - dictFinal: <dictionary> 
+#            - cropSafetyException: <boolean>
+#            - attributeMapping: <dictionary> 
 
-        Returns:
-            - <list>
-        """
+#        Returns:
+#            - <list>
+#        """
 
 #        try:
 
@@ -543,14 +741,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def exception_CROPSAFETY(delf, dictFinal):
-        """Returns a boolean that indicates if the CROPSAFETY exception occurs.
+#        """Returns a boolean that indicates if the CROPSAFETY exception occurs.
         
-        Arguments:
-            - dictFinal: <dictionary> 
+#        Arguments:
+#            - dictFinal: <dictionary> 
 
-        Returns:
-            - <Boolean>
-        """
+#        Returns:
+#            - <Boolean>
+#        """
 
 #        try:
 #            objective = dictFinal['trialDescriptions[0].keywords[0]']
@@ -568,17 +766,17 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def read_rules(self, indication, trialType, weights):
-        """Returns a dataframe that contains the weights used to calculate the scores. 
-        The dataframe is filtered to contain only the correspondant indication and trial type   
+#        """Returns a dataframe that contains the weights used to calculate the scores. 
+#        The dataframe is filtered to contain only the correspondant indication and trial type   
         
-        Arguments:
-            - indication: <string> 
-            - trialType: <string> 
-            - weights: <string> 
+#        Arguments:
+#            - indication: <string> 
+#            - trialType: <string> 
+#            - weights: <string> 
 
-        Returns:
-            - <dataframe>
-        """
+#        Returns:
+#            - <dataframe>
+#        """
 #        try:
 #            dfWeights = os.path.join(weights)
 #            df = pd.read_csv(dfWeights, delimiter=",", index_col="Field", converters=None)
@@ -599,14 +797,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def get_indication(self, tptIdKey):
-        """Returns the indication as defined in the tptIdKey
+#        """Returns the indication as defined in the tptIdKey
           
-        Arguments:
-            - tptIdKey: <string> 
+#        Arguments:
+#            - tptIdKey: <string> 
 
-        Returns:
-            - <string>
-        """
+#        Returns:
+#            - <string>
+#        """
 
 #        indication = tptIdKey.strip()[0:1]
 
@@ -620,14 +818,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def get_trial_type(self, tptIdKey):
-        """Returns the trial type as defined in the tptIdKey
+#        """Returns the trial type as defined in the tptIdKey
 
-        Arguments:
-            - tptIdKey: <string> 
+#        Arguments:
+#            - tptIdKey: <string> 
 
-        Returns:
-            - <string>
-        """
+#        Returns:
+#            - <string>
+#        """
 
 #        trialType = tptIdKey.strip()[1:2]
 #        if(trialType not in ['A','R','D']):
@@ -639,14 +837,14 @@ class TDCompleteness_0(RuleTemplate):
 
 
 #    def read_file_mappings(self, path):
-        """Returns the trial type as defined in the tptIdKey
+#        """Returns the trial type as defined in the tptIdKey
 
-        Arguments:
-            - tptIdKey: <string> 
+#        Arguments:
+#            - tptIdKey: <string> 
 
-        Returns:
-            - <string>
-        """
+#        Returns:
+#            - <string>
+#        """
 
 #        try:
 #            f = open(path, "r")
