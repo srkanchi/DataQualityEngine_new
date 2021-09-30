@@ -9,7 +9,7 @@ API_ENDPOINT = "http://127.0.0.1:10020/run"
 
 ##<<<<<<< HEAD
 ##with open('C:/cls/codigo/qualityEngine/DataQualityEngine/tests/input_example_TD_Completeness_0.json') as json_file:
-=======
+## =======
 with open('./input_example_TD_completeness_0.json') as json_file:
 ##>>>>>>> a04b92aa36a56ddc75c408d9563f102907fe87f1
     data = json.load(json_file)
