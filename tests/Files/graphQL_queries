@@ -8,7 +8,7 @@ TDs status 0: ..................................................................
 
   query{
     trialDescriptions(filter: [{
-  tdKeys:["HA22ARG7AJPX"]
+  tptIdKey:["HA22ARG7AJPX"]
     }]
     ){
            tptIdKey
@@ -40,7 +40,7 @@ TDs status 1 .......................................................
 
 	query{
 	  trialDescriptions(filter: [{
-		tdKeys:["IA25WLDAGKVX"]
+		tptIdKey:["IA25WLDAGKVX"]
 	  }]
 	  ){
       tptIdKey
