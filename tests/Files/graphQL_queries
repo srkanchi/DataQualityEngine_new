@@ -40,7 +40,7 @@ TDs status 1 .......................................................
 
 	query{
 	  trialDescriptions(filter: [{
-		tptIdKey:["IA25WLDAGKVX"]
+		tdKeys:["IA25WLDAGKVX"]
 	  }]
 	  ){
       tptIdKey
@@ -93,154 +93,115 @@ TDs status 1 .......................................................
 
 
 
-Trials (Still in progress) ................................................................
+Trials .......................................................................
 
   query{
     fieldtrials(filter: [{
-      tptIdKey:["FA21DVG0334211"]
+      tptIdKey:["HP20USAJU2TJU3"]
     }]
     ){
-          tptIdKey
-					status
-      		quality
-      		    
-      		location{
-            city
-						zip
-            country
-            latitude
-            longitude
-          }
-    
-      		tillageType
+      tptIdKey
+ 		  status
+      quality
+			objectivesFulfilled
+     
+      
+      location{
+        city
+        country
+        latitude
+        longitude
+      }
+      
+      tillageType
 
-      		soil{
-            texture
-            percentSand
-            percentSilt
-            percentClay
-            percentOrganicMatter
-            pH
-          }
-    
-      		irrigations{
-            date
-            amount
-            amountUnit
-            equipmentType
-          }
+      soil{
+        texture
+      }
+            
+      crops{
+        name
+        variety
+        planting{
+          date
+          rate
+          rateUnit
+        	seedCount
+          seedCountUnit
+          depth
+          depthUnit
+        }
+      }
       
-	        crops{
-            name
-            variety
-            planting{
-              date
-              rate
-              rateUnit            
-              seedCount
-              seedCountUnit
-              depth
-              depthUnit
-              rowSpacing
-              rowSpacingUnit
-              spacingWithinRow
-              spacingWithinRowUnit
-              rowsPerPlot
+      targets{
+        name
+      }
+      
+      
+      treatments{
+        applications{
+					applicationCode
+          date
+          applicationTiming
+          percentRelativeHumidity          
+          airTemperature
+          airTemperatureUnit
+          percentCloudCover
+          windStrength
+          plantCondition
+          soilMoisture
+          soilCondition
+          
+          crops{
+            percentageCropCoverage
+						plantingCondition
+            cropStage
+            percentageAtCropStage
+            maxCropStage
+            percentageAtMaxCropStage
+            minCropStage
+            percentageAtMinCropStage
+          }
+          targets{
+            targetStage
+            percentageAtTargetStage
+						maxTargetStage
+            percentageAtMaxTargetStage
+            minTargetStage
+            percentageAtMinTargetStage
+          }
+          products{
+            equipment{
               method
-              implement
-              soilMoisture
-              cropStage 
-              
+              placement
+              equipmentType
+              propellantType
+              diluentCarrier
+              sprayVolume
+              sprayVolumeUnit
             }
           }
-      
-      		targets{
+        }
+        assessmentMeanValues{
+          standardEvaluationId
+          label
+          target{
             name
-            resistanceInformation
           }
-      
-      		treatments{
-            applications{
-              date
-              percentRelativeHumidity
-              airTemperature
-              airTemperatureUnit
-              percentCloudCover
-              windStrength
-              plantCondition
-              soilMoisture
-              soilCondition
-              
-              crops{
-                percentageCropCoverage
-								cropStage
-                percentageAtCropStage
-                minCropStage
-                percentageAtMinCropStage
-                maxCropStage
-                percentageAtMaxCropStage
-              }
-              
-              targets{
-                targetStage
-                percentageAtTargetStage
-                minTargetStage
-                percentageAtMinTargetStage
-                maxTargetStage
-                percentageAtMaxTargetStage
-                density
-                densityUnit
-                coverage
-                coverageUnit
-              }
-              
-              products{
-                equipment{
-                  method
-                  placement
-                  equipmentType
-                  propellantType
-                  diluentCarrier
-                  sprayVolumeUnit
-                  sprayVolumeUnit
-                  operatingPressure
-                  operatingPressureUnit
-                  nozzleType
-                  nozzleSize
-                  nozzleSpacing
-                  nozzleSpacingUnit
-                  bandWith
-                  bandWithUnit
-                  
-                }
-              }
-            }  
-            
-            
-            assessmentMeanValues{
-							standardEvaluationId
-              label
-              target{
-                name
-              }
-              cropStage
-              minCropStage
-              maxCropStage
-              
-              partRated                      
-              ratingClass
-              ratingType
-              unit
-              sampleSize
-              sampleSizeUnit
-              date
-              assessmentCode
-              
-            }
-          }
-      
-      
+					targetStage
+          
+          cropStage
+          partRated
+          ratingType
+        	unit
+          sampleSize
+          sampleSizeUnit
+          date
+          assessmentCode
+          
+        }
+      }
+
       
     }  
     }
-
