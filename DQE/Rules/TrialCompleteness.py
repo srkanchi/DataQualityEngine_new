@@ -12,8 +12,6 @@ import os
 import pprint
 
 
-
-
 class TrialCompleteness(RuleTemplate):
 
     """
@@ -46,6 +44,7 @@ class TrialCompleteness(RuleTemplate):
             return 1
 
 
+
     def _rule_definition(self, data, inputs, schema=None):
 
         tptIdKey = data["fieldtrials"][0].pop("tptIdKey")
@@ -57,11 +56,13 @@ class TrialCompleteness(RuleTemplate):
 
 
         dfScoringMatrix = self.read_rules(indication, trialType, weights) # scoring matrix
+#        with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
+#            print(dfScoringMatrix)
+
         fieldMapping = self.read_file_mappings(attributeMapping)    # attribute mapping file
 
         allFields = {}
         resultsFinal = {}
-#        resultsFiltered = {}
 
         mydict = lambda: defaultdict(mydict)
         resultsRaw = mydict()
@@ -79,40 +80,16 @@ class TrialCompleteness(RuleTemplate):
             index = index + 1       
 
 
-
         resultsFiltered = self.remove_duplicates(resultsRaw)
 
-#        self.find_exceptions(resultsFiltered, dfScoringMatrix)
+        self.find_exceptions(resultsFiltered, dfScoringMatrix)
         self.calculate_scores(resultsFiltered, dfScoringMatrix, allFields, tptIdKey)
 
         return {
                 self.name: {"input": resultsFiltered, "version": version #, "scores":allScores#"input": allFields, "translatedInput":newFields , "scores": allScores, "version": version
-            }
+             }
         }
 
-
-
-
-
-    def check_list(self, ele, prefix, fieldMapping, dfScoringMatrix, resultsRaw, allFields):
-
-        for i in range(len(ele)):     
-            if (isinstance(ele[i], dict)):
-                self.check_dict(ele[i], prefix+"["+str(i)+"]", fieldMapping, dfScoringMatrix, resultsRaw, allFields)
-            else:
-                self.last_item(prefix+"["+str(i)+"]", ele[i], allFields, dfScoringMatrix, resultsRaw, allFields)
-
-
-    def check_dict(self, jsonObject, prefix, fieldMapping, dfScoringMatrix, resultsRaw, allFields):
-
-        for ele in jsonObject:
-            if (isinstance(jsonObject[ele], dict)):
-                self.check_dict(jsonObject[ele], prefix+"."+ele, fieldMapping,dfScoringMatrix, resultsRaw, allFields)
-            elif (isinstance(jsonObject[ele], list)):
-                self.check_list(jsonObject[ele], prefix+"."+ele, fieldMapping, dfScoringMatrix, resultsRaw, allFields)
-
-            else:
-                self.last_item(prefix+"."+ele, jsonObject[ele],  fieldMapping, dfScoringMatrix, resultsRaw, allFields)
 
 
 
@@ -120,9 +97,9 @@ class TrialCompleteness(RuleTemplate):
         """Returns the final value in the json input that does not contain any nested field
         
         Arguments:
-            - prefix: <string> 
-            - item: <string> 
-            - allFields: <dictionary> 
+             - prefix: <string> 
+             - item: <string> 
+             - allFields: <dictionary> 
 
         """
 
@@ -130,211 +107,102 @@ class TrialCompleteness(RuleTemplate):
         nullCards = ['*','.','?']
 
         translatedKey = self.get_field_name(fieldMapping, prefix)
-        section= self.get_field_section(fieldMapping, dfScoringMatrix, translatedKey)
+        section = dfScoringMatrix.loc[[translatedKey],['Section']].values[0][0]
+        required = dfScoringMatrix.loc[[translatedKey],['Required']].values[0][0]
+
+
+        allFields[prefix]=item
+
+        if(required == 0):
+            item= 'Not required'
+
+        elif((item in nullCards) or (item is None) or (item is False)):
+            item= 'Missing'
 
 
         subIndex = self.get_index(prefix, "subIndex")
         mainIndex = self.get_index(prefix, "mainIndex")
-
-        if((item in nullCards) or (item is None) or (item is False)):
-            item= 'Missing'
 
         if subIndex is None:
             resultsRaw[section][mainIndex][0][translatedKey]= str(item) 
         else:
             resultsRaw[section][mainIndex][subIndex][translatedKey]= str(item) 
 
-        allFields[prefix]=item
 
 
 
 
     def find_exceptions(self, resultsFiltered, dfScoringMatrix):
-
-        fieldExceptions = dfScoringMatrix[(~dfScoringMatrix['Exception'].isnull()) & (dfScoringMatrix['Required']==1)]
+        fieldExceptions = dfScoringMatrix[~dfScoringMatrix['Exception'].isnull()]
 
         for index, row in fieldExceptions.iterrows():
             if row['Exception'] == "APPMETHOD":
-                self.exception_APPMETHOD(index, row['Section'], resultsFiltered)
-            elif row['Exception'] == "SEEDEXC":
-                self.exception_SEEDEXC(index, row['Section'], resultsFiltered)
-
-#            print(index,row['Exception'], row['Section'])
+                self.exception_APPMETHOD(index, row['Section'], resultsFiltered, dfScoringMatrix)
+            if row['Exception'] == "SEEDEXC":
+                self.exception_SEEDEXC(index, row['Section'], resultsFiltered, dfScoringMatrix)
 
 
 
-    def calculate_scores(self, resultsFiltered, dfScoringMatrix, allFields, tptIdKey):
-
-        sections=list(dict.fromkeys((dfScoringMatrix.loc[dfScoringMatrix["Required"]== 1]['Section'].values).tolist()))
-
-
-        for key, value in resultsFiltered.items():
-
-            totalFields = dfScoringMatrix[(dfScoringMatrix["Section"]==key) & (dfScoringMatrix["Required"]==1)].index.values.tolist()
-            sections.remove(key)
-            indexItem =1
-            for i in range(len(value)):     
-
-                presentFields = [kk for (kk, vv) in value[i].items() if vv != 'Missing' ]
-                value[i].update({'score':(len(list(set(totalFields).intersection(presentFields)))/len(totalFields))})
-                value[i].update({key + ' number':indexItem})
-                value[i].update({"trial number":tptIdKey})
-                indexItem = indexItem  + 1 
-
-
-        for i in range(len(sections)):     
-            resultsFiltered[sections[i]]= self.missing_sections(sections[i], dfScoringMatrix, tptIdKey)
-
-        # if(len(sections)>0):
-        #     resultsFinal[key]= self.missing_sections(sections, dfScoringMatrix)
+    def exception_APPMETHOD(self, field, section, resultsFiltered, dfScoringMatrix):
+        #Texture depends on the application method
+        appMethod =['Bed soil incorporation', 'Cover soil incorporation','Drench Incorporated',
+                        'Drench', 'Drip', 'Dusting and incorporation', 'Incorporation',
+                        'In-Furrow (liquid injection)', 'In-Furrow (on fertiliser)',
+                        'Irrigation - Drench', 'Irrigation - Drip', 'Apply over seed (e.g. spreading in furrow)',
+                        'Apply under seed (e.g. spreading in furrow)','Seed Treatment, dry',
+                        'Seed Treatment, general','Seed Treatment, liquid','Sowing - Planting',
+                        'Spreading and incorporation']
 
 
 
+        if (section in resultsFiltered) & ("applications" in resultsFiltered):
 
+            if (field in resultsFiltered[section][0]) & (len(resultsFiltered["applications"])>1):
 
-    # def format_results(self, resultsRaw, translatedFields, dfScoringMatrix):
+                methodUsed = [a_dict['Application Method'] for a_dict in resultsFiltered["applications"]]
 
-    #     sections=list(dict.fromkeys((dfScoringMatrix.loc[dfScoringMatrix["Required"]== 1]['Section'].values).tolist()))
-
-    #     results= {}
-    #     resultsMissing= {}
-
-    #     for key, value in resultsRaw.items():
-    #         results = []
-    #         totalFields = dfScoringMatrix[(dfScoringMatrix["Section"]==key) & (dfScoringMatrix["Required"]==1)].index.values.tolist()
-    #         sections.remove(key)
-    #         for k, v in value.items():
-    #             presentFields = [kk for (kk, vv) in v.items() if vv != 'Missing' ]
-    #             v.update({'score':(len(list(set(totalFields).intersection(presentFields)))/len(totalFields))})
-    #             results.append(v)
-
-    #         translatedFields[key]= results
-
-
-    #     if(len(sections)>0):
-    #         resultsMissing = self.missing_sections(sections, translatedFields, dfScoringMatrix)
-
-    #     return resultsMissing
-
-
-    def missing_sections(self, section, dfScoringMatrix, tptIdKey):
-
-        missingFields = {}
-        sectionFields = list(dict.fromkeys((dfScoringMatrix.loc[(dfScoringMatrix["Required"]== 1) & (dfScoringMatrix["Section"]==section)].index.values).tolist()))
-
-        for j in range(len(sectionFields)):     
-            missingFields.update({sectionFields[j]:'Missing'})
-        missingFields.update({'score':'0'})
-        missingFields.update({'trial number':tptIdKey})
-
-        return missingFields
+                rightApp = False
+                for i in range(len(methodUsed)):     
+                    if methodUsed[i] in appMethod:
+                        rightApp = True
+                        break
+                if rightApp == False:
+                    resultsFiltered[section][0][field] = 'Not required'
+                    dfScoringMatrix.at[field,'Required'] = 0
 
 
 
-    # def missing_sections(self, sections, translatedFields, dfScoringMatrix):
-
-    #     missingFields = {}
-    #     for i in range(len(sections)):     
-    #         sectionFields = list(dict.fromkeys((dfScoringMatrix.loc[(dfScoringMatrix["Required"]== 1) & (dfScoringMatrix["Section"]==sections[i])].index.values).tolist()))
-    #         translatedFields[sections[i]]= {'score':0}
-
-    #         missingFields[sections[i]]=sectionFields
-
-    #     return missingFields
-
-
-
-
-    # def last_item(self, prefix, item, translatedFields, fieldMapping):
-    #     """Returns the final value in the json input that does not contain any nested field
+    def exception_SEEDEXC(self, field, section, resultsFiltered, dfScoringMatrix):
+        #If seed count is present, then seed rate is not needed and viceversa
         
-    #     Arguments:
-    #         - prefix: <string> 
-    #         - item: <string> 
-    #         - allFields: <dictionary> 
+        if section in resultsFiltered:
 
-    #     """
-
-    #     results = {}
-    #     nullCards = ['*','.','?']
-
-
-    #     translatedKey = self.get_field_name(fieldMapping, prefix)
-
-    #     if((item in nullCards) or (item is None) or (item is False)):
-    #         results[translatedKey]= 'Missing'
-    #     else:
-    #         results[translatedKey]= item
-
-    #     translatedFields[str(prefix)]= str(item)
-
-    #     return results
-
-
-
-
-    def get_field_name(self, fieldMapping, key):
-
-        keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
-        keyDF = fieldMapping[keyNoIndex]
-
-        return keyDF
-
-
-    def get_field_section(self, fieldMapping, dfScoringMatrix, key):
-        section = dfScoringMatrix.loc[[key],['Section']].values[0][0]
-        return section
-
-    def get_field_exception(self, fieldMapping, dfScoringMatrix, key):
-        exception = dfScoringMatrix.loc[[key],['Exception']].values[0][0]
-        return exception
-
-
-
-
-    def exception_APPMETHOD(self, field, section, exception_SEEDEXC):
-        """Returns a boolean to indicate if the exception is applicable
-        
-        Arguments:
-            - key: <string> 
-            - value: <string> 
-            - allFields: <dictionary> 
-
-        Returns:
-            - <boolean>
-        """
-
-        print("entra a APPMETHOD ", field)
-
-
-
-
-    def exception_SEEDEXC(self, field, section, exception_SEEDEXC):
-        print("entra a SEDEXC ", field)
-
-
-
-
-
-
-
-#        print("mmmh" , allFields)
-
-#        fieldtrials.treatments[8].applications[0].products[1].equipment.placement
-
-        # pathSE = ".".join(key.split(".", 2)[:2])
-        # pathSE = pathSE + ".standardEvaluationId"
-
-        # SE = (allFields[pathSE]).strip()[0:1]
-
-        # if(SE != value):
-        #     if((SE == "P") or(SE == "H")):
-        #         return True
-        #     else:
-        #         return False
-        # else:
-        #     return False
-
+            if resultsFiltered[section][0][field] != 'Missing':
+                resultsFiltered[section][0]['Seed Plant Count']= 'Not required'
+                resultsFiltered[section][0]['Seed Plant Count Unit']= 'Not required'
+                dfScoringMatrix.at['Seed Plant Count', 'Required'] = 0
+                dfScoringMatrix.at['Seed Plant Count Unit', 'Required'] = 0                    
+            else:                    
+                if resultsFiltered[section][0]['Seed Plant Count'] != 'Missing':
+                    resultsFiltered[section][0][field]= 'Not required'
+                    resultsFiltered[section][0]['Seed/Plant Rate Unit']= 'Not required'
+                    dfScoringMatrix.at[field, 'Required'] = 0
+                    dfScoringMatrix.at['Seed/Plant Rate Unit', 'Required'] = 0                    
+                elif resultsFiltered[section][0]['Seed/Plant Rate Unit'] != 'Missing':
+                    resultsFiltered[section][0]['Seed Plant Count']= 'Not required'
+                    resultsFiltered[section][0]['Seed Plant Count Unit']= 'Not required'
+                    dfScoringMatrix.at['Seed Plant Count', 'Required'] = 0
+                    dfScoringMatrix.at['Seed Plant Count Unit', 'Required'] = 0                    
+                elif resultsFiltered[section][0]['Seed Plant Count Unit']!= 'Missing':
+                    resultsFiltered[section][0][field]= 'Not required'
+                    resultsFiltered[section][0]['Seed/Plant Rate Unit']= 'Not required'
+                    dfScoringMatrix.at[field, 'Required'] = 0
+                    dfScoringMatrix.at['Seed/Plant Rate Unit', 'Required'] = 0                    
+                else:
+                    dfScoringMatrix.at[field, 'Required'] = 0
+                    dfScoringMatrix.at['Seed/Plant Rate Unit', 'Required'] = 0                    
+                    dfScoringMatrix.at['Seed Plant Count', 'Required'] = 1
+                    dfScoringMatrix.at['Seed Plant Count Unit', 'Required'] = 1                    
 
 
 
@@ -364,6 +232,118 @@ class TrialCompleteness(RuleTemplate):
 
 
 
+    def calculate_scores(self, resultsFiltered, dfScoringMatrix, allFields, tptIdKey):
+
+        sections=list(dict.fromkeys((dfScoringMatrix.loc[dfScoringMatrix["Required"]== 1]['Section'].values).tolist()))
+
+
+        for key, value in resultsFiltered.items():
+
+            totalFields = dfScoringMatrix[(dfScoringMatrix["Section"]==key) & (dfScoringMatrix["Required"]==1)].index.values.tolist()
+            sectionFields = dfScoringMatrix[(dfScoringMatrix["Section"]==key)].index.values.tolist()
+
+            sections.remove(key)
+            indexItem =1
+
+
+            for i in range(len(value)):     
+
+                addFields = list(set(sectionFields) - set(value[i]))
+
+                for j in range(len(addFields)):     
+                    if addFields[j] in totalFields:
+                        value[i].update({addFields[j]:'Missing'})
+                    else:                
+                        value[i].update({addFields[j]:'Not required'})
+
+
+                presentFields = [kk for (kk, vv) in value[i].items() if ((vv != 'Missing') & (vv != 'Not required')) ]
+
+                value[i].update({'score':(len(list(set(totalFields).intersection(presentFields)))/len(totalFields))})
+                value[i].update({key + ' number':indexItem})
+                value[i].update({"trial number":tptIdKey})
+                indexItem = indexItem  + 1 
+
+
+        for i in range(len(sections)):     
+            resultsFiltered[sections[i]]= self.missing_sections(sections[i], dfScoringMatrix, tptIdKey)
+
+
+
+    def missing_sections(self, section, dfScoringMatrix, tptIdKey):
+
+        missingFields = {}
+        requiredFields = dfScoringMatrix[dfScoringMatrix['Section']==section]
+
+        for index, row in requiredFields.iterrows():
+             if row['Required'] == 0:
+                 missingFields.update({index:'Not required'})
+             else:
+                 missingFields.update({index:'Missing'})
+
+        missingFields.update({'score':'0'})
+        missingFields.update({'trial number':tptIdKey})
+        missingFields.update({section + ' number':1})
+        
+        return missingFields
+
+
+
+    def check_list(self, ele, prefix, fieldMapping, dfScoringMatrix, resultsRaw, allFields):
+
+        for i in range(len(ele)):     
+            if (isinstance(ele[i], dict)):
+                self.check_dict(ele[i], prefix+"["+str(i)+"]", fieldMapping, dfScoringMatrix, resultsRaw, allFields)
+            else:
+                self.last_item(prefix+"["+str(i)+"]", ele[i], allFields, dfScoringMatrix, resultsRaw, allFields)
+
+
+    def check_dict(self, jsonObject, prefix, fieldMapping, dfScoringMatrix, resultsRaw, allFields):
+
+        for ele in jsonObject:
+            if (isinstance(jsonObject[ele], dict)):
+                self.check_dict(jsonObject[ele], prefix+"."+ele, fieldMapping,dfScoringMatrix, resultsRaw, allFields)
+            elif (isinstance(jsonObject[ele], list)):
+                self.check_list(jsonObject[ele], prefix+"."+ele, fieldMapping, dfScoringMatrix, resultsRaw, allFields)
+
+            else:
+                self.last_item(prefix+"."+ele, jsonObject[ele],  fieldMapping, dfScoringMatrix, resultsRaw, allFields)
+
+
+
+
+    def get_index(self, prefix, case):
+        """Returns an integer index that is used to store the applications into separate key-value pairs
+        
+        Arguments:
+            - key: <string> 
+            - case: <string> 
+
+        Returns:
+            - indexes[] <integer>
+        """
+
+        indexes = re.findall(r'\d+', prefix)
+
+        if case == "mainIndex":
+            if(len(indexes)==0):
+                return 0
+            else:
+                return indexes[0]
+
+        elif(len(indexes)<2):
+            return None
+        else:
+            return indexes[1]
+
+
+
+    def get_field_name(self, fieldMapping, key):
+
+        keyNoIndex = re.sub(r'\[(?:[\d,]+)\]', '', key)   
+        keyDF = fieldMapping[keyNoIndex]
+
+        return keyDF
 
 
     def read_rules(self, indication, trialType, weights):
@@ -392,7 +372,6 @@ class TrialCompleteness(RuleTemplate):
 
 
         return dfFiltered
-
 
 
     def get_indication(self, tptIdKey):
@@ -450,53 +429,4 @@ class TrialCompleteness(RuleTemplate):
         except:
             raise ValueError("Unexpected error:", sys.exc_info()[0])
         return attributeMapping
-
-
-
-    def get_index(self, prefix, case):
-        """Returns an integer index that is used to store the applications into separate key-value pairs
-        
-        Arguments:
-            - key: <string> 
-            - case: <string> 
-
-        Returns:
-            - indexes[] <integer>
-        """
-
-        indexes = re.findall(r'\d+', prefix)
-
-        if case == "mainIndex":
-            if(len(indexes)==0):
-                return 0
-            else:
-                return indexes[0]
-
-        elif(len(indexes)<2):
-            return None
-        else:
-            return indexes[1]
-
-
-
-
-
-        # if(len(indexes)==0):
-        #     return None
-
-        # if(case == 'subIndex'):
-        #     if(len(indexes)>1):
-        #         return indexes[1]
-        #     else:
-        #         return None
-        # elif(case == 'mainIndex'):
-        #     return indexes[0]
-        # else:
-        #     if(len(indexes)>2):
-        #         return indexes[2]
-        #     else:
-        #         return None
-
-
-
 

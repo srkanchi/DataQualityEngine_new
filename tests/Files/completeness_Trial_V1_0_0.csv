@@ -279,26 +279,26 @@ Seed/Plant Rate Unit,LOCAL,TT,F,0,,crops
 Seed/Plant Rate Unit,LOCAL,TT,H,0,,crops
 Seed/Plant Rate Unit,LOCAL,TT,S,1,,crops
 Seed/Plant Rate Unit,LOCAL,TT,II,0,,crops
-Seed Plant Count,TBD,R,I,0,SEEDEXC,crops
-Seed Plant Count,TBD,R,F,0,SEEDEXC,crops
-Seed Plant Count,TBD,R,H,0,SEEDEXC,crops
-Seed Plant Count,TBD,R,S,1,SEEDEXC,crops
-Seed Plant Count,TBD,R,II,0,SEEDEXC,crops
-Seed Plant Count,TBD,A,I,0,SEEDEXC,crops
-Seed Plant Count,TBD,A,F,0,SEEDEXC,crops
-Seed Plant Count,TBD,A,H,0,SEEDEXC,crops
-Seed Plant Count,TBD,A,S,1,SEEDEXC,crops
-Seed Plant Count,TBD,A,II,0,SEEDEXC,crops
-Seed Plant Count,TBD,D,I,0,SEEDEXC,crops
-Seed Plant Count,TBD,D,F,0,SEEDEXC,crops
-Seed Plant Count,TBD,D,H,0,SEEDEXC,crops
-Seed Plant Count,TBD,D,S,1,SEEDEXC,crops
-Seed Plant Count,TBD,D,II,0,SEEDEXC,crops
-Seed Plant Count,LOCAL,TT,I,0,SEEDEXC,crops
-Seed Plant Count,LOCAL,TT,F,0,SEEDEXC,crops
-Seed Plant Count,LOCAL,TT,H,0,SEEDEXC,crops
-Seed Plant Count,LOCAL,TT,S,1,SEEDEXC,crops
-Seed Plant Count,LOCAL,TT,II,0,SEEDEXC,crops
+Seed Plant Count,TBD,R,I,0,,crops
+Seed Plant Count,TBD,R,F,0,,crops
+Seed Plant Count,TBD,R,H,0,,crops
+Seed Plant Count,TBD,R,S,1,,crops
+Seed Plant Count,TBD,R,II,0,,crops
+Seed Plant Count,TBD,A,I,0,,crops
+Seed Plant Count,TBD,A,F,0,,crops
+Seed Plant Count,TBD,A,H,0,,crops
+Seed Plant Count,TBD,A,S,1,,crops
+Seed Plant Count,TBD,A,II,0,,crops
+Seed Plant Count,TBD,D,I,0,,crops
+Seed Plant Count,TBD,D,F,0,,crops
+Seed Plant Count,TBD,D,H,0,,crops
+Seed Plant Count,TBD,D,S,1,,crops
+Seed Plant Count,TBD,D,II,0,,crops
+Seed Plant Count,LOCAL,TT,I,0,,crops
+Seed Plant Count,LOCAL,TT,F,0,,crops
+Seed Plant Count,LOCAL,TT,H,0,,crops
+Seed Plant Count,LOCAL,TT,S,1,,crops
+Seed Plant Count,LOCAL,TT,II,0,,crops
 Seed Plant Count Unit,TBD,R,I,0,,crops
 Seed Plant Count Unit,TBD,R,F,0,,crops
 Seed Plant Count Unit,TBD,R,H,0,,crops
@@ -379,26 +379,26 @@ Target,LOCAL,TT,F,1,,target
 Target,LOCAL,TT,H,1,,target
 Target,LOCAL,TT,S,1,,target
 Target,LOCAL,TT,II,1,,target
-Application Code,TBD,R,I,0,,applications
-Application Code,TBD,R,F,0,,applications
-Application Code,TBD,R,H,0,,applications
-Application Code,TBD,R,S,0,,applications
-Application Code,TBD,R,II,0,,applications
-Application Code,TBD,A,I,0,,applications
-Application Code,TBD,A,F,0,,applications
-Application Code,TBD,A,H,0,,applications
-Application Code,TBD,A,S,0,,applications
-Application Code,TBD,A,II,0,,applications
-Application Code,TBD,D,I,0,,applications
-Application Code,TBD,D,F,0,,applications
-Application Code,TBD,D,H,0,,applications
-Application Code,TBD,D,S,0,,applications
-Application Code,TBD,D,II,0,,applications
-Application Code,LOCAL,TT,I,0,,applications
-Application Code,LOCAL,TT,F,0,,applications
-Application Code,LOCAL,TT,H,0,,applications
-Application Code,LOCAL,TT,S,0,,applications
-Application Code,LOCAL,TT,II,0,,applications
+Application Code,TBD,R,I,1,,applications
+Application Code,TBD,R,F,1,,applications
+Application Code,TBD,R,H,1,,applications
+Application Code,TBD,R,S,1,,applications
+Application Code,TBD,R,II,1,,applications
+Application Code,TBD,A,I,1,,applications
+Application Code,TBD,A,F,1,,applications
+Application Code,TBD,A,H,1,,applications
+Application Code,TBD,A,S,1,,applications
+Application Code,TBD,A,II,1,,applications
+Application Code,TBD,D,I,1,,applications
+Application Code,TBD,D,F,1,,applications
+Application Code,TBD,D,H,1,,applications
+Application Code,TBD,D,S,1,,applications
+Application Code,TBD,D,II,1,,applications
+Application Code,LOCAL,TT,I,1,,applications
+Application Code,LOCAL,TT,F,1,,applications
+Application Code,LOCAL,TT,H,1,,applications
+Application Code,LOCAL,TT,S,1,,applications
+Application Code,LOCAL,TT,II,1,,applications
 Application Date,TBD,R,I,1,,applications
 Application Date,TBD,R,F,1,,applications
 Application Date,TBD,R,H,1,,applications
@@ -651,8 +651,8 @@ Application Plant Condition,TBD,A,S,1,,applications
 Application Plant Condition,TBD,A,II,1,,applications
 Application Plant Condition,TBD,D,I,1,,applications
 Application Plant Condition,TBD,D,F,1,,applications
-Application Plant Condition,TBD,D,H,0,,applications
-Application Plant Condition,TBD,D,S,1,,applications
+Application Plant Condition,TBD,D,H,1,,applications
+Application Plant Condition,TBD,D,S,0,,applications
 Application Plant Condition,TBD,D,II,1,,applications
 Application Plant Condition,LOCAL,TT,I,1,,applications
 Application Plant Condition,LOCAL,TT,F,1,,applications
