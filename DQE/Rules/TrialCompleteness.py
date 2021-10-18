@@ -86,7 +86,7 @@ class TrialCompleteness(RuleTemplate):
         self.calculate_scores(resultsFiltered, dfScoringMatrix, allFields, tptIdKey)
 
         return {
-                self.name: {"input": resultsFiltered, "version": version #, "scores":allScores#"input": allFields, "translatedInput":newFields , "scores": allScores, "version": version
+                self.name: {"input": allFields, "translatedInput": resultsFiltered, "version": version
              }
         }
 
@@ -133,6 +133,16 @@ class TrialCompleteness(RuleTemplate):
 
 
     def find_exceptions(self, resultsFiltered, dfScoringMatrix):
+        """Verifies whether there are exceptions that shoulc be considered
+        
+        Arguments:
+             - resultsFiltered: <dictionary> 
+             - dfScoringMatrix: <dictionary> 
+
+        """
+
+
+
         fieldExceptions = dfScoringMatrix[~dfScoringMatrix['Exception'].isnull()]
 
         for index, row in fieldExceptions.iterrows():
@@ -144,7 +154,18 @@ class TrialCompleteness(RuleTemplate):
 
 
     def exception_APPMETHOD(self, field, section, resultsFiltered, dfScoringMatrix):
-        #Texture depends on the application method
+        """The soil texture is required only for certain application methods
+        
+        Arguments:
+             - field: <string> 
+             - section: <string> 
+
+             - resultsFiltered: <dictionary> 
+             - dfScoringMatrix: <dictionary> 
+
+        """
+
+
         appMethod =['Bed soil incorporation', 'Cover soil incorporation','Drench Incorporated',
                         'Drench', 'Drip', 'Dusting and incorporation', 'Incorporation',
                         'In-Furrow (liquid injection)', 'In-Furrow (on fertiliser)',
@@ -173,6 +194,15 @@ class TrialCompleteness(RuleTemplate):
 
 
     def exception_SEEDEXC(self, field, section, resultsFiltered, dfScoringMatrix):
+        """Only one: Seed count/seed count unit or seed plant rate/seed plant rate unit is required. Not both 
+        
+        Arguments:
+             - field: <string> 
+             - section: <string> 
+             - resultsFiltered: <dictionary> 
+             - dfScoringMatrix: <dictionary> 
+
+        """
         #If seed count is present, then seed rate is not needed and viceversa
         
         if section in resultsFiltered:
@@ -233,6 +263,15 @@ class TrialCompleteness(RuleTemplate):
 
 
     def calculate_scores(self, resultsFiltered, dfScoringMatrix, allFields, tptIdKey):
+        """Calculates the final scores taking into account Missing and Not required fields
+        
+        Arguments:
+             - resultsFiltered: <dictionary> 
+             - dfScoringMatrix: <dictionary> 
+             - allFields: <dictionary> 
+             - tptIdKey: <string> 
+        """
+
 
         sections=list(dict.fromkeys((dfScoringMatrix.loc[dfScoringMatrix["Required"]== 1]['Section'].values).tolist()))
 
@@ -271,6 +310,13 @@ class TrialCompleteness(RuleTemplate):
 
 
     def missing_sections(self, section, dfScoringMatrix, tptIdKey):
+        """Adds all of the missing fields if a complete section is missing
+        
+        Arguments:
+             - section: <string> 
+             - dfScoringMatrix: <dictionary> 
+             - tptIdKey: <string> 
+        """
 
         missingFields = {}
         requiredFields = dfScoringMatrix[dfScoringMatrix['Section']==section]

@@ -4,29 +4,7 @@
       {
         "tptIdKey": "ID21ARGM1JWR",
         "siteType": "Open field",
-       "trialResponsibles": [
-          {
-            "siteName": "COL (Country group)",
-            "internalValue": "I",
-            "testType": "TT04",
-            "hasName": true,
-            "plannedNumberOfTrials": 2
-          },
-          {
-            "siteName": "FPI (AD Field testing Philippines)",
-            "internalValue": "I",
-            "testType": "TT04",
-            "hasName": true,
-            "plannedNumberOfTrials": 2
-          },
-          {
-            "siteName": "MEX",
-            "internalValue": "I",
-            "testType": "TT04",
-            "hasName": true,
-            "plannedNumberOfTrials": 1
-          }
-        ],
+        "trialResponsibles": [],
         "plannedNumberOfApplications": "1",
         "numberOfReplicates": 4,
         "crops": [

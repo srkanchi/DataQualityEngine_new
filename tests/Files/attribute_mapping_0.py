@@ -14,7 +14,6 @@
     "trialDescriptions.crops":"Crop",
     "trialDescriptions.targets":"Target",
 
-
     "trialDescriptions.experimentalSeason":"Experimental season",
     "trialDescriptions.keywords": "Objective",
     "trialDescriptions.projectNumbers":"Project Number"

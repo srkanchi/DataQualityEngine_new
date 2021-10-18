@@ -2,7 +2,7 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "IA25WLDAGKVX",
+        "tptIdKey": "IR25WLDAGKVX",
         "dataDeadline": null,
         "gepCode": "10",
         "gepCertification": null,
@@ -90,7 +90,7 @@
             "sampleSizeUnit": "TREATM",
             "ratingDataType": "JUDSUB",
             "standardEvaluationId": "PS1AAD3",
-            "assessmentCode": "OV",
+            "assessmentCode": ".",
             "target": {
               "name": "Phytoseiulus persimilis"
             },
