@@ -319,6 +319,8 @@ class TrialCompleteness(RuleTemplate):
         """
 
         missingFields = {}
+        result = []
+
         requiredFields = dfScoringMatrix[dfScoringMatrix['Section']==section]
 
         for index, row in requiredFields.iterrows():
@@ -331,7 +333,10 @@ class TrialCompleteness(RuleTemplate):
         missingFields.update({'trial number':tptIdKey})
         missingFields.update({section + ' number':1})
         
-        return missingFields
+        result.append(missingFields)
+
+        return result
+
 
 
 
