@@ -1,0 +1,375 @@
+{
+  "data": {
+    "protocols": [
+      {
+        "tptIdKey": "HR22POLC04",
+        "dataDeadline": null,
+        "gepCode": "10",
+        "gepCertification": "Bayer Sp. o.o Nr 7/2008",
+        "guidelines": [
+          "Phytotoxicity assessment",
+          "Design and analysis of efficacy evaluation trials",
+          "Conduct and reporting of efficacy evaluation trials including GEP",
+          "Weeds in cereals"
+        ],
+        "keywords": [
+          "SELECTIVITY",
+          "YIELD",
+          "POSTEM",
+          "REGISTR"
+        ],
+        "plannedNumberOfApplications": null,
+        "plannedNumberOfAssessments": null,
+        "controlFieldCode": "INCLUDED",
+        "siteType": "Open field",
+        "numberOfReplicates": 4,
+        "experimentalSeason": "Autumn",
+        "projectNumbers": [
+          "EUR-DEV-H",
+          "N-6318",
+          "REGISTRATIO"
+        ],
+        "crops": [
+          {
+            "name": "Secale cereale, winter rye"
+          }
+        ],
+        "targets": [],
+        "trialResponsibles": [
+          {
+            "siteName": null,
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": null,
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": "POL",
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": "POL",
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": null,
+            "internalValue": "I",
+            "testType": "TT01",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          }
+        ],
+        "plannedAssessments": [
+          {
+            "partRated": "PLANT",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "CANOPY",
+            "standardEvaluationId": "PE10AD1",
+            "assessmentCode": "A0",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "PLANT",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "PHYGEN",
+            "standardEvaluationId": "PE12AD2",
+            "assessmentCode": "A1, A2, A3, A4, A5",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "FLOWER",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "FLOWER",
+            "standardEvaluationId": "PE21AD2",
+            "assessmentCode": "A6",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "HEAD",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "HEADNG",
+            "standardEvaluationId": "PE21AD3",
+            "assessmentCode": "A7",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "PLANT",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "LODGIN",
+            "standardEvaluationId": "PE71AD2",
+            "assessmentCode": "A8",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "GRAIN",
+            "sampleSize": 1,
+            "sampleSizeUnit": "SAMPLE",
+            "ratingDataType": "CONGLU",
+            "standardEvaluationId": "HM32AD1",
+            "assessmentCode": "H1",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "GRAIN",
+            "sampleSize": 1,
+            "sampleSizeUnit": "SAMPLE",
+            "ratingDataType": "HLW",
+            "standardEvaluationId": "HM16AD1",
+            "assessmentCode": "H1",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "GRAIN",
+            "sampleSize": 1,
+            "sampleSizeUnit": "SAMPLE",
+            "ratingDataType": "PROCON",
+            "standardEvaluationId": "HM32AD1",
+            "assessmentCode": "H1",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "GRAIN",
+            "sampleSize": 1,
+            "sampleSizeUnit": "SAMPLE",
+            "ratingDataType": "TKW",
+            "standardEvaluationId": "HM15AD1",
+            "assessmentCode": "H1",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "GRAIN",
+            "sampleSize": -1,
+            "sampleSizeUnit": "M2",
+            "ratingDataType": "WEIFRE",
+            "standardEvaluationId": "HM41AD1",
+            "assessmentCode": "H1",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          },
+          {
+            "partRated": "SEEDLI",
+            "sampleSize": 100,
+            "sampleSizeUnit": "SEED",
+            "ratingDataType": "COUNT",
+            "standardEvaluationId": "PC11AD6",
+            "assessmentCode": "OE",
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Secale cereale, winter rye"
+            }
+          }
+        ],
+        "treatments": [
+          {
+            "applications": []
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": "Postemergence autumn, early",
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "tests": [
+      {
+        "ProtocolCompleteness": {
+          "attributeMapping": "C:/cls/codigo/newQualityEngine/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
+          "weights": "C:/cls/codigo/newQualityEngine/DataQualityEngine/tests/Files/completeness_Protocol_V1_0_0.csv",
+          "version": "completeness_Protocol_V1_0_0"
+        }
+      }
+    ]
+  }
+  

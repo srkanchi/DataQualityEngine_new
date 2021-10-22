@@ -219,26 +219,26 @@ Protocol description/Application Placement,1,LOCAL,TT,F,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,H,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,S,0,,applications
 Protocol description/Application Placement,1,LOCAL,TT,II,0,,applications
-Crop,0,TBD,R,I,5,,crop
-Crop,0,TBD,R,F,5,,crop
-Crop,0,TBD,R,H,5,,crop
-Crop,0,TBD,R,S,5,,crop
-Crop,0,TBD,R,II,5,,crop
-Crop,0,TBD,A,I,5,,crop
-Crop,0,TBD,A,F,5,,crop
-Crop,0,TBD,A,H,5,,crop
-Crop,0,TBD,A,S,5,,crop
-Crop,0,TBD,A,II,5,,crop
-Crop,0,TBD,D,I,5,,crop
-Crop,0,TBD,D,F,5,,crop
-Crop,0,TBD,D,H,5,,crop
-Crop,0,TBD,D,S,5,,crop
-Crop,0,TBD,D,II,5,,crop
-Crop,0,LOCAL,TT,I,5,,crop
-Crop,0,LOCAL,TT,F,5,,crop
-Crop,0,LOCAL,TT,H,5,,crop
-Crop,0,LOCAL,TT,S,5,,crop
-Crop,0,LOCAL,TT,II,5,,crop
+crop,0,TBD,R,I,5,,crop
+crop,0,TBD,R,F,5,,crop
+crop,0,TBD,R,H,5,,crop
+crop,0,TBD,R,S,5,,crop
+crop,0,TBD,R,II,5,,crop
+crop,0,TBD,A,I,5,,crop
+crop,0,TBD,A,F,5,,crop
+crop,0,TBD,A,H,5,,crop
+crop,0,TBD,A,S,5,,crop
+crop,0,TBD,A,II,5,,crop
+crop,0,TBD,D,I,5,,crop
+crop,0,TBD,D,F,5,,crop
+crop,0,TBD,D,H,5,,crop
+crop,0,TBD,D,S,5,,crop
+crop,0,TBD,D,II,5,,crop
+crop,0,LOCAL,TT,I,5,,crop
+crop,0,LOCAL,TT,F,5,,crop
+crop,0,LOCAL,TT,H,5,,crop
+crop,0,LOCAL,TT,S,5,,crop
+crop,0,LOCAL,TT,II,5,,crop
 Crop stage/App./Majority,1,TBD,R,I,4,,applications
 Crop stage/App./Majority,1,TBD,R,F,0,,applications
 Crop stage/App./Majority,1,TBD,R,H,4,,applications
@@ -639,26 +639,26 @@ Experimental season,0,LOCAL,TT,F,4,,general
 Experimental season,0,LOCAL,TT,H,4,,general
 Experimental season,0,LOCAL,TT,S,4,,general
 Experimental season,0,LOCAL,TT,II,4,,general
-Target,0,TBD,R,I,5,CROPSAFETY,target
-Target,0,TBD,R,F,5,CROPSAFETY,target
-Target,0,TBD,R,H,5,CROPSAFETY,target
-Target,0,TBD,R,S,5,CROPSAFETY,target
-Target,0,TBD,R,II,5,CROPSAFETY,target
-Target,0,TBD,A,I,5,CROPSAFETY,target
-Target,0,TBD,A,F,5,CROPSAFETY,target
-Target,0,TBD,A,H,5,CROPSAFETY,target
-Target,0,TBD,A,S,5,CROPSAFETY,target
-Target,0,TBD,A,II,5,CROPSAFETY,target
-Target,0,TBD,D,I,5,CROPSAFETY,target
-Target,0,TBD,D,F,5,CROPSAFETY,target
-Target,0,TBD,D,H,5,CROPSAFETY,target
-Target,0,TBD,D,S,5,CROPSAFETY,target
-Target,0,TBD,D,II,5,CROPSAFETY,target
-Target,0,LOCAL,TT,I,5,CROPSAFETY,target
-Target,0,LOCAL,TT,F,5,CROPSAFETY,target
-Target,0,LOCAL,TT,H,5,CROPSAFETY,target
-Target,0,LOCAL,TT,S,5,CROPSAFETY,target
-Target,0,LOCAL,TT,II,5,CROPSAFETY,target
+target,0,TBD,R,I,5,CROPSAFETY,target
+target,0,TBD,R,F,5,CROPSAFETY,target
+target,0,TBD,R,H,5,CROPSAFETY,target
+target,0,TBD,R,S,5,CROPSAFETY,target
+target,0,TBD,R,II,5,CROPSAFETY,target
+target,0,TBD,A,I,5,CROPSAFETY,target
+target,0,TBD,A,F,5,CROPSAFETY,target
+target,0,TBD,A,H,5,CROPSAFETY,target
+target,0,TBD,A,S,5,CROPSAFETY,target
+target,0,TBD,A,II,5,CROPSAFETY,target
+target,0,TBD,D,I,5,CROPSAFETY,target
+target,0,TBD,D,F,5,CROPSAFETY,target
+target,0,TBD,D,H,5,CROPSAFETY,target
+target,0,TBD,D,S,5,CROPSAFETY,target
+target,0,TBD,D,II,5,CROPSAFETY,target
+target,0,LOCAL,TT,I,5,CROPSAFETY,target
+target,0,LOCAL,TT,F,5,CROPSAFETY,target
+target,0,LOCAL,TT,H,5,CROPSAFETY,target
+target,0,LOCAL,TT,S,5,CROPSAFETY,target
+target,0,LOCAL,TT,II,5,CROPSAFETY,target
 Application code,1,TBD,R,I,5,,applications
 Application code,1,TBD,R,F,5,,applications
 Application code,1,TBD,R,H,5,,applications
