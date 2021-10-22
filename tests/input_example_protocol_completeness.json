@@ -365,8 +365,8 @@
     "tests": [
       {
         "ProtocolCompleteness": {
-          "attributeMapping": "C:/cls/codigo/newQualityEngine/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
-          "weights": "C:/cls/codigo/newQualityEngine/DataQualityEngine/tests/Files/completeness_Protocol_V1_0_0.csv",
+          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
+          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_Protocol_V1_0_0.csv",
           "version": "completeness_Protocol_V1_0_0"
         }
       }

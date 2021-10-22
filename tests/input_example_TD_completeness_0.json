@@ -2,42 +2,66 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "ID21ARGM1JWR",
+        "tptIdKey": "IR21EURK3XWR",
         "siteType": "Open field",
-        "trialResponsibles": [],
+        "trialResponsibles": [
+          {
+            "siteName": "NLD",
+            "internalValue": "I",
+            "testType": "TT03",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": "NLD",
+            "internalValue": "E",
+            "testType": "EXTER",
+            "hasName": true,
+            "plannedNumberOfTrials": 2
+          },
+          {
+            "siteName": "GBR",
+            "internalValue": "E",
+            "testType": "EXTER",
+            "hasName": true,
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "siteName": "GBR",
+            "internalValue": "I",
+            "testType": "TT03",
+            "hasName": true,
+            "plannedNumberOfTrials": 2
+          }
+        ],
         "plannedNumberOfApplications": "1",
         "numberOfReplicates": 4,
         "crops": [
           {
-            "name": "Lycopersicon esculentum MILL."
+            "name": "Solanum tuberosum"
           },
           {
-            "name": "Solanum tuberosum"
+            "name": "Solanum tuberosum A"
+          },
+          {
+            "name": "Solanum tuberosum B"
           }
         ],
         "targets": [
           {
-            "name": "Homoptera, complex"
+            "name": "Aulacorthum solani"
           },
           {
-            "name": "Lepidoptera, complex"
-          },
-          {
-            "name": "Pectinophora gossypiella"
-          },
-          {
-            "name": "Thrips tabaci"
+            "name": "Macrosiphum euphorbiae"
           }
         ],
-        "experimentalSeason": "Summer",
+        "experimentalSeason": "Spring",
         "keywords": [
-          "PHYTOTOX",
-          "DEVELOPMENT",
-          "EFFICACY"
+          "CROPSAFETY"
         ],
         "projectNumbers": [
-          "DEVELOPMENT",
-          "N-2997"
+          "EUR-DEV-I",
+          "N-2793"
         ]
       }
     ]
@@ -45,8 +69,8 @@
   "tests": [
     {     
         "TDCompleteness_0": {
-        "attributeMapping": "./Files/attribute_mapping_0.py",
-        "weights": "./Files/completeness_TD_V1_0_0.csv",
+        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_0.py",
+        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
         "version": "completeness_TD_V1_0_0"
       }
     }
