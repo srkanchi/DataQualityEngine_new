@@ -5,7 +5,7 @@ import json
 
   
 # defining the api-endpoint  
-API_ENDPOINT = "http://127.0.0.1:10020/run"
+API_ENDPOINT = "http://127.0.0.1:8005/run"
 
 ##<<<<<<< HEAD
 ##with open('C:/cls/codigo/qualityEngine/DataQualityEngine/tests/input_example_TD_Completeness_0.json') as json_file:

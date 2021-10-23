@@ -3389,8 +3389,8 @@
     "tests": [
       {
         "TrialCompleteness": {
-          "attributeMapping": "./Files/attribute_mapping_trial.py",
-          "weights": "./Files/completeness_Trial_V1_0_0.csv",
+          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_trial.py",
+          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_Trial_V1_0_0.csv",
           "version": "completeness_Trial_V1_0_0"
         }
       }
