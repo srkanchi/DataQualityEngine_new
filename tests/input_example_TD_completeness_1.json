@@ -2,72 +2,103 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "IR25WLDAGKVX",
-        "dataDeadline": null,
+        "tptIdKey": "FA21WLD7DLTX",
+        "dataDeadline": "2021-09-11T00:00:00",
         "gepCode": "10",
         "gepCertification": null,
         "guidelines": [],
         "keywords": [
-          "BENEFICIALS"
+          "CROPSAFETY",
+          "EFFICACY",
+          "SYNERGY",
+          "ADJUVANT"
         ],
-        "plannedNumberOfApplications": "1",
-        "plannedNumberOfAssessments": 7,
-        "controlFieldCode": "ADJACENT",
+        "plannedNumberOfApplications": "Extend to fruit protection",
+        "plannedNumberOfAssessments": 6,
+        "controlFieldCode": "INCLUDED",
         "plannedAssessments": [
           {
-            "partRated": "?",
-            "sampleSize": -1,
-            "sampleSizeUnit": "?",
-            "ratingDataType": "COUNT",
-            "standardEvaluationId": "EC13AD1",
+            "partRated": "LEAF",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "PESINC",
+            "standardEvaluationId": "EE44AD2",
             "assessmentCode": null,
             "target": {
-              "name": "Phytoseiulus persimilis"
+              "name": "Venturia inaequalis"
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": "Malus sylvestris MILL. ssp. mi"
             }
           },
           {
-            "partRated": "?",
-            "sampleSize": null,
-            "sampleSizeUnit": null,
-            "ratingDataType": "COUNT",
-            "standardEvaluationId": "EC13AD4",
+            "partRated": "FRUIT",
+            "sampleSize": 100,
+            "sampleSizeUnit": "FRUIT",
+            "ratingDataType": "WEIFRE",
+            "standardEvaluationId": "HM11AD6",
             "assessmentCode": null,
             "target": {
-              "name": "Phytoseiulus persimilis"
+              "name": "Venturia inaequalis"
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": null
             }
           },
           {
-            "partRated": "INSECT",
+            "partRated": "LEAF",
             "sampleSize": null,
             "sampleSizeUnit": null,
-            "ratingDataType": "COUNT",
-            "standardEvaluationId": "EC13AD3",
-            "assessmentCode": "A0-A1",
+            "ratingDataType": "CHLCON",
+            "standardEvaluationId": "EM21AD6",
+            "assessmentCode": null,
             "target": {
-              "name": "Phytoseiulus persimilis"
+              "name": null
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": "Malus sylvestris MILL. ssp. mi"
             }
           },
           {
-            "partRated": "PREDAT",
-            "sampleSize": null,
-            "sampleSizeUnit": null,
-            "ratingDataType": "COUNT",
-            "standardEvaluationId": "EC13AD7",
-            "assessmentCode": "A0-A1",
+            "partRated": "LEAF",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "GRNLVS",
+            "standardEvaluationId": "EE65AD1",
+            "assessmentCode": null,
             "target": {
-              "name": "Phytoseiulus persimilis"
+              "name": null
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": "Malus sylvestris MILL. ssp. mi"
+            }
+          },
+          {
+            "partRated": "PLANT",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "PHYGEN",
+            "standardEvaluationId": "PE11AD1",
+            "assessmentCode": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Malus sylvestris MILL. ssp. mi"
+            }
+          },
+          {
+            "partRated": "PLANT",
+            "sampleSize": 1,
+            "sampleSizeUnit": "PLOT",
+            "ratingDataType": "REFLEC",
+            "standardEvaluationId": "EM14AD1",
+            "assessmentCode": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Malus sylvestris MILL. ssp. mi"
             }
           },
           {
@@ -76,12 +107,12 @@
             "sampleSizeUnit": "TREATM",
             "ratingDataType": "COMPAT",
             "standardEvaluationId": "PS1AAD2",
-            "assessmentCode": "OV",
+            "assessmentCode": null,
             "target": {
               "name": null
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": "Malus sylvestris MILL. ssp. mi"
             }
           },
           {
@@ -89,13 +120,41 @@
             "sampleSize": 1,
             "sampleSizeUnit": "TREATM",
             "ratingDataType": "JUDSUB",
-            "standardEvaluationId": "PS1AAD3",
-            "assessmentCode": ".",
+            "standardEvaluationId": "ES1AAD2",
+            "assessmentCode": null,
             "target": {
-              "name": "Phytoseiulus persimilis"
+              "name": "Venturia inaequalis"
             },
             "crop": {
-              "name": "Vegetable plants"
+              "name": "Malus sylvestris MILL. ssp. mi"
+            }
+          },
+          {
+            "partRated": null,
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "ratingDataType": "PESINC",
+            "standardEvaluationId": "EE44AD1",
+            "assessmentCode": null,
+            "target": {
+              "name": "Venturia inaequalis"
+            },
+            "crop": {
+              "name": "Malus sylvestris MILL. ssp. mi"
+            }
+          },
+          {
+            "partRated": null,
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "ratingDataType": "PESSEV",
+            "standardEvaluationId": "EE40AD3",
+            "assessmentCode": null,
+            "target": {
+              "name": "Venturia inaequalis"
+            },
+            "crop": {
+              "name": "Malus sylvestris MILL. ssp. mi"
             }
           }
         ],
@@ -108,7 +167,7 @@
               {
                 "crops": [
                   {
-                    "cropStageCode": "26"
+                    "cropStageCode": null
                   }
                 ],
                 "applicationCode": "A",
@@ -116,121 +175,25 @@
                 "products": [
                   {
                     "equipment": {
-                      "method": "Spray",
+                      "method": null,
                       "placement": null
                     }
                   }
                 ]
               },
               {
-                "crops": [
-                  {
-                    "cropStageCode": "27"
-                  }
-                ],
+                "crops": [],
                 "applicationCode": "B",
                 "applicationTiming": null,
                 "products": [
                   {
                     "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "applications": [
-              {
-                "crops": [
-                  {
-                    "cropStageCode": "26"
-                  }
-                ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": "Spray",
+                      "method": null,
                       "placement": null
                     }
                   }
                 ]
               },
-              {
-                "crops": [
-                  {
-                    "cropStageCode": "27"
-                  }
-                ],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "applications": [
-              {
-                "crops": [
-                  {
-                    "cropStageCode": "26"
-                  }
-                ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [
-                  {
-                    "cropStageCode": "27"
-                  }
-                ],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": "Spray",
-                      "placement": null
-                    }
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "applications": [
               {
                 "crops": [],
                 "applicationCode": "C",
@@ -238,7 +201,7 @@
                 "products": [
                   {
                     "equipment": {
-                      "method": "Drip",
+                      "method": null,
                       "placement": null
                     }
                   }
@@ -251,7 +214,33 @@
                 "products": [
                   {
                     "equipment": {
-                      "method": "Drip",
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
                       "placement": null
                     }
                   }
@@ -264,7 +253,7 @@
               {
                 "crops": [
                   {
-                    "cropStageCode": "26"
+                    "cropStageCode": null
                   }
                 ],
                 "applicationCode": "A",
@@ -272,24 +261,904 @@
                 "products": [
                   {
                     "equipment": {
-                      "method": "Spray",
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
                       "placement": null
                     }
                   }
                 ]
               },
               {
-                "crops": [
-                  {
-                    "cropStageCode": "27"
-                  }
-                ],
+                "crops": [],
                 "applicationCode": "B",
                 "applicationTiming": null,
                 "products": [
                   {
                     "equipment": {
-                      "method": "Spray",
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "crops": [
+                  {
+                    "cropStageCode": null
+                  }
+                ],
+                "applicationCode": "A",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "B",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "C",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "D",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "E",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ]
+              },
+              {
+                "crops": [],
+                "applicationCode": "F",
+                "applicationTiming": null,
+                "products": [
+                  {
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": null,
                       "placement": null
                     }
                   }

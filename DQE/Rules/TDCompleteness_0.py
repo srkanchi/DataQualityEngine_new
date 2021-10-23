@@ -78,8 +78,10 @@ class TDCompleteness_0(RuleTemplate):
                     self.last_item("trialDescriptions." + item, data["trialDescriptions"][index][item],  fieldMapping, dfScoringMatrix, resultsRaw, allFields)
             index = index + 1       
 
-
         resultsFiltered = self.remove_duplicates(resultsRaw)
+
+        self.create_list_from_dict(resultsFiltered, "target", dfScoringMatrix)
+        self.create_list_from_dict(resultsFiltered, "crop", dfScoringMatrix)
 
         self.find_exceptions(resultsFiltered, dfScoringMatrix)
         self.calculate_scores(resultsFiltered, dfScoringMatrix, allFields, tptIdKey)
@@ -203,14 +205,12 @@ class TDCompleteness_0(RuleTemplate):
 
         if ('Objective' in resultsFiltered['general'][0]) & (resultsFiltered['general'][0]['Objective'] is not None):
             if(resultsFiltered['general'][0]['Objective'] == "CROPSAFETY"):
-                del resultsFiltered['target'][:]
-                resultsFiltered['target'].append({'Target':'Not required'})
+                resultsFiltered['general'][0]['target'] = "Not required"
+                dfScoringMatrix.at['target','Weight'] = 0
 
-        # if ("target" in resultsFiltered):
-        #     for i in range(len(resultsFiltered['target'])):     
-        #        if ('Objective' in resultsFiltered['general'][0]) & (resultsFiltered['general'][0]['Objective'] is not None):
-        #            if(resultsFiltered['general'][0]['Objective'] == "CROPSAFETY"):
-        #                resultsFiltered['target'][i]['Target']= 'Not required'
+#                del resultsFiltered['target'][:]
+#                resultsFiltered['target'].append({'Target':'Not required'})
+
   
 
 
@@ -241,13 +241,13 @@ class TDCompleteness_0(RuleTemplate):
 
             for i in range(len(value)):     
 
-                addFields = list(set(sectionFields) - set(value[i]))
+#                addFields = list(set(sectionFields) - set(value[i]))
 
-                for j in range(len(addFields)):     
-                    if addFields[j] in totalFields:
-                        value[i].update({addFields[j]:'Missing'})
-                    else:                
-                        value[i].update({addFields[j]:'Not required'})
+ #               for j in range(len(addFields)):     
+  #                  if addFields[j] in totalFields:
+   #                     value[i].update({addFields[j]:'Missing'})
+    #                else:                
+     #                   value[i].update({addFields[j]:'Not required'})
 
 
                 presentFields = [kk for (kk, vv) in value[i].items() if ((vv != 'Missing') & (vv != 'Not required')) ]
@@ -278,6 +278,8 @@ class TDCompleteness_0(RuleTemplate):
         """
 
         missingFields = {}
+        result = []
+
         requiredFields = dfScoringMatrix[dfScoringMatrix['Section']==section]
 
         for index, row in requiredFields.iterrows():
@@ -291,8 +293,31 @@ class TDCompleteness_0(RuleTemplate):
         missingFields.update({'trial number':tptIdKey})
         missingFields.update({section + ' number':1})
         
-        return missingFields
+        result.append(missingFields)
 
+        return result
+
+
+
+
+
+    def create_list_from_dict(self, resultsFiltered, section, dfScoringMatrix):
+        listResults = []
+        results =""
+
+        for item in resultsFiltered[section]:
+            for k,v in item.items():
+                listResults.append(v)
+
+        if len(listResults)>0:
+            results = ', '.join(listResults)
+        else:
+            results = "Missing"
+
+        del resultsFiltered[section]
+        resultsFiltered['general'][0].update({section:results})
+
+        dfScoringMatrix.at[section,'Section'] = 'general'
 
 
 
