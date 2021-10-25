@@ -31,7 +31,16 @@ api.add_resource(RunTests, '/run')
 
 # driver function
 if __name__ == '__main__':
+    env = 'server' # or 'local'
     #from waitress import serve
     #serve(app, host="0.0.0.0", port=8005)
-    app.run(host='0.0.0.0', port=8005 ,debug=True)
+    port = None
+    if env == 'server':
+        port = 10020
+    elif env == 'local':
+        port = 8005
+    else:
+        print('**** Please use the right port *****')
+    app.run(host='0.0.0.0', port=port, debug=True)
+    
 
