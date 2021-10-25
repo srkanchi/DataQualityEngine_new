@@ -205,3 +205,77 @@ Trials .......................................................................
       
     }  
     }
+
+
+Protocols .......................................................................
+
+  query{
+    protocols(filter: [{
+      tptIdKey:["HR22POLC04"]
+    }]
+    ){
+      tptIdKey
+      dataDeadline
+      gepCode
+      gepCertification
+      guidelines      
+      keywords
+      plannedNumberOfApplications
+		  plannedNumberOfAssessments			      
+      siteType
+      controlFieldCode
+      numberOfReplicates
+      experimentalSeason
+      projectNumbers
+
+      crops{
+        name                  
+      }
+      targets{
+        name
+      }
+
+
+      trialResponsibles{
+        siteName
+        internalValue
+        testType
+        hasName
+        plannedNumberOfTrials
+      }
+		     
+      plannedAssessments{
+        partRated
+        sampleSize
+        sampleSizeUnit
+        ratingDataType
+        standardEvaluationId
+        assessmentCode
+        target{
+          name
+        }
+        crop{
+          name
+        }
+
+      }
+      
+      treatments{
+        applications{
+          crops{
+            cropStageCode
+          }
+          applicationCode
+          applicationTiming
+          products{
+            equipment{
+              method
+              placement
+            }
+          }
+        }
+      }
+
+    }  
+    }
+
