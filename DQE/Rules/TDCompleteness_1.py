@@ -270,8 +270,8 @@ class TDCompleteness_1(RuleTemplate):
              else:
                  missingFields.update({index:'Missing'})
 
-        missingFields.update({'rawScore':'0'})
-        missingFields.update({'weightedScore':'0'})
+        missingFields.update({'rawScore':0})
+        missingFields.update({'weightedScore':0})
         missingFields.update({'trial number':tptIdKey})
         missingFields.update({section + ' number':1})
         

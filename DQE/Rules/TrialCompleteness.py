@@ -329,7 +329,7 @@ class TrialCompleteness(RuleTemplate):
              else:
                  missingFields.update({index:'Missing'})
 
-        missingFields.update({'score':'0'})
+        missingFields.update({'score':0})
         missingFields.update({'trial number':tptIdKey})
         missingFields.update({section + ' number':1})
         
