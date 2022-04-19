@@ -218,7 +218,7 @@ Protocols --------------------
       
       treatments{
         treatmentKey
-
+				harvestDestruction
         applications{
           applicationCode
           applicationTimingCode
@@ -240,6 +240,7 @@ Protocols --------------------
           crops{
             cropStageCode
             leafWallArea
+            leafWallAreaUnit
           }
         }
       	entries{
@@ -269,6 +270,3 @@ Protocols --------------------
       }
       
     }}
-
-
-

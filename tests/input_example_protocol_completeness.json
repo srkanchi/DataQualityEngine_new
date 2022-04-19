@@ -2,7 +2,7 @@
   "data": {
     "protocols": [
       {
-        "tptIdKey": "HA21ESPA2K",
+        "tptIdKey": "HD21ESPA2K",
         "keywords": [
           "CROPSAFETY",
           "EFFICACY"
@@ -99,6 +99,7 @@
         "treatments": [
           {
             "treatmentKey": 1,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -125,7 +126,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -140,6 +142,7 @@
           },
           {
             "treatmentKey": 2,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -166,7 +169,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -181,6 +185,7 @@
           },
           {
             "treatmentKey": 3,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -241,7 +246,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -261,6 +267,7 @@
           },
           {
             "treatmentKey": 4,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -321,7 +328,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -341,6 +349,7 @@
           },
           {
             "treatmentKey": 5,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -418,7 +427,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -438,6 +448,7 @@
           },
           {
             "treatmentKey": 6,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -498,7 +509,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -518,6 +530,7 @@
           },
           {
             "treatmentKey": 7,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -595,7 +608,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -615,6 +629,7 @@
           },
           {
             "treatmentKey": 8,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -675,7 +690,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -695,6 +711,7 @@
           },
           {
             "treatmentKey": 9,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -755,7 +772,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -775,6 +793,7 @@
           },
           {
             "treatmentKey": 10,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -852,7 +871,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -872,6 +892,7 @@
           },
           {
             "treatmentKey": 11,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -932,7 +953,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -952,6 +974,7 @@
           },
           {
             "treatmentKey": 12,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -1012,7 +1035,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -1032,6 +1056,7 @@
           },
           {
             "treatmentKey": 13,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -1109,7 +1134,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -1129,6 +1155,7 @@
           },
           {
             "treatmentKey": 14,
+            "harvestDestruction": true,
             "applications": [
               {
                 "applicationCode": "A",
@@ -1206,7 +1233,8 @@
                 "crops": [
                   {
                     "cropStageCode": "14",
-                    "leafWallArea": null
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
                   }
                 ]
               }
@@ -1253,8 +1281,8 @@
     "tests": [
       {
         "ProtocolCompleteness": {
-          "attributeMapping": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
-          "weights": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/completeness_v2.csv",
+          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
+          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
           "version": "completeness_Protocol_V1_0_0" 
         }
       }

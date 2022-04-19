@@ -623,16 +623,17 @@ class TD:
 
         for element in self.treatments:
             trtKey = element['treatmentKey']
+            trtHarvestFlag = element['harvestDestruction']
             applications = element['applications']
             entries = element['entries']
 
-            results.append(self.formatApplications(applications, trtKey, entries))
+            results.append(self.formatApplications(applications, trtKey, trtHarvestFlag, entries))
 
         return results
 
 
 
-    def formatApplications(self, applications, trtKey, entries):
+    def formatApplications(self, applications, trtKey, trtHarvestFlag, entries):
         """
         Applications have properties and 1 nested list: products, which are parsed separately
         """
@@ -665,6 +666,7 @@ class TD:
         for item in lstResults: # the results previously processed are merged with the general list of results
             lstResults[index] = self.mergeDictionaries(item, results)
             lstResults[index].update({"treatmentKey":trtKey})
+            lstResults[index].update({"harvestDestruction":trtHarvestFlag})
             index = index +1
 
 
@@ -734,7 +736,7 @@ class TD:
 
     def formatCrops(self, value):
         if value is None or len(value) <1:   
-            return {'cropStageCode': None, 'leafWallArea': None}
+            return {'cropStageCode': None, 'leafWallArea': None, 'leafWallAreaUnit':None}
         else:
             return value[0]
 

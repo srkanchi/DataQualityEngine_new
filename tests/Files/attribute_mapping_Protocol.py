@@ -39,7 +39,7 @@
     "plannedUnit": "Assessment Unit",
     "numberOfSubSamples": "No. Subsamples",
 
-    "leafWallArea": "Treated Leaf Wall Area", 
+    "leafWallArea": "Leaf Wall Area", 
 
     "assessmentCode": "Assessment table/Assessment code",
     "gepCertification": "GEP certificate link",
@@ -66,7 +66,7 @@
 
     "projectNumbers":"Project Number",
     "location":"Country",
-    "crops":"Crop"
-
-
+    "crops":"Crop",
+    "harvestDestruction":"Harvest Destr. Flag",
+    "leafWallAreaUnit":"Leaf Wall Area Unit"
 }
