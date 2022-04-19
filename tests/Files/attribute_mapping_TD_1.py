@@ -1,35 +1,68 @@
 {
-    "trialDescriptions.dataDeadline":"Data deadline",
-    "trialDescriptions.gepCode": "GEP level",
-    "trialDescriptions.gepCertification":"GEP certificate link",
-    "trialDescriptions.guidelines": "Guidelines",
 
-    "trialDescriptions.keywords": "Objective",
-    "trialDescriptions.projectNumbers":"Project Number",
+    "keywords": "Objectives",
+    "guidelines": "Guidelines",
+    "dataDeadline": "Data Deadline",
 
-    "trialDescriptions.plannedNumberOfApplications": "No. of Applications/Trial",
-    "trialDescriptions.plannedNumberOfAssessments": "No. of Assessments/Trial",
-    "trialDescriptions.controlFieldCode":"Location of control",
+    "standardEvaluationId": "SE ID",
+    "partRated": "Part Rated",
+    "sampleSize": "Sample Size",
+    "sampleSizeUnit": "Sample Size Unit",
+    "target": "Target",
+    "crop": "Crop",
 
-    "trialDescriptions.plannedAssessments.partRated": "Assessment table/Part rated",
-    "trialDescriptions.plannedAssessments.sampleSize": "Assessment table/Sample size",
-    "trialDescriptions.plannedAssessments.sampleSizeUnit": "Assessment table/Sample size unit",
-    "trialDescriptions.plannedAssessments.ratingDataType": "Assessment table/Assessment type",
-    "trialDescriptions.plannedAssessments.standardEvaluationId": "Assessment table/Standard Evaluation (SE)",
-    "trialDescriptions.plannedAssessments.assessmentCode": "Assessment table/Assessment code",
-    "trialDescriptions.plannedAssessments.target.name": "Assessment table/Target",
-    "trialDescriptions.plannedAssessments.crop.name": "Assessment table/Crop", 
+    "applicationTimingCode": "Application timing",
+    "method": "Application Method",
+    "placement": "Application Placement",
+    "cropStageCode": "Stage Majority",
+    "plannedNumberOfApplications": "Number of applications / trial",  
+    "controlField": "Location of Control",
 
-    "trialDescriptions.plannedAssessments.target": "Assessment table/Target",
-    "trialDescriptions.plannedAssessments.crop": "Assessment table/Crop", 
+    "treatmentKey": "Entry No.",
+    "tankMixCode": "TM/TP",
+    "productName": "Entry/Trt. Description",
+    "synonyms": "Identification Code",
+    "quantity": "Dose",
+    "productDosageUnit": "Dose Unit",
+    "transferDosage": "Trans. Dose",
+    "transferDosageUnit": "Trans. Dose Unit",
+    "applicationCode": "Appl. Code",
+    "coreOtherTreatments": "Core/Other Treatments",
+    "treatmentRole": "Treatment Role",
+    "category": "Category",
 
+    "plotDescription": "Plot Description",
+    "plotDescriptionBasis": "Plot Description Basis",
 
-    "trialDescriptions.treatments.applications.crops.cropStageCode": "Crop stage/App./Majority",
-    "trialDescriptions.treatments.applications.crops": "Crop stage/App./Majority",
+    "ratingClass": "Assessment Class",
+    "ratingType": "Assessment Type",
+    "plannedUnit": "Assessment Unit",
+    "numberOfSubSamples": "No. Subsamples",
 
-    "trialDescriptions.treatments.applications.applicationCode":"Application code",
-    "trialDescriptions.treatments.applications.applicationTiming": "Protocol description/Application timing",
-    "trialDescriptions.treatments.applications.products.equipment.method": "Protocol description/Application Method",
-    "trialDescriptions.treatments.applications.products.equipment.placement": "Protocol description/Application Placement"
+    "leafWallArea": "Treated Leaf Wall Area", 
+
+    "assessmentCode": "Assessment table/Assessment code",
+    "gepCertification": "GEP certificate link",
+    "plannedNumberOfApplications": "Number of applications / trial",
+
+    "plotArea":"Plot area",
+    "plotAreaUnit":"Plot area unit",
+    "siteType":"Site type",
+    "numberOfReplicates":"No. of Replicates",
+    "targets":"Target",
+    "protocolEditionNumber":"Protocol Edition No",
+    "settings":"Conducted under GLP/GEP",
+    "targetName":"Target",
+    "experimentalSeason":"Experimental Season",
+    "plannedNumberOfAssessments": "No. of Assessments/Trial",
+
+    "hasName":"Responsible",
+    "siteName":"Site",
+    "testType":"Test Type",
+    "internalValue":"INT EXT",
+    "plannedNumberOfTrials":"No. of trials",
+
+    "fieldResponsibles":"Technical Manager"
+
 
 }

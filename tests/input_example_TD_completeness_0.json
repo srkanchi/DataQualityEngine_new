@@ -2,66 +2,48 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "IR21EURK3XWR",
-        "siteType": "Open field",
+        "tptIdKey": "FD21EUR14RMR",
+        "projectNumbers": [
+          "BIRX0056",
+          "DEVELOPMENT"
+        ],
+        "keywords": [
+          "CROPSAFETY",
+          "EFFICACY"
+        ],
+        "siteType": ".",
+        "experimentalSeason": "Northern hemisphere season",
+        "numberOfReplicates": null,
+        "plannedNumberOfApplications": "6",
+        "targets": [],
+        "crops": [],
+        "protocolEditionNumber": 1.01,
+        "guidelines": [],
+        "plotArea": null,
+        "plotAreaUnit": "?",
+        "dataDeadline": "2021-09-15T00:00:00",
+        "settings": null,
+        "fieldResponsibles": [
+          {
+            "type": "Technical Manager",
+            "typeCode": "1"
+          }
+        ],
         "trialResponsibles": [
           {
-            "siteName": "NLD",
-            "internalValue": "I",
-            "testType": "TT03",
             "hasName": true,
+            "siteName": "ITA",
+            "testType": "TT02",
+            "internalValue": "I",
             "plannedNumberOfTrials": 1
           },
           {
-            "siteName": "NLD",
-            "internalValue": "E",
-            "testType": "EXTER",
-            "hasName": true,
-            "plannedNumberOfTrials": 2
-          },
-          {
-            "siteName": "GBR",
-            "internalValue": "E",
-            "testType": "EXTER",
-            "hasName": true,
+            "hasName": false,
+            "siteName": "?",
+            "testType": "*",
+            "internalValue": ".",
             "plannedNumberOfTrials": 1
-          },
-          {
-            "siteName": "GBR",
-            "internalValue": "I",
-            "testType": "TT03",
-            "hasName": true,
-            "plannedNumberOfTrials": 2
           }
-        ],
-        "plannedNumberOfApplications": "1",
-        "numberOfReplicates": 4,
-        "crops": [
-          {
-            "name": "Solanum tuberosum"
-          },
-          {
-            "name": "Solanum tuberosum A"
-          },
-          {
-            "name": "Solanum tuberosum B"
-          }
-        ],
-        "targets": [
-          {
-            "name": "Aulacorthum solani"
-          },
-          {
-            "name": "Macrosiphum euphorbiae"
-          }
-        ],
-        "experimentalSeason": "Spring",
-        "keywords": [
-          "CROPSAFETY"
-        ],
-        "projectNumbers": [
-          "EUR-DEV-I",
-          "N-2793"
         ]
       }
     ]
@@ -69,9 +51,9 @@
   "tests": [
     {     
         "TDCompleteness_0": {
-        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_0.py",
-        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
-        "version": "completeness_TD_V1_0_0"
+        "attributeMapping": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/attribute_mapping_TD_0.py",
+        "weights": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/completeness_v2.csv",
+        "version": "completeness_TD_V2_0_0"
       }
     }
   ]

@@ -2,1169 +2,1342 @@
   "data": {
     "trialDescriptions": [
       {
-        "tptIdKey": "FA21WLD7DLTX",
-        "dataDeadline": "2021-09-11T00:00:00",
-        "gepCode": "10",
-        "gepCertification": null,
-        "guidelines": [],
+        "tptIdKey": "HR20USA6KLLX",
         "keywords": [
-          "CROPSAFETY",
-          "EFFICACY",
-          "SYNERGY",
-          "ADJUVANT"
+          "SELECTIVITY"
         ],
-        "plannedNumberOfApplications": "Extend to fruit protection",
-        "plannedNumberOfAssessments": 6,
-        "controlFieldCode": "INCLUDED",
+        "guidelines": [],
+        "dataDeadline": null,
+        "controlField": null,
+        "plannedNumberOfApplications": null,
+        "protocolEditionNumber": 1.04,
+        "numberOfReplicates": 2,
+        "plotArea": 15,
+        "plotAreaUnit": "M2",
+        "siteType": null,
+        "plotDescription": null,
+        "plotDescriptionBasis": null,
+        "experimentalSeason": "Spring",
+        "targets": [
+          {
+            "targetName": "Annual broad-leaved plants"
+          },
+          {
+            "targetName": "Gramineae"
+          }
+        ],
+        "gepCertification": null,
+        "plannedNumberOfAssessments": null,
+        "settings": null,
+        "fieldResponsibles": [
+          {
+            "type": "Licence User",
+            "typeCode": "2"
+          },
+          {
+            "type": "Technical Manager",
+            "typeCode": "1"
+          }
+        ],
         "plannedAssessments": [
           {
-            "partRated": "LEAF",
-            "sampleSize": 1,
-            "sampleSizeUnit": "PLOT",
-            "ratingDataType": "PESINC",
-            "standardEvaluationId": "EE44AD2",
-            "assessmentCode": null,
-            "target": {
-              "name": "Venturia inaequalis"
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "FRUIT",
-            "sampleSize": 100,
-            "sampleSizeUnit": "FRUIT",
-            "ratingDataType": "WEIFRE",
-            "standardEvaluationId": "HM11AD6",
-            "assessmentCode": null,
-            "target": {
-              "name": "Venturia inaequalis"
-            },
-            "crop": {
-              "name": null
-            }
-          },
-          {
-            "partRated": "LEAF",
-            "sampleSize": null,
-            "sampleSizeUnit": null,
-            "ratingDataType": "CHLCON",
-            "standardEvaluationId": "EM21AD6",
-            "assessmentCode": null,
-            "target": {
-              "name": null
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "LEAF",
-            "sampleSize": 1,
-            "sampleSizeUnit": "PLOT",
-            "ratingDataType": "GRNLVS",
-            "standardEvaluationId": "EE65AD1",
-            "assessmentCode": null,
-            "target": {
-              "name": null
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "PLANT",
-            "sampleSize": 1,
-            "sampleSizeUnit": "PLOT",
-            "ratingDataType": "PHYGEN",
-            "standardEvaluationId": "PE11AD1",
-            "assessmentCode": null,
-            "target": {
-              "name": null
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "PLANT",
-            "sampleSize": 1,
-            "sampleSizeUnit": "PLOT",
-            "ratingDataType": "REFLEC",
-            "standardEvaluationId": "EM14AD1",
-            "assessmentCode": null,
-            "target": {
-              "name": null
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "TREATM",
-            "sampleSize": 1,
-            "sampleSizeUnit": "TREATM",
-            "ratingDataType": "COMPAT",
-            "standardEvaluationId": "PS1AAD2",
-            "assessmentCode": null,
-            "target": {
-              "name": null
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": "TREATM",
-            "sampleSize": 1,
-            "sampleSizeUnit": "TREATM",
-            "ratingDataType": "JUDSUB",
-            "standardEvaluationId": "ES1AAD2",
-            "assessmentCode": null,
-            "target": {
-              "name": "Venturia inaequalis"
-            },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
+            "standardEvaluationId": "EE22AD1",
             "partRated": null,
+            "ratingType": "CONTRO",
             "sampleSize": null,
             "sampleSizeUnit": null,
-            "ratingDataType": "PESINC",
-            "standardEvaluationId": "EE44AD1",
-            "assessmentCode": null,
             "target": {
-              "name": "Venturia inaequalis"
+              "name": null
             },
             "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
-          },
-          {
-            "partRated": null,
-            "sampleSize": null,
-            "sampleSizeUnit": null,
-            "ratingDataType": "PESSEV",
-            "standardEvaluationId": "EE40AD3",
-            "assessmentCode": null,
-            "target": {
-              "name": "Venturia inaequalis"
+              "name": "Solanum tuberosum"
             },
-            "crop": {
-              "name": "Malus sylvestris MILL. ssp. mi"
-            }
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A1-A3"
           }
         ],
         "treatments": [
           {
-            "applications": []
-          },
-          {
-            "applications": [
+            "treatmentKey": 1,
+            "applications": [],
+            "entries": [
               {
-                "crops": [
-                  {
-                    "cropStageCode": null
-                  }
-                ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": null,
+                "coreOtherTreatments": null,
+                "treatmentRole": "Untreated + Reference"
               }
             ]
           },
           {
+            "treatmentKey": 2,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "BCADDM_03120101",
+                    "synonyms": [
+                      "ROUNDUP TRANSORB HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 720,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 1.333,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 3,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
+                "crops": []
+              }
+            ],
+            "entries": [
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 4,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AE F105205 00 SL27 A1",
+                    "synonyms": [
+                      "BIOPOWER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 5,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 6,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000031939",
+                    "synonyms": [
+                      "BCS-CZ37679"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 7,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000031939",
+                    "synonyms": [
+                      "BCS-CZ37679"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 8,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  },
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 9,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000035487",
+                    "synonyms": [
+                      "BCS-DC32452"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
-                "applicationCode": "A",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
-              },
-              {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
-                "products": [
-                  {
-                    "equipment": {
-                      "method": null,
-                      "placement": null
-                    }
-                  }
-                ]
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               }
             ]
           },
           {
+            "treatmentKey": 10,
             "applications": [
               {
-                "crops": [
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
                   {
-                    "cropStageCode": null
+                    "productName": "SP102000053954",
+                    "synonyms": [
+                      "BCS-DG64559"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
                   }
                 ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 11,
+            "applications": [
+              {
                 "applicationCode": "A",
-                "applicationTiming": null,
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000031939",
+                    "synonyms": [
+                      "BCS-CZ37679"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
                       "placement": null
                     }
                   }
-                ]
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "B",
-                "applicationTiming": null,
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 12,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
                       "placement": null
                     }
                   }
-                ]
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "C",
-                "applicationTiming": null,
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 13,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000035487",
+                    "synonyms": [
+                      "BCS-DC32452"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
                       "placement": null
                     }
                   }
-                ]
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "D",
-                "applicationTiming": null,
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 14,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000053954",
+                    "synonyms": [
+                      "BCS-DG64559"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 100,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.5,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
                       "placement": null
                     }
                   }
-                ]
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "E",
-                "applicationTiming": null,
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 15,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000031939",
+                    "synonyms": [
+                      "BCS-CZ37679"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 150,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.75,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
                       "placement": null
                     }
                   }
-                ]
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
               },
               {
-                "crops": [],
-                "applicationCode": "F",
-                "applicationTiming": null,
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 16,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
                 "products": [
                   {
+                    "productName": "SP102000053644",
+                    "synonyms": [
+                      "BCS-DG93412"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 150,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.75,
+                      "transferDosageUnit": "KG/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
                   },
                   {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
                     "equipment": {
-                      "method": null,
+                      "method": "Spray",
                       "placement": null
                     }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 17,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
+                  {
+                    "productName": "SP102000035487",
+                    "synonyms": [
+                      "BCS-DC32452"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 150,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.75,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 18,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "POSPOS",
+                "products": [
+                  {
+                    "productName": "SP102000053954",
+                    "synonyms": [
+                      "BCS-DG64559"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 150,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.75,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "BCORKA_DESTINY HC",
+                    "synonyms": [
+                      "DESTINY HC"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.41726,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  },
+                  {
+                    "productName": "AEFDQM_95081535",
+                    "synonyms": [
+                      "AMMONIUM SULFATE"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.42000000000000004,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "69",
+                    "leafWallArea": 30
                   }
                 ]
               }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null
+              }
             ]
+          }
+        ],
+        "trialResponsibles": [
+          {
+            "hasName": true,
+            "internalValue": null,
+            "plannedNumberOfTrials": 6,
+            "siteName": "NAR - USA (Country group)",
+            "testType": "TT02"
+          }
+        ],
+        "crops": [
+          {
+            "useGroupCode": "B1"
           }
         ]
       }
@@ -1173,9 +1346,10 @@
   "tests": [
     {
       "TDCompleteness_1": {
-        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_TD_1.py",
-        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_TD_V1_0_0.csv",
-        "version": "completeness_TD_V1_0_0"
+        "attributeMapping": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/attribute_mapping_TD_1.py",
+        "weights": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/completeness_v2.csv",
+        "cropGroups": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/cropGroups.py",
+        "version": "completeness_TD_V2_0_0"
       }
     }
   ]

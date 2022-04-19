@@ -1,281 +1,274 @@
-16.09.2021
--------------------------------------------------------------------------
-COMPLETENESS 
--------------------------------------------------------------------------
-
-
-TDs status 0: .....................................................................
+TDs status 0 -----------------------------
 
   query{
     trialDescriptions(filter: [{
-  tptIdKey:["HA22ARG7AJPX"]
+  tptIdKey:["SR20EUR26MBR"]
     }]
     ){
-           tptIdKey
-           siteType
-           trialResponsibles{
-             siteName
-             internalValue
-             testType
-             hasName
-             plannedNumberOfTrials
-           }
-           plannedNumberOfApplications
-           numberOfReplicates
-           crops{
-             name                  
-           }
-           targets{
-             name
-           }
-           experimentalSeason
-           keywords
-           projectNumbers
-    }  
-    }
-
-
-
-TDs status 1 .......................................................
-
-	query{
-	  trialDescriptions(filter: [{
-		tdKeys:["IA25WLDAGKVX"]
-	  }]
-	  ){
+      
       tptIdKey
-      dataDeadline
-      gepCode
-      gepCertification
-      guidelines      
+      projectNumbers
       keywords
+      siteType
+      experimentalSeason
+      numberOfReplicates
       plannedNumberOfApplications
-		  plannedNumberOfAssessments			      
-			     
-      controlFieldCode
-      plannedAssessments{
+      targets{
+        name
+      }
+      crops{
+        name
+      }
+      
+      protocolEditionNumber
+      guidelines
+      plotArea
+      plotAreaUnit
+      dataDeadline
+      
+      settings{
+        conductUnderGLPAndGEP
+      }
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      trialResponsibles{
+        hasName
+        siteName
+        testType
+        internalValue
+        plannedNumberOfTrials
+      }
+      
+    }}
+
+
+
+TDs status 1 ------------------------------
+
+  query{
+    trialDescriptions(filter: [{
+  tptIdKey:["IR21EUR76KTR"]
+    }]
+    ){
+      
+      tptIdKey
+      keywords
+      guidelines
+      dataDeadline
+      controlField
+      plannedNumberOfApplications
+      protocolEditionNumber
+      numberOfReplicates
+      plotArea
+      plotAreaUnit
+      siteType
+      
+      plotDescription
+      plotDescriptionBasis
+      experimentalSeason
+      targets{
+        targetName: name
+      }
+      
+      gepCertification
+      plannedNumberOfAssessments
+      
+      
+      
+      settings{
+        conductUnderGLPAndGEP
+      }
+      
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      
+      plannedAssessments {
+				standardEvaluationId
         partRated
+        ratingType
         sampleSize
         sampleSizeUnit
-        ratingDataType
-        standardEvaluationId
-        assessmentCode
         target{
           name
         }
         crop{
           name
         }
-
+        plannedUnit : unit
+        numberOfSubSamples
+        ratingClass        
+        assessmentCode
       }
       
       treatments{
-        
+        treatmentKey
+
         applications{
+          applicationCode
+          applicationTimingCode
+          products{
+            productName: name
+            synonyms
+            category
+            dosage{
+              quantity
+              productDosageUnit: unit
+              transferDosage
+              transferDosageUnit
+            }
+            equipment{
+              method
+              placement
+            }
+          }
           crops{
             cropStageCode
+            leafWallArea
           }
-          applicationCode
-          applicationTiming
-          products{
-            equipment{
-              method
-              placement
-            }
-          }
+        }
+      	entries{
+          tankMixCode
+          coreOtherTreatments
+          treatmentRole
         }
       }
       
-    }  
-	  }
-
-
-
-
-
-Trials .......................................................................
-
-  query{
-    fieldtrials(filter: [{
-      tptIdKey:["HP20USAJU2TJU3"]
-    }]
-    ){
-      tptIdKey
- 		  status
-      quality
-			objectivesFulfilled
-     
-      
-      location{
-        city
-        country
-        latitude
-        longitude
+      trialResponsibles {
+        hasName
+        internalValue
+        plannedNumberOfTrials
+        siteName
+        testType
       }
       
-      tillageType
-
-      soil{
-        texture
-      }
-            
       crops{
-        name
-        variety
-        planting{
-          date
-          rate
-          rateUnit
-        	seedCount
-          seedCountUnit
-          depth
-          depthUnit
-        }
+        useGroupCode
       }
+    }}          
       
-      targets{
-        name
-      }
-      
-      
-      treatments{
-        applications{
-					applicationCode
-          date
-          applicationTiming
-          percentRelativeHumidity          
-          airTemperature
-          airTemperatureUnit
-          percentCloudCover
-          windStrength
-          plantCondition
-          soilMoisture
-          soilCondition
-          
-          crops{
-            percentageCropCoverage
-						plantingCondition
-            cropStage
-            percentageAtCropStage
-            maxCropStage
-            percentageAtMaxCropStage
-            minCropStage
-            percentageAtMinCropStage
-          }
-          targets{
-            targetStage
-            percentageAtTargetStage
-						maxTargetStage
-            percentageAtMaxTargetStage
-            minTargetStage
-            percentageAtMinTargetStage
-          }
-          products{
-            equipment{
-              method
-              placement
-              equipmentType
-              propellantType
-              diluentCarrier
-              sprayVolume
-              sprayVolumeUnit
-            }
-          }
-        }
-        assessmentMeanValues{
-          standardEvaluationId
-          label
-          target{
-            name
-          }
-					targetStage
-          
-          cropStage
-          partRated
-          ratingType
-        	unit
-          sampleSize
-          sampleSizeUnit
-          date
-          assessmentCode
-          
-        }
-      }
-
-      
-    }  
-    }
 
 
-Protocols .......................................................................
+
+Protocols --------------------
+
 
   query{
     protocols(filter: [{
-      tptIdKey:["HR22POLC04"]
+			tptIdKey:["HA21ESPA2K"]
     }]
     ){
+      
       tptIdKey
-      dataDeadline
-      gepCode
-      gepCertification
-      guidelines      
       keywords
+      guidelines
+      dataDeadline
+      controlField
       plannedNumberOfApplications
-		  plannedNumberOfAssessments			      
-      siteType
-      controlFieldCode
+      protocolEditionNumber
       numberOfReplicates
+      plotArea
+      plotAreaUnit
+      siteType
+      
+      plotDescription
+      plotDescriptionBasis
       experimentalSeason
-      projectNumbers
-
-      crops{
-        name                  
-      }
       targets{
-        name
+        targetName: name
       }
-
-
-      trialResponsibles{
-        siteName
-        internalValue
-        testType
-        hasName
-        plannedNumberOfTrials
+      
+      gepCertification
+      plannedNumberOfAssessments
+      
+      
+      
+      settings{
+        conductUnderGLPAndGEP
       }
-		     
-      plannedAssessments{
+      
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      
+      plannedAssessments {
+				standardEvaluationId
         partRated
+        ratingType
         sampleSize
         sampleSizeUnit
-        ratingDataType
-        standardEvaluationId
-        assessmentCode
         target{
           name
         }
         crop{
           name
         }
-
+        plannedUnit : unit
+        numberOfSubSamples
+        ratingClass        
+        assessmentCode
       }
       
       treatments{
+        treatmentKey
+
         applications{
-          crops{
-            cropStageCode
-          }
           applicationCode
-          applicationTiming
+          applicationTimingCode
           products{
+            productName: name
+            synonyms
+            category
+            dosage{
+              quantity
+              productDosageUnit: unit
+              transferDosage
+              transferDosageUnit
+            }
             equipment{
               method
               placement
             }
           }
+          crops{
+            cropStageCode
+            leafWallArea
+          }
+        }
+      	entries{
+          tankMixCode
+          coreOtherTreatments
+          treatmentRole
         }
       }
+      
+      trialResponsibles {
+        hasName
+        internalValue
+        plannedNumberOfTrials
+        siteName
+        testType
+      }
+      
+      crops{
+        useGroupCode
+        cropName: name
+      }
+      
+      projectNumbers
+      
+      location{
+        country
+      }
+      
+    }}
 
-    }  
-    }
+
 
