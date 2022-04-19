@@ -3811,38 +3811,38 @@ Stage Majority,PROT,EMEA,D,I,1,,treatment
 Stage Majority,PROT,EMEA,D,F,0,,treatment
 Stage Majority,PROT,EMEA,D,H,1,,treatment
 Stage Majority,PROT,EMEA,D,S,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,I,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,F,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,H,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,S,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,G,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,R,II,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,I,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,F,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,H,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,S,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,G,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,D,II,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,I,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,F,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,H,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,S,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,G,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,A,II,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,I,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,F,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,H,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,S,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,G,0,,treatment
-Treated Leaf Wall Area,PROT,GLOBAL,TT,II,0,,treatment
-Treated Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,treatment
-Treated Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,treatment
-Treated Leaf Wall Area,PROT,EMEA,R,H,0,,treatment
-Treated Leaf Wall Area,PROT,EMEA,R,S,0,,treatment
-Treated Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,treatment
-Treated Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,treatment
-Treated Leaf Wall Area,PROT,EMEA,D,H,0,,treatment
-Treated Leaf Wall Area,PROT,EMEA,D,S,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,I,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,F,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,H,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,S,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,G,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,R,II,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,I,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,F,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,H,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,S,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,G,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,D,II,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,I,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,F,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,H,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,S,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,G,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,A,II,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,I,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,F,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,H,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,S,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,G,0,,treatment
+Leaf Wall Area,PROT,GLOBAL,TT,II,0,,treatment
+Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,treatment
+Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,treatment
+Leaf Wall Area,PROT,EMEA,R,H,0,,treatment
+Leaf Wall Area,PROT,EMEA,R,S,0,,treatment
+Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,treatment
+Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,treatment
+Leaf Wall Area,PROT,EMEA,D,H,0,,treatment
+Leaf Wall Area,PROT,EMEA,D,S,0,,treatment
 Project Number,PROT,GLOBAL,R,I,1,,general
 Project Number,PROT,GLOBAL,R,F,1,,general
 Project Number,PROT,GLOBAL,R,H,1,,general
@@ -3907,3 +3907,67 @@ Country,PROT,EMEA,D,I,1,,general
 Country,PROT,EMEA,D,F,1,,general
 Country,PROT,EMEA,D,H,1,,general
 Country,PROT,EMEA,D,S,1,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,II,0,,general
+Harvest Destr. Flag,PROT,EMEA,R,I,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,F,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,H,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,S,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,I,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,F,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,H,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,S,1,,general
+Leaf Wall Area Unit,PROT,GLOBAL,R,I,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,F,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,H,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,S,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,G,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,II,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,I,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,F,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,H,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,S,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,G,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,D,II,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,I,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,F,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,H,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,S,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,G,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,A,II,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,I,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,F,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,H,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,S,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,G,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,TT,II,0,,treatment
+Leaf Wall Area Unit,PROT,EMEA,R,I,1,DOSE,treatment
+Leaf Wall Area Unit,PROT,EMEA,R,F,1,DOSE,treatment
+Leaf Wall Area Unit,PROT,EMEA,R,H,0,,treatment
+Leaf Wall Area Unit,PROT,EMEA,R,S,0,,treatment
+Leaf Wall Area Unit,PROT,EMEA,D,I,1,DOSE,treatment
+Leaf Wall Area Unit,PROT,EMEA,D,F,1,DOSE,treatment
+Leaf Wall Area Unit,PROT,EMEA,D,H,0,,treatment
+Leaf Wall Area Unit,PROT,EMEA,D,S,0,,treatment
