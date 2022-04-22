@@ -537,8 +537,8 @@
   "tests": [
     {
       "TDCompleteness_1": {
-        "attributeMapping": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/attribute_mapping_TD_1.py",
-        "weights": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/completeness_v2.csv",
+        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_TD_1.py",
+        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
         "version": "completeness_TD_V2_0_0"
       }
     }
