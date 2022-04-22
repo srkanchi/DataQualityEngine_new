@@ -2,7 +2,7 @@
   "data": {
     "protocols": [
       {
-        "tptIdKey": "HD21ESPA2K",
+        "tptIdKey": "HA21ESPA2K",
         "keywords": [
           "CROPSAFETY",
           "EFFICACY"
@@ -136,7 +136,8 @@
               {
                 "tankMixCode": null,
                 "coreOtherTreatments": null,
-                "treatmentRole": "Untreated + Reference"
+                "treatmentRole": "Untreated + Reference",
+                "applicationCodes": "A"
               }
             ]
           },
@@ -179,7 +180,8 @@
               {
                 "tankMixCode": null,
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -256,12 +258,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -338,12 +342,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -437,12 +443,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -519,12 +527,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -618,12 +628,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -700,12 +712,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -782,12 +796,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -881,12 +897,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -963,12 +981,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -1045,12 +1065,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -1144,12 +1166,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           },
@@ -1243,12 +1267,14 @@
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               },
               {
                 "tankMixCode": "Y",
                 "coreOtherTreatments": null,
-                "treatmentRole": null
+                "treatmentRole": null,
+                "applicationCodes": "A"
               }
             ]
           }
@@ -1281,8 +1307,8 @@
     "tests": [
       {
         "ProtocolCompleteness": {
-          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
-          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
+          "attributeMapping": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
+          "weights": "C:/cls/codigo/QE/DataQualityEngine/tests/Files/completeness_v2.csv",
           "version": "completeness_Protocol_V1_0_0" 
         }
       }

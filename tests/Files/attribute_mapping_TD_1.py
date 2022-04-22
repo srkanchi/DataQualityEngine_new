@@ -62,7 +62,7 @@
     "internalValue":"INT EXT",
     "plannedNumberOfTrials":"No. of trials",
 
-    "fieldResponsibles":"Technical Manager"
-
+    "fieldResponsibles":"Technical Manager",
+    "applicationCodes":"Application Codes"
 
 }

@@ -71,7 +71,14 @@ class ProtocolCompleteness(RuleTemplate):
             finalSummary.update({"General":general})
 
             treatments = oTD.getTreatments(attributeMapping, weights)
-            finalSummary.update({"Treatments":treatments})
+
+
+            if len(treatments)>0:
+                lstProducts = treatments['Products']
+                lstEquipment = treatments['Equipment']
+
+                finalSummary.update({"Treatments":lstProducts})
+                finalSummary.update({"Applications":lstEquipment})
 
 
             assessments = oTD.getAssessments(attributeMapping, weights)
@@ -502,8 +509,25 @@ class TD:
 
     def getTreatments(self, attributeMapping, weights):
 
-        results = []
+        lstResultProducts = []
+        lstResultEquipment = []
 
+        lstTreatments = self.formatTreatments() 
+
+        if len(lstTreatments)>0:
+            lstProducts = lstTreatments['Products']
+            lstEquipment = lstTreatments['Equipment']
+
+            lstResultProducts = self.getScoreProducts(attributeMapping, weights, lstProducts)
+            lstResultEquipment = self.getScoreEquipment(attributeMapping, weights, lstEquipment)
+            lstResultEquipment = self.removeDuplicatesDict(lstResultEquipment)
+
+        return {'Products':lstResultProducts, "Equipment":lstResultEquipment}
+
+
+    def getScoreProducts(self, attributeMapping, weights, lstProducts):
+
+        results = []
         dfWeights = self.readWeights(weights)
         mappings = self.getFileToDict(attributeMapping)
 
@@ -513,11 +537,61 @@ class TD:
                                 & (dfWeights["Trial"] == self.getTrialType())
                                 & (dfWeights["Required"] >0 )]
 
+#        requiredFields = dfWeightsFiltered.index.values.tolist()
         ruleExceptions = dfWeightsFiltered[~dfWeightsFiltered['Exception'].isnull()]['Exception'].values.tolist()
 
-        treatments = self.formatTreatments() 
 
-        for element in treatments:
+        for element in lstProducts:
+            for item in element:
+                missing = 0
+                listItem = {}
+
+                requiredFields = dfWeightsFiltered.index.values.tolist()
+                self.checkExceptionsTreatments(ruleExceptions, requiredFields, item)
+
+                for key, value in item.items():
+                    mapName= mappings[key]
+
+                    if((value is None) or (value in self.nullChars) or (value is False) or (value == "Missing")):
+                        if(mapName not in requiredFields):
+                            listItem.update({mapName:"Not required"})
+                        else:
+                            listItem.update({mapName:"Missing"})
+                            missing = missing +1
+                    else:
+                        listItem.update({mapName:value})
+
+                if(self.getRegion=="EMEA"):
+                    listItem.update({
+                    'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+                    })
+                else:
+                    listItem.update({'score':"NA"})
+
+
+                results.append(listItem)
+
+        return results
+
+
+
+    def getScoreEquipment(self, attributeMapping, weights, lstEquipment):
+
+        results = []
+        dfWeights = self.readWeights(weights)
+        mappings = self.getFileToDict(attributeMapping)
+
+        dfWeightsFiltered = dfWeights[(dfWeights["Section"] == 'application') 
+                                & (dfWeights["Region"] == self.getRegion())
+                                & (dfWeights["Indication"] == self.getIndication())
+                                & (dfWeights["Trial"] == self.getTrialType())
+                                & (dfWeights["Required"] >0 )]
+
+#        requiredFields = dfWeightsFiltered.index.values.tolist()
+        ruleExceptions = dfWeightsFiltered[~dfWeightsFiltered['Exception'].isnull()]['Exception'].values.tolist()
+
+
+        for element in lstEquipment:
             for item in element:
                 missing = 0
                 listItem = {}
@@ -542,7 +616,6 @@ class TD:
                 })
 
                 results.append(listItem)
-
 
         return results
 
@@ -612,89 +685,153 @@ class TD:
                 listItem.update({element:type})
 
 
-
     def formatTreatments(self):
         """
         Treatmets have two nested structures: applications and entries, and a single attribute: treatmentKey. 
         Each one is parsed separately
         """
 
-        results = []
+        lstResults = []
+        lstProducts = []
+        lstEquipment = []
+
+        resultsProducts = []
+        resultsEquipment = []
 
         for element in self.treatments:
             trtKey = element['treatmentKey']
-            trtHarvestFlag = element['harvestDestruction']
             applications = element['applications']
             entries = element['entries']
+            appCodesEntries = []
 
-            results.append(self.formatApplications(applications, trtKey, trtHarvestFlag, entries))
+            if len(entries)<1:
+                entries = self.emptyEntries()
+            else:
+                for i in range(len(entries)):
+                    appCodesEntries.append(entries[i].pop("applicationCodes"))     
 
-        return results
+            lstResults= self.formatApplications(applications, trtKey, self.removeDuplicatesDict(entries))
+
+            if len(lstResults) >0 :
+                lstProducts = lstResults['Products']
+                lstEquipment = lstResults['Equipment']
+                
+                lstProducts = self.removeDuplicatesDict(lstProducts)
+
+
+                if len(lstProducts) == len(appCodesEntries):
+                    index =0
+                    for item in lstProducts: 
+                        item.update({"treatmentKey":trtKey})
+                        item.update({"applicationCodes":appCodesEntries[index]})
+                        index = index + 1
+                else:
+                    for item in lstProducts: 
+                        item.update({"treatmentKey":trtKey})
+                        item.update({"applicationCodes":appCodesEntries[0]})
 
 
 
-    def formatApplications(self, applications, trtKey, trtHarvestFlag, entries):
+                resultsProducts.append(lstProducts)
+                resultsEquipment.append(lstEquipment)
+
+        return {'Products':resultsProducts, 'Equipment':resultsEquipment}
+
+
+    def formatApplications(self, applications, trtKey, entries):
         """
         Applications have properties and 1 nested list: products, which are parsed separately
         """
         results = {}
         lstResults = []
         strResults = {}
-    
+
+        dictCrops = {}
+        lstProducts = []
+        lstEquipment = []    
         for element in applications:
-            index = 0
+#            index = 0
+            tmpEquipment = []
+            tmpProducts = {}
             for key, value in element.items():
                 if (isinstance(value, list)):
                     if key=="products":    # Products entries stored in lstResults
-                        lstResults = self.formatProducts(value)      
-                    else: # Crops  entries stored in results
-#                        if len(value)>0:
-                        results.update(self.formatCrops(value))
+                        lstResults = self.formatProducts(value)  
+                        tmpProducts = lstResults['Products']
+                        tmpEquipment = lstResults['Equipment']
+                    else: # Crops entries 
+                        dictCrops.update(self.formatCrops(value))
                 else: # Strings entries stores in strResults 
                     strResults.update({key:value})
 
-                if len(entries) >= index: # Here the entries dictionary is added to the applications entries. This may change since the structure doesn't seem to be correct  
-                    results = entries[index]
+                if len(entries) > 0: # Here the entries dictionary is added to the applications entries. 
+                    results = entries[0]
  
-            index = index + 1
+#            index = index + 1
 
             results.update(strResults) # Strings are added to the results
+            tmpEquipment.update(results)
+            tmpEquipment.update(dictCrops)
+
+#            tmpEquipment.update({results})
+
+            #     item = self.mergeDictionaries(item, dictCrops)
+
+            # for item in tmpEquipment:
+            #     item = self.mergeDictionaries(item, results)
+            #     item = self.mergeDictionaries(item, dictCrops)
+
+            lstEquipment.append(tmpEquipment)
+            lstProducts.append(tmpProducts)
+
+        # index=0
+        # for item in lstProducts:
+        #     lstProducts[index] = self.mergeDictionaries(item, results)
+        #     lstProducts[index].update({"treatmentKey":trtKey})
+        #     index = index +1
 
 
-        index=0
-
-        for item in lstResults: # the results previously processed are merged with the general list of results
-            lstResults[index] = self.mergeDictionaries(item, results)
-            lstResults[index].update({"treatmentKey":trtKey})
-            lstResults[index].update({"harvestDestruction":trtHarvestFlag})
-            index = index +1
+        lstEquipment = self.removeDuplicatesDict(lstEquipment)
+#        lstEquipment = lstEquipment
 
 
-        return lstResults
+        # index=0
+        # for item in lstResults: # the results previously processed are merged with the general list of results
+        #     lstResults[index] = self.mergeDictionaries(item, results)
+        #     lstResults[index].update({"treatmentKey":trtKey})
+        #     index = index +1
+
+
+        return {'Products':lstProducts, 'Equipment':lstEquipment}
 
 
 
 
     def formatProducts(self, products):
-        """
-        Products have properties and 3 nested structures: synonyms, dosages and equipment
-        """
-        lstResults = []
+
+        lstProducts = {}
+        lstEquipment = {}
 
         for element in products:
             results = {}
             for key, value in element.items(): 
-                if (isinstance(value, list)):
-                    if(len(value)>0):
-                        results.update({key:self.listToString(value)})
-                elif (isinstance(value, dict)):
-                    results = self.mergeDictionaries(results, value)
+                if key == "equipment":
+#                    lstEquipment.append(value)
+                    lstEquipment = value
                 else:
-                    results.update({key:value})
+                    if (isinstance(value, list)):
+                        if(len(value)>0):
+                            results.update({key:self.listToString(value)})
+                    elif (isinstance(value, dict)):
+                        results = self.mergeDictionaries(results, value)
+                    else:
+                        results.update({key:value})
 
-            lstResults.append(results)
+#            lstProducts.append(results)
+            lstProducts = results
 
-        return lstResults
+        return {'Products':lstProducts, 'Equipment':lstEquipment} 
+
 
 
     def getResponsibles(self, attributeMapping, weights):
@@ -747,8 +884,37 @@ class TD:
 
 
 
+    def emptyEntries(self):
+        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+        """
+        return [{"tankMixCode": None, "coreOtherTreatments": None, "treatmentRole": None, "applicationCodes": None}]
 
 
+
+    def emptyResponsibles(self):
+        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+        """
+        return [{"hasName": False, "internalValue": None, "plannedNumberOfTrials": None,  "siteName": None, "testType": None}]
+
+    def emptyAssessments(self):
+        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+        """
+
+        emptyRecord = {       
+            "standardEvaluationId": "Missing",
+            "partRated": "Missing",
+            "ratingType": "Missing",
+            "sampleSize": "Missing",
+            "sampleSizeUnit": "Missing",
+            "target": "Missing",
+            "crop": "Missing",
+            "plannedUnit": "Missing",
+            "numberOfSubSamples": "Missing",
+            "ratingClass": "Missing",
+            "assessmentCode": "Missing"
+          }
+
+        return [emptyRecord]
 
 
 

@@ -68,5 +68,6 @@
     "location":"Country",
     "crops":"Crop",
     "harvestDestruction":"Harvest Destr. Flag",
-    "leafWallAreaUnit":"Leaf Wall Area Unit"
+    "leafWallAreaUnit":"Leaf Wall Area Unit",
+    "applicationCodes":"Application Codes"
 }

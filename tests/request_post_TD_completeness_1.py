@@ -9,7 +9,7 @@ API_ENDPOINT = "http://127.0.0.1:8005/run"
 #API_ENDPOINT = "http://127.0.0.1:10020/run"
 
 
-#with open('./input_example_TD_completeness_1.json') as json_file:
+#with open('C:/cls/codigo/QE/DataQualityEngine/tests/input_example_TD_completeness_1.json') as json_file:
 with open('/home/ubuntu/DataQualityEngine/tests/input_example_TD_completeness_1.json') as json_file:
     data = json.load(json_file)
 

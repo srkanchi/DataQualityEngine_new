@@ -1951,6 +1951,38 @@ Trans. Dose,TD 1,EMEA,D,I,1,CODE,treatment
 Trans. Dose,TD 1,EMEA,D,F,1,CODE,treatment
 Trans. Dose,TD 1,EMEA,D,H,1,CODE,treatment
 Trans. Dose,TD 1,EMEA,D,S,1,CODE,treatment
+Application Codes,TD 1,GLOBAL,R,I,0,,treatment
+Application Codes,TD 1,GLOBAL,R,F,0,,treatment
+Application Codes,TD 1,GLOBAL,R,H,0,,treatment
+Application Codes,TD 1,GLOBAL,R,S,0,,treatment
+Application Codes,TD 1,GLOBAL,R,G,0,,treatment
+Application Codes,TD 1,GLOBAL,R,II,0,,treatment
+Application Codes,TD 1,GLOBAL,D,I,0,,treatment
+Application Codes,TD 1,GLOBAL,D,F,0,,treatment
+Application Codes,TD 1,GLOBAL,D,H,0,,treatment
+Application Codes,TD 1,GLOBAL,D,S,0,,treatment
+Application Codes,TD 1,GLOBAL,D,G,0,,treatment
+Application Codes,TD 1,GLOBAL,D,II,0,,treatment
+Application Codes,TD 1,GLOBAL,A,I,0,,treatment
+Application Codes,TD 1,GLOBAL,A,F,0,,treatment
+Application Codes,TD 1,GLOBAL,A,H,0,,treatment
+Application Codes,TD 1,GLOBAL,A,S,0,,treatment
+Application Codes,TD 1,GLOBAL,A,G,0,,treatment
+Application Codes,TD 1,GLOBAL,A,II,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,I,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,F,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,H,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,S,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,G,0,,treatment
+Application Codes,TD 1,GLOBAL,TT,II,0,,treatment
+Application Codes,TD 1,EMEA,R,I,1,,treatment
+Application Codes,TD 1,EMEA,R,F,1,,treatment
+Application Codes,TD 1,EMEA,R,H,1,,treatment
+Application Codes,TD 1,EMEA,R,S,1,,treatment
+Application Codes,TD 1,EMEA,D,I,1,,treatment
+Application Codes,TD 1,EMEA,D,F,1,,treatment
+Application Codes,TD 1,EMEA,D,H,1,,treatment
+Application Codes,TD 1,EMEA,D,S,1,,treatment
 Trans. Dose Unit,TD 1,GLOBAL,R,I,0,,treatment
 Trans. Dose Unit,TD 1,GLOBAL,R,F,0,,treatment
 Trans. Dose Unit,TD 1,GLOBAL,R,H,0,,treatment
@@ -1983,38 +2015,38 @@ Trans. Dose Unit,TD 1,EMEA,D,I,1,CODE,treatment
 Trans. Dose Unit,TD 1,EMEA,D,F,1,CODE,treatment
 Trans. Dose Unit,TD 1,EMEA,D,H,1,CODE,treatment
 Trans. Dose Unit,TD 1,EMEA,D,S,1,CODE,treatment
-Appl. Code,TD 1,GLOBAL,R,I,0,,treatment
-Appl. Code,TD 1,GLOBAL,R,F,0,,treatment
-Appl. Code,TD 1,GLOBAL,R,H,0,,treatment
-Appl. Code,TD 1,GLOBAL,R,S,0,,treatment
-Appl. Code,TD 1,GLOBAL,R,G,0,,treatment
-Appl. Code,TD 1,GLOBAL,R,II,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,I,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,F,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,H,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,S,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,G,0,,treatment
-Appl. Code,TD 1,GLOBAL,D,II,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,I,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,F,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,H,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,S,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,G,0,,treatment
-Appl. Code,TD 1,GLOBAL,A,II,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,I,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,F,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,H,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,S,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,G,0,,treatment
-Appl. Code,TD 1,GLOBAL,TT,II,0,,treatment
-Appl. Code,TD 1,EMEA,R,I,1,,treatment
-Appl. Code,TD 1,EMEA,R,F,1,,treatment
-Appl. Code,TD 1,EMEA,R,H,1,,treatment
-Appl. Code,TD 1,EMEA,R,S,1,,treatment
-Appl. Code,TD 1,EMEA,D,I,1,,treatment
-Appl. Code,TD 1,EMEA,D,F,1,,treatment
-Appl. Code,TD 1,EMEA,D,H,1,,treatment
-Appl. Code,TD 1,EMEA,D,S,1,,treatment
+Appl. Code,TD 1,GLOBAL,R,I,0,,application
+Appl. Code,TD 1,GLOBAL,R,F,0,,application
+Appl. Code,TD 1,GLOBAL,R,H,0,,application
+Appl. Code,TD 1,GLOBAL,R,S,0,,application
+Appl. Code,TD 1,GLOBAL,R,G,0,,application
+Appl. Code,TD 1,GLOBAL,R,II,0,,application
+Appl. Code,TD 1,GLOBAL,D,I,0,,application
+Appl. Code,TD 1,GLOBAL,D,F,0,,application
+Appl. Code,TD 1,GLOBAL,D,H,0,,application
+Appl. Code,TD 1,GLOBAL,D,S,0,,application
+Appl. Code,TD 1,GLOBAL,D,G,0,,application
+Appl. Code,TD 1,GLOBAL,D,II,0,,application
+Appl. Code,TD 1,GLOBAL,A,I,0,,application
+Appl. Code,TD 1,GLOBAL,A,F,0,,application
+Appl. Code,TD 1,GLOBAL,A,H,0,,application
+Appl. Code,TD 1,GLOBAL,A,S,0,,application
+Appl. Code,TD 1,GLOBAL,A,G,0,,application
+Appl. Code,TD 1,GLOBAL,A,II,0,,application
+Appl. Code,TD 1,GLOBAL,TT,I,0,,application
+Appl. Code,TD 1,GLOBAL,TT,F,0,,application
+Appl. Code,TD 1,GLOBAL,TT,H,0,,application
+Appl. Code,TD 1,GLOBAL,TT,S,0,,application
+Appl. Code,TD 1,GLOBAL,TT,G,0,,application
+Appl. Code,TD 1,GLOBAL,TT,II,0,,application
+Appl. Code,TD 1,EMEA,R,I,1,,application
+Appl. Code,TD 1,EMEA,R,F,1,,application
+Appl. Code,TD 1,EMEA,R,H,1,,application
+Appl. Code,TD 1,EMEA,R,S,1,,application
+Appl. Code,TD 1,EMEA,D,I,1,,application
+Appl. Code,TD 1,EMEA,D,F,1,,application
+Appl. Code,TD 1,EMEA,D,H,1,,application
+Appl. Code,TD 1,EMEA,D,S,1,,application
 Core/Other Treatments,TD 1,GLOBAL,R,I,0,,treatment
 Core/Other Treatments,TD 1,GLOBAL,R,F,0,,treatment
 Core/Other Treatments,TD 1,GLOBAL,R,H,0,,treatment
@@ -2079,166 +2111,166 @@ Treatment Role,TD 1,EMEA,D,I,1,,treatment
 Treatment Role,TD 1,EMEA,D,F,1,,treatment
 Treatment Role,TD 1,EMEA,D,H,1,,treatment
 Treatment Role,TD 1,EMEA,D,S,1,,treatment
-Application timing,TD 1,GLOBAL,R,I,0,,treatment
-Application timing,TD 1,GLOBAL,R,F,0,,treatment
-Application timing,TD 1,GLOBAL,R,H,1,,treatment
-Application timing,TD 1,GLOBAL,R,S,0,,treatment
-Application timing,TD 1,GLOBAL,R,G,1,,treatment
-Application timing,TD 1,GLOBAL,R,II,0,,treatment
-Application timing,TD 1,GLOBAL,D,I,0,,treatment
-Application timing,TD 1,GLOBAL,D,F,0,,treatment
-Application timing,TD 1,GLOBAL,D,H,1,,treatment
-Application timing,TD 1,GLOBAL,D,S,0,,treatment
-Application timing,TD 1,GLOBAL,D,G,1,,treatment
-Application timing,TD 1,GLOBAL,D,II,0,,treatment
-Application timing,TD 1,GLOBAL,A,I,0,,treatment
-Application timing,TD 1,GLOBAL,A,F,0,,treatment
-Application timing,TD 1,GLOBAL,A,H,1,,treatment
-Application timing,TD 1,GLOBAL,A,S,0,,treatment
-Application timing,TD 1,GLOBAL,A,G,1,,treatment
-Application timing,TD 1,GLOBAL,A,II,0,,treatment
-Application timing,TD 1,GLOBAL,TT,I,0,,treatment
-Application timing,TD 1,GLOBAL,TT,F,0,,treatment
-Application timing,TD 1,GLOBAL,TT,H,1,,treatment
-Application timing,TD 1,GLOBAL,TT,S,0,,treatment
-Application timing,TD 1,GLOBAL,TT,G,1,,treatment
-Application timing,TD 1,GLOBAL,TT,II,0,,treatment
-Application timing,TD 1,EMEA,R,I,0,,treatment
-Application timing,TD 1,EMEA,R,F,0,,treatment
-Application timing,TD 1,EMEA,R,H,1,,treatment
-Application timing,TD 1,EMEA,R,S,0,,treatment
-Application timing,TD 1,EMEA,D,I,0,,treatment
-Application timing,TD 1,EMEA,D,F,0,,treatment
-Application timing,TD 1,EMEA,D,H,1,,treatment
-Application timing,TD 1,EMEA,D,S,0,,treatment
-Application Method,TD 1,GLOBAL,R,I,1,,treatment
-Application Method,TD 1,GLOBAL,R,F,1,,treatment
-Application Method,TD 1,GLOBAL,R,H,1,,treatment
-Application Method,TD 1,GLOBAL,R,S,1,,treatment
-Application Method,TD 1,GLOBAL,R,G,1,,treatment
-Application Method,TD 1,GLOBAL,R,II,1,,treatment
-Application Method,TD 1,GLOBAL,D,I,1,,treatment
-Application Method,TD 1,GLOBAL,D,F,1,,treatment
-Application Method,TD 1,GLOBAL,D,H,1,,treatment
-Application Method,TD 1,GLOBAL,D,S,1,,treatment
-Application Method,TD 1,GLOBAL,D,G,1,,treatment
-Application Method,TD 1,GLOBAL,D,II,1,,treatment
-Application Method,TD 1,GLOBAL,A,I,1,,treatment
-Application Method,TD 1,GLOBAL,A,F,1,,treatment
-Application Method,TD 1,GLOBAL,A,H,1,,treatment
-Application Method,TD 1,GLOBAL,A,S,1,,treatment
-Application Method,TD 1,GLOBAL,A,G,1,,treatment
-Application Method,TD 1,GLOBAL,A,II,1,,treatment
-Application Method,TD 1,GLOBAL,TT,I,1,,treatment
-Application Method,TD 1,GLOBAL,TT,F,1,,treatment
-Application Method,TD 1,GLOBAL,TT,H,1,,treatment
-Application Method,TD 1,GLOBAL,TT,S,1,,treatment
-Application Method,TD 1,GLOBAL,TT,G,1,,treatment
-Application Method,TD 1,GLOBAL,TT,II,1,,treatment
-Application Method,TD 1,EMEA,R,I,1,,treatment
-Application Method,TD 1,EMEA,R,F,1,,treatment
-Application Method,TD 1,EMEA,R,H,1,,treatment
-Application Method,TD 1,EMEA,R,S,1,,treatment
-Application Method,TD 1,EMEA,D,I,1,,treatment
-Application Method,TD 1,EMEA,D,F,1,,treatment
-Application Method,TD 1,EMEA,D,H,1,,treatment
-Application Method,TD 1,EMEA,D,S,1,,treatment
-Application Placement,TD 1,GLOBAL,R,I,1,,treatment
-Application Placement,TD 1,GLOBAL,R,F,1,,treatment
-Application Placement,TD 1,GLOBAL,R,H,1,,treatment
-Application Placement,TD 1,GLOBAL,R,S,1,,treatment
-Application Placement,TD 1,GLOBAL,R,G,1,,treatment
-Application Placement,TD 1,GLOBAL,R,II,1,,treatment
-Application Placement,TD 1,GLOBAL,D,I,0,,treatment
-Application Placement,TD 1,GLOBAL,D,F,0,,treatment
-Application Placement,TD 1,GLOBAL,D,H,0,,treatment
-Application Placement,TD 1,GLOBAL,D,S,0,,treatment
-Application Placement,TD 1,GLOBAL,D,G,0,,treatment
-Application Placement,TD 1,GLOBAL,D,II,0,,treatment
-Application Placement,TD 1,GLOBAL,A,I,0,,treatment
-Application Placement,TD 1,GLOBAL,A,F,0,,treatment
-Application Placement,TD 1,GLOBAL,A,H,0,,treatment
-Application Placement,TD 1,GLOBAL,A,S,0,,treatment
-Application Placement,TD 1,GLOBAL,A,G,0,,treatment
-Application Placement,TD 1,GLOBAL,A,II,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,I,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,F,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,H,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,S,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,G,0,,treatment
-Application Placement,TD 1,GLOBAL,TT,II,0,,treatment
-Application Placement,TD 1,EMEA,R,I,1,,treatment
-Application Placement,TD 1,EMEA,R,F,1,,treatment
-Application Placement,TD 1,EMEA,R,H,1,,treatment
-Application Placement,TD 1,EMEA,R,S,1,,treatment
-Application Placement,TD 1,EMEA,D,I,1,,treatment
-Application Placement,TD 1,EMEA,D,F,1,,treatment
-Application Placement,TD 1,EMEA,D,H,1,,treatment
-Application Placement,TD 1,EMEA,D,S,1,,treatment
-Stage Majority,TD 1,GLOBAL,R,I,1,,treatment
-Stage Majority,TD 1,GLOBAL,R,F,0,,treatment
-Stage Majority,TD 1,GLOBAL,R,H,1,,treatment
-Stage Majority,TD 1,GLOBAL,R,S,0,,treatment
-Stage Majority,TD 1,GLOBAL,R,G,1,,treatment
-Stage Majority,TD 1,GLOBAL,R,II,0,,treatment
-Stage Majority,TD 1,GLOBAL,D,I,1,,treatment
-Stage Majority,TD 1,GLOBAL,D,F,0,,treatment
-Stage Majority,TD 1,GLOBAL,D,H,1,,treatment
-Stage Majority,TD 1,GLOBAL,D,S,0,,treatment
-Stage Majority,TD 1,GLOBAL,D,G,1,,treatment
-Stage Majority,TD 1,GLOBAL,D,II,0,,treatment
-Stage Majority,TD 1,GLOBAL,A,I,1,,treatment
-Stage Majority,TD 1,GLOBAL,A,F,0,,treatment
-Stage Majority,TD 1,GLOBAL,A,H,1,,treatment
-Stage Majority,TD 1,GLOBAL,A,S,0,,treatment
-Stage Majority,TD 1,GLOBAL,A,G,1,,treatment
-Stage Majority,TD 1,GLOBAL,A,II,0,,treatment
-Stage Majority,TD 1,GLOBAL,TT,I,1,,treatment
-Stage Majority,TD 1,GLOBAL,TT,F,0,,treatment
-Stage Majority,TD 1,GLOBAL,TT,H,1,,treatment
-Stage Majority,TD 1,GLOBAL,TT,S,0,,treatment
-Stage Majority,TD 1,GLOBAL,TT,G,1,,treatment
-Stage Majority,TD 1,GLOBAL,TT,II,0,,treatment
-Stage Majority,TD 1,EMEA,R,I,1,,treatment
-Stage Majority,TD 1,EMEA,R,F,0,,treatment
-Stage Majority,TD 1,EMEA,R,H,1,,treatment
-Stage Majority,TD 1,EMEA,R,S,0,,treatment
-Stage Majority,TD 1,EMEA,D,I,1,,treatment
-Stage Majority,TD 1,EMEA,D,F,0,,treatment
-Stage Majority,TD 1,EMEA,D,H,1,,treatment
-Stage Majority,TD 1,EMEA,D,S,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,I,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,F,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,H,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,S,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,G,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,R,II,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,I,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,F,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,H,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,S,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,G,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,D,II,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,I,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,F,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,H,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,S,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,G,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,A,II,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,I,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,F,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,H,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,S,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,G,0,,treatment
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,II,0,,treatment
-Treated Leaf Wall Area,TD 1,EMEA,R,I,1,DOSE,treatment
-Treated Leaf Wall Area,TD 1,EMEA,R,F,1,DOSE,treatment
-Treated Leaf Wall Area,TD 1,EMEA,R,H,0,,treatment
-Treated Leaf Wall Area,TD 1,EMEA,R,S,0,,treatment
-Treated Leaf Wall Area,TD 1,EMEA,D,I,1,DOSE,treatment
-Treated Leaf Wall Area,TD 1,EMEA,D,F,1,DOSE,treatment
-Treated Leaf Wall Area,TD 1,EMEA,D,H,0,,treatment
-Treated Leaf Wall Area,TD 1,EMEA,D,S,0,,treatment
+Application timing,TD 1,GLOBAL,R,I,0,,application
+Application timing,TD 1,GLOBAL,R,F,0,,application
+Application timing,TD 1,GLOBAL,R,H,1,,application
+Application timing,TD 1,GLOBAL,R,S,0,,application
+Application timing,TD 1,GLOBAL,R,G,1,,application
+Application timing,TD 1,GLOBAL,R,II,0,,application
+Application timing,TD 1,GLOBAL,D,I,0,,application
+Application timing,TD 1,GLOBAL,D,F,0,,application
+Application timing,TD 1,GLOBAL,D,H,1,,application
+Application timing,TD 1,GLOBAL,D,S,0,,application
+Application timing,TD 1,GLOBAL,D,G,1,,application
+Application timing,TD 1,GLOBAL,D,II,0,,application
+Application timing,TD 1,GLOBAL,A,I,0,,application
+Application timing,TD 1,GLOBAL,A,F,0,,application
+Application timing,TD 1,GLOBAL,A,H,1,,application
+Application timing,TD 1,GLOBAL,A,S,0,,application
+Application timing,TD 1,GLOBAL,A,G,1,,application
+Application timing,TD 1,GLOBAL,A,II,0,,application
+Application timing,TD 1,GLOBAL,TT,I,0,,application
+Application timing,TD 1,GLOBAL,TT,F,0,,application
+Application timing,TD 1,GLOBAL,TT,H,1,,application
+Application timing,TD 1,GLOBAL,TT,S,0,,application
+Application timing,TD 1,GLOBAL,TT,G,1,,application
+Application timing,TD 1,GLOBAL,TT,II,0,,application
+Application timing,TD 1,EMEA,R,I,0,,application
+Application timing,TD 1,EMEA,R,F,0,,application
+Application timing,TD 1,EMEA,R,H,1,,application
+Application timing,TD 1,EMEA,R,S,0,,application
+Application timing,TD 1,EMEA,D,I,0,,application
+Application timing,TD 1,EMEA,D,F,0,,application
+Application timing,TD 1,EMEA,D,H,1,,application
+Application timing,TD 1,EMEA,D,S,0,,application
+Application Method,TD 1,GLOBAL,R,I,1,,application
+Application Method,TD 1,GLOBAL,R,F,1,,application
+Application Method,TD 1,GLOBAL,R,H,1,,application
+Application Method,TD 1,GLOBAL,R,S,1,,application
+Application Method,TD 1,GLOBAL,R,G,1,,application
+Application Method,TD 1,GLOBAL,R,II,1,,application
+Application Method,TD 1,GLOBAL,D,I,1,,application
+Application Method,TD 1,GLOBAL,D,F,1,,application
+Application Method,TD 1,GLOBAL,D,H,1,,application
+Application Method,TD 1,GLOBAL,D,S,1,,application
+Application Method,TD 1,GLOBAL,D,G,1,,application
+Application Method,TD 1,GLOBAL,D,II,1,,application
+Application Method,TD 1,GLOBAL,A,I,1,,application
+Application Method,TD 1,GLOBAL,A,F,1,,application
+Application Method,TD 1,GLOBAL,A,H,1,,application
+Application Method,TD 1,GLOBAL,A,S,1,,application
+Application Method,TD 1,GLOBAL,A,G,1,,application
+Application Method,TD 1,GLOBAL,A,II,1,,application
+Application Method,TD 1,GLOBAL,TT,I,1,,application
+Application Method,TD 1,GLOBAL,TT,F,1,,application
+Application Method,TD 1,GLOBAL,TT,H,1,,application
+Application Method,TD 1,GLOBAL,TT,S,1,,application
+Application Method,TD 1,GLOBAL,TT,G,1,,application
+Application Method,TD 1,GLOBAL,TT,II,1,,application
+Application Method,TD 1,EMEA,R,I,1,,application
+Application Method,TD 1,EMEA,R,F,1,,application
+Application Method,TD 1,EMEA,R,H,1,,application
+Application Method,TD 1,EMEA,R,S,1,,application
+Application Method,TD 1,EMEA,D,I,1,,application
+Application Method,TD 1,EMEA,D,F,1,,application
+Application Method,TD 1,EMEA,D,H,1,,application
+Application Method,TD 1,EMEA,D,S,1,,application
+Application Placement,TD 1,GLOBAL,R,I,1,,application
+Application Placement,TD 1,GLOBAL,R,F,1,,application
+Application Placement,TD 1,GLOBAL,R,H,1,,application
+Application Placement,TD 1,GLOBAL,R,S,1,,application
+Application Placement,TD 1,GLOBAL,R,G,1,,application
+Application Placement,TD 1,GLOBAL,R,II,1,,application
+Application Placement,TD 1,GLOBAL,D,I,0,,application
+Application Placement,TD 1,GLOBAL,D,F,0,,application
+Application Placement,TD 1,GLOBAL,D,H,0,,application
+Application Placement,TD 1,GLOBAL,D,S,0,,application
+Application Placement,TD 1,GLOBAL,D,G,0,,application
+Application Placement,TD 1,GLOBAL,D,II,0,,application
+Application Placement,TD 1,GLOBAL,A,I,0,,application
+Application Placement,TD 1,GLOBAL,A,F,0,,application
+Application Placement,TD 1,GLOBAL,A,H,0,,application
+Application Placement,TD 1,GLOBAL,A,S,0,,application
+Application Placement,TD 1,GLOBAL,A,G,0,,application
+Application Placement,TD 1,GLOBAL,A,II,0,,application
+Application Placement,TD 1,GLOBAL,TT,I,0,,application
+Application Placement,TD 1,GLOBAL,TT,F,0,,application
+Application Placement,TD 1,GLOBAL,TT,H,0,,application
+Application Placement,TD 1,GLOBAL,TT,S,0,,application
+Application Placement,TD 1,GLOBAL,TT,G,0,,application
+Application Placement,TD 1,GLOBAL,TT,II,0,,application
+Application Placement,TD 1,EMEA,R,I,1,,application
+Application Placement,TD 1,EMEA,R,F,1,,application
+Application Placement,TD 1,EMEA,R,H,1,,application
+Application Placement,TD 1,EMEA,R,S,1,,application
+Application Placement,TD 1,EMEA,D,I,1,,application
+Application Placement,TD 1,EMEA,D,F,1,,application
+Application Placement,TD 1,EMEA,D,H,1,,application
+Application Placement,TD 1,EMEA,D,S,1,,application
+Stage Majority,TD 1,GLOBAL,R,I,1,,application
+Stage Majority,TD 1,GLOBAL,R,F,0,,application
+Stage Majority,TD 1,GLOBAL,R,H,1,,application
+Stage Majority,TD 1,GLOBAL,R,S,0,,application
+Stage Majority,TD 1,GLOBAL,R,G,1,,application
+Stage Majority,TD 1,GLOBAL,R,II,0,,application
+Stage Majority,TD 1,GLOBAL,D,I,1,,application
+Stage Majority,TD 1,GLOBAL,D,F,0,,application
+Stage Majority,TD 1,GLOBAL,D,H,1,,application
+Stage Majority,TD 1,GLOBAL,D,S,0,,application
+Stage Majority,TD 1,GLOBAL,D,G,1,,application
+Stage Majority,TD 1,GLOBAL,D,II,0,,application
+Stage Majority,TD 1,GLOBAL,A,I,1,,application
+Stage Majority,TD 1,GLOBAL,A,F,0,,application
+Stage Majority,TD 1,GLOBAL,A,H,1,,application
+Stage Majority,TD 1,GLOBAL,A,S,0,,application
+Stage Majority,TD 1,GLOBAL,A,G,1,,application
+Stage Majority,TD 1,GLOBAL,A,II,0,,application
+Stage Majority,TD 1,GLOBAL,TT,I,1,,application
+Stage Majority,TD 1,GLOBAL,TT,F,0,,application
+Stage Majority,TD 1,GLOBAL,TT,H,1,,application
+Stage Majority,TD 1,GLOBAL,TT,S,0,,application
+Stage Majority,TD 1,GLOBAL,TT,G,1,,application
+Stage Majority,TD 1,GLOBAL,TT,II,0,,application
+Stage Majority,TD 1,EMEA,R,I,1,,application
+Stage Majority,TD 1,EMEA,R,F,0,,application
+Stage Majority,TD 1,EMEA,R,H,1,,application
+Stage Majority,TD 1,EMEA,R,S,0,,application
+Stage Majority,TD 1,EMEA,D,I,1,,application
+Stage Majority,TD 1,EMEA,D,F,0,,application
+Stage Majority,TD 1,EMEA,D,H,1,,application
+Stage Majority,TD 1,EMEA,D,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,II,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,R,I,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,R,F,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,R,H,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,R,S,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,D,I,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,D,F,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,D,H,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,D,S,0,,application
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
@@ -3587,38 +3619,38 @@ Trans. Dose Unit,PROT,EMEA,D,I,1,CODE,treatment
 Trans. Dose Unit,PROT,EMEA,D,F,1,CODE,treatment
 Trans. Dose Unit,PROT,EMEA,D,H,1,CODE,treatment
 Trans. Dose Unit,PROT,EMEA,D,S,1,CODE,treatment
-Appl. Code,PROT,GLOBAL,R,I,0,,treatment
-Appl. Code,PROT,GLOBAL,R,F,0,,treatment
-Appl. Code,PROT,GLOBAL,R,H,0,,treatment
-Appl. Code,PROT,GLOBAL,R,S,0,,treatment
-Appl. Code,PROT,GLOBAL,R,G,0,,treatment
-Appl. Code,PROT,GLOBAL,R,II,0,,treatment
-Appl. Code,PROT,GLOBAL,D,I,0,,treatment
-Appl. Code,PROT,GLOBAL,D,F,0,,treatment
-Appl. Code,PROT,GLOBAL,D,H,0,,treatment
-Appl. Code,PROT,GLOBAL,D,S,0,,treatment
-Appl. Code,PROT,GLOBAL,D,G,0,,treatment
-Appl. Code,PROT,GLOBAL,D,II,0,,treatment
-Appl. Code,PROT,GLOBAL,A,I,0,,treatment
-Appl. Code,PROT,GLOBAL,A,F,0,,treatment
-Appl. Code,PROT,GLOBAL,A,H,0,,treatment
-Appl. Code,PROT,GLOBAL,A,S,0,,treatment
-Appl. Code,PROT,GLOBAL,A,G,0,,treatment
-Appl. Code,PROT,GLOBAL,A,II,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,I,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,F,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,H,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,S,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,G,0,,treatment
-Appl. Code,PROT,GLOBAL,TT,II,0,,treatment
-Appl. Code,PROT,EMEA,R,I,1,,treatment
-Appl. Code,PROT,EMEA,R,F,1,,treatment
-Appl. Code,PROT,EMEA,R,H,1,,treatment
-Appl. Code,PROT,EMEA,R,S,1,,treatment
-Appl. Code,PROT,EMEA,D,I,1,,treatment
-Appl. Code,PROT,EMEA,D,F,1,,treatment
-Appl. Code,PROT,EMEA,D,H,1,,treatment
-Appl. Code,PROT,EMEA,D,S,1,,treatment
+Appl. Code,PROT,GLOBAL,R,I,0,,application
+Appl. Code,PROT,GLOBAL,R,F,0,,application
+Appl. Code,PROT,GLOBAL,R,H,0,,application
+Appl. Code,PROT,GLOBAL,R,S,0,,application
+Appl. Code,PROT,GLOBAL,R,G,0,,application
+Appl. Code,PROT,GLOBAL,R,II,0,,application
+Appl. Code,PROT,GLOBAL,D,I,0,,application
+Appl. Code,PROT,GLOBAL,D,F,0,,application
+Appl. Code,PROT,GLOBAL,D,H,0,,application
+Appl. Code,PROT,GLOBAL,D,S,0,,application
+Appl. Code,PROT,GLOBAL,D,G,0,,application
+Appl. Code,PROT,GLOBAL,D,II,0,,application
+Appl. Code,PROT,GLOBAL,A,I,0,,application
+Appl. Code,PROT,GLOBAL,A,F,0,,application
+Appl. Code,PROT,GLOBAL,A,H,0,,application
+Appl. Code,PROT,GLOBAL,A,S,0,,application
+Appl. Code,PROT,GLOBAL,A,G,0,,application
+Appl. Code,PROT,GLOBAL,A,II,0,,application
+Appl. Code,PROT,GLOBAL,TT,I,0,,application
+Appl. Code,PROT,GLOBAL,TT,F,0,,application
+Appl. Code,PROT,GLOBAL,TT,H,0,,application
+Appl. Code,PROT,GLOBAL,TT,S,0,,application
+Appl. Code,PROT,GLOBAL,TT,G,0,,application
+Appl. Code,PROT,GLOBAL,TT,II,0,,application
+Appl. Code,PROT,EMEA,R,I,1,,application
+Appl. Code,PROT,EMEA,R,F,1,,application
+Appl. Code,PROT,EMEA,R,H,1,,application
+Appl. Code,PROT,EMEA,R,S,1,,application
+Appl. Code,PROT,EMEA,D,I,1,,application
+Appl. Code,PROT,EMEA,D,F,1,,application
+Appl. Code,PROT,EMEA,D,H,1,,application
+Appl. Code,PROT,EMEA,D,S,1,,application
 Core/Other Treatments,PROT,GLOBAL,R,I,0,,treatment
 Core/Other Treatments,PROT,GLOBAL,R,F,0,,treatment
 Core/Other Treatments,PROT,GLOBAL,R,H,0,,treatment
@@ -3683,166 +3715,166 @@ Treatment Role,PROT,EMEA,D,I,1,,treatment
 Treatment Role,PROT,EMEA,D,F,1,,treatment
 Treatment Role,PROT,EMEA,D,H,1,,treatment
 Treatment Role,PROT,EMEA,D,S,1,,treatment
-Application timing,PROT,GLOBAL,R,I,0,,treatment
-Application timing,PROT,GLOBAL,R,F,0,,treatment
-Application timing,PROT,GLOBAL,R,H,1,,treatment
-Application timing,PROT,GLOBAL,R,S,0,,treatment
-Application timing,PROT,GLOBAL,R,G,1,,treatment
-Application timing,PROT,GLOBAL,R,II,0,,treatment
-Application timing,PROT,GLOBAL,D,I,0,,treatment
-Application timing,PROT,GLOBAL,D,F,0,,treatment
-Application timing,PROT,GLOBAL,D,H,1,,treatment
-Application timing,PROT,GLOBAL,D,S,0,,treatment
-Application timing,PROT,GLOBAL,D,G,1,,treatment
-Application timing,PROT,GLOBAL,D,II,0,,treatment
-Application timing,PROT,GLOBAL,A,I,0,,treatment
-Application timing,PROT,GLOBAL,A,F,0,,treatment
-Application timing,PROT,GLOBAL,A,H,1,,treatment
-Application timing,PROT,GLOBAL,A,S,0,,treatment
-Application timing,PROT,GLOBAL,A,G,1,,treatment
-Application timing,PROT,GLOBAL,A,II,0,,treatment
-Application timing,PROT,GLOBAL,TT,I,0,,treatment
-Application timing,PROT,GLOBAL,TT,F,0,,treatment
-Application timing,PROT,GLOBAL,TT,H,1,,treatment
-Application timing,PROT,GLOBAL,TT,S,0,,treatment
-Application timing,PROT,GLOBAL,TT,G,1,,treatment
-Application timing,PROT,GLOBAL,TT,II,0,,treatment
-Application timing,PROT,EMEA,R,I,0,,treatment
-Application timing,PROT,EMEA,R,F,0,,treatment
-Application timing,PROT,EMEA,R,H,1,,treatment
-Application timing,PROT,EMEA,R,S,0,,treatment
-Application timing,PROT,EMEA,D,I,0,,treatment
-Application timing,PROT,EMEA,D,F,0,,treatment
-Application timing,PROT,EMEA,D,H,1,,treatment
-Application timing,PROT,EMEA,D,S,0,,treatment
-Application Method,PROT,GLOBAL,R,I,1,,treatment
-Application Method,PROT,GLOBAL,R,F,1,,treatment
-Application Method,PROT,GLOBAL,R,H,1,,treatment
-Application Method,PROT,GLOBAL,R,S,1,,treatment
-Application Method,PROT,GLOBAL,R,G,1,,treatment
-Application Method,PROT,GLOBAL,R,II,1,,treatment
-Application Method,PROT,GLOBAL,D,I,1,,treatment
-Application Method,PROT,GLOBAL,D,F,1,,treatment
-Application Method,PROT,GLOBAL,D,H,1,,treatment
-Application Method,PROT,GLOBAL,D,S,1,,treatment
-Application Method,PROT,GLOBAL,D,G,1,,treatment
-Application Method,PROT,GLOBAL,D,II,1,,treatment
-Application Method,PROT,GLOBAL,A,I,1,,treatment
-Application Method,PROT,GLOBAL,A,F,1,,treatment
-Application Method,PROT,GLOBAL,A,H,1,,treatment
-Application Method,PROT,GLOBAL,A,S,1,,treatment
-Application Method,PROT,GLOBAL,A,G,1,,treatment
-Application Method,PROT,GLOBAL,A,II,1,,treatment
-Application Method,PROT,GLOBAL,TT,I,1,,treatment
-Application Method,PROT,GLOBAL,TT,F,1,,treatment
-Application Method,PROT,GLOBAL,TT,H,1,,treatment
-Application Method,PROT,GLOBAL,TT,S,1,,treatment
-Application Method,PROT,GLOBAL,TT,G,1,,treatment
-Application Method,PROT,GLOBAL,TT,II,1,,treatment
-Application Method,PROT,EMEA,R,I,1,,treatment
-Application Method,PROT,EMEA,R,F,1,,treatment
-Application Method,PROT,EMEA,R,H,1,,treatment
-Application Method,PROT,EMEA,R,S,1,,treatment
-Application Method,PROT,EMEA,D,I,1,,treatment
-Application Method,PROT,EMEA,D,F,1,,treatment
-Application Method,PROT,EMEA,D,H,1,,treatment
-Application Method,PROT,EMEA,D,S,1,,treatment
-Application Placement,PROT,GLOBAL,R,I,1,,treatment
-Application Placement,PROT,GLOBAL,R,F,1,,treatment
-Application Placement,PROT,GLOBAL,R,H,1,,treatment
-Application Placement,PROT,GLOBAL,R,S,1,,treatment
-Application Placement,PROT,GLOBAL,R,G,1,,treatment
-Application Placement,PROT,GLOBAL,R,II,1,,treatment
-Application Placement,PROT,GLOBAL,D,I,0,,treatment
-Application Placement,PROT,GLOBAL,D,F,0,,treatment
-Application Placement,PROT,GLOBAL,D,H,0,,treatment
-Application Placement,PROT,GLOBAL,D,S,0,,treatment
-Application Placement,PROT,GLOBAL,D,G,0,,treatment
-Application Placement,PROT,GLOBAL,D,II,0,,treatment
-Application Placement,PROT,GLOBAL,A,I,0,,treatment
-Application Placement,PROT,GLOBAL,A,F,0,,treatment
-Application Placement,PROT,GLOBAL,A,H,0,,treatment
-Application Placement,PROT,GLOBAL,A,S,0,,treatment
-Application Placement,PROT,GLOBAL,A,G,0,,treatment
-Application Placement,PROT,GLOBAL,A,II,0,,treatment
-Application Placement,PROT,GLOBAL,TT,I,0,,treatment
-Application Placement,PROT,GLOBAL,TT,F,0,,treatment
-Application Placement,PROT,GLOBAL,TT,H,0,,treatment
-Application Placement,PROT,GLOBAL,TT,S,0,,treatment
-Application Placement,PROT,GLOBAL,TT,G,0,,treatment
-Application Placement,PROT,GLOBAL,TT,II,0,,treatment
-Application Placement,PROT,EMEA,R,I,1,,treatment
-Application Placement,PROT,EMEA,R,F,1,,treatment
-Application Placement,PROT,EMEA,R,H,1,,treatment
-Application Placement,PROT,EMEA,R,S,1,,treatment
-Application Placement,PROT,EMEA,D,I,1,,treatment
-Application Placement,PROT,EMEA,D,F,1,,treatment
-Application Placement,PROT,EMEA,D,H,1,,treatment
-Application Placement,PROT,EMEA,D,S,1,,treatment
-Stage Majority,PROT,GLOBAL,R,I,1,,treatment
-Stage Majority,PROT,GLOBAL,R,F,0,,treatment
-Stage Majority,PROT,GLOBAL,R,H,1,,treatment
-Stage Majority,PROT,GLOBAL,R,S,0,,treatment
-Stage Majority,PROT,GLOBAL,R,G,1,,treatment
-Stage Majority,PROT,GLOBAL,R,II,0,,treatment
-Stage Majority,PROT,GLOBAL,D,I,1,,treatment
-Stage Majority,PROT,GLOBAL,D,F,0,,treatment
-Stage Majority,PROT,GLOBAL,D,H,1,,treatment
-Stage Majority,PROT,GLOBAL,D,S,0,,treatment
-Stage Majority,PROT,GLOBAL,D,G,1,,treatment
-Stage Majority,PROT,GLOBAL,D,II,0,,treatment
-Stage Majority,PROT,GLOBAL,A,I,1,,treatment
-Stage Majority,PROT,GLOBAL,A,F,0,,treatment
-Stage Majority,PROT,GLOBAL,A,H,1,,treatment
-Stage Majority,PROT,GLOBAL,A,S,0,,treatment
-Stage Majority,PROT,GLOBAL,A,G,1,,treatment
-Stage Majority,PROT,GLOBAL,A,II,0,,treatment
-Stage Majority,PROT,GLOBAL,TT,I,1,,treatment
-Stage Majority,PROT,GLOBAL,TT,F,0,,treatment
-Stage Majority,PROT,GLOBAL,TT,H,1,,treatment
-Stage Majority,PROT,GLOBAL,TT,S,0,,treatment
-Stage Majority,PROT,GLOBAL,TT,G,1,,treatment
-Stage Majority,PROT,GLOBAL,TT,II,0,,treatment
-Stage Majority,PROT,EMEA,R,I,1,,treatment
-Stage Majority,PROT,EMEA,R,F,0,,treatment
-Stage Majority,PROT,EMEA,R,H,1,,treatment
-Stage Majority,PROT,EMEA,R,S,0,,treatment
-Stage Majority,PROT,EMEA,D,I,1,,treatment
-Stage Majority,PROT,EMEA,D,F,0,,treatment
-Stage Majority,PROT,EMEA,D,H,1,,treatment
-Stage Majority,PROT,EMEA,D,S,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,I,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,F,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,H,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,S,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,G,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,R,II,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,I,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,F,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,H,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,S,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,G,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,D,II,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,I,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,F,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,H,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,S,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,G,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,A,II,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,I,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,F,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,H,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,S,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,G,0,,treatment
-Leaf Wall Area,PROT,GLOBAL,TT,II,0,,treatment
-Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,treatment
-Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,treatment
-Leaf Wall Area,PROT,EMEA,R,H,0,,treatment
-Leaf Wall Area,PROT,EMEA,R,S,0,,treatment
-Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,treatment
-Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,treatment
-Leaf Wall Area,PROT,EMEA,D,H,0,,treatment
-Leaf Wall Area,PROT,EMEA,D,S,0,,treatment
+Application timing,PROT,GLOBAL,R,I,0,,application
+Application timing,PROT,GLOBAL,R,F,0,,application
+Application timing,PROT,GLOBAL,R,H,1,,application
+Application timing,PROT,GLOBAL,R,S,0,,application
+Application timing,PROT,GLOBAL,R,G,1,,application
+Application timing,PROT,GLOBAL,R,II,0,,application
+Application timing,PROT,GLOBAL,D,I,0,,application
+Application timing,PROT,GLOBAL,D,F,0,,application
+Application timing,PROT,GLOBAL,D,H,1,,application
+Application timing,PROT,GLOBAL,D,S,0,,application
+Application timing,PROT,GLOBAL,D,G,1,,application
+Application timing,PROT,GLOBAL,D,II,0,,application
+Application timing,PROT,GLOBAL,A,I,0,,application
+Application timing,PROT,GLOBAL,A,F,0,,application
+Application timing,PROT,GLOBAL,A,H,1,,application
+Application timing,PROT,GLOBAL,A,S,0,,application
+Application timing,PROT,GLOBAL,A,G,1,,application
+Application timing,PROT,GLOBAL,A,II,0,,application
+Application timing,PROT,GLOBAL,TT,I,0,,application
+Application timing,PROT,GLOBAL,TT,F,0,,application
+Application timing,PROT,GLOBAL,TT,H,1,,application
+Application timing,PROT,GLOBAL,TT,S,0,,application
+Application timing,PROT,GLOBAL,TT,G,1,,application
+Application timing,PROT,GLOBAL,TT,II,0,,application
+Application timing,PROT,EMEA,R,I,0,,application
+Application timing,PROT,EMEA,R,F,0,,application
+Application timing,PROT,EMEA,R,H,1,,application
+Application timing,PROT,EMEA,R,S,0,,application
+Application timing,PROT,EMEA,D,I,0,,application
+Application timing,PROT,EMEA,D,F,0,,application
+Application timing,PROT,EMEA,D,H,1,,application
+Application timing,PROT,EMEA,D,S,0,,application
+Application Method,PROT,GLOBAL,R,I,1,,application
+Application Method,PROT,GLOBAL,R,F,1,,application
+Application Method,PROT,GLOBAL,R,H,1,,application
+Application Method,PROT,GLOBAL,R,S,1,,application
+Application Method,PROT,GLOBAL,R,G,1,,application
+Application Method,PROT,GLOBAL,R,II,1,,application
+Application Method,PROT,GLOBAL,D,I,1,,application
+Application Method,PROT,GLOBAL,D,F,1,,application
+Application Method,PROT,GLOBAL,D,H,1,,application
+Application Method,PROT,GLOBAL,D,S,1,,application
+Application Method,PROT,GLOBAL,D,G,1,,application
+Application Method,PROT,GLOBAL,D,II,1,,application
+Application Method,PROT,GLOBAL,A,I,1,,application
+Application Method,PROT,GLOBAL,A,F,1,,application
+Application Method,PROT,GLOBAL,A,H,1,,application
+Application Method,PROT,GLOBAL,A,S,1,,application
+Application Method,PROT,GLOBAL,A,G,1,,application
+Application Method,PROT,GLOBAL,A,II,1,,application
+Application Method,PROT,GLOBAL,TT,I,1,,application
+Application Method,PROT,GLOBAL,TT,F,1,,application
+Application Method,PROT,GLOBAL,TT,H,1,,application
+Application Method,PROT,GLOBAL,TT,S,1,,application
+Application Method,PROT,GLOBAL,TT,G,1,,application
+Application Method,PROT,GLOBAL,TT,II,1,,application
+Application Method,PROT,EMEA,R,I,1,,application
+Application Method,PROT,EMEA,R,F,1,,application
+Application Method,PROT,EMEA,R,H,1,,application
+Application Method,PROT,EMEA,R,S,1,,application
+Application Method,PROT,EMEA,D,I,1,,application
+Application Method,PROT,EMEA,D,F,1,,application
+Application Method,PROT,EMEA,D,H,1,,application
+Application Method,PROT,EMEA,D,S,1,,application
+Application Placement,PROT,GLOBAL,R,I,1,,application
+Application Placement,PROT,GLOBAL,R,F,1,,application
+Application Placement,PROT,GLOBAL,R,H,1,,application
+Application Placement,PROT,GLOBAL,R,S,1,,application
+Application Placement,PROT,GLOBAL,R,G,1,,application
+Application Placement,PROT,GLOBAL,R,II,1,,application
+Application Placement,PROT,GLOBAL,D,I,0,,application
+Application Placement,PROT,GLOBAL,D,F,0,,application
+Application Placement,PROT,GLOBAL,D,H,0,,application
+Application Placement,PROT,GLOBAL,D,S,0,,application
+Application Placement,PROT,GLOBAL,D,G,0,,application
+Application Placement,PROT,GLOBAL,D,II,0,,application
+Application Placement,PROT,GLOBAL,A,I,0,,application
+Application Placement,PROT,GLOBAL,A,F,0,,application
+Application Placement,PROT,GLOBAL,A,H,0,,application
+Application Placement,PROT,GLOBAL,A,S,0,,application
+Application Placement,PROT,GLOBAL,A,G,0,,application
+Application Placement,PROT,GLOBAL,A,II,0,,application
+Application Placement,PROT,GLOBAL,TT,I,0,,application
+Application Placement,PROT,GLOBAL,TT,F,0,,application
+Application Placement,PROT,GLOBAL,TT,H,0,,application
+Application Placement,PROT,GLOBAL,TT,S,0,,application
+Application Placement,PROT,GLOBAL,TT,G,0,,application
+Application Placement,PROT,GLOBAL,TT,II,0,,application
+Application Placement,PROT,EMEA,R,I,1,,application
+Application Placement,PROT,EMEA,R,F,1,,application
+Application Placement,PROT,EMEA,R,H,1,,application
+Application Placement,PROT,EMEA,R,S,1,,application
+Application Placement,PROT,EMEA,D,I,1,,application
+Application Placement,PROT,EMEA,D,F,1,,application
+Application Placement,PROT,EMEA,D,H,1,,application
+Application Placement,PROT,EMEA,D,S,1,,application
+Stage Majority,PROT,GLOBAL,R,I,1,,application
+Stage Majority,PROT,GLOBAL,R,F,0,,application
+Stage Majority,PROT,GLOBAL,R,H,1,,application
+Stage Majority,PROT,GLOBAL,R,S,0,,application
+Stage Majority,PROT,GLOBAL,R,G,1,,application
+Stage Majority,PROT,GLOBAL,R,II,0,,application
+Stage Majority,PROT,GLOBAL,D,I,1,,application
+Stage Majority,PROT,GLOBAL,D,F,0,,application
+Stage Majority,PROT,GLOBAL,D,H,1,,application
+Stage Majority,PROT,GLOBAL,D,S,0,,application
+Stage Majority,PROT,GLOBAL,D,G,1,,application
+Stage Majority,PROT,GLOBAL,D,II,0,,application
+Stage Majority,PROT,GLOBAL,A,I,1,,application
+Stage Majority,PROT,GLOBAL,A,F,0,,application
+Stage Majority,PROT,GLOBAL,A,H,1,,application
+Stage Majority,PROT,GLOBAL,A,S,0,,application
+Stage Majority,PROT,GLOBAL,A,G,1,,application
+Stage Majority,PROT,GLOBAL,A,II,0,,application
+Stage Majority,PROT,GLOBAL,TT,I,1,,application
+Stage Majority,PROT,GLOBAL,TT,F,0,,application
+Stage Majority,PROT,GLOBAL,TT,H,1,,application
+Stage Majority,PROT,GLOBAL,TT,S,0,,application
+Stage Majority,PROT,GLOBAL,TT,G,1,,application
+Stage Majority,PROT,GLOBAL,TT,II,0,,application
+Stage Majority,PROT,EMEA,R,I,1,,application
+Stage Majority,PROT,EMEA,R,F,0,,application
+Stage Majority,PROT,EMEA,R,H,1,,application
+Stage Majority,PROT,EMEA,R,S,0,,application
+Stage Majority,PROT,EMEA,D,I,1,,application
+Stage Majority,PROT,EMEA,D,F,0,,application
+Stage Majority,PROT,EMEA,D,H,1,,application
+Stage Majority,PROT,EMEA,D,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,II,0,,application
+Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,R,H,0,,application
+Leaf Wall Area,PROT,EMEA,R,S,0,,application
+Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,D,H,0,,application
+Leaf Wall Area,PROT,EMEA,D,S,0,,application
 Project Number,PROT,GLOBAL,R,I,1,,general
 Project Number,PROT,GLOBAL,R,F,1,,general
 Project Number,PROT,GLOBAL,R,H,1,,general
@@ -3939,35 +3971,67 @@ Harvest Destr. Flag,PROT,EMEA,D,I,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,F,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,H,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,S,1,,general
-Leaf Wall Area Unit,PROT,GLOBAL,R,I,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,R,F,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,R,H,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,R,S,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,R,G,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,R,II,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,I,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,F,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,H,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,S,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,G,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,D,II,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,I,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,F,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,H,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,S,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,G,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,A,II,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,I,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,F,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,H,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,S,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,G,0,,treatment
-Leaf Wall Area Unit,PROT,GLOBAL,TT,II,0,,treatment
-Leaf Wall Area Unit,PROT,EMEA,R,I,1,DOSE,treatment
-Leaf Wall Area Unit,PROT,EMEA,R,F,1,DOSE,treatment
-Leaf Wall Area Unit,PROT,EMEA,R,H,0,,treatment
-Leaf Wall Area Unit,PROT,EMEA,R,S,0,,treatment
-Leaf Wall Area Unit,PROT,EMEA,D,I,1,DOSE,treatment
-Leaf Wall Area Unit,PROT,EMEA,D,F,1,DOSE,treatment
-Leaf Wall Area Unit,PROT,EMEA,D,H,0,,treatment
-Leaf Wall Area Unit,PROT,EMEA,D,S,0,,treatment
+Leaf Wall Area Unit,PROT,GLOBAL,R,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,II,0,,application
+Leaf Wall Area Unit,PROT,EMEA,R,I,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,R,F,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,R,H,0,,application
+Leaf Wall Area Unit,PROT,EMEA,R,S,0,,application
+Leaf Wall Area Unit,PROT,EMEA,D,I,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,D,F,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,D,H,0,,application
+Leaf Wall Area Unit,PROT,EMEA,D,S,0,,application
+Application Codes,PROT,GLOBAL,R,I,0,,treatment
+Application Codes,PROT,GLOBAL,R,F,0,,treatment
+Application Codes,PROT,GLOBAL,R,H,0,,treatment
+Application Codes,PROT,GLOBAL,R,S,0,,treatment
+Application Codes,PROT,GLOBAL,R,G,0,,treatment
+Application Codes,PROT,GLOBAL,R,II,0,,treatment
+Application Codes,PROT,GLOBAL,D,I,0,,treatment
+Application Codes,PROT,GLOBAL,D,F,0,,treatment
+Application Codes,PROT,GLOBAL,D,H,0,,treatment
+Application Codes,PROT,GLOBAL,D,S,0,,treatment
+Application Codes,PROT,GLOBAL,D,G,0,,treatment
+Application Codes,PROT,GLOBAL,D,II,0,,treatment
+Application Codes,PROT,GLOBAL,A,I,0,,treatment
+Application Codes,PROT,GLOBAL,A,F,0,,treatment
+Application Codes,PROT,GLOBAL,A,H,0,,treatment
+Application Codes,PROT,GLOBAL,A,S,0,,treatment
+Application Codes,PROT,GLOBAL,A,G,0,,treatment
+Application Codes,PROT,GLOBAL,A,II,0,,treatment
+Application Codes,PROT,GLOBAL,TT,I,0,,treatment
+Application Codes,PROT,GLOBAL,TT,F,0,,treatment
+Application Codes,PROT,GLOBAL,TT,H,0,,treatment
+Application Codes,PROT,GLOBAL,TT,S,0,,treatment
+Application Codes,PROT,GLOBAL,TT,G,0,,treatment
+Application Codes,PROT,GLOBAL,TT,II,0,,treatment
+Application Codes,PROT,EMEA,R,I,1,,treatment
+Application Codes,PROT,EMEA,R,F,1,,treatment
+Application Codes,PROT,EMEA,R,H,1,,treatment
+Application Codes,PROT,EMEA,R,S,1,,treatment
+Application Codes,PROT,EMEA,D,I,1,,treatment
+Application Codes,PROT,EMEA,D,F,1,,treatment
+Application Codes,PROT,EMEA,D,H,1,,treatment
+Application Codes,PROT,EMEA,D,S,1,,treatment

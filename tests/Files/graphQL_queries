@@ -136,6 +136,7 @@ TDs status 1 ------------------------------
           tankMixCode
           coreOtherTreatments
           treatmentRole
+          applicationCodes
         }
       }
       
@@ -247,6 +248,7 @@ Protocols --------------------
           tankMixCode
           coreOtherTreatments
           treatmentRole
+          applicationCodes
         }
       }
       
