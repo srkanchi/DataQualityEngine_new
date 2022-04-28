@@ -67,8 +67,12 @@ class TDCompleteness_1(RuleTemplate):
 
         if (oTD.getTrialType() in ['D','R','A']) and (oTD.getIndication() in ['F','H','I','S','G']):
 
+            lstGeneral = []
             general = oTD.getGeneral(attributeMapping, weights)
-            finalSummary.update({"General":general})
+            lstGeneral.append(general)
+            finalSummary.update({"General":lstGeneral})
+
+
 
             treatments = oTD.getTreatments(attributeMapping, weights)
 
@@ -435,7 +439,7 @@ class TD:
                         listItem.update({mapName:value})
                         missing = missing +1
                 else:
-                    listItem.update({mapName:value})
+                    listItem.update({mapName:str(value)})
 
             listItem.update({
                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -476,7 +480,7 @@ class TD:
                         missing = missing + 1
                         results.update({mapName:value})
                 else:
-                    results.update({mapName:value})
+                    results.update({mapName:str(value)})
 
         results.update({
             'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -537,7 +541,7 @@ class TD:
                             listItem.update({mapName:"Missing"})
                             missing = missing +1
                     else:
-                        listItem.update({mapName:value})
+                        listItem.update({mapName:str(value)})
 
                 if(self.getRegion=="EMEA"):
                     listItem.update({
@@ -587,7 +591,7 @@ class TD:
                             listItem.update({mapName:"Missing"})
                             missing = missing +1
                     else:
-                        listItem.update({mapName:value})
+                        listItem.update({mapName:str(value)})
 
                 listItem.update({
                 'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -840,7 +844,7 @@ class TD:
                     missing = missing +1
                     value = 'Missing'
 
-                listItem.update({mapName:value})
+                listItem.update({mapName:str(value)})
 
             listItem.update({
                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),

@@ -67,8 +67,11 @@ class ProtocolCompleteness(RuleTemplate):
 
         if (oTD.getTrialType() in ['D','R','A']) and (oTD.getIndication() in ['F','H','I','S','G']):
 
+            lstGeneral = []
             general = oTD.getGeneral(attributeMapping, weights)
-            finalSummary.update({"General":general})
+            lstGeneral.append(general)
+            finalSummary.update({"General":lstGeneral})
+
 
             treatments = oTD.getTreatments(attributeMapping, weights)
 
@@ -212,7 +215,7 @@ class TD:
     @plotDescriptionBasis.setter
     def plotDescriptionBasis(self, plotDescriptionBasis):
         if((plotDescriptionBasis is not None) and (plotDescriptionBasis not in self.nullChars) and (plotDescriptionBasis is not False)):
-            self.__plotDescriptionBasis = plotDescriptionBasis
+            self.__plotDescriptionBasis = str(plotDescriptionBasis)
         else:
             self.__plotDescriptionBasis = "Missing"
 
@@ -244,7 +247,7 @@ class TD:
     @plotAreaUnit.setter
     def plotAreaUnit(self, plotAreaUnit):
         if((plotAreaUnit is not None) and (plotAreaUnit not in self.nullChars)):
-            self.__plotAreaUnit = plotAreaUnit
+            self.__plotAreaUnit = str(plotAreaUnit)
         else:
             self.__plotAreaUnit = "Missing"
 
@@ -457,7 +460,7 @@ class TD:
                         listItem.update({mapName:value})
                         missing = missing +1
                 else:
-                    listItem.update({mapName:value})
+                    listItem.update({mapName:str(value)})
 
             listItem.update({
                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -496,7 +499,7 @@ class TD:
                         results.update({mapName:"Not required"})
                     else:
                         missing = missing + 1
-                        results.update({mapName:value})
+                        results.update({mapName:str(value)})
                 else:
                     results.update({mapName:value})
 
@@ -559,7 +562,7 @@ class TD:
                             listItem.update({mapName:"Missing"})
                             missing = missing +1
                     else:
-                        listItem.update({mapName:value})
+                        listItem.update({mapName:str(value)})
 
                 if(self.getRegion=="EMEA"):
                     listItem.update({
@@ -609,7 +612,7 @@ class TD:
                             listItem.update({mapName:"Missing"})
                             missing = missing +1
                     else:
-                        listItem.update({mapName:value})
+                        listItem.update({mapName:str(value)})
 
                 listItem.update({
                 'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -858,7 +861,7 @@ class TD:
                     missing = missing +1
                     value = 'Missing'
 
-                listItem.update({mapName:value})
+                listItem.update({mapName:str(value)})
 
             listItem.update({
                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),

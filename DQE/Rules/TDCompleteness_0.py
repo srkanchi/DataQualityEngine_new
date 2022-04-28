@@ -67,8 +67,10 @@ class TDCompleteness_0(RuleTemplate):
 
         if (oTD.getTrialType() in ['D','R','A']) and (oTD.getIndication() in ['F','H','I','S','G']):
 
+            lstGeneral = []
             general = oTD.getGeneral(attributeMapping, weights)
-            finalSummary.update({"General":general})
+            lstGeneral.append(general)
+            finalSummary.update({"General":lstGeneral})
 
 
             responsibles = oTD.getResponsibles(attributeMapping, weights)
@@ -334,7 +336,7 @@ class TD:
                         missing = missing + 1
                         results.update({mapName:value})
                 else:
-                    results.update({mapName:value})
+                    results.update({mapName:str(value)})
 
 
         results.update({
@@ -358,6 +360,12 @@ class TD:
 
         requiredFields = dfWeightsFiltered.index.values.tolist()
 
+
+        if len(self.trialResponsibles) <1:
+            self.trialResponsibles= self.emptyResponsibles()
+
+
+
         for element in self.trialResponsibles:
             missing = 0
             listItem = {}
@@ -369,7 +377,7 @@ class TD:
                     missing = missing +1
                     value = 'Missing'
 
-                listItem.update({mapName:value})
+                listItem.update({mapName:str(value)})
 
             listItem.update({
                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
@@ -446,6 +454,12 @@ class TD:
 
         return dfFiltered
 
+
+
+    def emptyResponsibles(self):
+        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+        """
+        return [{"hasName": False, "internalValue": None, "plannedNumberOfTrials": None,  "siteName": None, "testType": None}]
 
 
     def listToString(self, item):
