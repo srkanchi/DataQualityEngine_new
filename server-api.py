@@ -2,6 +2,7 @@
 from flask import Flask, jsonify, Response
 from flask_restful import Resource, Api, reqparse, request
 from DQE.API.utils import *
+from waitress import serve
 
 # creating the flask app
 app = Flask(__name__)
@@ -41,6 +42,7 @@ if __name__ == '__main__':
         port = 8005
     else:
         print('**** Please use the right port *****')
-    app.run(host='0.0.0.0', port=port, debug=True)
+    #app.run(host='0.0.0.0', port=port, debug=True)
+    serve(app, host="0.0.0.0", port=10020)
     
 
