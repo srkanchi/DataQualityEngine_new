@@ -161,17 +161,15 @@ Protocols --------------------
       gepCertification
       
       
-      settings{
-        conductUnderGLPAndGEP
-      }
-      
+     
       fieldResponsibles {
         type
         typeCode
       }
       
       
-      plannedAssessments {
+      plannedAssessments
+       {
 				standardEvaluationId
         partRated
         ratingType
