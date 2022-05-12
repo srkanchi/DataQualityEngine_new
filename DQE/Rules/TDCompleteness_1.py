@@ -9,6 +9,9 @@ import ast
 #import re
 import datetime
 
+
+
+
 class TDCompleteness_1(RuleTemplate):
     """
     class description here
