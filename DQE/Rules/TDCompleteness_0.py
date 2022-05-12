@@ -90,7 +90,7 @@ class TD:
 
     def __init__(self, tptIdKey, trialResponsibles, siteType, keywords, experimentalSeason, numberOfReplicates,
         targets, protocolEditionNumber, fieldResponsibles, guidelines, plotArea, plotAreaUnit, 
-        plannedNumberOfApplications, dataDeadline, crops, projectNumbers, settings):
+        plannedNumberOfApplications, dataDeadline, crops, projectNumbers):
 
 
         self.tptIdKey = tptIdKey
@@ -109,7 +109,7 @@ class TD:
         self.dataDeadline = dataDeadline
         self.crops = crops
         self.projectNumbers = projectNumbers
-        self.settings = settings
+#        self.settings = settings
 
 
     @property
@@ -257,15 +257,15 @@ class TD:
             self.__projectNumbers = "Missing"
 
 
-    @property
-    def settings(self):
-        return self.__settings
-    @settings.setter
-    def settings(self, settings):
-        if((settings is not None) and (len(settings)>0)):
-            self.__settings = self.listToString(self.getNestedValue(settings, 'conductUnderGLPAndGEP'))
-        else:
-            self.__settings = "Missing"
+    # @property
+    # def settings(self):
+    #     return self.__settings
+    # @settings.setter
+    # def settings(self, settings):
+    #     if((settings is not None) and (len(settings)>0)):
+    #         self.__settings = self.listToString(self.getNestedValue(settings, 'conductUnderGLPAndGEP'))
+    #     else:
+    #         self.__settings = "Missing"
 
 
     @property
