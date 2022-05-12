@@ -41,7 +41,7 @@
 
     "leafWallArea": "Leaf Wall Area", 
 
-    "assessmentCode": "Assessment table/Assessment code",
+    "assessmentCode": "Assessment code",
     "gepCertification": "GEP certificate link",
     "plannedNumberOfApplications": "Number of applications / trial",
 

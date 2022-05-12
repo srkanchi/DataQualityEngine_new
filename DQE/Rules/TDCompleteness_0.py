@@ -229,7 +229,7 @@ class TD:
     @dataDeadline.setter
     def dataDeadline(self, dataDeadline):
         if((dataDeadline is not None) and (dataDeadline not in self.nullChars)):
-            self.__dataDeadline = dataDeadline
+            self.__dataDeadline = dataDeadline[0:10]
         else:
             self.__dataDeadline = "Missing"
 
@@ -340,7 +340,9 @@ class TD:
 
 
         results.update({
-            'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+ #           'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+            'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
         })
 
         return results
@@ -380,7 +382,9 @@ class TD:
                 listItem.update({mapName:str(value)})
 
             listItem.update({
-               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+#               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+               'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
             })
 
             results.append(listItem)

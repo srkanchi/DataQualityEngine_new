@@ -74,14 +74,15 @@ class ProtocolCompleteness(RuleTemplate):
 
 
             treatments = oTD.getTreatments(attributeMapping, weights)
+            lstEquipment = treatments['Equipment']
+            finalSummary.update({"Applications":lstEquipment})
 
 
-            if len(treatments)>0:
-                lstProducts = treatments['Products']
-                lstEquipment = treatments['Equipment']
+#            if len(treatments)>0:
+###            lstProducts = treatments['Products']
+   
+###            finalSummary.update({"Treatments":lstProducts})
 
-                finalSummary.update({"Treatments":lstProducts})
-                finalSummary.update({"Applications":lstEquipment})
 
 
             assessments = oTD.getAssessments(attributeMapping, weights)
@@ -105,10 +106,11 @@ class TD:
     nullChars = ['*','.','?']
     cropUseGroup = ""
 
+#removed plannedNumberOfAssessments, settings
     def __init__(self, tptIdKey, keywords, guidelines, dataDeadline, plannedAssessments, treatments, 
         plannedNumberOfApplications, controlField, plotDescription, plotDescriptionBasis, gepCertification,
-        plannedNumberOfAssessments, plotArea, plotAreaUnit, siteType, numberOfReplicates, protocolEditionNumber, 
-        targets, fieldResponsibles, trialResponsibles, settings, experimentalSeason, crops, projectNumbers, location):
+        plotArea, plotAreaUnit, siteType, numberOfReplicates, protocolEditionNumber, 
+        targets, fieldResponsibles, trialResponsibles, experimentalSeason, crops, projectNumbers, location):
 
         self.tptIdKey = tptIdKey
 
@@ -130,9 +132,9 @@ class TD:
         self.targets = targets
         self.fieldResponsibles = fieldResponsibles
         self.trialResponsibles = trialResponsibles
-        self.settings = settings
+#        self.settings = settings
         self.experimentalSeason = experimentalSeason 
-        self.plannedNumberOfAssessments = plannedNumberOfAssessments
+#        self.plannedNumberOfAssessments = plannedNumberOfAssessments
         self.crops = crops
 
         self.cropsGroup = crops
@@ -171,7 +173,7 @@ class TD:
     @dataDeadline.setter
     def dataDeadline(self, dataDeadline):
         if((dataDeadline is not None) and (dataDeadline not in self.nullChars)):
-            self.__dataDeadline = dataDeadline
+            self.__dataDeadline = dataDeadline[0:10]
         else:
             self.__dataDeadline = "Missing"
 
@@ -309,15 +311,15 @@ class TD:
             self.__targets = "Missing"
 
 
-    @property
-    def settings(self):
-        return self.__settings
-    @settings.setter
-    def settings(self, settings):
-        if((settings is not None) and (len(settings)>0)):
-            self.__settings = self.listToString(self.getNestedValue(settings, 'conductUnderGLPAndGEP'))
-        else:
-            self.__settings = "Missing"
+    # @property
+    # def settings(self):
+    #     return self.__settings
+    # @settings.setter
+    # def settings(self, settings):
+    #     if((settings is not None) and (len(settings)>0)):
+    #         self.__settings = self.listToString(self.getNestedValue(settings, 'conductUnderGLPAndGEP'))
+    #     else:
+    #         self.__settings = "Missing"
 
 
     @property
@@ -331,15 +333,15 @@ class TD:
             self.__fieldResponsibles = "Missing"
 
 
-    @property
-    def plannedNumberOfAssessments(self):
-        return self.__plannedNumberOfAssessments
-    @plannedNumberOfAssessments.setter
-    def plannedNumberOfAssessments(self, plannedNumberOfAssessments):
-        if(plannedNumberOfAssessments is not None):
-            self.__plannedNumberOfAssessments = str(plannedNumberOfAssessments)
-        else:
-            self.__plannedNumberOfAssessments = "Missing"
+#    @property
+#    def plannedNumberOfAssessments(self):
+#        return self.__plannedNumberOfAssessments
+#    @plannedNumberOfAssessments.setter
+#    def plannedNumberOfAssessments(self, plannedNumberOfAssessments):
+#        if(plannedNumberOfAssessments is not None):
+#            self.__plannedNumberOfAssessments = str(plannedNumberOfAssessments)
+#        else:
+#            self.__plannedNumberOfAssessments = "Missing"
 
     @property
     def projectNumbers(self):
@@ -442,6 +444,10 @@ class TD:
 #        requiredFields = dfWeightsFiltered.index.values.tolist()
         ruleExceptions = dfWeightsFiltered[~dfWeightsFiltered['Exception'].isnull()]['Exception'].values.tolist()
 
+        if len(orderedAssessments)<1:
+            orderedAssessments = self.emptyAssessments()
+
+
 
         for element in orderedAssessments:
             missing = 0
@@ -452,7 +458,6 @@ class TD:
 
             for key, value in element.items():
                 mapName= mappings[key]
-
                 if(value == "Missing"):
                     if(mapName not in requiredFields):
                         listItem.update({mapName:"Not required"})
@@ -463,7 +468,9 @@ class TD:
                     listItem.update({mapName:str(value)})
 
             listItem.update({
-               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+#               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+               'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
             })
 
             results.append(listItem)
@@ -504,7 +511,9 @@ class TD:
                     results.update({mapName:value})
 
         results.update({
-            'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+#            'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+            'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
         })
 
         return results
@@ -512,69 +521,77 @@ class TD:
 
     def getTreatments(self, attributeMapping, weights):
 
-        lstResultProducts = []
+#        lstResultProducts = []
         lstResultEquipment = []
 
         lstTreatments = self.formatTreatments() 
 
-        if len(lstTreatments)>0:
-            lstProducts = lstTreatments['Products']
-            lstEquipment = lstTreatments['Equipment']
+###        if len(lstTreatments)>0:
+ ###           lstProducts = lstTreatments['Products']
+        lstApplications = lstTreatments['Equipment']
 
-            lstResultProducts = self.getScoreProducts(attributeMapping, weights, lstProducts)
-            lstResultEquipment = self.getScoreEquipment(attributeMapping, weights, lstEquipment)
-            lstResultEquipment = self.removeDuplicatesDict(lstResultEquipment)
+        noApplications = self.countElements(lstApplications)
 
-        return {'Products':lstResultProducts, "Equipment":lstResultEquipment}
+        if noApplications <1 :     
+            lstApplications = [self.emptyApplications()]
 
+#            lstResultProducts = self.getScoreProducts(attributeMapping, weights, lstProducts)
+###            noTreatments = self.calculateNumberTreatments(lstProducts)
 
-    def getScoreProducts(self, attributeMapping, weights, lstProducts):
+        lstResultApp = self.getScoreEquipment(attributeMapping, weights, lstApplications)
+        lstResultApp = self.removeDuplicatesDict(lstResultApp)
 
-        results = []
-        dfWeights = self.readWeights(weights)
-        mappings = self.getFileToDict(attributeMapping)
-
-        dfWeightsFiltered = dfWeights[(dfWeights["Section"] == 'treatment') 
-                                & (dfWeights["Region"] == self.getRegion())
-                                & (dfWeights["Indication"] == self.getIndication())
-                                & (dfWeights["Trial"] == self.getTrialType())
-                                & (dfWeights["Required"] >0 )]
-
-#        requiredFields = dfWeightsFiltered.index.values.tolist()
-        ruleExceptions = dfWeightsFiltered[~dfWeightsFiltered['Exception'].isnull()]['Exception'].values.tolist()
+        return {"Equipment":lstResultApp}
+###        return {'Products':str(noTreatments), "Equipment":lstResultEquipment}
 
 
-        for element in lstProducts:
-            for item in element:
-                missing = 0
-                listItem = {}
+#     def getScoreProducts(self, attributeMapping, weights, lstProducts):
 
-                requiredFields = dfWeightsFiltered.index.values.tolist()
-                self.checkExceptionsTreatments(ruleExceptions, requiredFields, item)
+#         results = []
+#         dfWeights = self.readWeights(weights)
+#         mappings = self.getFileToDict(attributeMapping)
 
-                for key, value in item.items():
-                    mapName= mappings[key]
+#         dfWeightsFiltered = dfWeights[(dfWeights["Section"] == 'treatment') 
+#                                 & (dfWeights["Region"] == self.getRegion())
+#                                 & (dfWeights["Indication"] == self.getIndication())
+#                                 & (dfWeights["Trial"] == self.getTrialType())
+#                                 & (dfWeights["Required"] >0 )]
 
-                    if((value is None) or (value in self.nullChars) or (value is False) or (value == "Missing")):
-                        if(mapName not in requiredFields):
-                            listItem.update({mapName:"Not required"})
-                        else:
-                            listItem.update({mapName:"Missing"})
-                            missing = missing +1
-                    else:
-                        listItem.update({mapName:str(value)})
-
-                if(self.getRegion=="EMEA"):
-                    listItem.update({
-                    'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
-                    })
-                else:
-                    listItem.update({'score':"NA"})
+# #        requiredFields = dfWeightsFiltered.index.values.tolist()
+#         ruleExceptions = dfWeightsFiltered[~dfWeightsFiltered['Exception'].isnull()]['Exception'].values.tolist()
 
 
-                results.append(listItem)
+#         for element in lstProducts:
+#             for item in element:
+#                 missing = 0
+#                 listItem = {}
 
-        return results
+#                 requiredFields = dfWeightsFiltered.index.values.tolist()
+#                 self.checkExceptionsTreatments(ruleExceptions, requiredFields, item)
+
+#                 for key, value in item.items():
+#                     mapName= mappings[key]
+
+#                     if((value is None) or (value in self.nullChars) or (value is False) or (value == "Missing")):
+#                         if(mapName not in requiredFields):
+#                             listItem.update({mapName:"Not required"})
+#                         else:
+#                             listItem.update({mapName:"Missing"})
+#                             missing = missing +1
+#                     else:
+#                         listItem.update({mapName:str(value)})
+
+#                 if(self.getRegion=="EMEA"):
+#                     listItem.update({
+#                     'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+#                     })
+#                 else:
+#                     listItem.update({'score':"NA"})
+
+
+#                 results.append(listItem)
+
+#         return results
 
 
 
@@ -615,7 +632,9 @@ class TD:
                         listItem.update({mapName:str(value)})
 
                 listItem.update({
-                'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+    #            'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+                'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
                 })
 
                 results.append(listItem)
@@ -695,53 +714,62 @@ class TD:
         """
 
         lstResults = []
-        lstProducts = []
+###        lstProducts = []
         lstEquipment = []
 
-        resultsProducts = []
+###        resultsProducts = []
         resultsEquipment = []
 
         for element in self.treatments:
-            trtKey = element['treatmentKey']
+###            trtKey = element['treatmentKey']
             applications = element['applications']
-            entries = element['entries']
-            appCodesEntries = []
+#            entries = element['entries']
+#            appCodesEntries = []
 
-            if len(entries)<1:
-                entries = self.emptyEntries()
-            else:
-                for i in range(len(entries)):
-                    appCodesEntries.append(entries[i].pop("applicationCodes"))     
+#            if len(entries)<1:
+#                entries = self.emptyEntries()
+#            else:
+#                for i in range(len(entries)):
+#                    appCodesEntries.append(entries[i].pop("applicationCodes"))     
 
-            lstResults= self.formatApplications(applications, trtKey, self.removeDuplicatesDict(entries))
+#            lstResults= self.formatApplications(applications, trtKey, self.removeDuplicatesDict(entries))
+###            lstResults= self.formatApplications(applications, trtKey)
+            lstResults= self.formatApplications(applications)
 
             if len(lstResults) >0 :
-                lstProducts = lstResults['Products']
+###                lstProducts = lstResults['Products']
                 lstEquipment = lstResults['Equipment']
                 
-                lstProducts = self.removeDuplicatesDict(lstProducts)
+ ###               lstProducts = self.removeDuplicatesDict(lstProducts)
+
+###                for item in lstProducts: 
+###                    item.update({"treatmentKey":trtKey})
 
 
-                if len(lstProducts) == len(appCodesEntries):
-                    index =0
-                    for item in lstProducts: 
-                        item.update({"treatmentKey":trtKey})
-                        item.update({"applicationCodes":appCodesEntries[index]})
-                        index = index + 1
-                else:
-                    for item in lstProducts: 
-                        item.update({"treatmentKey":trtKey})
-                        item.update({"applicationCodes":appCodesEntries[0]})
+#                if len(lstProducts) == len(appCodesEntries):
+#                    index =0
+#                    for item in lstProducts: 
+#                        item.update({"treatmentKey":trtKey})
+#                        item.update({"applicationCodes":appCodesEntries[index]})
+#                        index = index + 1
+#                else:
+#                    for item in lstProducts: 
+#                        item.update({"treatmentKey":trtKey})
+#                        item.update({"applicationCodes":appCodesEntries[0]})
 
 
 
-                resultsProducts.append(lstProducts)
+###                resultsProducts.append(lstProducts)
                 resultsEquipment.append(lstEquipment)
 
-        return {'Products':resultsProducts, 'Equipment':resultsEquipment}
+        return {'Equipment':resultsEquipment}
+
+###        return {'Products':resultsProducts, 'Equipment':resultsEquipment}
 
 
-    def formatApplications(self, applications, trtKey, entries):
+###    def formatApplications(self, applications, trtKey):
+    def formatApplications(self, applications):
+
         """
         Applications have properties and 1 nested list: products, which are parsed separately
         """
@@ -750,25 +778,25 @@ class TD:
         strResults = {}
 
         dictCrops = {}
-        lstProducts = []
+###        lstProducts = []
         lstEquipment = []    
         for element in applications:
 #            index = 0
             tmpEquipment = []
-            tmpProducts = {}
+###            tmpProducts = {}
             for key, value in element.items():
                 if (isinstance(value, list)):
                     if key=="products":    # Products entries stored in lstResults
                         lstResults = self.formatProducts(value)  
-                        tmpProducts = lstResults['Products']
+###                        tmpProducts = lstResults['Products']
                         tmpEquipment = lstResults['Equipment']
                     else: # Crops entries 
                         dictCrops.update(self.formatCrops(value))
                 else: # Strings entries stores in strResults 
                     strResults.update({key:value})
 
-                if len(entries) > 0: # Here the entries dictionary is added to the applications entries. 
-                    results = entries[0]
+#                if len(entries) > 0: # Here the entries dictionary is added to the applications entries. 
+#                    results = entries[0]
  
 #            index = index + 1
 
@@ -785,7 +813,7 @@ class TD:
             #     item = self.mergeDictionaries(item, dictCrops)
 
             lstEquipment.append(tmpEquipment)
-            lstProducts.append(tmpProducts)
+###            lstProducts.append(tmpProducts)
 
         # index=0
         # for item in lstProducts:
@@ -805,8 +833,8 @@ class TD:
         #     index = index +1
 
 
-        return {'Products':lstProducts, 'Equipment':lstEquipment}
-
+###        return {'Products':lstProducts, 'Equipment':lstEquipment}
+        return {'Equipment':lstEquipment}
 
 
 
@@ -864,7 +892,9 @@ class TD:
                 listItem.update({mapName:str(value)})
 
             listItem.update({
-               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+#               'score':str(((len(requiredFields)-missing)/len(requiredFields))*100),
+                'score':str(round(((len(requiredFields)-missing)/len(requiredFields))*100,2)),
+
             })
 
             results.append(listItem)
@@ -887,11 +917,18 @@ class TD:
 
 
 
-    def emptyEntries(self):
-        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
-        """
-        return [{"tankMixCode": None, "coreOtherTreatments": None, "treatmentRole": None, "applicationCodes": None}]
+#    def emptyEntries(self):
+#        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+#        """
+#        return [{"tankMixCode": None, "coreOtherTreatments": None, "treatmentRole": None, "applicationCodes": None}]
 
+    def countElements(self, lstData):
+
+        count=0
+        for item in lstData:
+            if len(item)>0:
+                count = count +1
+        return count
 
 
     def emptyResponsibles(self):
@@ -922,6 +959,21 @@ class TD:
 
 
 
+    def emptyApplications(self):
+        """ To build the dashboard is easier when all the sections in a TD/Protocol have values
+        """
+
+        emptyRecord = {       
+            "applicationCode": "Missing",
+            "method": "Missing",
+            "placement": "Missing",
+            "applicationTimingCode": "Missing",
+            "cropStageCode": "Missing",
+            "leafWallArea": "Missing"
+          }
+
+
+        return [emptyRecord]
 
 
 

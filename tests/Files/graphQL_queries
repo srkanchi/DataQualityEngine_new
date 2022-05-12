@@ -26,9 +26,6 @@ TDs status 0 -----------------------------
       plotAreaUnit
       dataDeadline
       
-      settings{
-        conductUnderGLPAndGEP
-      }
       fieldResponsibles {
         type
         typeCode
@@ -73,15 +70,9 @@ TDs status 1 ------------------------------
         targetName: name
       }
       
-      gepCertification
-      plannedNumberOfAssessments
+      gepCertification   
       
-      
-      
-      settings{
-        conductUnderGLPAndGEP
-      }
-      
+            
       fieldResponsibles {
         type
         typeCode
@@ -107,21 +98,10 @@ TDs status 1 ------------------------------
       }
       
       treatments{
-        treatmentKey
-
         applications{
           applicationCode
           applicationTimingCode
           products{
-            productName: name
-            synonyms
-            category
-            dosage{
-              quantity
-              productDosageUnit: unit
-              transferDosage
-              transferDosageUnit
-            }
             equipment{
               method
               placement
@@ -131,12 +111,6 @@ TDs status 1 ------------------------------
             cropStageCode
             leafWallArea
           }
-        }
-      	entries{
-          tankMixCode
-          coreOtherTreatments
-          treatmentRole
-          applicationCodes
         }
       }
       
@@ -185,8 +159,6 @@ Protocols --------------------
       }
       
       gepCertification
-      plannedNumberOfAssessments
-      
       
       
       settings{
@@ -224,15 +196,6 @@ Protocols --------------------
           applicationCode
           applicationTimingCode
           products{
-            productName: name
-            synonyms
-            category
-            dosage{
-              quantity
-              productDosageUnit: unit
-              transferDosage
-              transferDosageUnit
-            }
             equipment{
               method
               placement
@@ -243,12 +206,6 @@ Protocols --------------------
             leafWallArea
             leafWallAreaUnit
           }
-        }
-      	entries{
-          tankMixCode
-          coreOtherTreatments
-          treatmentRole
-          applicationCodes
         }
       }
       
