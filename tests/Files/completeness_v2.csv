@@ -1,0 +1,3237 @@
+﻿Field,Case,Region,Trial,Indication,Required,Exception,Section
+Responsible,TD 0,GLOBAL,R,I,1,,responsible
+Responsible,TD 0,GLOBAL,R,F,1,,responsible
+Responsible,TD 0,GLOBAL,R,H,1,,responsible
+Responsible,TD 0,GLOBAL,R,S,1,,responsible
+Responsible,TD 0,GLOBAL,R,G,1,,responsible
+Responsible,TD 0,GLOBAL,R,II,1,,responsible
+Responsible,TD 0,GLOBAL,D,I,1,,responsible
+Responsible,TD 0,GLOBAL,D,F,1,,responsible
+Responsible,TD 0,GLOBAL,D,H,1,,responsible
+Responsible,TD 0,GLOBAL,D,S,1,,responsible
+Responsible,TD 0,GLOBAL,D,G,1,,responsible
+Responsible,TD 0,GLOBAL,D,II,1,,responsible
+Responsible,TD 0,GLOBAL,A,I,1,,responsible
+Responsible,TD 0,GLOBAL,A,F,1,,responsible
+Responsible,TD 0,GLOBAL,A,H,1,,responsible
+Responsible,TD 0,GLOBAL,A,S,1,,responsible
+Responsible,TD 0,GLOBAL,A,G,1,,responsible
+Responsible,TD 0,GLOBAL,A,II,1,,responsible
+Responsible,TD 0,GLOBAL,TT,I,1,,responsible
+Responsible,TD 0,GLOBAL,TT,F,1,,responsible
+Responsible,TD 0,GLOBAL,TT,H,1,,responsible
+Responsible,TD 0,GLOBAL,TT,S,1,,responsible
+Responsible,TD 0,GLOBAL,TT,G,1,,responsible
+Responsible,TD 0,GLOBAL,TT,II,1,,responsible
+Responsible,TD 0,EMEA,R,I,1,,responsible
+Responsible,TD 0,EMEA,R,F,1,,responsible
+Responsible,TD 0,EMEA,R,H,1,,responsible
+Responsible,TD 0,EMEA,R,S,1,,responsible
+Responsible,TD 0,EMEA,D,I,1,,responsible
+Responsible,TD 0,EMEA,D,F,1,,responsible
+Responsible,TD 0,EMEA,D,H,1,,responsible
+Responsible,TD 0,EMEA,D,S,1,,responsible
+Test Type,TD 0,GLOBAL,R,I,1,,responsible
+Test Type,TD 0,GLOBAL,R,F,1,,responsible
+Test Type,TD 0,GLOBAL,R,H,1,,responsible
+Test Type,TD 0,GLOBAL,R,S,1,,responsible
+Test Type,TD 0,GLOBAL,R,G,1,,responsible
+Test Type,TD 0,GLOBAL,R,II,1,,responsible
+Test Type,TD 0,GLOBAL,D,I,1,,responsible
+Test Type,TD 0,GLOBAL,D,F,1,,responsible
+Test Type,TD 0,GLOBAL,D,H,1,,responsible
+Test Type,TD 0,GLOBAL,D,S,1,,responsible
+Test Type,TD 0,GLOBAL,D,G,1,,responsible
+Test Type,TD 0,GLOBAL,D,II,1,,responsible
+Test Type,TD 0,GLOBAL,A,I,1,,responsible
+Test Type,TD 0,GLOBAL,A,F,1,,responsible
+Test Type,TD 0,GLOBAL,A,H,1,,responsible
+Test Type,TD 0,GLOBAL,A,S,1,,responsible
+Test Type,TD 0,GLOBAL,A,G,1,,responsible
+Test Type,TD 0,GLOBAL,A,II,1,,responsible
+Test Type,TD 0,GLOBAL,TT,I,1,,responsible
+Test Type,TD 0,GLOBAL,TT,F,1,,responsible
+Test Type,TD 0,GLOBAL,TT,H,1,,responsible
+Test Type,TD 0,GLOBAL,TT,S,1,,responsible
+Test Type,TD 0,GLOBAL,TT,G,1,,responsible
+Test Type,TD 0,GLOBAL,TT,II,1,,responsible
+Test Type,TD 0,EMEA,R,I,1,,responsible
+Test Type,TD 0,EMEA,R,F,1,,responsible
+Test Type,TD 0,EMEA,R,H,1,,responsible
+Test Type,TD 0,EMEA,R,S,1,,responsible
+Test Type,TD 0,EMEA,D,I,1,,responsible
+Test Type,TD 0,EMEA,D,F,1,,responsible
+Test Type,TD 0,EMEA,D,H,1,,responsible
+Test Type,TD 0,EMEA,D,S,1,,responsible
+INT EXT,TD 0,GLOBAL,R,I,1,,responsible
+INT EXT,TD 0,GLOBAL,R,F,1,,responsible
+INT EXT,TD 0,GLOBAL,R,H,1,,responsible
+INT EXT,TD 0,GLOBAL,R,S,1,,responsible
+INT EXT,TD 0,GLOBAL,R,G,1,,responsible
+INT EXT,TD 0,GLOBAL,R,II,1,,responsible
+INT EXT,TD 0,GLOBAL,D,I,1,,responsible
+INT EXT,TD 0,GLOBAL,D,F,1,,responsible
+INT EXT,TD 0,GLOBAL,D,H,1,,responsible
+INT EXT,TD 0,GLOBAL,D,S,1,,responsible
+INT EXT,TD 0,GLOBAL,D,G,1,,responsible
+INT EXT,TD 0,GLOBAL,D,II,1,,responsible
+INT EXT,TD 0,GLOBAL,A,I,1,,responsible
+INT EXT,TD 0,GLOBAL,A,F,1,,responsible
+INT EXT,TD 0,GLOBAL,A,H,1,,responsible
+INT EXT,TD 0,GLOBAL,A,S,1,,responsible
+INT EXT,TD 0,GLOBAL,A,G,1,,responsible
+INT EXT,TD 0,GLOBAL,A,II,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,I,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,F,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,H,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,S,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,G,1,,responsible
+INT EXT,TD 0,GLOBAL,TT,II,1,,responsible
+INT EXT,TD 0,EMEA,R,I,1,,responsible
+INT EXT,TD 0,EMEA,R,F,1,,responsible
+INT EXT,TD 0,EMEA,R,H,1,,responsible
+INT EXT,TD 0,EMEA,R,S,1,,responsible
+INT EXT,TD 0,EMEA,D,I,1,,responsible
+INT EXT,TD 0,EMEA,D,F,1,,responsible
+INT EXT,TD 0,EMEA,D,H,1,,responsible
+INT EXT,TD 0,EMEA,D,S,1,,responsible
+Site,TD 0,GLOBAL,R,I,1,,responsible
+Site,TD 0,GLOBAL,R,F,1,,responsible
+Site,TD 0,GLOBAL,R,H,1,,responsible
+Site,TD 0,GLOBAL,R,S,1,,responsible
+Site,TD 0,GLOBAL,R,G,1,,responsible
+Site,TD 0,GLOBAL,R,II,1,,responsible
+Site,TD 0,GLOBAL,D,I,1,,responsible
+Site,TD 0,GLOBAL,D,F,1,,responsible
+Site,TD 0,GLOBAL,D,H,1,,responsible
+Site,TD 0,GLOBAL,D,S,1,,responsible
+Site,TD 0,GLOBAL,D,G,1,,responsible
+Site,TD 0,GLOBAL,D,II,1,,responsible
+Site,TD 0,GLOBAL,A,I,1,,responsible
+Site,TD 0,GLOBAL,A,F,1,,responsible
+Site,TD 0,GLOBAL,A,H,1,,responsible
+Site,TD 0,GLOBAL,A,S,1,,responsible
+Site,TD 0,GLOBAL,A,G,1,,responsible
+Site,TD 0,GLOBAL,A,II,1,,responsible
+Site,TD 0,GLOBAL,TT,I,1,,responsible
+Site,TD 0,GLOBAL,TT,F,1,,responsible
+Site,TD 0,GLOBAL,TT,H,1,,responsible
+Site,TD 0,GLOBAL,TT,S,1,,responsible
+Site,TD 0,GLOBAL,TT,G,1,,responsible
+Site,TD 0,GLOBAL,TT,II,1,,responsible
+Site,TD 0,EMEA,R,I,1,,responsible
+Site,TD 0,EMEA,R,F,1,,responsible
+Site,TD 0,EMEA,R,H,1,,responsible
+Site,TD 0,EMEA,R,S,1,,responsible
+Site,TD 0,EMEA,D,I,1,,responsible
+Site,TD 0,EMEA,D,F,1,,responsible
+Site,TD 0,EMEA,D,H,1,,responsible
+Site,TD 0,EMEA,D,S,1,,responsible
+No. of trials,TD 0,GLOBAL,R,I,1,,responsible
+No. of trials,TD 0,GLOBAL,R,F,1,,responsible
+No. of trials,TD 0,GLOBAL,R,H,1,,responsible
+No. of trials,TD 0,GLOBAL,R,S,1,,responsible
+No. of trials,TD 0,GLOBAL,R,G,1,,responsible
+No. of trials,TD 0,GLOBAL,R,II,1,,responsible
+No. of trials,TD 0,GLOBAL,D,I,1,,responsible
+No. of trials,TD 0,GLOBAL,D,F,1,,responsible
+No. of trials,TD 0,GLOBAL,D,H,1,,responsible
+No. of trials,TD 0,GLOBAL,D,S,1,,responsible
+No. of trials,TD 0,GLOBAL,D,G,1,,responsible
+No. of trials,TD 0,GLOBAL,D,II,1,,responsible
+No. of trials,TD 0,GLOBAL,A,I,1,,responsible
+No. of trials,TD 0,GLOBAL,A,F,1,,responsible
+No. of trials,TD 0,GLOBAL,A,H,1,,responsible
+No. of trials,TD 0,GLOBAL,A,S,1,,responsible
+No. of trials,TD 0,GLOBAL,A,G,1,,responsible
+No. of trials,TD 0,GLOBAL,A,II,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,I,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,F,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,H,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,S,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,G,1,,responsible
+No. of trials,TD 0,GLOBAL,TT,II,1,,responsible
+No. of trials,TD 0,EMEA,R,I,1,,responsible
+No. of trials,TD 0,EMEA,R,F,1,,responsible
+No. of trials,TD 0,EMEA,R,H,1,,responsible
+No. of trials,TD 0,EMEA,R,S,1,,responsible
+No. of trials,TD 0,EMEA,D,I,1,,responsible
+No. of trials,TD 0,EMEA,D,F,1,,responsible
+No. of trials,TD 0,EMEA,D,H,1,,responsible
+No. of trials,TD 0,EMEA,D,S,1,,responsible
+Site Type,TD 0,GLOBAL,R,I,1,,general
+Site Type,TD 0,GLOBAL,R,F,1,,general
+Site Type,TD 0,GLOBAL,R,H,1,,general
+Site Type,TD 0,GLOBAL,R,S,1,,general
+Site Type,TD 0,GLOBAL,R,G,1,,general
+Site Type,TD 0,GLOBAL,R,II,1,,general
+Site Type,TD 0,GLOBAL,D,I,1,,general
+Site Type,TD 0,GLOBAL,D,F,1,,general
+Site Type,TD 0,GLOBAL,D,H,1,,general
+Site Type,TD 0,GLOBAL,D,S,1,,general
+Site Type,TD 0,GLOBAL,D,G,1,,general
+Site Type,TD 0,GLOBAL,D,II,1,,general
+Site Type,TD 0,GLOBAL,A,I,1,,general
+Site Type,TD 0,GLOBAL,A,F,1,,general
+Site Type,TD 0,GLOBAL,A,H,1,,general
+Site Type,TD 0,GLOBAL,A,S,1,,general
+Site Type,TD 0,GLOBAL,A,G,1,,general
+Site Type,TD 0,GLOBAL,A,II,1,,general
+Site Type,TD 0,GLOBAL,TT,I,1,,general
+Site Type,TD 0,GLOBAL,TT,F,1,,general
+Site Type,TD 0,GLOBAL,TT,H,1,,general
+Site Type,TD 0,GLOBAL,TT,S,1,,general
+Site Type,TD 0,GLOBAL,TT,G,1,,general
+Site Type,TD 0,GLOBAL,TT,II,1,,general
+Site Type,TD 0,EMEA,R,I,1,,general
+Site Type,TD 0,EMEA,R,F,1,,general
+Site Type,TD 0,EMEA,R,H,1,,general
+Site Type,TD 0,EMEA,R,S,1,,general
+Site Type,TD 0,EMEA,D,I,1,,general
+Site Type,TD 0,EMEA,D,F,1,,general
+Site Type,TD 0,EMEA,D,H,1,,general
+Site Type,TD 0,EMEA,D,S,1,,general
+Objectives,TD 0,GLOBAL,R,I,1,,general
+Objectives,TD 0,GLOBAL,R,F,1,,general
+Objectives,TD 0,GLOBAL,R,H,1,,general
+Objectives,TD 0,GLOBAL,R,S,1,,general
+Objectives,TD 0,GLOBAL,R,G,1,,general
+Objectives,TD 0,GLOBAL,R,II,1,,general
+Objectives,TD 0,GLOBAL,D,I,1,,general
+Objectives,TD 0,GLOBAL,D,F,1,,general
+Objectives,TD 0,GLOBAL,D,H,1,,general
+Objectives,TD 0,GLOBAL,D,S,1,,general
+Objectives,TD 0,GLOBAL,D,G,1,,general
+Objectives,TD 0,GLOBAL,D,II,1,,general
+Objectives,TD 0,GLOBAL,A,I,1,,general
+Objectives,TD 0,GLOBAL,A,F,1,,general
+Objectives,TD 0,GLOBAL,A,H,1,,general
+Objectives,TD 0,GLOBAL,A,S,1,,general
+Objectives,TD 0,GLOBAL,A,G,1,,general
+Objectives,TD 0,GLOBAL,A,II,1,,general
+Objectives,TD 0,GLOBAL,TT,I,1,,general
+Objectives,TD 0,GLOBAL,TT,F,1,,general
+Objectives,TD 0,GLOBAL,TT,H,1,,general
+Objectives,TD 0,GLOBAL,TT,S,1,,general
+Objectives,TD 0,GLOBAL,TT,G,1,,general
+Objectives,TD 0,GLOBAL,TT,II,1,,general
+Objectives,TD 0,EMEA,R,I,1,,general
+Objectives,TD 0,EMEA,R,F,1,,general
+Objectives,TD 0,EMEA,R,H,1,,general
+Objectives,TD 0,EMEA,R,S,1,,general
+Objectives,TD 0,EMEA,D,I,1,,general
+Objectives,TD 0,EMEA,D,F,1,,general
+Objectives,TD 0,EMEA,D,H,1,,general
+Objectives,TD 0,EMEA,D,S,1,,general
+Experimental Season,TD 0,GLOBAL,R,I,1,,general
+Experimental Season,TD 0,GLOBAL,R,F,1,,general
+Experimental Season,TD 0,GLOBAL,R,H,1,,general
+Experimental Season,TD 0,GLOBAL,R,S,1,,general
+Experimental Season,TD 0,GLOBAL,R,G,1,,general
+Experimental Season,TD 0,GLOBAL,R,II,1,,general
+Experimental Season,TD 0,GLOBAL,D,I,1,,general
+Experimental Season,TD 0,GLOBAL,D,F,1,,general
+Experimental Season,TD 0,GLOBAL,D,H,1,,general
+Experimental Season,TD 0,GLOBAL,D,S,1,,general
+Experimental Season,TD 0,GLOBAL,D,G,1,,general
+Experimental Season,TD 0,GLOBAL,D,II,1,,general
+Experimental Season,TD 0,GLOBAL,A,I,1,,general
+Experimental Season,TD 0,GLOBAL,A,F,1,,general
+Experimental Season,TD 0,GLOBAL,A,H,1,,general
+Experimental Season,TD 0,GLOBAL,A,S,1,,general
+Experimental Season,TD 0,GLOBAL,A,G,1,,general
+Experimental Season,TD 0,GLOBAL,A,II,1,,general
+Experimental Season,TD 0,GLOBAL,TT,I,1,,general
+Experimental Season,TD 0,GLOBAL,TT,F,1,,general
+Experimental Season,TD 0,GLOBAL,TT,H,1,,general
+Experimental Season,TD 0,GLOBAL,TT,S,1,,general
+Experimental Season,TD 0,GLOBAL,TT,G,1,,general
+Experimental Season,TD 0,GLOBAL,TT,II,1,,general
+Experimental Season,TD 0,EMEA,R,I,1,,general
+Experimental Season,TD 0,EMEA,R,F,1,,general
+Experimental Season,TD 0,EMEA,R,H,1,,general
+Experimental Season,TD 0,EMEA,R,S,1,,general
+Experimental Season,TD 0,EMEA,D,I,1,,general
+Experimental Season,TD 0,EMEA,D,F,1,,general
+Experimental Season,TD 0,EMEA,D,H,1,,general
+Experimental Season,TD 0,EMEA,D,S,1,,general
+No. of Replicates,TD 0,GLOBAL,R,I,1,,general
+No. of Replicates,TD 0,GLOBAL,R,F,1,,general
+No. of Replicates,TD 0,GLOBAL,R,H,1,,general
+No. of Replicates,TD 0,GLOBAL,R,S,1,,general
+No. of Replicates,TD 0,GLOBAL,R,G,1,,general
+No. of Replicates,TD 0,GLOBAL,R,II,1,,general
+No. of Replicates,TD 0,GLOBAL,D,I,1,,general
+No. of Replicates,TD 0,GLOBAL,D,F,1,,general
+No. of Replicates,TD 0,GLOBAL,D,H,1,,general
+No. of Replicates,TD 0,GLOBAL,D,S,1,,general
+No. of Replicates,TD 0,GLOBAL,D,G,1,,general
+No. of Replicates,TD 0,GLOBAL,D,II,1,,general
+No. of Replicates,TD 0,GLOBAL,A,I,1,,general
+No. of Replicates,TD 0,GLOBAL,A,F,1,,general
+No. of Replicates,TD 0,GLOBAL,A,H,1,,general
+No. of Replicates,TD 0,GLOBAL,A,S,1,,general
+No. of Replicates,TD 0,GLOBAL,A,G,1,,general
+No. of Replicates,TD 0,GLOBAL,A,II,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,I,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,F,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,H,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,S,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,G,1,,general
+No. of Replicates,TD 0,GLOBAL,TT,II,1,,general
+No. of Replicates,TD 0,EMEA,R,I,1,,general
+No. of Replicates,TD 0,EMEA,R,F,1,,general
+No. of Replicates,TD 0,EMEA,R,H,1,,general
+No. of Replicates,TD 0,EMEA,R,S,1,,general
+No. of Replicates,TD 0,EMEA,D,I,1,,general
+No. of Replicates,TD 0,EMEA,D,F,1,,general
+No. of Replicates,TD 0,EMEA,D,H,1,,general
+No. of Replicates,TD 0,EMEA,D,S,1,,general
+Target,TD 0,GLOBAL,R,I,1,EFFICACY,general
+Target,TD 0,GLOBAL,R,F,1,EFFICACY,general
+Target,TD 0,GLOBAL,R,H,1,EFFICACY,general
+Target,TD 0,GLOBAL,R,S,1,EFFICACY,general
+Target,TD 0,GLOBAL,R,G,0,,general
+Target,TD 0,GLOBAL,R,II,1,EFFICACY,general
+Target,TD 0,GLOBAL,D,I,1,EFFICACY,general
+Target,TD 0,GLOBAL,D,F,1,EFFICACY,general
+Target,TD 0,GLOBAL,D,H,1,EFFICACY,general
+Target,TD 0,GLOBAL,D,S,1,EFFICACY,general
+Target,TD 0,GLOBAL,D,G,0,,general
+Target,TD 0,GLOBAL,D,II,1,EFFICACY,general
+Target,TD 0,GLOBAL,A,I,1,EFFICACY,general
+Target,TD 0,GLOBAL,A,F,1,EFFICACY,general
+Target,TD 0,GLOBAL,A,H,1,EFFICACY,general
+Target,TD 0,GLOBAL,A,S,1,EFFICACY,general
+Target,TD 0,GLOBAL,A,G,0,,general
+Target,TD 0,GLOBAL,A,II,1,EFFICACY,general
+Target,TD 0,GLOBAL,TT,I,1,EFFICACY,general
+Target,TD 0,GLOBAL,TT,F,1,EFFICACY,general
+Target,TD 0,GLOBAL,TT,H,1,EFFICACY,general
+Target,TD 0,GLOBAL,TT,S,1,EFFICACY,general
+Target,TD 0,GLOBAL,TT,G,0,,general
+Target,TD 0,GLOBAL,TT,II,1,EFFICACY,general
+Target,TD 0,EMEA,R,I,1,EFFICACY,general
+Target,TD 0,EMEA,R,F,1,EFFICACY,general
+Target,TD 0,EMEA,R,H,1,EFFICACY,general
+Target,TD 0,EMEA,R,S,1,EFFICACY,general
+Target,TD 0,EMEA,D,I,1,EFFICACY,general
+Target,TD 0,EMEA,D,F,1,EFFICACY,general
+Target,TD 0,EMEA,D,H,1,EFFICACY,general
+Target,TD 0,EMEA,D,S,1,EFFICACY,general
+Number of applications / trial,TD 0,GLOBAL,R,I,1,,general
+Number of applications / trial,TD 0,GLOBAL,R,F,1,,general
+Number of applications / trial,TD 0,GLOBAL,R,H,1,,general
+Number of applications / trial,TD 0,GLOBAL,R,S,1,,general
+Number of applications / trial,TD 0,GLOBAL,R,G,1,,general
+Number of applications / trial,TD 0,GLOBAL,R,II,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,I,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,F,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,H,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,S,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,G,1,,general
+Number of applications / trial,TD 0,GLOBAL,D,II,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,I,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,F,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,H,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,S,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,G,1,,general
+Number of applications / trial,TD 0,GLOBAL,A,II,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,I,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,F,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,H,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,S,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,G,1,,general
+Number of applications / trial,TD 0,GLOBAL,TT,II,1,,general
+Number of applications / trial,TD 0,EMEA,R,I,1,,general
+Number of applications / trial,TD 0,EMEA,R,F,1,,general
+Number of applications / trial,TD 0,EMEA,R,H,1,,general
+Number of applications / trial,TD 0,EMEA,R,S,1,,general
+Number of applications / trial,TD 0,EMEA,D,I,1,,general
+Number of applications / trial,TD 0,EMEA,D,F,1,,general
+Number of applications / trial,TD 0,EMEA,D,H,1,,general
+Number of applications / trial,TD 0,EMEA,D,S,1,,general
+Crop,TD 0,GLOBAL,R,I,1,,general
+Crop,TD 0,GLOBAL,R,F,1,,general
+Crop,TD 0,GLOBAL,R,H,1,,general
+Crop,TD 0,GLOBAL,R,S,1,,general
+Crop,TD 0,GLOBAL,R,G,1,,general
+Crop,TD 0,GLOBAL,R,II,1,,general
+Crop,TD 0,GLOBAL,D,I,1,,general
+Crop,TD 0,GLOBAL,D,F,1,,general
+Crop,TD 0,GLOBAL,D,H,1,,general
+Crop,TD 0,GLOBAL,D,S,1,,general
+Crop,TD 0,GLOBAL,D,G,1,,general
+Crop,TD 0,GLOBAL,D,II,1,,general
+Crop,TD 0,GLOBAL,A,I,1,,general
+Crop,TD 0,GLOBAL,A,F,1,,general
+Crop,TD 0,GLOBAL,A,H,1,,general
+Crop,TD 0,GLOBAL,A,S,1,,general
+Crop,TD 0,GLOBAL,A,G,1,,general
+Crop,TD 0,GLOBAL,A,II,1,,general
+Crop,TD 0,GLOBAL,TT,I,1,,general
+Crop,TD 0,GLOBAL,TT,F,1,,general
+Crop,TD 0,GLOBAL,TT,H,1,,general
+Crop,TD 0,GLOBAL,TT,S,1,,general
+Crop,TD 0,GLOBAL,TT,G,1,,general
+Crop,TD 0,GLOBAL,TT,II,1,,general
+Crop,TD 0,EMEA,R,I,1,,general
+Crop,TD 0,EMEA,R,F,1,,general
+Crop,TD 0,EMEA,R,H,1,,general
+Crop,TD 0,EMEA,R,S,1,,general
+Crop,TD 0,EMEA,D,I,1,,general
+Crop,TD 0,EMEA,D,F,1,,general
+Crop,TD 0,EMEA,D,H,1,,general
+Crop,TD 0,EMEA,D,S,1,,general
+Project Number,TD 0,GLOBAL,R,I,1,,general
+Project Number,TD 0,GLOBAL,R,F,1,,general
+Project Number,TD 0,GLOBAL,R,H,1,,general
+Project Number,TD 0,GLOBAL,R,S,1,,general
+Project Number,TD 0,GLOBAL,R,G,1,,general
+Project Number,TD 0,GLOBAL,R,II,1,,general
+Project Number,TD 0,GLOBAL,D,I,1,,general
+Project Number,TD 0,GLOBAL,D,F,1,,general
+Project Number,TD 0,GLOBAL,D,H,1,,general
+Project Number,TD 0,GLOBAL,D,S,1,,general
+Project Number,TD 0,GLOBAL,D,G,1,,general
+Project Number,TD 0,GLOBAL,D,II,1,,general
+Project Number,TD 0,GLOBAL,A,I,1,,general
+Project Number,TD 0,GLOBAL,A,F,1,,general
+Project Number,TD 0,GLOBAL,A,H,1,,general
+Project Number,TD 0,GLOBAL,A,S,1,,general
+Project Number,TD 0,GLOBAL,A,G,1,,general
+Project Number,TD 0,GLOBAL,A,II,1,,general
+Project Number,TD 0,GLOBAL,TT,I,1,,general
+Project Number,TD 0,GLOBAL,TT,F,1,,general
+Project Number,TD 0,GLOBAL,TT,H,1,,general
+Project Number,TD 0,GLOBAL,TT,S,1,,general
+Project Number,TD 0,GLOBAL,TT,G,1,,general
+Project Number,TD 0,GLOBAL,TT,II,1,,general
+Project Number,TD 0,EMEA,R,I,1,,general
+Project Number,TD 0,EMEA,R,F,1,,general
+Project Number,TD 0,EMEA,R,H,1,,general
+Project Number,TD 0,EMEA,R,S,1,,general
+Project Number,TD 0,EMEA,D,I,1,,general
+Project Number,TD 0,EMEA,D,F,1,,general
+Project Number,TD 0,EMEA,D,H,1,,general
+Project Number,TD 0,EMEA,D,S,1,,general
+Protocol Edition No,TD 0,GLOBAL,R,I,0,,general
+Protocol Edition No,TD 0,GLOBAL,R,F,0,,general
+Protocol Edition No,TD 0,GLOBAL,R,H,0,,general
+Protocol Edition No,TD 0,GLOBAL,R,S,0,,general
+Protocol Edition No,TD 0,GLOBAL,R,G,0,,general
+Protocol Edition No,TD 0,GLOBAL,R,II,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,I,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,F,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,H,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,S,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,G,0,,general
+Protocol Edition No,TD 0,GLOBAL,D,II,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,I,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,F,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,H,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,S,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,G,0,,general
+Protocol Edition No,TD 0,GLOBAL,A,II,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,I,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,F,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,H,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,S,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,G,0,,general
+Protocol Edition No,TD 0,GLOBAL,TT,II,0,,general
+Protocol Edition No,TD 0,EMEA,R,I,1,,general
+Protocol Edition No,TD 0,EMEA,R,F,1,,general
+Protocol Edition No,TD 0,EMEA,R,H,1,,general
+Protocol Edition No,TD 0,EMEA,R,S,1,,general
+Protocol Edition No,TD 0,EMEA,D,I,1,,general
+Protocol Edition No,TD 0,EMEA,D,F,1,,general
+Protocol Edition No,TD 0,EMEA,D,H,1,,general
+Protocol Edition No,TD 0,EMEA,D,S,1,,general
+Technical Manager,TD 0,GLOBAL,R,I,0,,general
+Technical Manager,TD 0,GLOBAL,R,F,0,,general
+Technical Manager,TD 0,GLOBAL,R,H,0,,general
+Technical Manager,TD 0,GLOBAL,R,S,0,,general
+Technical Manager,TD 0,GLOBAL,R,G,0,,general
+Technical Manager,TD 0,GLOBAL,R,II,0,,general
+Technical Manager,TD 0,GLOBAL,D,I,0,,general
+Technical Manager,TD 0,GLOBAL,D,F,0,,general
+Technical Manager,TD 0,GLOBAL,D,H,0,,general
+Technical Manager,TD 0,GLOBAL,D,S,0,,general
+Technical Manager,TD 0,GLOBAL,D,G,0,,general
+Technical Manager,TD 0,GLOBAL,D,II,0,,general
+Technical Manager,TD 0,GLOBAL,A,I,0,,general
+Technical Manager,TD 0,GLOBAL,A,F,0,,general
+Technical Manager,TD 0,GLOBAL,A,H,0,,general
+Technical Manager,TD 0,GLOBAL,A,S,0,,general
+Technical Manager,TD 0,GLOBAL,A,G,0,,general
+Technical Manager,TD 0,GLOBAL,A,II,0,,general
+Technical Manager,TD 0,GLOBAL,TT,I,0,,general
+Technical Manager,TD 0,GLOBAL,TT,F,0,,general
+Technical Manager,TD 0,GLOBAL,TT,H,0,,general
+Technical Manager,TD 0,GLOBAL,TT,S,0,,general
+Technical Manager,TD 0,GLOBAL,TT,G,0,,general
+Technical Manager,TD 0,GLOBAL,TT,II,0,,general
+Technical Manager,TD 0,EMEA,R,I,1,,general
+Technical Manager,TD 0,EMEA,R,F,1,,general
+Technical Manager,TD 0,EMEA,R,H,1,,general
+Technical Manager,TD 0,EMEA,R,S,1,,general
+Technical Manager,TD 0,EMEA,D,I,1,,general
+Technical Manager,TD 0,EMEA,D,F,1,,general
+Technical Manager,TD 0,EMEA,D,H,1,,general
+Technical Manager,TD 0,EMEA,D,S,1,,general
+Guidelines,TD 0,GLOBAL,R,I,0,,general
+Guidelines,TD 0,GLOBAL,R,F,0,,general
+Guidelines,TD 0,GLOBAL,R,H,0,,general
+Guidelines,TD 0,GLOBAL,R,S,0,,general
+Guidelines,TD 0,GLOBAL,R,G,0,,general
+Guidelines,TD 0,GLOBAL,R,II,0,,general
+Guidelines,TD 0,GLOBAL,D,I,0,,general
+Guidelines,TD 0,GLOBAL,D,F,0,,general
+Guidelines,TD 0,GLOBAL,D,H,0,,general
+Guidelines,TD 0,GLOBAL,D,S,0,,general
+Guidelines,TD 0,GLOBAL,D,G,0,,general
+Guidelines,TD 0,GLOBAL,D,II,0,,general
+Guidelines,TD 0,GLOBAL,A,I,0,,general
+Guidelines,TD 0,GLOBAL,A,F,0,,general
+Guidelines,TD 0,GLOBAL,A,H,0,,general
+Guidelines,TD 0,GLOBAL,A,S,0,,general
+Guidelines,TD 0,GLOBAL,A,G,0,,general
+Guidelines,TD 0,GLOBAL,A,II,0,,general
+Guidelines,TD 0,GLOBAL,TT,I,0,,general
+Guidelines,TD 0,GLOBAL,TT,F,0,,general
+Guidelines,TD 0,GLOBAL,TT,H,0,,general
+Guidelines,TD 0,GLOBAL,TT,S,0,,general
+Guidelines,TD 0,GLOBAL,TT,G,0,,general
+Guidelines,TD 0,GLOBAL,TT,II,0,,general
+Guidelines,TD 0,EMEA,R,I,1,,general
+Guidelines,TD 0,EMEA,R,F,1,,general
+Guidelines,TD 0,EMEA,R,H,1,,general
+Guidelines,TD 0,EMEA,R,S,1,,general
+Guidelines,TD 0,EMEA,D,I,1,,general
+Guidelines,TD 0,EMEA,D,F,1,,general
+Guidelines,TD 0,EMEA,D,H,1,,general
+Guidelines,TD 0,EMEA,D,S,1,,general
+Plot Area Unit,TD 0,GLOBAL,R,I,0,,general
+Plot Area Unit,TD 0,GLOBAL,R,F,0,,general
+Plot Area Unit,TD 0,GLOBAL,R,H,0,,general
+Plot Area Unit,TD 0,GLOBAL,R,S,0,,general
+Plot Area Unit,TD 0,GLOBAL,R,G,0,,general
+Plot Area Unit,TD 0,GLOBAL,R,II,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,I,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,F,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,H,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,S,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,G,0,,general
+Plot Area Unit,TD 0,GLOBAL,D,II,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,I,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,F,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,H,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,S,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,G,0,,general
+Plot Area Unit,TD 0,GLOBAL,A,II,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,I,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,F,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,H,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,S,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,G,0,,general
+Plot Area Unit,TD 0,GLOBAL,TT,II,0,,general
+Plot Area Unit,TD 0,EMEA,R,I,1,,general
+Plot Area Unit,TD 0,EMEA,R,F,1,,general
+Plot Area Unit,TD 0,EMEA,R,H,1,,general
+Plot Area Unit,TD 0,EMEA,R,S,1,,general
+Plot Area Unit,TD 0,EMEA,D,I,1,,general
+Plot Area Unit,TD 0,EMEA,D,F,1,,general
+Plot Area Unit,TD 0,EMEA,D,H,1,,general
+Plot Area Unit,TD 0,EMEA,D,S,1,,general
+Plot Area,TD 0,GLOBAL,R,I,0,,general
+Plot Area,TD 0,GLOBAL,R,F,0,,general
+Plot Area,TD 0,GLOBAL,R,H,0,,general
+Plot Area,TD 0,GLOBAL,R,S,0,,general
+Plot Area,TD 0,GLOBAL,R,G,0,,general
+Plot Area,TD 0,GLOBAL,R,II,0,,general
+Plot Area,TD 0,GLOBAL,D,I,0,,general
+Plot Area,TD 0,GLOBAL,D,F,0,,general
+Plot Area,TD 0,GLOBAL,D,H,0,,general
+Plot Area,TD 0,GLOBAL,D,S,0,,general
+Plot Area,TD 0,GLOBAL,D,G,0,,general
+Plot Area,TD 0,GLOBAL,D,II,0,,general
+Plot Area,TD 0,GLOBAL,A,I,0,,general
+Plot Area,TD 0,GLOBAL,A,F,0,,general
+Plot Area,TD 0,GLOBAL,A,H,0,,general
+Plot Area,TD 0,GLOBAL,A,S,0,,general
+Plot Area,TD 0,GLOBAL,A,G,0,,general
+Plot Area,TD 0,GLOBAL,A,II,0,,general
+Plot Area,TD 0,GLOBAL,TT,I,0,,general
+Plot Area,TD 0,GLOBAL,TT,F,0,,general
+Plot Area,TD 0,GLOBAL,TT,H,0,,general
+Plot Area,TD 0,GLOBAL,TT,S,0,,general
+Plot Area,TD 0,GLOBAL,TT,G,0,,general
+Plot Area,TD 0,GLOBAL,TT,II,0,,general
+Plot Area,TD 0,EMEA,R,I,1,,general
+Plot Area,TD 0,EMEA,R,F,1,,general
+Plot Area,TD 0,EMEA,R,H,1,,general
+Plot Area,TD 0,EMEA,R,S,1,,general
+Plot Area,TD 0,EMEA,D,I,1,,general
+Plot Area,TD 0,EMEA,D,F,1,,general
+Plot Area,TD 0,EMEA,D,H,1,,general
+Plot Area,TD 0,EMEA,D,S,1,,general
+Data Deadline,TD 0,GLOBAL,R,I,1,,general
+Data Deadline,TD 0,GLOBAL,R,F,1,,general
+Data Deadline,TD 0,GLOBAL,R,H,1,,general
+Data Deadline,TD 0,GLOBAL,R,S,1,,general
+Data Deadline,TD 0,GLOBAL,R,G,1,,general
+Data Deadline,TD 0,GLOBAL,R,II,1,,general
+Data Deadline,TD 0,GLOBAL,D,I,1,,general
+Data Deadline,TD 0,GLOBAL,D,F,1,,general
+Data Deadline,TD 0,GLOBAL,D,H,1,,general
+Data Deadline,TD 0,GLOBAL,D,S,1,,general
+Data Deadline,TD 0,GLOBAL,D,G,1,,general
+Data Deadline,TD 0,GLOBAL,D,II,1,,general
+Data Deadline,TD 0,GLOBAL,A,I,1,,general
+Data Deadline,TD 0,GLOBAL,A,F,1,,general
+Data Deadline,TD 0,GLOBAL,A,H,1,,general
+Data Deadline,TD 0,GLOBAL,A,S,1,,general
+Data Deadline,TD 0,GLOBAL,A,G,1,,general
+Data Deadline,TD 0,GLOBAL,A,II,1,,general
+Data Deadline,TD 0,GLOBAL,TT,I,1,,general
+Data Deadline,TD 0,GLOBAL,TT,F,1,,general
+Data Deadline,TD 0,GLOBAL,TT,H,1,,general
+Data Deadline,TD 0,GLOBAL,TT,S,1,,general
+Data Deadline,TD 0,GLOBAL,TT,G,1,,general
+Data Deadline,TD 0,GLOBAL,TT,II,1,,general
+Data Deadline,TD 0,EMEA,R,I,1,,general
+Data Deadline,TD 0,EMEA,R,F,1,,general
+Data Deadline,TD 0,EMEA,R,H,1,,general
+Data Deadline,TD 0,EMEA,R,S,1,,general
+Data Deadline,TD 0,EMEA,D,I,1,,general
+Data Deadline,TD 0,EMEA,D,F,1,,general
+Data Deadline,TD 0,EMEA,D,H,1,,general
+Data Deadline,TD 0,EMEA,D,S,1,,general
+Objectives,TD 1,GLOBAL,R,I,1,,general
+Objectives,TD 1,GLOBAL,R,F,1,,general
+Objectives,TD 1,GLOBAL,R,H,1,,general
+Objectives,TD 1,GLOBAL,R,S,1,,general
+Objectives,TD 1,GLOBAL,R,G,1,,general
+Objectives,TD 1,GLOBAL,R,II,1,,general
+Objectives,TD 1,GLOBAL,D,I,1,,general
+Objectives,TD 1,GLOBAL,D,F,1,,general
+Objectives,TD 1,GLOBAL,D,H,1,,general
+Objectives,TD 1,GLOBAL,D,S,1,,general
+Objectives,TD 1,GLOBAL,D,G,1,,general
+Objectives,TD 1,GLOBAL,D,II,1,,general
+Objectives,TD 1,GLOBAL,A,I,1,,general
+Objectives,TD 1,GLOBAL,A,F,1,,general
+Objectives,TD 1,GLOBAL,A,H,1,,general
+Objectives,TD 1,GLOBAL,A,S,1,,general
+Objectives,TD 1,GLOBAL,A,G,1,,general
+Objectives,TD 1,GLOBAL,A,II,1,,general
+Objectives,TD 1,GLOBAL,TT,I,1,,general
+Objectives,TD 1,GLOBAL,TT,F,1,,general
+Objectives,TD 1,GLOBAL,TT,H,1,,general
+Objectives,TD 1,GLOBAL,TT,S,1,,general
+Objectives,TD 1,GLOBAL,TT,G,1,,general
+Objectives,TD 1,GLOBAL,TT,II,1,,general
+Objectives,TD 1,EMEA,R,I,1,,general
+Objectives,TD 1,EMEA,R,F,1,,general
+Objectives,TD 1,EMEA,R,H,1,,general
+Objectives,TD 1,EMEA,R,S,1,,general
+Objectives,TD 1,EMEA,D,I,1,,general
+Objectives,TD 1,EMEA,D,F,1,,general
+Objectives,TD 1,EMEA,D,H,1,,general
+Objectives,TD 1,EMEA,D,S,1,,general
+Guidelines,TD 1,GLOBAL,R,I,1,,general
+Guidelines,TD 1,GLOBAL,R,F,1,,general
+Guidelines,TD 1,GLOBAL,R,H,1,,general
+Guidelines,TD 1,GLOBAL,R,S,1,,general
+Guidelines,TD 1,GLOBAL,R,G,1,,general
+Guidelines,TD 1,GLOBAL,R,II,1,,general
+Guidelines,TD 1,GLOBAL,D,I,0,,general
+Guidelines,TD 1,GLOBAL,D,F,0,,general
+Guidelines,TD 1,GLOBAL,D,H,0,,general
+Guidelines,TD 1,GLOBAL,D,S,0,,general
+Guidelines,TD 1,GLOBAL,D,G,0,,general
+Guidelines,TD 1,GLOBAL,D,II,0,,general
+Guidelines,TD 1,GLOBAL,A,I,0,,general
+Guidelines,TD 1,GLOBAL,A,F,0,,general
+Guidelines,TD 1,GLOBAL,A,H,0,,general
+Guidelines,TD 1,GLOBAL,A,S,0,,general
+Guidelines,TD 1,GLOBAL,A,G,0,,general
+Guidelines,TD 1,GLOBAL,A,II,0,,general
+Guidelines,TD 1,GLOBAL,TT,I,0,,general
+Guidelines,TD 1,GLOBAL,TT,F,0,,general
+Guidelines,TD 1,GLOBAL,TT,H,0,,general
+Guidelines,TD 1,GLOBAL,TT,S,0,,general
+Guidelines,TD 1,GLOBAL,TT,G,0,,general
+Guidelines,TD 1,GLOBAL,TT,II,0,,general
+Guidelines,TD 1,EMEA,R,I,1,,general
+Guidelines,TD 1,EMEA,R,F,1,,general
+Guidelines,TD 1,EMEA,R,H,1,,general
+Guidelines,TD 1,EMEA,R,S,1,,general
+Guidelines,TD 1,EMEA,D,I,1,,general
+Guidelines,TD 1,EMEA,D,F,1,,general
+Guidelines,TD 1,EMEA,D,H,1,,general
+Guidelines,TD 1,EMEA,D,S,1,,general
+Data Deadline,TD 1,GLOBAL,R,I,1,,general
+Data Deadline,TD 1,GLOBAL,R,F,1,,general
+Data Deadline,TD 1,GLOBAL,R,H,1,,general
+Data Deadline,TD 1,GLOBAL,R,S,1,,general
+Data Deadline,TD 1,GLOBAL,R,G,1,,general
+Data Deadline,TD 1,GLOBAL,R,II,1,,general
+Data Deadline,TD 1,GLOBAL,D,I,1,,general
+Data Deadline,TD 1,GLOBAL,D,F,1,,general
+Data Deadline,TD 1,GLOBAL,D,H,1,,general
+Data Deadline,TD 1,GLOBAL,D,S,1,,general
+Data Deadline,TD 1,GLOBAL,D,G,1,,general
+Data Deadline,TD 1,GLOBAL,D,II,1,,general
+Data Deadline,TD 1,GLOBAL,A,I,1,,general
+Data Deadline,TD 1,GLOBAL,A,F,1,,general
+Data Deadline,TD 1,GLOBAL,A,H,1,,general
+Data Deadline,TD 1,GLOBAL,A,S,1,,general
+Data Deadline,TD 1,GLOBAL,A,G,1,,general
+Data Deadline,TD 1,GLOBAL,A,II,1,,general
+Data Deadline,TD 1,GLOBAL,TT,I,1,,general
+Data Deadline,TD 1,GLOBAL,TT,F,1,,general
+Data Deadline,TD 1,GLOBAL,TT,H,1,,general
+Data Deadline,TD 1,GLOBAL,TT,S,1,,general
+Data Deadline,TD 1,GLOBAL,TT,G,1,,general
+Data Deadline,TD 1,GLOBAL,TT,II,1,,general
+Data Deadline,TD 1,EMEA,R,I,1,,general
+Data Deadline,TD 1,EMEA,R,F,1,,general
+Data Deadline,TD 1,EMEA,R,H,1,,general
+Data Deadline,TD 1,EMEA,R,S,1,,general
+Data Deadline,TD 1,EMEA,D,I,1,,general
+Data Deadline,TD 1,EMEA,D,F,1,,general
+Data Deadline,TD 1,EMEA,D,H,1,,general
+Data Deadline,TD 1,EMEA,D,S,1,,general
+Location of Control,TD 1,GLOBAL,R,I,1,,general
+Location of Control,TD 1,GLOBAL,R,F,1,,general
+Location of Control,TD 1,GLOBAL,R,H,1,,general
+Location of Control,TD 1,GLOBAL,R,S,1,,general
+Location of Control,TD 1,GLOBAL,R,G,1,,general
+Location of Control,TD 1,GLOBAL,R,II,1,,general
+Location of Control,TD 1,GLOBAL,D,I,1,,general
+Location of Control,TD 1,GLOBAL,D,F,1,,general
+Location of Control,TD 1,GLOBAL,D,H,1,,general
+Location of Control,TD 1,GLOBAL,D,S,1,,general
+Location of Control,TD 1,GLOBAL,D,G,1,,general
+Location of Control,TD 1,GLOBAL,D,II,1,,general
+Location of Control,TD 1,GLOBAL,A,I,1,,general
+Location of Control,TD 1,GLOBAL,A,F,1,,general
+Location of Control,TD 1,GLOBAL,A,H,1,,general
+Location of Control,TD 1,GLOBAL,A,S,1,,general
+Location of Control,TD 1,GLOBAL,A,G,1,,general
+Location of Control,TD 1,GLOBAL,A,II,1,,general
+Location of Control,TD 1,GLOBAL,TT,I,1,,general
+Location of Control,TD 1,GLOBAL,TT,F,1,,general
+Location of Control,TD 1,GLOBAL,TT,H,1,,general
+Location of Control,TD 1,GLOBAL,TT,S,1,,general
+Location of Control,TD 1,GLOBAL,TT,G,1,,general
+Location of Control,TD 1,GLOBAL,TT,II,1,,general
+Location of Control,TD 1,EMEA,R,I,1,,general
+Location of Control,TD 1,EMEA,R,F,1,,general
+Location of Control,TD 1,EMEA,R,H,1,,general
+Location of Control,TD 1,EMEA,R,S,1,,general
+Location of Control,TD 1,EMEA,D,I,1,,general
+Location of Control,TD 1,EMEA,D,F,1,,general
+Location of Control,TD 1,EMEA,D,H,1,,general
+Location of Control,TD 1,EMEA,D,S,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,I,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,F,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,H,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,S,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,G,1,,general
+Number of applications / trial,TD 1,GLOBAL,R,II,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,I,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,F,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,H,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,S,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,G,1,,general
+Number of applications / trial,TD 1,GLOBAL,D,II,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,I,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,F,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,H,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,S,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,G,1,,general
+Number of applications / trial,TD 1,GLOBAL,A,II,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,I,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,F,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,H,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,S,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,G,1,,general
+Number of applications / trial,TD 1,GLOBAL,TT,II,1,,general
+Number of applications / trial,TD 1,EMEA,R,I,1,,general
+Number of applications / trial,TD 1,EMEA,R,F,1,,general
+Number of applications / trial,TD 1,EMEA,R,H,1,,general
+Number of applications / trial,TD 1,EMEA,R,S,1,,general
+Number of applications / trial,TD 1,EMEA,D,I,1,,general
+Number of applications / trial,TD 1,EMEA,D,F,1,,general
+Number of applications / trial,TD 1,EMEA,D,H,1,,general
+Number of applications / trial,TD 1,EMEA,D,S,1,,general
+Protocol Edition No,TD 1,GLOBAL,R,I,0,,general
+Protocol Edition No,TD 1,GLOBAL,R,F,0,,general
+Protocol Edition No,TD 1,GLOBAL,R,H,0,,general
+Protocol Edition No,TD 1,GLOBAL,R,S,0,,general
+Protocol Edition No,TD 1,GLOBAL,R,G,0,,general
+Protocol Edition No,TD 1,GLOBAL,R,II,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,I,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,F,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,H,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,S,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,G,0,,general
+Protocol Edition No,TD 1,GLOBAL,D,II,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,I,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,F,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,H,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,S,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,G,0,,general
+Protocol Edition No,TD 1,GLOBAL,A,II,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,I,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,F,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,H,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,S,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,G,0,,general
+Protocol Edition No,TD 1,GLOBAL,TT,II,0,,general
+Protocol Edition No,TD 1,EMEA,R,I,1,,general
+Protocol Edition No,TD 1,EMEA,R,F,1,,general
+Protocol Edition No,TD 1,EMEA,R,H,1,,general
+Protocol Edition No,TD 1,EMEA,R,S,1,,general
+Protocol Edition No,TD 1,EMEA,D,I,1,,general
+Protocol Edition No,TD 1,EMEA,D,F,1,,general
+Protocol Edition No,TD 1,EMEA,D,H,1,,general
+Protocol Edition No,TD 1,EMEA,D,S,1,,general
+Technical Manager,TD 1,GLOBAL,R,I,0,,general
+Technical Manager,TD 1,GLOBAL,R,F,0,,general
+Technical Manager,TD 1,GLOBAL,R,H,0,,general
+Technical Manager,TD 1,GLOBAL,R,S,0,,general
+Technical Manager,TD 1,GLOBAL,R,G,0,,general
+Technical Manager,TD 1,GLOBAL,R,II,0,,general
+Technical Manager,TD 1,GLOBAL,D,I,0,,general
+Technical Manager,TD 1,GLOBAL,D,F,0,,general
+Technical Manager,TD 1,GLOBAL,D,H,0,,general
+Technical Manager,TD 1,GLOBAL,D,S,0,,general
+Technical Manager,TD 1,GLOBAL,D,G,0,,general
+Technical Manager,TD 1,GLOBAL,D,II,0,,general
+Technical Manager,TD 1,GLOBAL,A,I,0,,general
+Technical Manager,TD 1,GLOBAL,A,F,0,,general
+Technical Manager,TD 1,GLOBAL,A,H,0,,general
+Technical Manager,TD 1,GLOBAL,A,S,0,,general
+Technical Manager,TD 1,GLOBAL,A,G,0,,general
+Technical Manager,TD 1,GLOBAL,A,II,0,,general
+Technical Manager,TD 1,GLOBAL,TT,I,0,,general
+Technical Manager,TD 1,GLOBAL,TT,F,0,,general
+Technical Manager,TD 1,GLOBAL,TT,H,0,,general
+Technical Manager,TD 1,GLOBAL,TT,S,0,,general
+Technical Manager,TD 1,GLOBAL,TT,G,0,,general
+Technical Manager,TD 1,GLOBAL,TT,II,0,,general
+Technical Manager,TD 1,EMEA,R,I,1,,general
+Technical Manager,TD 1,EMEA,R,F,1,,general
+Technical Manager,TD 1,EMEA,R,H,1,,general
+Technical Manager,TD 1,EMEA,R,S,1,,general
+Technical Manager,TD 1,EMEA,D,I,1,,general
+Technical Manager,TD 1,EMEA,D,F,1,,general
+Technical Manager,TD 1,EMEA,D,H,1,,general
+Technical Manager,TD 1,EMEA,D,S,1,,general
+No. of Replicates,TD 1,GLOBAL,R,I,0,,general
+No. of Replicates,TD 1,GLOBAL,R,F,0,,general
+No. of Replicates,TD 1,GLOBAL,R,H,0,,general
+No. of Replicates,TD 1,GLOBAL,R,S,0,,general
+No. of Replicates,TD 1,GLOBAL,R,G,0,,general
+No. of Replicates,TD 1,GLOBAL,R,II,0,,general
+No. of Replicates,TD 1,GLOBAL,D,I,0,,general
+No. of Replicates,TD 1,GLOBAL,D,F,0,,general
+No. of Replicates,TD 1,GLOBAL,D,H,0,,general
+No. of Replicates,TD 1,GLOBAL,D,S,0,,general
+No. of Replicates,TD 1,GLOBAL,D,G,0,,general
+No. of Replicates,TD 1,GLOBAL,D,II,0,,general
+No. of Replicates,TD 1,GLOBAL,A,I,0,,general
+No. of Replicates,TD 1,GLOBAL,A,F,0,,general
+No. of Replicates,TD 1,GLOBAL,A,H,0,,general
+No. of Replicates,TD 1,GLOBAL,A,S,0,,general
+No. of Replicates,TD 1,GLOBAL,A,G,0,,general
+No. of Replicates,TD 1,GLOBAL,A,II,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,I,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,F,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,H,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,S,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,G,0,,general
+No. of Replicates,TD 1,GLOBAL,TT,II,0,,general
+No. of Replicates,TD 1,EMEA,R,I,1,,general
+No. of Replicates,TD 1,EMEA,R,F,1,,general
+No. of Replicates,TD 1,EMEA,R,H,1,,general
+No. of Replicates,TD 1,EMEA,R,S,1,,general
+No. of Replicates,TD 1,EMEA,D,I,1,,general
+No. of Replicates,TD 1,EMEA,D,F,1,,general
+No. of Replicates,TD 1,EMEA,D,H,1,,general
+No. of Replicates,TD 1,EMEA,D,S,1,,general
+Plot area unit,TD 1,GLOBAL,R,I,0,,general
+Plot area unit,TD 1,GLOBAL,R,F,0,,general
+Plot area unit,TD 1,GLOBAL,R,H,0,,general
+Plot area unit,TD 1,GLOBAL,R,S,0,,general
+Plot area unit,TD 1,GLOBAL,R,G,0,,general
+Plot area unit,TD 1,GLOBAL,R,II,0,,general
+Plot area unit,TD 1,GLOBAL,D,I,0,,general
+Plot area unit,TD 1,GLOBAL,D,F,0,,general
+Plot area unit,TD 1,GLOBAL,D,H,0,,general
+Plot area unit,TD 1,GLOBAL,D,S,0,,general
+Plot area unit,TD 1,GLOBAL,D,G,0,,general
+Plot area unit,TD 1,GLOBAL,D,II,0,,general
+Plot area unit,TD 1,GLOBAL,A,I,0,,general
+Plot area unit,TD 1,GLOBAL,A,F,0,,general
+Plot area unit,TD 1,GLOBAL,A,H,0,,general
+Plot area unit,TD 1,GLOBAL,A,S,0,,general
+Plot area unit,TD 1,GLOBAL,A,G,0,,general
+Plot area unit,TD 1,GLOBAL,A,II,0,,general
+Plot area unit,TD 1,GLOBAL,TT,I,0,,general
+Plot area unit,TD 1,GLOBAL,TT,F,0,,general
+Plot area unit,TD 1,GLOBAL,TT,H,0,,general
+Plot area unit,TD 1,GLOBAL,TT,S,0,,general
+Plot area unit,TD 1,GLOBAL,TT,G,0,,general
+Plot area unit,TD 1,GLOBAL,TT,II,0,,general
+Plot area unit,TD 1,EMEA,R,I,1,,general
+Plot area unit,TD 1,EMEA,R,F,1,,general
+Plot area unit,TD 1,EMEA,R,H,1,,general
+Plot area unit,TD 1,EMEA,R,S,1,,general
+Plot area unit,TD 1,EMEA,D,I,1,,general
+Plot area unit,TD 1,EMEA,D,F,1,,general
+Plot area unit,TD 1,EMEA,D,H,1,,general
+Plot area unit,TD 1,EMEA,D,S,1,,general
+Plot area,TD 1,GLOBAL,R,I,0,,general
+Plot area,TD 1,GLOBAL,R,F,0,,general
+Plot area,TD 1,GLOBAL,R,H,0,,general
+Plot area,TD 1,GLOBAL,R,S,0,,general
+Plot area,TD 1,GLOBAL,R,G,0,,general
+Plot area,TD 1,GLOBAL,R,II,0,,general
+Plot area,TD 1,GLOBAL,D,I,0,,general
+Plot area,TD 1,GLOBAL,D,F,0,,general
+Plot area,TD 1,GLOBAL,D,H,0,,general
+Plot area,TD 1,GLOBAL,D,S,0,,general
+Plot area,TD 1,GLOBAL,D,G,0,,general
+Plot area,TD 1,GLOBAL,D,II,0,,general
+Plot area,TD 1,GLOBAL,A,I,0,,general
+Plot area,TD 1,GLOBAL,A,F,0,,general
+Plot area,TD 1,GLOBAL,A,H,0,,general
+Plot area,TD 1,GLOBAL,A,S,0,,general
+Plot area,TD 1,GLOBAL,A,G,0,,general
+Plot area,TD 1,GLOBAL,A,II,0,,general
+Plot area,TD 1,GLOBAL,TT,I,0,,general
+Plot area,TD 1,GLOBAL,TT,F,0,,general
+Plot area,TD 1,GLOBAL,TT,H,0,,general
+Plot area,TD 1,GLOBAL,TT,S,0,,general
+Plot area,TD 1,GLOBAL,TT,G,0,,general
+Plot area,TD 1,GLOBAL,TT,II,0,,general
+Plot area,TD 1,EMEA,R,I,1,,general
+Plot area,TD 1,EMEA,R,F,1,,general
+Plot area,TD 1,EMEA,R,H,1,,general
+Plot area,TD 1,EMEA,R,S,1,,general
+Plot area,TD 1,EMEA,D,I,1,,general
+Plot area,TD 1,EMEA,D,F,1,,general
+Plot area,TD 1,EMEA,D,H,1,,general
+Plot area,TD 1,EMEA,D,S,1,,general
+Site type,TD 1,GLOBAL,R,I,0,,general
+Site type,TD 1,GLOBAL,R,F,0,,general
+Site type,TD 1,GLOBAL,R,H,0,,general
+Site type,TD 1,GLOBAL,R,S,0,,general
+Site type,TD 1,GLOBAL,R,G,0,,general
+Site type,TD 1,GLOBAL,R,II,0,,general
+Site type,TD 1,GLOBAL,D,I,0,,general
+Site type,TD 1,GLOBAL,D,F,0,,general
+Site type,TD 1,GLOBAL,D,H,0,,general
+Site type,TD 1,GLOBAL,D,S,0,,general
+Site type,TD 1,GLOBAL,D,G,0,,general
+Site type,TD 1,GLOBAL,D,II,0,,general
+Site type,TD 1,GLOBAL,A,I,0,,general
+Site type,TD 1,GLOBAL,A,F,0,,general
+Site type,TD 1,GLOBAL,A,H,0,,general
+Site type,TD 1,GLOBAL,A,S,0,,general
+Site type,TD 1,GLOBAL,A,G,0,,general
+Site type,TD 1,GLOBAL,A,II,0,,general
+Site type,TD 1,GLOBAL,TT,I,0,,general
+Site type,TD 1,GLOBAL,TT,F,0,,general
+Site type,TD 1,GLOBAL,TT,H,0,,general
+Site type,TD 1,GLOBAL,TT,S,0,,general
+Site type,TD 1,GLOBAL,TT,G,0,,general
+Site type,TD 1,GLOBAL,TT,II,0,,general
+Site type,TD 1,EMEA,R,I,1,,general
+Site type,TD 1,EMEA,R,F,1,,general
+Site type,TD 1,EMEA,R,H,1,,general
+Site type,TD 1,EMEA,R,S,1,,general
+Site type,TD 1,EMEA,D,I,1,,general
+Site type,TD 1,EMEA,D,F,1,,general
+Site type,TD 1,EMEA,D,H,1,,general
+Site type,TD 1,EMEA,D,S,1,,general
+Plot Description,TD 1,GLOBAL,R,I,0,,general
+Plot Description,TD 1,GLOBAL,R,F,0,,general
+Plot Description,TD 1,GLOBAL,R,H,0,,general
+Plot Description,TD 1,GLOBAL,R,S,0,,general
+Plot Description,TD 1,GLOBAL,R,G,0,,general
+Plot Description,TD 1,GLOBAL,R,II,0,,general
+Plot Description,TD 1,GLOBAL,D,I,0,,general
+Plot Description,TD 1,GLOBAL,D,F,0,,general
+Plot Description,TD 1,GLOBAL,D,H,0,,general
+Plot Description,TD 1,GLOBAL,D,S,0,,general
+Plot Description,TD 1,GLOBAL,D,G,0,,general
+Plot Description,TD 1,GLOBAL,D,II,0,,general
+Plot Description,TD 1,GLOBAL,A,I,0,,general
+Plot Description,TD 1,GLOBAL,A,F,0,,general
+Plot Description,TD 1,GLOBAL,A,H,0,,general
+Plot Description,TD 1,GLOBAL,A,S,0,,general
+Plot Description,TD 1,GLOBAL,A,G,0,,general
+Plot Description,TD 1,GLOBAL,A,II,0,,general
+Plot Description,TD 1,GLOBAL,TT,I,0,,general
+Plot Description,TD 1,GLOBAL,TT,F,0,,general
+Plot Description,TD 1,GLOBAL,TT,H,0,,general
+Plot Description,TD 1,GLOBAL,TT,S,0,,general
+Plot Description,TD 1,GLOBAL,TT,G,0,,general
+Plot Description,TD 1,GLOBAL,TT,II,0,,general
+Plot Description,TD 1,EMEA,R,I,1,CROP,general
+Plot Description,TD 1,EMEA,R,F,1,CROP,general
+Plot Description,TD 1,EMEA,R,H,1,CROP,general
+Plot Description,TD 1,EMEA,R,S,0,,general
+Plot Description,TD 1,EMEA,D,I,1,CROP,general
+Plot Description,TD 1,EMEA,D,F,1,CROP,general
+Plot Description,TD 1,EMEA,D,H,1,CROP,general
+Plot Description,TD 1,EMEA,D,S,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,I,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,F,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,H,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,S,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,G,0,,general
+Plot Description Basis,TD 1,GLOBAL,R,II,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,I,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,F,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,H,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,S,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,G,0,,general
+Plot Description Basis,TD 1,GLOBAL,D,II,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,I,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,F,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,H,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,S,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,G,0,,general
+Plot Description Basis,TD 1,GLOBAL,A,II,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,I,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,F,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,H,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,S,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,G,0,,general
+Plot Description Basis,TD 1,GLOBAL,TT,II,0,,general
+Plot Description Basis,TD 1,EMEA,R,I,1,,general
+Plot Description Basis,TD 1,EMEA,R,F,1,,general
+Plot Description Basis,TD 1,EMEA,R,H,1,,general
+Plot Description Basis,TD 1,EMEA,R,S,0,,general
+Plot Description Basis,TD 1,EMEA,D,I,1,,general
+Plot Description Basis,TD 1,EMEA,D,F,1,,general
+Plot Description Basis,TD 1,EMEA,D,H,1,,general
+Plot Description Basis,TD 1,EMEA,D,S,0,,general
+Experimental Season,TD 1,GLOBAL,R,I,0,,general
+Experimental Season,TD 1,GLOBAL,R,F,0,,general
+Experimental Season,TD 1,GLOBAL,R,H,0,,general
+Experimental Season,TD 1,GLOBAL,R,S,0,,general
+Experimental Season,TD 1,GLOBAL,R,G,0,,general
+Experimental Season,TD 1,GLOBAL,R,II,0,,general
+Experimental Season,TD 1,GLOBAL,D,I,0,,general
+Experimental Season,TD 1,GLOBAL,D,F,0,,general
+Experimental Season,TD 1,GLOBAL,D,H,0,,general
+Experimental Season,TD 1,GLOBAL,D,S,0,,general
+Experimental Season,TD 1,GLOBAL,D,G,0,,general
+Experimental Season,TD 1,GLOBAL,D,II,0,,general
+Experimental Season,TD 1,GLOBAL,A,I,0,,general
+Experimental Season,TD 1,GLOBAL,A,F,0,,general
+Experimental Season,TD 1,GLOBAL,A,H,0,,general
+Experimental Season,TD 1,GLOBAL,A,S,0,,general
+Experimental Season,TD 1,GLOBAL,A,G,0,,general
+Experimental Season,TD 1,GLOBAL,A,II,0,,general
+Experimental Season,TD 1,GLOBAL,TT,I,0,,general
+Experimental Season,TD 1,GLOBAL,TT,F,0,,general
+Experimental Season,TD 1,GLOBAL,TT,H,0,,general
+Experimental Season,TD 1,GLOBAL,TT,S,0,,general
+Experimental Season,TD 1,GLOBAL,TT,G,0,,general
+Experimental Season,TD 1,GLOBAL,TT,II,0,,general
+Experimental Season,TD 1,EMEA,R,I,1,,general
+Experimental Season,TD 1,EMEA,R,F,1,,general
+Experimental Season,TD 1,EMEA,R,H,1,,general
+Experimental Season,TD 1,EMEA,R,S,1,,general
+Experimental Season,TD 1,EMEA,D,I,1,,general
+Experimental Season,TD 1,EMEA,D,F,1,,general
+Experimental Season,TD 1,EMEA,D,H,1,,general
+Experimental Season,TD 1,EMEA,D,S,1,,general
+Target,TD 1,GLOBAL,R,I,0,,general
+Target,TD 1,GLOBAL,R,F,0,,general
+Target,TD 1,GLOBAL,R,H,0,,general
+Target,TD 1,GLOBAL,R,S,0,,general
+Target,TD 1,GLOBAL,R,G,0,,general
+Target,TD 1,GLOBAL,R,II,0,,general
+Target,TD 1,GLOBAL,D,I,0,,general
+Target,TD 1,GLOBAL,D,F,0,,general
+Target,TD 1,GLOBAL,D,H,0,,general
+Target,TD 1,GLOBAL,D,S,0,,general
+Target,TD 1,GLOBAL,D,G,0,,general
+Target,TD 1,GLOBAL,D,II,0,,general
+Target,TD 1,GLOBAL,A,I,0,,general
+Target,TD 1,GLOBAL,A,F,0,,general
+Target,TD 1,GLOBAL,A,H,0,,general
+Target,TD 1,GLOBAL,A,S,0,,general
+Target,TD 1,GLOBAL,A,G,0,,general
+Target,TD 1,GLOBAL,A,II,0,,general
+Target,TD 1,GLOBAL,TT,I,0,,general
+Target,TD 1,GLOBAL,TT,F,0,,general
+Target,TD 1,GLOBAL,TT,H,0,,general
+Target,TD 1,GLOBAL,TT,S,0,,general
+Target,TD 1,GLOBAL,TT,G,0,,general
+Target,TD 1,GLOBAL,TT,II,0,,general
+Target,TD 1,EMEA,R,I,1,EFFICACY,general
+Target,TD 1,EMEA,R,F,1,EFFICACY,general
+Target,TD 1,EMEA,R,H,1,EFFICACY,general
+Target,TD 1,EMEA,R,S,1,EFFICACY,general
+Target,TD 1,EMEA,D,I,1,EFFICACY,general
+Target,TD 1,EMEA,D,F,1,EFFICACY,general
+Target,TD 1,EMEA,D,H,1,EFFICACY,general
+Target,TD 1,EMEA,D,S,1,EFFICACY,general
+GEP certificate link,TD 1,GLOBAL,R,I,1,,general
+GEP certificate link,TD 1,GLOBAL,R,F,1,,general
+GEP certificate link,TD 1,GLOBAL,R,H,1,,general
+GEP certificate link,TD 1,GLOBAL,R,S,1,,general
+GEP certificate link,TD 1,GLOBAL,R,G,1,,general
+GEP certificate link,TD 1,GLOBAL,R,II,1,,general
+GEP certificate link,TD 1,GLOBAL,D,I,0,,general
+GEP certificate link,TD 1,GLOBAL,D,F,0,,general
+GEP certificate link,TD 1,GLOBAL,D,H,0,,general
+GEP certificate link,TD 1,GLOBAL,D,S,0,,general
+GEP certificate link,TD 1,GLOBAL,D,G,0,,general
+GEP certificate link,TD 1,GLOBAL,D,II,0,,general
+GEP certificate link,TD 1,GLOBAL,A,I,0,,general
+GEP certificate link,TD 1,GLOBAL,A,F,0,,general
+GEP certificate link,TD 1,GLOBAL,A,H,0,,general
+GEP certificate link,TD 1,GLOBAL,A,S,0,,general
+GEP certificate link,TD 1,GLOBAL,A,G,0,,general
+GEP certificate link,TD 1,GLOBAL,A,II,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,I,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,F,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,H,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,S,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,G,0,,general
+GEP certificate link,TD 1,GLOBAL,TT,II,0,,general
+GEP certificate link,TD 1,EMEA,R,I,0,,general
+GEP certificate link,TD 1,EMEA,R,F,0,,general
+GEP certificate link,TD 1,EMEA,R,H,0,,general
+GEP certificate link,TD 1,EMEA,R,S,0,,general
+GEP certificate link,TD 1,EMEA,D,I,0,,general
+GEP certificate link,TD 1,EMEA,D,F,0,,general
+GEP certificate link,TD 1,EMEA,D,H,0,,general
+GEP certificate link,TD 1,EMEA,D,S,0,,general
+SE ID,TD 1,GLOBAL,R,I,1,,assessment
+SE ID,TD 1,GLOBAL,R,F,1,,assessment
+SE ID,TD 1,GLOBAL,R,H,1,,assessment
+SE ID,TD 1,GLOBAL,R,S,1,,assessment
+SE ID,TD 1,GLOBAL,R,G,1,,assessment
+SE ID,TD 1,GLOBAL,R,II,1,,assessment
+SE ID,TD 1,GLOBAL,D,I,1,,assessment
+SE ID,TD 1,GLOBAL,D,F,1,,assessment
+SE ID,TD 1,GLOBAL,D,H,1,,assessment
+SE ID,TD 1,GLOBAL,D,S,1,,assessment
+SE ID,TD 1,GLOBAL,D,G,1,,assessment
+SE ID,TD 1,GLOBAL,D,II,1,,assessment
+SE ID,TD 1,GLOBAL,A,I,1,,assessment
+SE ID,TD 1,GLOBAL,A,F,1,,assessment
+SE ID,TD 1,GLOBAL,A,H,1,,assessment
+SE ID,TD 1,GLOBAL,A,S,1,,assessment
+SE ID,TD 1,GLOBAL,A,G,1,,assessment
+SE ID,TD 1,GLOBAL,A,II,1,,assessment
+SE ID,TD 1,GLOBAL,TT,I,1,,assessment
+SE ID,TD 1,GLOBAL,TT,F,1,,assessment
+SE ID,TD 1,GLOBAL,TT,H,1,,assessment
+SE ID,TD 1,GLOBAL,TT,S,1,,assessment
+SE ID,TD 1,GLOBAL,TT,G,1,,assessment
+SE ID,TD 1,GLOBAL,TT,II,1,,assessment
+SE ID,TD 1,EMEA,R,I,1,,assessment
+SE ID,TD 1,EMEA,R,F,1,,assessment
+SE ID,TD 1,EMEA,R,H,1,,assessment
+SE ID,TD 1,EMEA,R,S,1,,assessment
+SE ID,TD 1,EMEA,D,I,1,,assessment
+SE ID,TD 1,EMEA,D,F,1,,assessment
+SE ID,TD 1,EMEA,D,H,1,,assessment
+SE ID,TD 1,EMEA,D,S,1,,assessment
+Part Rated,TD 1,GLOBAL,R,I,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,R,F,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,R,H,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,R,S,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,R,G,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,R,II,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,I,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,F,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,H,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,S,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,G,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,D,II,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,I,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,F,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,H,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,S,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,G,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,A,II,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,I,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,F,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,H,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,S,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,G,1,PHSES,assessment
+Part Rated,TD 1,GLOBAL,TT,II,1,PHSES,assessment
+Part Rated,TD 1,EMEA,R,I,1,,assessment
+Part Rated,TD 1,EMEA,R,F,1,,assessment
+Part Rated,TD 1,EMEA,R,H,1,,assessment
+Part Rated,TD 1,EMEA,R,S,1,,assessment
+Part Rated,TD 1,EMEA,D,I,1,,assessment
+Part Rated,TD 1,EMEA,D,F,1,,assessment
+Part Rated,TD 1,EMEA,D,H,1,,assessment
+Part Rated,TD 1,EMEA,D,S,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,I,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,F,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,H,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,S,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,G,1,,assessment
+Assessment Type,TD 1,GLOBAL,R,II,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,I,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,F,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,H,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,S,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,G,1,,assessment
+Assessment Type,TD 1,GLOBAL,D,II,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,I,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,F,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,H,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,S,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,G,1,,assessment
+Assessment Type,TD 1,GLOBAL,A,II,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,I,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,F,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,H,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,S,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,G,1,,assessment
+Assessment Type,TD 1,GLOBAL,TT,II,1,,assessment
+Assessment Type,TD 1,EMEA,R,I,1,,assessment
+Assessment Type,TD 1,EMEA,R,F,1,,assessment
+Assessment Type,TD 1,EMEA,R,H,1,,assessment
+Assessment Type,TD 1,EMEA,R,S,1,,assessment
+Assessment Type,TD 1,EMEA,D,I,1,,assessment
+Assessment Type,TD 1,EMEA,D,F,1,,assessment
+Assessment Type,TD 1,EMEA,D,H,1,,assessment
+Assessment Type,TD 1,EMEA,D,S,1,,assessment
+Sample Size,TD 1,GLOBAL,R,I,1,,assessment
+Sample Size,TD 1,GLOBAL,R,F,1,,assessment
+Sample Size,TD 1,GLOBAL,R,H,1,,assessment
+Sample Size,TD 1,GLOBAL,R,S,1,,assessment
+Sample Size,TD 1,GLOBAL,R,G,1,,assessment
+Sample Size,TD 1,GLOBAL,R,II,1,,assessment
+Sample Size,TD 1,GLOBAL,D,I,1,,assessment
+Sample Size,TD 1,GLOBAL,D,F,1,,assessment
+Sample Size,TD 1,GLOBAL,D,H,1,,assessment
+Sample Size,TD 1,GLOBAL,D,S,1,,assessment
+Sample Size,TD 1,GLOBAL,D,G,1,,assessment
+Sample Size,TD 1,GLOBAL,D,II,1,,assessment
+Sample Size,TD 1,GLOBAL,A,I,1,,assessment
+Sample Size,TD 1,GLOBAL,A,F,1,,assessment
+Sample Size,TD 1,GLOBAL,A,H,1,,assessment
+Sample Size,TD 1,GLOBAL,A,S,1,,assessment
+Sample Size,TD 1,GLOBAL,A,G,1,,assessment
+Sample Size,TD 1,GLOBAL,A,II,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,I,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,F,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,H,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,S,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,G,1,,assessment
+Sample Size,TD 1,GLOBAL,TT,II,1,,assessment
+Sample Size,TD 1,EMEA,R,I,1,,assessment
+Sample Size,TD 1,EMEA,R,F,1,,assessment
+Sample Size,TD 1,EMEA,R,H,1,,assessment
+Sample Size,TD 1,EMEA,R,S,1,,assessment
+Sample Size,TD 1,EMEA,D,I,1,,assessment
+Sample Size,TD 1,EMEA,D,F,1,,assessment
+Sample Size,TD 1,EMEA,D,H,1,,assessment
+Sample Size,TD 1,EMEA,D,S,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,I,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,F,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,H,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,S,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,G,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,R,II,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,I,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,F,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,H,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,S,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,G,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,D,II,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,I,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,F,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,H,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,S,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,G,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,A,II,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,I,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,F,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,H,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,S,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,G,1,,assessment
+Sample Size Unit,TD 1,GLOBAL,TT,II,1,,assessment
+Sample Size Unit,TD 1,EMEA,R,I,1,,assessment
+Sample Size Unit,TD 1,EMEA,R,F,1,,assessment
+Sample Size Unit,TD 1,EMEA,R,H,1,,assessment
+Sample Size Unit,TD 1,EMEA,R,S,1,,assessment
+Sample Size Unit,TD 1,EMEA,D,I,1,,assessment
+Sample Size Unit,TD 1,EMEA,D,F,1,,assessment
+Sample Size Unit,TD 1,EMEA,D,H,1,,assessment
+Sample Size Unit,TD 1,EMEA,D,S,1,,assessment
+Target,TD 1,GLOBAL,R,I,1,PHSES,assessment
+Target,TD 1,GLOBAL,R,F,1,PHSES,assessment
+Target,TD 1,GLOBAL,R,H,1,PHSES,assessment
+Target,TD 1,GLOBAL,R,S,1,PHSES,assessment
+Target,TD 1,GLOBAL,R,G,0,,assessment
+Target,TD 1,GLOBAL,R,II,1,PHSES,assessment
+Target,TD 1,GLOBAL,D,I,1,PHSES,assessment
+Target,TD 1,GLOBAL,D,F,1,PHSES,assessment
+Target,TD 1,GLOBAL,D,H,1,PHSES,assessment
+Target,TD 1,GLOBAL,D,S,1,PHSES,assessment
+Target,TD 1,GLOBAL,D,G,0,,assessment
+Target,TD 1,GLOBAL,D,II,1,PHSES,assessment
+Target,TD 1,GLOBAL,A,I,1,PHSES,assessment
+Target,TD 1,GLOBAL,A,F,1,PHSES,assessment
+Target,TD 1,GLOBAL,A,H,1,PHSES,assessment
+Target,TD 1,GLOBAL,A,S,1,PHSES,assessment
+Target,TD 1,GLOBAL,A,G,0,,assessment
+Target,TD 1,GLOBAL,A,II,1,PHSES,assessment
+Target,TD 1,GLOBAL,TT,I,1,PHSES,assessment
+Target,TD 1,GLOBAL,TT,F,1,PHSES,assessment
+Target,TD 1,GLOBAL,TT,H,1,PHSES,assessment
+Target,TD 1,GLOBAL,TT,S,1,PHSES,assessment
+Target,TD 1,GLOBAL,TT,G,0,,assessment
+Target,TD 1,GLOBAL,TT,II,1,PHSES,assessment
+Target,TD 1,EMEA,R,I,1,EFFASS,assessment
+Target,TD 1,EMEA,R,F,1,EFFASS,assessment
+Target,TD 1,EMEA,R,H,1,EFFASS,assessment
+Target,TD 1,EMEA,R,S,1,EFFASS,assessment
+Target,TD 1,EMEA,D,I,1,EFFASS,assessment
+Target,TD 1,EMEA,D,F,1,EFFASS,assessment
+Target,TD 1,EMEA,D,H,1,EFFASS,assessment
+Target,TD 1,EMEA,D,S,1,EFFASS,assessment
+Crop,TD 1,GLOBAL,R,I,1,PHSES,assessment
+Crop,TD 1,GLOBAL,R,F,1,PHSES,assessment
+Crop,TD 1,GLOBAL,R,H,1,PHSES,assessment
+Crop,TD 1,GLOBAL,R,S,1,PHSES,assessment
+Crop,TD 1,GLOBAL,R,G,1,PHSES,assessment
+Crop,TD 1,GLOBAL,R,II,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,I,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,F,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,H,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,S,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,G,1,PHSES,assessment
+Crop,TD 1,GLOBAL,D,II,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,I,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,F,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,H,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,S,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,G,1,PHSES,assessment
+Crop,TD 1,GLOBAL,A,II,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,I,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,F,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,H,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,S,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,G,1,PHSES,assessment
+Crop,TD 1,GLOBAL,TT,II,1,PHSES,assessment
+Crop,TD 1,EMEA,R,I,1,,assessment
+Crop,TD 1,EMEA,R,F,1,,assessment
+Crop,TD 1,EMEA,R,H,1,,assessment
+Crop,TD 1,EMEA,R,S,1,,assessment
+Crop,TD 1,EMEA,D,I,1,,assessment
+Crop,TD 1,EMEA,D,F,1,,assessment
+Crop,TD 1,EMEA,D,H,1,,assessment
+Crop,TD 1,EMEA,D,S,1,,assessment
+Assessment Unit,TD 1,GLOBAL,R,I,0,,assessment
+Assessment Unit,TD 1,GLOBAL,R,F,0,,assessment
+Assessment Unit,TD 1,GLOBAL,R,H,0,,assessment
+Assessment Unit,TD 1,GLOBAL,R,S,0,,assessment
+Assessment Unit,TD 1,GLOBAL,R,G,0,,assessment
+Assessment Unit,TD 1,GLOBAL,R,II,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,I,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,F,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,H,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,S,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,G,0,,assessment
+Assessment Unit,TD 1,GLOBAL,D,II,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,I,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,F,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,H,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,S,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,G,0,,assessment
+Assessment Unit,TD 1,GLOBAL,A,II,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,I,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,F,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,H,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,S,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,G,0,,assessment
+Assessment Unit,TD 1,GLOBAL,TT,II,0,,assessment
+Assessment Unit,TD 1,EMEA,R,I,1,,assessment
+Assessment Unit,TD 1,EMEA,R,F,1,,assessment
+Assessment Unit,TD 1,EMEA,R,H,1,,assessment
+Assessment Unit,TD 1,EMEA,R,S,1,,assessment
+Assessment Unit,TD 1,EMEA,D,I,1,,assessment
+Assessment Unit,TD 1,EMEA,D,F,1,,assessment
+Assessment Unit,TD 1,EMEA,D,H,1,,assessment
+Assessment Unit,TD 1,EMEA,D,S,1,,assessment
+No. Subsamples,TD 1,GLOBAL,R,I,0,,assessment
+No. Subsamples,TD 1,GLOBAL,R,F,0,,assessment
+No. Subsamples,TD 1,GLOBAL,R,H,0,,assessment
+No. Subsamples,TD 1,GLOBAL,R,S,0,,assessment
+No. Subsamples,TD 1,GLOBAL,R,G,0,,assessment
+No. Subsamples,TD 1,GLOBAL,R,II,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,I,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,F,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,H,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,S,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,G,0,,assessment
+No. Subsamples,TD 1,GLOBAL,D,II,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,I,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,F,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,H,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,S,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,G,0,,assessment
+No. Subsamples,TD 1,GLOBAL,A,II,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,I,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,F,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,H,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,S,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,G,0,,assessment
+No. Subsamples,TD 1,GLOBAL,TT,II,0,,assessment
+No. Subsamples,TD 1,EMEA,R,I,1,,assessment
+No. Subsamples,TD 1,EMEA,R,F,1,,assessment
+No. Subsamples,TD 1,EMEA,R,H,1,,assessment
+No. Subsamples,TD 1,EMEA,R,S,1,,assessment
+No. Subsamples,TD 1,EMEA,D,I,1,,assessment
+No. Subsamples,TD 1,EMEA,D,F,1,,assessment
+No. Subsamples,TD 1,EMEA,D,H,1,,assessment
+No. Subsamples,TD 1,EMEA,D,S,1,,assessment
+Assessment Class,TD 1,GLOBAL,R,I,0,,assessment
+Assessment Class,TD 1,GLOBAL,R,F,0,,assessment
+Assessment Class,TD 1,GLOBAL,R,H,0,,assessment
+Assessment Class,TD 1,GLOBAL,R,S,0,,assessment
+Assessment Class,TD 1,GLOBAL,R,G,0,,assessment
+Assessment Class,TD 1,GLOBAL,R,II,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,I,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,F,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,H,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,S,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,G,0,,assessment
+Assessment Class,TD 1,GLOBAL,D,II,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,I,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,F,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,H,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,S,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,G,0,,assessment
+Assessment Class,TD 1,GLOBAL,A,II,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,I,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,F,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,H,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,S,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,G,0,,assessment
+Assessment Class,TD 1,GLOBAL,TT,II,0,,assessment
+Assessment Class,TD 1,EMEA,R,I,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,R,F,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,R,H,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,R,S,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,D,I,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,D,F,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,D,H,1,SCORE,assessment
+Assessment Class,TD 1,EMEA,D,S,1,SCORE,assessment
+Assessment code,TD 1,GLOBAL,R,I,1,,assessment
+Assessment code,TD 1,GLOBAL,R,F,1,,assessment
+Assessment code,TD 1,GLOBAL,R,H,1,,assessment
+Assessment code,TD 1,GLOBAL,R,S,1,,assessment
+Assessment code,TD 1,GLOBAL,R,G,1,,assessment
+Assessment code,TD 1,GLOBAL,R,II,1,,assessment
+Assessment code,TD 1,GLOBAL,D,I,1,,assessment
+Assessment code,TD 1,GLOBAL,D,F,1,,assessment
+Assessment code,TD 1,GLOBAL,D,H,1,,assessment
+Assessment code,TD 1,GLOBAL,D,S,1,,assessment
+Assessment code,TD 1,GLOBAL,D,G,1,,assessment
+Assessment code,TD 1,GLOBAL,D,II,1,,assessment
+Assessment code,TD 1,GLOBAL,A,I,1,,assessment
+Assessment code,TD 1,GLOBAL,A,F,1,,assessment
+Assessment code,TD 1,GLOBAL,A,H,1,,assessment
+Assessment code,TD 1,GLOBAL,A,S,1,,assessment
+Assessment code,TD 1,GLOBAL,A,G,1,,assessment
+Assessment code,TD 1,GLOBAL,A,II,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,I,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,F,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,H,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,S,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,G,1,,assessment
+Assessment code,TD 1,GLOBAL,TT,II,1,,assessment
+Assessment code,TD 1,EMEA,R,I,0,,assessment
+Assessment code,TD 1,EMEA,R,F,0,,assessment
+Assessment code,TD 1,EMEA,R,H,0,,assessment
+Assessment code,TD 1,EMEA,R,S,0,,assessment
+Assessment code,TD 1,EMEA,D,I,0,,assessment
+Assessment code,TD 1,EMEA,D,F,0,,assessment
+Assessment code,TD 1,EMEA,D,H,0,,assessment
+Assessment code,TD 1,EMEA,D,S,0,,assessment
+Responsible,TD 1,GLOBAL,R,I,0,,responsible
+Responsible,TD 1,GLOBAL,R,F,0,,responsible
+Responsible,TD 1,GLOBAL,R,H,0,,responsible
+Responsible,TD 1,GLOBAL,R,S,0,,responsible
+Responsible,TD 1,GLOBAL,R,G,0,,responsible
+Responsible,TD 1,GLOBAL,R,II,0,,responsible
+Responsible,TD 1,GLOBAL,D,I,0,,responsible
+Responsible,TD 1,GLOBAL,D,F,0,,responsible
+Responsible,TD 1,GLOBAL,D,H,0,,responsible
+Responsible,TD 1,GLOBAL,D,S,0,,responsible
+Responsible,TD 1,GLOBAL,D,G,0,,responsible
+Responsible,TD 1,GLOBAL,D,II,0,,responsible
+Responsible,TD 1,GLOBAL,A,I,0,,responsible
+Responsible,TD 1,GLOBAL,A,F,0,,responsible
+Responsible,TD 1,GLOBAL,A,H,0,,responsible
+Responsible,TD 1,GLOBAL,A,S,0,,responsible
+Responsible,TD 1,GLOBAL,A,G,0,,responsible
+Responsible,TD 1,GLOBAL,A,II,0,,responsible
+Responsible,TD 1,GLOBAL,TT,I,0,,responsible
+Responsible,TD 1,GLOBAL,TT,F,0,,responsible
+Responsible,TD 1,GLOBAL,TT,H,0,,responsible
+Responsible,TD 1,GLOBAL,TT,S,0,,responsible
+Responsible,TD 1,GLOBAL,TT,G,0,,responsible
+Responsible,TD 1,GLOBAL,TT,II,0,,responsible
+Responsible,TD 1,EMEA,R,I,1,,responsible
+Responsible,TD 1,EMEA,R,F,1,,responsible
+Responsible,TD 1,EMEA,R,H,1,,responsible
+Responsible,TD 1,EMEA,R,S,1,,responsible
+Responsible,TD 1,EMEA,D,I,1,,responsible
+Responsible,TD 1,EMEA,D,F,1,,responsible
+Responsible,TD 1,EMEA,D,H,1,,responsible
+Responsible,TD 1,EMEA,D,S,1,,responsible
+Test Type,TD 1,GLOBAL,R,I,0,,responsible
+Test Type,TD 1,GLOBAL,R,F,0,,responsible
+Test Type,TD 1,GLOBAL,R,H,0,,responsible
+Test Type,TD 1,GLOBAL,R,S,0,,responsible
+Test Type,TD 1,GLOBAL,R,G,0,,responsible
+Test Type,TD 1,GLOBAL,R,II,0,,responsible
+Test Type,TD 1,GLOBAL,D,I,0,,responsible
+Test Type,TD 1,GLOBAL,D,F,0,,responsible
+Test Type,TD 1,GLOBAL,D,H,0,,responsible
+Test Type,TD 1,GLOBAL,D,S,0,,responsible
+Test Type,TD 1,GLOBAL,D,G,0,,responsible
+Test Type,TD 1,GLOBAL,D,II,0,,responsible
+Test Type,TD 1,GLOBAL,A,I,0,,responsible
+Test Type,TD 1,GLOBAL,A,F,0,,responsible
+Test Type,TD 1,GLOBAL,A,H,0,,responsible
+Test Type,TD 1,GLOBAL,A,S,0,,responsible
+Test Type,TD 1,GLOBAL,A,G,0,,responsible
+Test Type,TD 1,GLOBAL,A,II,0,,responsible
+Test Type,TD 1,GLOBAL,TT,I,0,,responsible
+Test Type,TD 1,GLOBAL,TT,F,0,,responsible
+Test Type,TD 1,GLOBAL,TT,H,0,,responsible
+Test Type,TD 1,GLOBAL,TT,S,0,,responsible
+Test Type,TD 1,GLOBAL,TT,G,0,,responsible
+Test Type,TD 1,GLOBAL,TT,II,0,,responsible
+Test Type,TD 1,EMEA,R,I,1,,responsible
+Test Type,TD 1,EMEA,R,F,1,,responsible
+Test Type,TD 1,EMEA,R,H,1,,responsible
+Test Type,TD 1,EMEA,R,S,1,,responsible
+Test Type,TD 1,EMEA,D,I,1,,responsible
+Test Type,TD 1,EMEA,D,F,1,,responsible
+Test Type,TD 1,EMEA,D,H,1,,responsible
+Test Type,TD 1,EMEA,D,S,1,,responsible
+INT EXT,TD 1,GLOBAL,R,I,0,,responsible
+INT EXT,TD 1,GLOBAL,R,F,0,,responsible
+INT EXT,TD 1,GLOBAL,R,H,0,,responsible
+INT EXT,TD 1,GLOBAL,R,S,0,,responsible
+INT EXT,TD 1,GLOBAL,R,G,0,,responsible
+INT EXT,TD 1,GLOBAL,R,II,0,,responsible
+INT EXT,TD 1,GLOBAL,D,I,0,,responsible
+INT EXT,TD 1,GLOBAL,D,F,0,,responsible
+INT EXT,TD 1,GLOBAL,D,H,0,,responsible
+INT EXT,TD 1,GLOBAL,D,S,0,,responsible
+INT EXT,TD 1,GLOBAL,D,G,0,,responsible
+INT EXT,TD 1,GLOBAL,D,II,0,,responsible
+INT EXT,TD 1,GLOBAL,A,I,0,,responsible
+INT EXT,TD 1,GLOBAL,A,F,0,,responsible
+INT EXT,TD 1,GLOBAL,A,H,0,,responsible
+INT EXT,TD 1,GLOBAL,A,S,0,,responsible
+INT EXT,TD 1,GLOBAL,A,G,0,,responsible
+INT EXT,TD 1,GLOBAL,A,II,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,I,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,F,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,H,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,S,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,G,0,,responsible
+INT EXT,TD 1,GLOBAL,TT,II,0,,responsible
+INT EXT,TD 1,EMEA,R,I,1,,responsible
+INT EXT,TD 1,EMEA,R,F,1,,responsible
+INT EXT,TD 1,EMEA,R,H,1,,responsible
+INT EXT,TD 1,EMEA,R,S,1,,responsible
+INT EXT,TD 1,EMEA,D,I,1,,responsible
+INT EXT,TD 1,EMEA,D,F,1,,responsible
+INT EXT,TD 1,EMEA,D,H,1,,responsible
+INT EXT,TD 1,EMEA,D,S,1,,responsible
+Site,TD 1,GLOBAL,R,I,0,,responsible
+Site,TD 1,GLOBAL,R,F,0,,responsible
+Site,TD 1,GLOBAL,R,H,0,,responsible
+Site,TD 1,GLOBAL,R,S,0,,responsible
+Site,TD 1,GLOBAL,R,G,0,,responsible
+Site,TD 1,GLOBAL,R,II,0,,responsible
+Site,TD 1,GLOBAL,D,I,0,,responsible
+Site,TD 1,GLOBAL,D,F,0,,responsible
+Site,TD 1,GLOBAL,D,H,0,,responsible
+Site,TD 1,GLOBAL,D,S,0,,responsible
+Site,TD 1,GLOBAL,D,G,0,,responsible
+Site,TD 1,GLOBAL,D,II,0,,responsible
+Site,TD 1,GLOBAL,A,I,0,,responsible
+Site,TD 1,GLOBAL,A,F,0,,responsible
+Site,TD 1,GLOBAL,A,H,0,,responsible
+Site,TD 1,GLOBAL,A,S,0,,responsible
+Site,TD 1,GLOBAL,A,G,0,,responsible
+Site,TD 1,GLOBAL,A,II,0,,responsible
+Site,TD 1,GLOBAL,TT,I,0,,responsible
+Site,TD 1,GLOBAL,TT,F,0,,responsible
+Site,TD 1,GLOBAL,TT,H,0,,responsible
+Site,TD 1,GLOBAL,TT,S,0,,responsible
+Site,TD 1,GLOBAL,TT,G,0,,responsible
+Site,TD 1,GLOBAL,TT,II,0,,responsible
+Site,TD 1,EMEA,R,I,1,,responsible
+Site,TD 1,EMEA,R,F,1,,responsible
+Site,TD 1,EMEA,R,H,1,,responsible
+Site,TD 1,EMEA,R,S,1,,responsible
+Site,TD 1,EMEA,D,I,1,,responsible
+Site,TD 1,EMEA,D,F,1,,responsible
+Site,TD 1,EMEA,D,H,1,,responsible
+Site,TD 1,EMEA,D,S,1,,responsible
+No. of trials,TD 1,GLOBAL,R,I,0,,responsible
+No. of trials,TD 1,GLOBAL,R,F,0,,responsible
+No. of trials,TD 1,GLOBAL,R,H,0,,responsible
+No. of trials,TD 1,GLOBAL,R,S,0,,responsible
+No. of trials,TD 1,GLOBAL,R,G,0,,responsible
+No. of trials,TD 1,GLOBAL,R,II,0,,responsible
+No. of trials,TD 1,GLOBAL,D,I,0,,responsible
+No. of trials,TD 1,GLOBAL,D,F,0,,responsible
+No. of trials,TD 1,GLOBAL,D,H,0,,responsible
+No. of trials,TD 1,GLOBAL,D,S,0,,responsible
+No. of trials,TD 1,GLOBAL,D,G,0,,responsible
+No. of trials,TD 1,GLOBAL,D,II,0,,responsible
+No. of trials,TD 1,GLOBAL,A,I,0,,responsible
+No. of trials,TD 1,GLOBAL,A,F,0,,responsible
+No. of trials,TD 1,GLOBAL,A,H,0,,responsible
+No. of trials,TD 1,GLOBAL,A,S,0,,responsible
+No. of trials,TD 1,GLOBAL,A,G,0,,responsible
+No. of trials,TD 1,GLOBAL,A,II,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,I,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,F,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,H,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,S,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,G,0,,responsible
+No. of trials,TD 1,GLOBAL,TT,II,0,,responsible
+No. of trials,TD 1,EMEA,R,I,1,,responsible
+No. of trials,TD 1,EMEA,R,F,1,,responsible
+No. of trials,TD 1,EMEA,R,H,1,,responsible
+No. of trials,TD 1,EMEA,R,S,1,,responsible
+No. of trials,TD 1,EMEA,D,I,1,,responsible
+No. of trials,TD 1,EMEA,D,F,1,,responsible
+No. of trials,TD 1,EMEA,D,H,1,,responsible
+No. of trials,TD 1,EMEA,D,S,1,,responsible
+Entry No.,TD 1,GLOBAL,R,I,0,,treatment
+Entry No.,TD 1,GLOBAL,R,F,0,,treatment
+Entry No.,TD 1,GLOBAL,R,H,0,,treatment
+Entry No.,TD 1,GLOBAL,R,S,0,,treatment
+Entry No.,TD 1,GLOBAL,R,G,0,,treatment
+Entry No.,TD 1,GLOBAL,R,II,0,,treatment
+Entry No.,TD 1,GLOBAL,D,I,0,,treatment
+Entry No.,TD 1,GLOBAL,D,F,0,,treatment
+Entry No.,TD 1,GLOBAL,D,H,0,,treatment
+Entry No.,TD 1,GLOBAL,D,S,0,,treatment
+Entry No.,TD 1,GLOBAL,D,G,0,,treatment
+Entry No.,TD 1,GLOBAL,D,II,0,,treatment
+Entry No.,TD 1,GLOBAL,A,I,0,,treatment
+Entry No.,TD 1,GLOBAL,A,F,0,,treatment
+Entry No.,TD 1,GLOBAL,A,H,0,,treatment
+Entry No.,TD 1,GLOBAL,A,S,0,,treatment
+Entry No.,TD 1,GLOBAL,A,G,0,,treatment
+Entry No.,TD 1,GLOBAL,A,II,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,I,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,F,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,H,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,S,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,G,0,,treatment
+Entry No.,TD 1,GLOBAL,TT,II,0,,treatment
+Entry No.,TD 1,EMEA,R,I,1,,treatment
+Entry No.,TD 1,EMEA,R,F,1,,treatment
+Entry No.,TD 1,EMEA,R,H,1,,treatment
+Entry No.,TD 1,EMEA,R,S,1,,treatment
+Entry No.,TD 1,EMEA,D,I,1,,treatment
+Entry No.,TD 1,EMEA,D,F,1,,treatment
+Entry No.,TD 1,EMEA,D,H,1,,treatment
+Entry No.,TD 1,EMEA,D,S,1,,treatment
+Appl. Code,TD 1,GLOBAL,R,I,0,,application
+Appl. Code,TD 1,GLOBAL,R,F,0,,application
+Appl. Code,TD 1,GLOBAL,R,H,0,,application
+Appl. Code,TD 1,GLOBAL,R,S,0,,application
+Appl. Code,TD 1,GLOBAL,R,G,0,,application
+Appl. Code,TD 1,GLOBAL,R,II,0,,application
+Appl. Code,TD 1,GLOBAL,D,I,0,,application
+Appl. Code,TD 1,GLOBAL,D,F,0,,application
+Appl. Code,TD 1,GLOBAL,D,H,0,,application
+Appl. Code,TD 1,GLOBAL,D,S,0,,application
+Appl. Code,TD 1,GLOBAL,D,G,0,,application
+Appl. Code,TD 1,GLOBAL,D,II,0,,application
+Appl. Code,TD 1,GLOBAL,A,I,0,,application
+Appl. Code,TD 1,GLOBAL,A,F,0,,application
+Appl. Code,TD 1,GLOBAL,A,H,0,,application
+Appl. Code,TD 1,GLOBAL,A,S,0,,application
+Appl. Code,TD 1,GLOBAL,A,G,0,,application
+Appl. Code,TD 1,GLOBAL,A,II,0,,application
+Appl. Code,TD 1,GLOBAL,TT,I,0,,application
+Appl. Code,TD 1,GLOBAL,TT,F,0,,application
+Appl. Code,TD 1,GLOBAL,TT,H,0,,application
+Appl. Code,TD 1,GLOBAL,TT,S,0,,application
+Appl. Code,TD 1,GLOBAL,TT,G,0,,application
+Appl. Code,TD 1,GLOBAL,TT,II,0,,application
+Appl. Code,TD 1,EMEA,R,I,1,,application
+Appl. Code,TD 1,EMEA,R,F,1,,application
+Appl. Code,TD 1,EMEA,R,H,1,,application
+Appl. Code,TD 1,EMEA,R,S,1,,application
+Appl. Code,TD 1,EMEA,D,I,1,,application
+Appl. Code,TD 1,EMEA,D,F,1,,application
+Appl. Code,TD 1,EMEA,D,H,1,,application
+Appl. Code,TD 1,EMEA,D,S,1,,application
+Application timing,TD 1,GLOBAL,R,I,0,,application
+Application timing,TD 1,GLOBAL,R,F,0,,application
+Application timing,TD 1,GLOBAL,R,H,1,,application
+Application timing,TD 1,GLOBAL,R,S,0,,application
+Application timing,TD 1,GLOBAL,R,G,1,,application
+Application timing,TD 1,GLOBAL,R,II,0,,application
+Application timing,TD 1,GLOBAL,D,I,0,,application
+Application timing,TD 1,GLOBAL,D,F,0,,application
+Application timing,TD 1,GLOBAL,D,H,1,,application
+Application timing,TD 1,GLOBAL,D,S,0,,application
+Application timing,TD 1,GLOBAL,D,G,1,,application
+Application timing,TD 1,GLOBAL,D,II,0,,application
+Application timing,TD 1,GLOBAL,A,I,0,,application
+Application timing,TD 1,GLOBAL,A,F,0,,application
+Application timing,TD 1,GLOBAL,A,H,1,,application
+Application timing,TD 1,GLOBAL,A,S,0,,application
+Application timing,TD 1,GLOBAL,A,G,1,,application
+Application timing,TD 1,GLOBAL,A,II,0,,application
+Application timing,TD 1,GLOBAL,TT,I,0,,application
+Application timing,TD 1,GLOBAL,TT,F,0,,application
+Application timing,TD 1,GLOBAL,TT,H,1,,application
+Application timing,TD 1,GLOBAL,TT,S,0,,application
+Application timing,TD 1,GLOBAL,TT,G,1,,application
+Application timing,TD 1,GLOBAL,TT,II,0,,application
+Application timing,TD 1,EMEA,R,I,0,,application
+Application timing,TD 1,EMEA,R,F,0,,application
+Application timing,TD 1,EMEA,R,H,1,,application
+Application timing,TD 1,EMEA,R,S,0,,application
+Application timing,TD 1,EMEA,D,I,0,,application
+Application timing,TD 1,EMEA,D,F,0,,application
+Application timing,TD 1,EMEA,D,H,1,,application
+Application timing,TD 1,EMEA,D,S,0,,application
+Application Method,TD 1,GLOBAL,R,I,1,,application
+Application Method,TD 1,GLOBAL,R,F,1,,application
+Application Method,TD 1,GLOBAL,R,H,1,,application
+Application Method,TD 1,GLOBAL,R,S,1,,application
+Application Method,TD 1,GLOBAL,R,G,1,,application
+Application Method,TD 1,GLOBAL,R,II,1,,application
+Application Method,TD 1,GLOBAL,D,I,1,,application
+Application Method,TD 1,GLOBAL,D,F,1,,application
+Application Method,TD 1,GLOBAL,D,H,1,,application
+Application Method,TD 1,GLOBAL,D,S,1,,application
+Application Method,TD 1,GLOBAL,D,G,1,,application
+Application Method,TD 1,GLOBAL,D,II,1,,application
+Application Method,TD 1,GLOBAL,A,I,1,,application
+Application Method,TD 1,GLOBAL,A,F,1,,application
+Application Method,TD 1,GLOBAL,A,H,1,,application
+Application Method,TD 1,GLOBAL,A,S,1,,application
+Application Method,TD 1,GLOBAL,A,G,1,,application
+Application Method,TD 1,GLOBAL,A,II,1,,application
+Application Method,TD 1,GLOBAL,TT,I,1,,application
+Application Method,TD 1,GLOBAL,TT,F,1,,application
+Application Method,TD 1,GLOBAL,TT,H,1,,application
+Application Method,TD 1,GLOBAL,TT,S,1,,application
+Application Method,TD 1,GLOBAL,TT,G,1,,application
+Application Method,TD 1,GLOBAL,TT,II,1,,application
+Application Method,TD 1,EMEA,R,I,1,,application
+Application Method,TD 1,EMEA,R,F,1,,application
+Application Method,TD 1,EMEA,R,H,1,,application
+Application Method,TD 1,EMEA,R,S,1,,application
+Application Method,TD 1,EMEA,D,I,1,,application
+Application Method,TD 1,EMEA,D,F,1,,application
+Application Method,TD 1,EMEA,D,H,1,,application
+Application Method,TD 1,EMEA,D,S,1,,application
+Application Placement,TD 1,GLOBAL,R,I,1,,application
+Application Placement,TD 1,GLOBAL,R,F,1,,application
+Application Placement,TD 1,GLOBAL,R,H,1,,application
+Application Placement,TD 1,GLOBAL,R,S,1,,application
+Application Placement,TD 1,GLOBAL,R,G,1,,application
+Application Placement,TD 1,GLOBAL,R,II,1,,application
+Application Placement,TD 1,GLOBAL,D,I,0,,application
+Application Placement,TD 1,GLOBAL,D,F,0,,application
+Application Placement,TD 1,GLOBAL,D,H,0,,application
+Application Placement,TD 1,GLOBAL,D,S,0,,application
+Application Placement,TD 1,GLOBAL,D,G,0,,application
+Application Placement,TD 1,GLOBAL,D,II,0,,application
+Application Placement,TD 1,GLOBAL,A,I,0,,application
+Application Placement,TD 1,GLOBAL,A,F,0,,application
+Application Placement,TD 1,GLOBAL,A,H,0,,application
+Application Placement,TD 1,GLOBAL,A,S,0,,application
+Application Placement,TD 1,GLOBAL,A,G,0,,application
+Application Placement,TD 1,GLOBAL,A,II,0,,application
+Application Placement,TD 1,GLOBAL,TT,I,0,,application
+Application Placement,TD 1,GLOBAL,TT,F,0,,application
+Application Placement,TD 1,GLOBAL,TT,H,0,,application
+Application Placement,TD 1,GLOBAL,TT,S,0,,application
+Application Placement,TD 1,GLOBAL,TT,G,0,,application
+Application Placement,TD 1,GLOBAL,TT,II,0,,application
+Application Placement,TD 1,EMEA,R,I,1,,application
+Application Placement,TD 1,EMEA,R,F,1,,application
+Application Placement,TD 1,EMEA,R,H,1,,application
+Application Placement,TD 1,EMEA,R,S,1,,application
+Application Placement,TD 1,EMEA,D,I,1,,application
+Application Placement,TD 1,EMEA,D,F,1,,application
+Application Placement,TD 1,EMEA,D,H,1,,application
+Application Placement,TD 1,EMEA,D,S,1,,application
+Stage Majority,TD 1,GLOBAL,R,I,0,,application
+Stage Majority,TD 1,GLOBAL,R,F,0,,application
+Stage Majority,TD 1,GLOBAL,R,H,0,,application
+Stage Majority,TD 1,GLOBAL,R,S,0,,application
+Stage Majority,TD 1,GLOBAL,R,G,0,,application
+Stage Majority,TD 1,GLOBAL,R,II,0,,application
+Stage Majority,TD 1,GLOBAL,D,I,0,,application
+Stage Majority,TD 1,GLOBAL,D,F,0,,application
+Stage Majority,TD 1,GLOBAL,D,H,0,,application
+Stage Majority,TD 1,GLOBAL,D,S,0,,application
+Stage Majority,TD 1,GLOBAL,D,G,0,,application
+Stage Majority,TD 1,GLOBAL,D,II,0,,application
+Stage Majority,TD 1,GLOBAL,A,I,0,,application
+Stage Majority,TD 1,GLOBAL,A,F,0,,application
+Stage Majority,TD 1,GLOBAL,A,H,0,,application
+Stage Majority,TD 1,GLOBAL,A,S,0,,application
+Stage Majority,TD 1,GLOBAL,A,G,0,,application
+Stage Majority,TD 1,GLOBAL,A,II,0,,application
+Stage Majority,TD 1,GLOBAL,TT,I,0,,application
+Stage Majority,TD 1,GLOBAL,TT,F,0,,application
+Stage Majority,TD 1,GLOBAL,TT,H,0,,application
+Stage Majority,TD 1,GLOBAL,TT,S,0,,application
+Stage Majority,TD 1,GLOBAL,TT,G,0,,application
+Stage Majority,TD 1,GLOBAL,TT,II,0,,application
+Stage Majority,TD 1,EMEA,R,I,0,,application
+Stage Majority,TD 1,EMEA,R,F,0,,application
+Stage Majority,TD 1,EMEA,R,H,0,,application
+Stage Majority,TD 1,EMEA,R,S,0,,application
+Stage Majority,TD 1,EMEA,D,I,0,,application
+Stage Majority,TD 1,EMEA,D,F,0,,application
+Stage Majority,TD 1,EMEA,D,H,0,,application
+Stage Majority,TD 1,EMEA,D,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,R,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,D,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,A,II,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,I,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,F,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,H,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,S,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,G,0,,application
+Treated Leaf Wall Area,TD 1,GLOBAL,TT,II,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,R,I,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,R,F,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,R,H,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,R,S,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,D,I,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,D,F,1,DOSE,application
+Treated Leaf Wall Area,TD 1,EMEA,D,H,0,,application
+Treated Leaf Wall Area,TD 1,EMEA,D,S,0,,application
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+Objectives,PROT,GLOBAL,R,I,1,,general
+Objectives,PROT,GLOBAL,R,F,1,,general
+Objectives,PROT,GLOBAL,R,H,1,,general
+Objectives,PROT,GLOBAL,R,S,1,,general
+Objectives,PROT,GLOBAL,R,G,1,,general
+Objectives,PROT,GLOBAL,R,II,1,,general
+Objectives,PROT,GLOBAL,D,I,1,,general
+Objectives,PROT,GLOBAL,D,F,1,,general
+Objectives,PROT,GLOBAL,D,H,1,,general
+Objectives,PROT,GLOBAL,D,S,1,,general
+Objectives,PROT,GLOBAL,D,G,1,,general
+Objectives,PROT,GLOBAL,D,II,1,,general
+Objectives,PROT,GLOBAL,A,I,1,,general
+Objectives,PROT,GLOBAL,A,F,1,,general
+Objectives,PROT,GLOBAL,A,H,1,,general
+Objectives,PROT,GLOBAL,A,S,1,,general
+Objectives,PROT,GLOBAL,A,G,1,,general
+Objectives,PROT,GLOBAL,A,II,1,,general
+Objectives,PROT,GLOBAL,TT,I,1,,general
+Objectives,PROT,GLOBAL,TT,F,1,,general
+Objectives,PROT,GLOBAL,TT,H,1,,general
+Objectives,PROT,GLOBAL,TT,S,1,,general
+Objectives,PROT,GLOBAL,TT,G,1,,general
+Objectives,PROT,GLOBAL,TT,II,1,,general
+Objectives,PROT,EMEA,R,I,1,,general
+Objectives,PROT,EMEA,R,F,1,,general
+Objectives,PROT,EMEA,R,H,1,,general
+Objectives,PROT,EMEA,R,S,1,,general
+Objectives,PROT,EMEA,D,I,1,,general
+Objectives,PROT,EMEA,D,F,1,,general
+Objectives,PROT,EMEA,D,H,1,,general
+Objectives,PROT,EMEA,D,S,1,,general
+Guidelines,PROT,GLOBAL,R,I,1,,general
+Guidelines,PROT,GLOBAL,R,F,1,,general
+Guidelines,PROT,GLOBAL,R,H,1,,general
+Guidelines,PROT,GLOBAL,R,S,1,,general
+Guidelines,PROT,GLOBAL,R,G,1,,general
+Guidelines,PROT,GLOBAL,R,II,1,,general
+Guidelines,PROT,GLOBAL,D,I,0,,general
+Guidelines,PROT,GLOBAL,D,F,0,,general
+Guidelines,PROT,GLOBAL,D,H,0,,general
+Guidelines,PROT,GLOBAL,D,S,0,,general
+Guidelines,PROT,GLOBAL,D,G,0,,general
+Guidelines,PROT,GLOBAL,D,II,0,,general
+Guidelines,PROT,GLOBAL,A,I,0,,general
+Guidelines,PROT,GLOBAL,A,F,0,,general
+Guidelines,PROT,GLOBAL,A,H,0,,general
+Guidelines,PROT,GLOBAL,A,S,0,,general
+Guidelines,PROT,GLOBAL,A,G,0,,general
+Guidelines,PROT,GLOBAL,A,II,0,,general
+Guidelines,PROT,GLOBAL,TT,I,0,,general
+Guidelines,PROT,GLOBAL,TT,F,0,,general
+Guidelines,PROT,GLOBAL,TT,H,0,,general
+Guidelines,PROT,GLOBAL,TT,S,0,,general
+Guidelines,PROT,GLOBAL,TT,G,0,,general
+Guidelines,PROT,GLOBAL,TT,II,0,,general
+Guidelines,PROT,EMEA,R,I,1,,general
+Guidelines,PROT,EMEA,R,F,1,,general
+Guidelines,PROT,EMEA,R,H,1,,general
+Guidelines,PROT,EMEA,R,S,1,,general
+Guidelines,PROT,EMEA,D,I,1,,general
+Guidelines,PROT,EMEA,D,F,1,,general
+Guidelines,PROT,EMEA,D,H,1,,general
+Guidelines,PROT,EMEA,D,S,1,,general
+Data Deadline,PROT,GLOBAL,R,I,1,,general
+Data Deadline,PROT,GLOBAL,R,F,1,,general
+Data Deadline,PROT,GLOBAL,R,H,1,,general
+Data Deadline,PROT,GLOBAL,R,S,1,,general
+Data Deadline,PROT,GLOBAL,R,G,1,,general
+Data Deadline,PROT,GLOBAL,R,II,1,,general
+Data Deadline,PROT,GLOBAL,D,I,1,,general
+Data Deadline,PROT,GLOBAL,D,F,1,,general
+Data Deadline,PROT,GLOBAL,D,H,1,,general
+Data Deadline,PROT,GLOBAL,D,S,1,,general
+Data Deadline,PROT,GLOBAL,D,G,1,,general
+Data Deadline,PROT,GLOBAL,D,II,1,,general
+Data Deadline,PROT,GLOBAL,A,I,1,,general
+Data Deadline,PROT,GLOBAL,A,F,1,,general
+Data Deadline,PROT,GLOBAL,A,H,1,,general
+Data Deadline,PROT,GLOBAL,A,S,1,,general
+Data Deadline,PROT,GLOBAL,A,G,1,,general
+Data Deadline,PROT,GLOBAL,A,II,1,,general
+Data Deadline,PROT,GLOBAL,TT,I,1,,general
+Data Deadline,PROT,GLOBAL,TT,F,1,,general
+Data Deadline,PROT,GLOBAL,TT,H,1,,general
+Data Deadline,PROT,GLOBAL,TT,S,1,,general
+Data Deadline,PROT,GLOBAL,TT,G,1,,general
+Data Deadline,PROT,GLOBAL,TT,II,1,,general
+Data Deadline,PROT,EMEA,R,I,1,,general
+Data Deadline,PROT,EMEA,R,F,1,,general
+Data Deadline,PROT,EMEA,R,H,1,,general
+Data Deadline,PROT,EMEA,R,S,1,,general
+Data Deadline,PROT,EMEA,D,I,1,,general
+Data Deadline,PROT,EMEA,D,F,1,,general
+Data Deadline,PROT,EMEA,D,H,1,,general
+Data Deadline,PROT,EMEA,D,S,1,,general
+Location of Control,PROT,GLOBAL,R,I,1,,general
+Location of Control,PROT,GLOBAL,R,F,1,,general
+Location of Control,PROT,GLOBAL,R,H,1,,general
+Location of Control,PROT,GLOBAL,R,S,1,,general
+Location of Control,PROT,GLOBAL,R,G,1,,general
+Location of Control,PROT,GLOBAL,R,II,1,,general
+Location of Control,PROT,GLOBAL,D,I,1,,general
+Location of Control,PROT,GLOBAL,D,F,1,,general
+Location of Control,PROT,GLOBAL,D,H,1,,general
+Location of Control,PROT,GLOBAL,D,S,1,,general
+Location of Control,PROT,GLOBAL,D,G,1,,general
+Location of Control,PROT,GLOBAL,D,II,1,,general
+Location of Control,PROT,GLOBAL,A,I,1,,general
+Location of Control,PROT,GLOBAL,A,F,1,,general
+Location of Control,PROT,GLOBAL,A,H,1,,general
+Location of Control,PROT,GLOBAL,A,S,1,,general
+Location of Control,PROT,GLOBAL,A,G,1,,general
+Location of Control,PROT,GLOBAL,A,II,1,,general
+Location of Control,PROT,GLOBAL,TT,I,1,,general
+Location of Control,PROT,GLOBAL,TT,F,1,,general
+Location of Control,PROT,GLOBAL,TT,H,1,,general
+Location of Control,PROT,GLOBAL,TT,S,1,,general
+Location of Control,PROT,GLOBAL,TT,G,1,,general
+Location of Control,PROT,GLOBAL,TT,II,1,,general
+Location of Control,PROT,EMEA,R,I,1,,general
+Location of Control,PROT,EMEA,R,F,1,,general
+Location of Control,PROT,EMEA,R,H,1,,general
+Location of Control,PROT,EMEA,R,S,1,,general
+Location of Control,PROT,EMEA,D,I,1,,general
+Location of Control,PROT,EMEA,D,F,1,,general
+Location of Control,PROT,EMEA,D,H,1,,general
+Location of Control,PROT,EMEA,D,S,1,,general
+Number of applications / trial,PROT,GLOBAL,R,I,1,,general
+Number of applications / trial,PROT,GLOBAL,R,F,1,,general
+Number of applications / trial,PROT,GLOBAL,R,H,1,,general
+Number of applications / trial,PROT,GLOBAL,R,S,1,,general
+Number of applications / trial,PROT,GLOBAL,R,G,1,,general
+Number of applications / trial,PROT,GLOBAL,R,II,1,,general
+Number of applications / trial,PROT,GLOBAL,D,I,1,,general
+Number of applications / trial,PROT,GLOBAL,D,F,1,,general
+Number of applications / trial,PROT,GLOBAL,D,H,1,,general
+Number of applications / trial,PROT,GLOBAL,D,S,1,,general
+Number of applications / trial,PROT,GLOBAL,D,G,1,,general
+Number of applications / trial,PROT,GLOBAL,D,II,1,,general
+Number of applications / trial,PROT,GLOBAL,A,I,1,,general
+Number of applications / trial,PROT,GLOBAL,A,F,1,,general
+Number of applications / trial,PROT,GLOBAL,A,H,1,,general
+Number of applications / trial,PROT,GLOBAL,A,S,1,,general
+Number of applications / trial,PROT,GLOBAL,A,G,1,,general
+Number of applications / trial,PROT,GLOBAL,A,II,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,I,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,F,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,H,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,S,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,G,1,,general
+Number of applications / trial,PROT,GLOBAL,TT,II,1,,general
+Number of applications / trial,PROT,EMEA,R,I,1,,general
+Number of applications / trial,PROT,EMEA,R,F,1,,general
+Number of applications / trial,PROT,EMEA,R,H,1,,general
+Number of applications / trial,PROT,EMEA,R,S,1,,general
+Number of applications / trial,PROT,EMEA,D,I,1,,general
+Number of applications / trial,PROT,EMEA,D,F,1,,general
+Number of applications / trial,PROT,EMEA,D,H,1,,general
+Number of applications / trial,PROT,EMEA,D,S,1,,general
+Protocol Edition No,PROT,GLOBAL,R,I,0,,general
+Protocol Edition No,PROT,GLOBAL,R,F,0,,general
+Protocol Edition No,PROT,GLOBAL,R,H,0,,general
+Protocol Edition No,PROT,GLOBAL,R,S,0,,general
+Protocol Edition No,PROT,GLOBAL,R,G,0,,general
+Protocol Edition No,PROT,GLOBAL,R,II,0,,general
+Protocol Edition No,PROT,GLOBAL,D,I,0,,general
+Protocol Edition No,PROT,GLOBAL,D,F,0,,general
+Protocol Edition No,PROT,GLOBAL,D,H,0,,general
+Protocol Edition No,PROT,GLOBAL,D,S,0,,general
+Protocol Edition No,PROT,GLOBAL,D,G,0,,general
+Protocol Edition No,PROT,GLOBAL,D,II,0,,general
+Protocol Edition No,PROT,GLOBAL,A,I,0,,general
+Protocol Edition No,PROT,GLOBAL,A,F,0,,general
+Protocol Edition No,PROT,GLOBAL,A,H,0,,general
+Protocol Edition No,PROT,GLOBAL,A,S,0,,general
+Protocol Edition No,PROT,GLOBAL,A,G,0,,general
+Protocol Edition No,PROT,GLOBAL,A,II,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,I,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,F,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,H,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,S,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,G,0,,general
+Protocol Edition No,PROT,GLOBAL,TT,II,0,,general
+Protocol Edition No,PROT,EMEA,R,I,1,,general
+Protocol Edition No,PROT,EMEA,R,F,1,,general
+Protocol Edition No,PROT,EMEA,R,H,1,,general
+Protocol Edition No,PROT,EMEA,R,S,1,,general
+Protocol Edition No,PROT,EMEA,D,I,1,,general
+Protocol Edition No,PROT,EMEA,D,F,1,,general
+Protocol Edition No,PROT,EMEA,D,H,1,,general
+Protocol Edition No,PROT,EMEA,D,S,1,,general
+Technical Manager,PROT,GLOBAL,R,I,0,,general
+Technical Manager,PROT,GLOBAL,R,F,0,,general
+Technical Manager,PROT,GLOBAL,R,H,0,,general
+Technical Manager,PROT,GLOBAL,R,S,0,,general
+Technical Manager,PROT,GLOBAL,R,G,0,,general
+Technical Manager,PROT,GLOBAL,R,II,0,,general
+Technical Manager,PROT,GLOBAL,D,I,0,,general
+Technical Manager,PROT,GLOBAL,D,F,0,,general
+Technical Manager,PROT,GLOBAL,D,H,0,,general
+Technical Manager,PROT,GLOBAL,D,S,0,,general
+Technical Manager,PROT,GLOBAL,D,G,0,,general
+Technical Manager,PROT,GLOBAL,D,II,0,,general
+Technical Manager,PROT,GLOBAL,A,I,0,,general
+Technical Manager,PROT,GLOBAL,A,F,0,,general
+Technical Manager,PROT,GLOBAL,A,H,0,,general
+Technical Manager,PROT,GLOBAL,A,S,0,,general
+Technical Manager,PROT,GLOBAL,A,G,0,,general
+Technical Manager,PROT,GLOBAL,A,II,0,,general
+Technical Manager,PROT,GLOBAL,TT,I,0,,general
+Technical Manager,PROT,GLOBAL,TT,F,0,,general
+Technical Manager,PROT,GLOBAL,TT,H,0,,general
+Technical Manager,PROT,GLOBAL,TT,S,0,,general
+Technical Manager,PROT,GLOBAL,TT,G,0,,general
+Technical Manager,PROT,GLOBAL,TT,II,0,,general
+Technical Manager,PROT,EMEA,R,I,1,,general
+Technical Manager,PROT,EMEA,R,F,1,,general
+Technical Manager,PROT,EMEA,R,H,1,,general
+Technical Manager,PROT,EMEA,R,S,1,,general
+Technical Manager,PROT,EMEA,D,I,1,,general
+Technical Manager,PROT,EMEA,D,F,1,,general
+Technical Manager,PROT,EMEA,D,H,1,,general
+Technical Manager,PROT,EMEA,D,S,1,,general
+No. of Replicates,PROT,GLOBAL,R,I,1,,general
+No. of Replicates,PROT,GLOBAL,R,F,1,,general
+No. of Replicates,PROT,GLOBAL,R,H,1,,general
+No. of Replicates,PROT,GLOBAL,R,S,1,,general
+No. of Replicates,PROT,GLOBAL,R,G,1,,general
+No. of Replicates,PROT,GLOBAL,R,II,1,,general
+No. of Replicates,PROT,GLOBAL,D,I,1,,general
+No. of Replicates,PROT,GLOBAL,D,F,1,,general
+No. of Replicates,PROT,GLOBAL,D,H,1,,general
+No. of Replicates,PROT,GLOBAL,D,S,1,,general
+No. of Replicates,PROT,GLOBAL,D,G,1,,general
+No. of Replicates,PROT,GLOBAL,D,II,1,,general
+No. of Replicates,PROT,GLOBAL,A,I,1,,general
+No. of Replicates,PROT,GLOBAL,A,F,1,,general
+No. of Replicates,PROT,GLOBAL,A,H,1,,general
+No. of Replicates,PROT,GLOBAL,A,S,1,,general
+No. of Replicates,PROT,GLOBAL,A,G,1,,general
+No. of Replicates,PROT,GLOBAL,A,II,1,,general
+No. of Replicates,PROT,GLOBAL,TT,I,1,,general
+No. of Replicates,PROT,GLOBAL,TT,F,1,,general
+No. of Replicates,PROT,GLOBAL,TT,H,1,,general
+No. of Replicates,PROT,GLOBAL,TT,S,1,,general
+No. of Replicates,PROT,GLOBAL,TT,G,1,,general
+No. of Replicates,PROT,GLOBAL,TT,II,1,,general
+No. of Replicates,PROT,EMEA,R,I,1,,general
+No. of Replicates,PROT,EMEA,R,F,1,,general
+No. of Replicates,PROT,EMEA,R,H,1,,general
+No. of Replicates,PROT,EMEA,R,S,1,,general
+No. of Replicates,PROT,EMEA,D,I,1,,general
+No. of Replicates,PROT,EMEA,D,F,1,,general
+No. of Replicates,PROT,EMEA,D,H,1,,general
+No. of Replicates,PROT,EMEA,D,S,1,,general
+Plot area unit,PROT,GLOBAL,R,I,0,,general
+Plot area unit,PROT,GLOBAL,R,F,0,,general
+Plot area unit,PROT,GLOBAL,R,H,0,,general
+Plot area unit,PROT,GLOBAL,R,S,0,,general
+Plot area unit,PROT,GLOBAL,R,G,0,,general
+Plot area unit,PROT,GLOBAL,R,II,0,,general
+Plot area unit,PROT,GLOBAL,D,I,0,,general
+Plot area unit,PROT,GLOBAL,D,F,0,,general
+Plot area unit,PROT,GLOBAL,D,H,0,,general
+Plot area unit,PROT,GLOBAL,D,S,0,,general
+Plot area unit,PROT,GLOBAL,D,G,0,,general
+Plot area unit,PROT,GLOBAL,D,II,0,,general
+Plot area unit,PROT,GLOBAL,A,I,0,,general
+Plot area unit,PROT,GLOBAL,A,F,0,,general
+Plot area unit,PROT,GLOBAL,A,H,0,,general
+Plot area unit,PROT,GLOBAL,A,S,0,,general
+Plot area unit,PROT,GLOBAL,A,G,0,,general
+Plot area unit,PROT,GLOBAL,A,II,0,,general
+Plot area unit,PROT,GLOBAL,TT,I,0,,general
+Plot area unit,PROT,GLOBAL,TT,F,0,,general
+Plot area unit,PROT,GLOBAL,TT,H,0,,general
+Plot area unit,PROT,GLOBAL,TT,S,0,,general
+Plot area unit,PROT,GLOBAL,TT,G,0,,general
+Plot area unit,PROT,GLOBAL,TT,II,0,,general
+Plot area unit,PROT,EMEA,R,I,1,,general
+Plot area unit,PROT,EMEA,R,F,1,,general
+Plot area unit,PROT,EMEA,R,H,1,,general
+Plot area unit,PROT,EMEA,R,S,1,,general
+Plot area unit,PROT,EMEA,D,I,1,,general
+Plot area unit,PROT,EMEA,D,F,1,,general
+Plot area unit,PROT,EMEA,D,H,1,,general
+Plot area unit,PROT,EMEA,D,S,1,,general
+Plot area,PROT,GLOBAL,R,I,0,,general
+Plot area,PROT,GLOBAL,R,F,0,,general
+Plot area,PROT,GLOBAL,R,H,0,,general
+Plot area,PROT,GLOBAL,R,S,0,,general
+Plot area,PROT,GLOBAL,R,G,0,,general
+Plot area,PROT,GLOBAL,R,II,0,,general
+Plot area,PROT,GLOBAL,D,I,0,,general
+Plot area,PROT,GLOBAL,D,F,0,,general
+Plot area,PROT,GLOBAL,D,H,0,,general
+Plot area,PROT,GLOBAL,D,S,0,,general
+Plot area,PROT,GLOBAL,D,G,0,,general
+Plot area,PROT,GLOBAL,D,II,0,,general
+Plot area,PROT,GLOBAL,A,I,0,,general
+Plot area,PROT,GLOBAL,A,F,0,,general
+Plot area,PROT,GLOBAL,A,H,0,,general
+Plot area,PROT,GLOBAL,A,S,0,,general
+Plot area,PROT,GLOBAL,A,G,0,,general
+Plot area,PROT,GLOBAL,A,II,0,,general
+Plot area,PROT,GLOBAL,TT,I,0,,general
+Plot area,PROT,GLOBAL,TT,F,0,,general
+Plot area,PROT,GLOBAL,TT,H,0,,general
+Plot area,PROT,GLOBAL,TT,S,0,,general
+Plot area,PROT,GLOBAL,TT,G,0,,general
+Plot area,PROT,GLOBAL,TT,II,0,,general
+Plot area,PROT,EMEA,R,I,1,,general
+Plot area,PROT,EMEA,R,F,1,,general
+Plot area,PROT,EMEA,R,H,1,,general
+Plot area,PROT,EMEA,R,S,1,,general
+Plot area,PROT,EMEA,D,I,1,,general
+Plot area,PROT,EMEA,D,F,1,,general
+Plot area,PROT,EMEA,D,H,1,,general
+Plot area,PROT,EMEA,D,S,1,,general
+Site type,PROT,GLOBAL,R,I,1,,general
+Site type,PROT,GLOBAL,R,F,1,,general
+Site type,PROT,GLOBAL,R,H,1,,general
+Site type,PROT,GLOBAL,R,S,1,,general
+Site type,PROT,GLOBAL,R,G,1,,general
+Site type,PROT,GLOBAL,R,II,1,,general
+Site type,PROT,GLOBAL,D,I,1,,general
+Site type,PROT,GLOBAL,D,F,1,,general
+Site type,PROT,GLOBAL,D,H,1,,general
+Site type,PROT,GLOBAL,D,S,1,,general
+Site type,PROT,GLOBAL,D,G,1,,general
+Site type,PROT,GLOBAL,D,II,1,,general
+Site type,PROT,GLOBAL,A,I,1,,general
+Site type,PROT,GLOBAL,A,F,1,,general
+Site type,PROT,GLOBAL,A,H,1,,general
+Site type,PROT,GLOBAL,A,S,1,,general
+Site type,PROT,GLOBAL,A,G,1,,general
+Site type,PROT,GLOBAL,A,II,1,,general
+Site type,PROT,GLOBAL,TT,I,1,,general
+Site type,PROT,GLOBAL,TT,F,1,,general
+Site type,PROT,GLOBAL,TT,H,1,,general
+Site type,PROT,GLOBAL,TT,S,1,,general
+Site type,PROT,GLOBAL,TT,G,1,,general
+Site type,PROT,GLOBAL,TT,II,1,,general
+Site type,PROT,EMEA,R,I,1,,general
+Site type,PROT,EMEA,R,F,1,,general
+Site type,PROT,EMEA,R,H,1,,general
+Site type,PROT,EMEA,R,S,1,,general
+Site type,PROT,EMEA,D,I,1,,general
+Site type,PROT,EMEA,D,F,1,,general
+Site type,PROT,EMEA,D,H,1,,general
+Site type,PROT,EMEA,D,S,1,,general
+Plot Description,PROT,GLOBAL,R,I,0,,general
+Plot Description,PROT,GLOBAL,R,F,0,,general
+Plot Description,PROT,GLOBAL,R,H,0,,general
+Plot Description,PROT,GLOBAL,R,S,0,,general
+Plot Description,PROT,GLOBAL,R,G,0,,general
+Plot Description,PROT,GLOBAL,R,II,0,,general
+Plot Description,PROT,GLOBAL,D,I,0,,general
+Plot Description,PROT,GLOBAL,D,F,0,,general
+Plot Description,PROT,GLOBAL,D,H,0,,general
+Plot Description,PROT,GLOBAL,D,S,0,,general
+Plot Description,PROT,GLOBAL,D,G,0,,general
+Plot Description,PROT,GLOBAL,D,II,0,,general
+Plot Description,PROT,GLOBAL,A,I,0,,general
+Plot Description,PROT,GLOBAL,A,F,0,,general
+Plot Description,PROT,GLOBAL,A,H,0,,general
+Plot Description,PROT,GLOBAL,A,S,0,,general
+Plot Description,PROT,GLOBAL,A,G,0,,general
+Plot Description,PROT,GLOBAL,A,II,0,,general
+Plot Description,PROT,GLOBAL,TT,I,0,,general
+Plot Description,PROT,GLOBAL,TT,F,0,,general
+Plot Description,PROT,GLOBAL,TT,H,0,,general
+Plot Description,PROT,GLOBAL,TT,S,0,,general
+Plot Description,PROT,GLOBAL,TT,G,0,,general
+Plot Description,PROT,GLOBAL,TT,II,0,,general
+Plot Description,PROT,EMEA,R,I,1,CROP,general
+Plot Description,PROT,EMEA,R,F,1,CROP,general
+Plot Description,PROT,EMEA,R,H,1,CROP,general
+Plot Description,PROT,EMEA,R,S,0,,general
+Plot Description,PROT,EMEA,D,I,1,CROP,general
+Plot Description,PROT,EMEA,D,F,1,CROP,general
+Plot Description,PROT,EMEA,D,H,1,CROP,general
+Plot Description,PROT,EMEA,D,S,0,,general
+Plot Description Basis,PROT,GLOBAL,R,I,0,,general
+Plot Description Basis,PROT,GLOBAL,R,F,0,,general
+Plot Description Basis,PROT,GLOBAL,R,H,0,,general
+Plot Description Basis,PROT,GLOBAL,R,S,0,,general
+Plot Description Basis,PROT,GLOBAL,R,G,0,,general
+Plot Description Basis,PROT,GLOBAL,R,II,0,,general
+Plot Description Basis,PROT,GLOBAL,D,I,0,,general
+Plot Description Basis,PROT,GLOBAL,D,F,0,,general
+Plot Description Basis,PROT,GLOBAL,D,H,0,,general
+Plot Description Basis,PROT,GLOBAL,D,S,0,,general
+Plot Description Basis,PROT,GLOBAL,D,G,0,,general
+Plot Description Basis,PROT,GLOBAL,D,II,0,,general
+Plot Description Basis,PROT,GLOBAL,A,I,0,,general
+Plot Description Basis,PROT,GLOBAL,A,F,0,,general
+Plot Description Basis,PROT,GLOBAL,A,H,0,,general
+Plot Description Basis,PROT,GLOBAL,A,S,0,,general
+Plot Description Basis,PROT,GLOBAL,A,G,0,,general
+Plot Description Basis,PROT,GLOBAL,A,II,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,I,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,F,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,H,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,S,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,G,0,,general
+Plot Description Basis,PROT,GLOBAL,TT,II,0,,general
+Plot Description Basis,PROT,EMEA,R,I,1,,general
+Plot Description Basis,PROT,EMEA,R,F,1,,general
+Plot Description Basis,PROT,EMEA,R,H,1,,general
+Plot Description Basis,PROT,EMEA,R,S,0,,general
+Plot Description Basis,PROT,EMEA,D,I,1,,general
+Plot Description Basis,PROT,EMEA,D,F,1,,general
+Plot Description Basis,PROT,EMEA,D,H,1,,general
+Plot Description Basis,PROT,EMEA,D,S,0,,general
+Experimental Season,PROT,GLOBAL,R,I,1,,general
+Experimental Season,PROT,GLOBAL,R,F,1,,general
+Experimental Season,PROT,GLOBAL,R,H,1,,general
+Experimental Season,PROT,GLOBAL,R,S,1,,general
+Experimental Season,PROT,GLOBAL,R,G,1,,general
+Experimental Season,PROT,GLOBAL,R,II,1,,general
+Experimental Season,PROT,GLOBAL,D,I,1,,general
+Experimental Season,PROT,GLOBAL,D,F,1,,general
+Experimental Season,PROT,GLOBAL,D,H,1,,general
+Experimental Season,PROT,GLOBAL,D,S,1,,general
+Experimental Season,PROT,GLOBAL,D,G,1,,general
+Experimental Season,PROT,GLOBAL,D,II,1,,general
+Experimental Season,PROT,GLOBAL,A,I,1,,general
+Experimental Season,PROT,GLOBAL,A,F,1,,general
+Experimental Season,PROT,GLOBAL,A,H,1,,general
+Experimental Season,PROT,GLOBAL,A,S,1,,general
+Experimental Season,PROT,GLOBAL,A,G,1,,general
+Experimental Season,PROT,GLOBAL,A,II,1,,general
+Experimental Season,PROT,GLOBAL,TT,I,1,,general
+Experimental Season,PROT,GLOBAL,TT,F,1,,general
+Experimental Season,PROT,GLOBAL,TT,H,1,,general
+Experimental Season,PROT,GLOBAL,TT,S,1,,general
+Experimental Season,PROT,GLOBAL,TT,G,1,,general
+Experimental Season,PROT,GLOBAL,TT,II,1,,general
+Experimental Season,PROT,EMEA,R,I,1,,general
+Experimental Season,PROT,EMEA,R,F,1,,general
+Experimental Season,PROT,EMEA,R,H,1,,general
+Experimental Season,PROT,EMEA,R,S,1,,general
+Experimental Season,PROT,EMEA,D,I,1,,general
+Experimental Season,PROT,EMEA,D,F,1,,general
+Experimental Season,PROT,EMEA,D,H,1,,general
+Experimental Season,PROT,EMEA,D,S,1,,general
+Target,PROT,GLOBAL,R,I,1,EFFICACY,general
+Target,PROT,GLOBAL,R,F,1,EFFICACY,general
+Target,PROT,GLOBAL,R,H,1,EFFICACY,general
+Target,PROT,GLOBAL,R,S,1,EFFICACY,general
+Target,PROT,GLOBAL,R,G,0,,general
+Target,PROT,GLOBAL,R,II,1,EFFICACY,general
+Target,PROT,GLOBAL,D,I,1,EFFICACY,general
+Target,PROT,GLOBAL,D,F,1,EFFICACY,general
+Target,PROT,GLOBAL,D,H,1,EFFICACY,general
+Target,PROT,GLOBAL,D,S,1,EFFICACY,general
+Target,PROT,GLOBAL,D,G,0,,general
+Target,PROT,GLOBAL,D,II,1,EFFICACY,general
+Target,PROT,GLOBAL,A,I,1,EFFICACY,general
+Target,PROT,GLOBAL,A,F,1,EFFICACY,general
+Target,PROT,GLOBAL,A,H,1,EFFICACY,general
+Target,PROT,GLOBAL,A,S,1,EFFICACY,general
+Target,PROT,GLOBAL,A,G,0,,general
+Target,PROT,GLOBAL,A,II,1,EFFICACY,general
+Target,PROT,GLOBAL,TT,I,1,EFFICACY,general
+Target,PROT,GLOBAL,TT,F,1,EFFICACY,general
+Target,PROT,GLOBAL,TT,H,1,EFFICACY,general
+Target,PROT,GLOBAL,TT,S,1,EFFICACY,general
+Target,PROT,GLOBAL,TT,G,0,,general
+Target,PROT,GLOBAL,TT,II,1,EFFICACY,general
+Target,PROT,EMEA,R,I,1,EFFICACY,general
+Target,PROT,EMEA,R,F,1,EFFICACY,general
+Target,PROT,EMEA,R,H,1,EFFICACY,general
+Target,PROT,EMEA,R,S,1,EFFICACY,general
+Target,PROT,EMEA,D,I,1,EFFICACY,general
+Target,PROT,EMEA,D,F,1,EFFICACY,general
+Target,PROT,EMEA,D,H,1,EFFICACY,general
+Target,PROT,EMEA,D,S,1,EFFICACY,general
+GEP certificate link,PROT,GLOBAL,R,I,1,,general
+GEP certificate link,PROT,GLOBAL,R,F,1,,general
+GEP certificate link,PROT,GLOBAL,R,H,1,,general
+GEP certificate link,PROT,GLOBAL,R,S,1,,general
+GEP certificate link,PROT,GLOBAL,R,G,1,,general
+GEP certificate link,PROT,GLOBAL,R,II,1,,general
+GEP certificate link,PROT,GLOBAL,D,I,0,,general
+GEP certificate link,PROT,GLOBAL,D,F,0,,general
+GEP certificate link,PROT,GLOBAL,D,H,0,,general
+GEP certificate link,PROT,GLOBAL,D,S,0,,general
+GEP certificate link,PROT,GLOBAL,D,G,0,,general
+GEP certificate link,PROT,GLOBAL,D,II,0,,general
+GEP certificate link,PROT,GLOBAL,A,I,0,,general
+GEP certificate link,PROT,GLOBAL,A,F,0,,general
+GEP certificate link,PROT,GLOBAL,A,H,0,,general
+GEP certificate link,PROT,GLOBAL,A,S,0,,general
+GEP certificate link,PROT,GLOBAL,A,G,0,,general
+GEP certificate link,PROT,GLOBAL,A,II,0,,general
+GEP certificate link,PROT,GLOBAL,TT,I,0,,general
+GEP certificate link,PROT,GLOBAL,TT,F,0,,general
+GEP certificate link,PROT,GLOBAL,TT,H,0,,general
+GEP certificate link,PROT,GLOBAL,TT,S,0,,general
+GEP certificate link,PROT,GLOBAL,TT,G,0,,general
+GEP certificate link,PROT,GLOBAL,TT,II,0,,general
+GEP certificate link,PROT,EMEA,R,I,0,,general
+GEP certificate link,PROT,EMEA,R,F,0,,general
+GEP certificate link,PROT,EMEA,R,H,0,,general
+GEP certificate link,PROT,EMEA,R,S,0,,general
+GEP certificate link,PROT,EMEA,D,I,0,,general
+GEP certificate link,PROT,EMEA,D,F,0,,general
+GEP certificate link,PROT,EMEA,D,H,0,,general
+GEP certificate link,PROT,EMEA,D,S,0,,general
+SE ID,PROT,GLOBAL,R,I,1,,assessment
+SE ID,PROT,GLOBAL,R,F,1,,assessment
+SE ID,PROT,GLOBAL,R,H,1,,assessment
+SE ID,PROT,GLOBAL,R,S,1,,assessment
+SE ID,PROT,GLOBAL,R,G,1,,assessment
+SE ID,PROT,GLOBAL,R,II,1,,assessment
+SE ID,PROT,GLOBAL,D,I,1,,assessment
+SE ID,PROT,GLOBAL,D,F,1,,assessment
+SE ID,PROT,GLOBAL,D,H,1,,assessment
+SE ID,PROT,GLOBAL,D,S,1,,assessment
+SE ID,PROT,GLOBAL,D,G,1,,assessment
+SE ID,PROT,GLOBAL,D,II,1,,assessment
+SE ID,PROT,GLOBAL,A,I,1,,assessment
+SE ID,PROT,GLOBAL,A,F,1,,assessment
+SE ID,PROT,GLOBAL,A,H,1,,assessment
+SE ID,PROT,GLOBAL,A,S,1,,assessment
+SE ID,PROT,GLOBAL,A,G,1,,assessment
+SE ID,PROT,GLOBAL,A,II,1,,assessment
+SE ID,PROT,GLOBAL,TT,I,1,,assessment
+SE ID,PROT,GLOBAL,TT,F,1,,assessment
+SE ID,PROT,GLOBAL,TT,H,1,,assessment
+SE ID,PROT,GLOBAL,TT,S,1,,assessment
+SE ID,PROT,GLOBAL,TT,G,1,,assessment
+SE ID,PROT,GLOBAL,TT,II,1,,assessment
+SE ID,PROT,EMEA,R,I,1,,assessment
+SE ID,PROT,EMEA,R,F,1,,assessment
+SE ID,PROT,EMEA,R,H,1,,assessment
+SE ID,PROT,EMEA,R,S,1,,assessment
+SE ID,PROT,EMEA,D,I,1,,assessment
+SE ID,PROT,EMEA,D,F,1,,assessment
+SE ID,PROT,EMEA,D,H,1,,assessment
+SE ID,PROT,EMEA,D,S,1,,assessment
+Part Rated,PROT,GLOBAL,R,I,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,R,F,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,R,H,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,R,S,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,R,G,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,R,II,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,I,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,F,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,H,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,S,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,G,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,D,II,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,I,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,F,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,H,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,S,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,G,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,A,II,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,I,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,F,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,H,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,S,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,G,1,PHSES,assessment
+Part Rated,PROT,GLOBAL,TT,II,1,PHSES,assessment
+Part Rated,PROT,EMEA,R,I,1,,assessment
+Part Rated,PROT,EMEA,R,F,1,,assessment
+Part Rated,PROT,EMEA,R,H,1,,assessment
+Part Rated,PROT,EMEA,R,S,1,,assessment
+Part Rated,PROT,EMEA,D,I,1,,assessment
+Part Rated,PROT,EMEA,D,F,1,,assessment
+Part Rated,PROT,EMEA,D,H,1,,assessment
+Part Rated,PROT,EMEA,D,S,1,,assessment
+Assessment Type,PROT,GLOBAL,R,I,1,,assessment
+Assessment Type,PROT,GLOBAL,R,F,1,,assessment
+Assessment Type,PROT,GLOBAL,R,H,1,,assessment
+Assessment Type,PROT,GLOBAL,R,S,1,,assessment
+Assessment Type,PROT,GLOBAL,R,G,1,,assessment
+Assessment Type,PROT,GLOBAL,R,II,1,,assessment
+Assessment Type,PROT,GLOBAL,D,I,1,,assessment
+Assessment Type,PROT,GLOBAL,D,F,1,,assessment
+Assessment Type,PROT,GLOBAL,D,H,1,,assessment
+Assessment Type,PROT,GLOBAL,D,S,1,,assessment
+Assessment Type,PROT,GLOBAL,D,G,1,,assessment
+Assessment Type,PROT,GLOBAL,D,II,1,,assessment
+Assessment Type,PROT,GLOBAL,A,I,1,,assessment
+Assessment Type,PROT,GLOBAL,A,F,1,,assessment
+Assessment Type,PROT,GLOBAL,A,H,1,,assessment
+Assessment Type,PROT,GLOBAL,A,S,1,,assessment
+Assessment Type,PROT,GLOBAL,A,G,1,,assessment
+Assessment Type,PROT,GLOBAL,A,II,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,I,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,F,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,H,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,S,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,G,1,,assessment
+Assessment Type,PROT,GLOBAL,TT,II,1,,assessment
+Assessment Type,PROT,EMEA,R,I,1,,assessment
+Assessment Type,PROT,EMEA,R,F,1,,assessment
+Assessment Type,PROT,EMEA,R,H,1,,assessment
+Assessment Type,PROT,EMEA,R,S,1,,assessment
+Assessment Type,PROT,EMEA,D,I,1,,assessment
+Assessment Type,PROT,EMEA,D,F,1,,assessment
+Assessment Type,PROT,EMEA,D,H,1,,assessment
+Assessment Type,PROT,EMEA,D,S,1,,assessment
+Sample Size,PROT,GLOBAL,R,I,1,,assessment
+Sample Size,PROT,GLOBAL,R,F,1,,assessment
+Sample Size,PROT,GLOBAL,R,H,1,,assessment
+Sample Size,PROT,GLOBAL,R,S,1,,assessment
+Sample Size,PROT,GLOBAL,R,G,1,,assessment
+Sample Size,PROT,GLOBAL,R,II,1,,assessment
+Sample Size,PROT,GLOBAL,D,I,1,,assessment
+Sample Size,PROT,GLOBAL,D,F,1,,assessment
+Sample Size,PROT,GLOBAL,D,H,1,,assessment
+Sample Size,PROT,GLOBAL,D,S,1,,assessment
+Sample Size,PROT,GLOBAL,D,G,1,,assessment
+Sample Size,PROT,GLOBAL,D,II,1,,assessment
+Sample Size,PROT,GLOBAL,A,I,1,,assessment
+Sample Size,PROT,GLOBAL,A,F,1,,assessment
+Sample Size,PROT,GLOBAL,A,H,1,,assessment
+Sample Size,PROT,GLOBAL,A,S,1,,assessment
+Sample Size,PROT,GLOBAL,A,G,1,,assessment
+Sample Size,PROT,GLOBAL,A,II,1,,assessment
+Sample Size,PROT,GLOBAL,TT,I,1,,assessment
+Sample Size,PROT,GLOBAL,TT,F,1,,assessment
+Sample Size,PROT,GLOBAL,TT,H,1,,assessment
+Sample Size,PROT,GLOBAL,TT,S,1,,assessment
+Sample Size,PROT,GLOBAL,TT,G,1,,assessment
+Sample Size,PROT,GLOBAL,TT,II,1,,assessment
+Sample Size,PROT,EMEA,R,I,1,,assessment
+Sample Size,PROT,EMEA,R,F,1,,assessment
+Sample Size,PROT,EMEA,R,H,1,,assessment
+Sample Size,PROT,EMEA,R,S,1,,assessment
+Sample Size,PROT,EMEA,D,I,1,,assessment
+Sample Size,PROT,EMEA,D,F,1,,assessment
+Sample Size,PROT,EMEA,D,H,1,,assessment
+Sample Size,PROT,EMEA,D,S,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,I,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,F,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,H,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,S,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,G,1,,assessment
+Sample Size Unit,PROT,GLOBAL,R,II,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,I,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,F,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,H,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,S,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,G,1,,assessment
+Sample Size Unit,PROT,GLOBAL,D,II,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,I,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,F,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,H,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,S,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,G,1,,assessment
+Sample Size Unit,PROT,GLOBAL,A,II,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,I,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,F,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,H,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,S,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,G,1,,assessment
+Sample Size Unit,PROT,GLOBAL,TT,II,1,,assessment
+Sample Size Unit,PROT,EMEA,R,I,1,,assessment
+Sample Size Unit,PROT,EMEA,R,F,1,,assessment
+Sample Size Unit,PROT,EMEA,R,H,1,,assessment
+Sample Size Unit,PROT,EMEA,R,S,1,,assessment
+Sample Size Unit,PROT,EMEA,D,I,1,,assessment
+Sample Size Unit,PROT,EMEA,D,F,1,,assessment
+Sample Size Unit,PROT,EMEA,D,H,1,,assessment
+Sample Size Unit,PROT,EMEA,D,S,1,,assessment
+Target,PROT,GLOBAL,R,I,1,PHSES,assessment
+Target,PROT,GLOBAL,R,F,1,PHSES,assessment
+Target,PROT,GLOBAL,R,H,1,PHSES,assessment
+Target,PROT,GLOBAL,R,S,1,PHSES,assessment
+Target,PROT,GLOBAL,R,G,0,,assessment
+Target,PROT,GLOBAL,R,II,1,PHSES,assessment
+Target,PROT,GLOBAL,D,I,1,PHSES,assessment
+Target,PROT,GLOBAL,D,F,1,PHSES,assessment
+Target,PROT,GLOBAL,D,H,1,PHSES,assessment
+Target,PROT,GLOBAL,D,S,1,PHSES,assessment
+Target,PROT,GLOBAL,D,G,0,,assessment
+Target,PROT,GLOBAL,D,II,1,PHSES,assessment
+Target,PROT,GLOBAL,A,I,1,PHSES,assessment
+Target,PROT,GLOBAL,A,F,1,PHSES,assessment
+Target,PROT,GLOBAL,A,H,1,PHSES,assessment
+Target,PROT,GLOBAL,A,S,1,PHSES,assessment
+Target,PROT,GLOBAL,A,G,0,,assessment
+Target,PROT,GLOBAL,A,II,1,PHSES,assessment
+Target,PROT,GLOBAL,TT,I,1,PHSES,assessment
+Target,PROT,GLOBAL,TT,F,1,PHSES,assessment
+Target,PROT,GLOBAL,TT,H,1,PHSES,assessment
+Target,PROT,GLOBAL,TT,S,1,PHSES,assessment
+Target,PROT,GLOBAL,TT,G,0,,assessment
+Target,PROT,GLOBAL,TT,II,1,PHSES,assessment
+Target,PROT,EMEA,R,I,1,EFFASS,assessment
+Target,PROT,EMEA,R,F,1,EFFASS,assessment
+Target,PROT,EMEA,R,H,1,EFFASS,assessment
+Target,PROT,EMEA,R,S,1,EFFASS,assessment
+Target,PROT,EMEA,D,I,1,EFFASS,assessment
+Target,PROT,EMEA,D,F,1,EFFASS,assessment
+Target,PROT,EMEA,D,H,1,EFFASS,assessment
+Target,PROT,EMEA,D,S,1,EFFASS,assessment
+Crop,PROT,GLOBAL,R,I,1,PHSES,assessment
+Crop,PROT,GLOBAL,R,F,1,PHSES,assessment
+Crop,PROT,GLOBAL,R,H,1,PHSES,assessment
+Crop,PROT,GLOBAL,R,S,1,PHSES,assessment
+Crop,PROT,GLOBAL,R,G,1,PHSES,assessment
+Crop,PROT,GLOBAL,R,II,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,I,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,F,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,H,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,S,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,G,1,PHSES,assessment
+Crop,PROT,GLOBAL,D,II,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,I,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,F,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,H,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,S,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,G,1,PHSES,assessment
+Crop,PROT,GLOBAL,A,II,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,I,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,F,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,H,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,S,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,G,1,PHSES,assessment
+Crop,PROT,GLOBAL,TT,II,1,PHSES,assessment
+Crop,PROT,EMEA,R,I,1,,assessment
+Crop,PROT,EMEA,R,F,1,,assessment
+Crop,PROT,EMEA,R,H,1,,assessment
+Crop,PROT,EMEA,R,S,1,,assessment
+Crop,PROT,EMEA,D,I,1,,assessment
+Crop,PROT,EMEA,D,F,1,,assessment
+Crop,PROT,EMEA,D,H,1,,assessment
+Crop,PROT,EMEA,D,S,1,,assessment
+Assessment Unit,PROT,GLOBAL,R,I,0,,assessment
+Assessment Unit,PROT,GLOBAL,R,F,0,,assessment
+Assessment Unit,PROT,GLOBAL,R,H,0,,assessment
+Assessment Unit,PROT,GLOBAL,R,S,0,,assessment
+Assessment Unit,PROT,GLOBAL,R,G,0,,assessment
+Assessment Unit,PROT,GLOBAL,R,II,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,I,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,F,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,H,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,S,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,G,0,,assessment
+Assessment Unit,PROT,GLOBAL,D,II,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,I,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,F,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,H,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,S,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,G,0,,assessment
+Assessment Unit,PROT,GLOBAL,A,II,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,I,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,F,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,H,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,S,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,G,0,,assessment
+Assessment Unit,PROT,GLOBAL,TT,II,0,,assessment
+Assessment Unit,PROT,EMEA,R,I,1,,assessment
+Assessment Unit,PROT,EMEA,R,F,1,,assessment
+Assessment Unit,PROT,EMEA,R,H,1,,assessment
+Assessment Unit,PROT,EMEA,R,S,1,,assessment
+Assessment Unit,PROT,EMEA,D,I,1,,assessment
+Assessment Unit,PROT,EMEA,D,F,1,,assessment
+Assessment Unit,PROT,EMEA,D,H,1,,assessment
+Assessment Unit,PROT,EMEA,D,S,1,,assessment
+No. Subsamples,PROT,GLOBAL,R,I,0,,assessment
+No. Subsamples,PROT,GLOBAL,R,F,0,,assessment
+No. Subsamples,PROT,GLOBAL,R,H,0,,assessment
+No. Subsamples,PROT,GLOBAL,R,S,0,,assessment
+No. Subsamples,PROT,GLOBAL,R,G,0,,assessment
+No. Subsamples,PROT,GLOBAL,R,II,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,I,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,F,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,H,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,S,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,G,0,,assessment
+No. Subsamples,PROT,GLOBAL,D,II,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,I,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,F,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,H,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,S,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,G,0,,assessment
+No. Subsamples,PROT,GLOBAL,A,II,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,I,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,F,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,H,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,S,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,G,0,,assessment
+No. Subsamples,PROT,GLOBAL,TT,II,0,,assessment
+No. Subsamples,PROT,EMEA,R,I,1,,assessment
+No. Subsamples,PROT,EMEA,R,F,1,,assessment
+No. Subsamples,PROT,EMEA,R,H,1,,assessment
+No. Subsamples,PROT,EMEA,R,S,1,,assessment
+No. Subsamples,PROT,EMEA,D,I,1,,assessment
+No. Subsamples,PROT,EMEA,D,F,1,,assessment
+No. Subsamples,PROT,EMEA,D,H,1,,assessment
+No. Subsamples,PROT,EMEA,D,S,1,,assessment
+Assessment Class,PROT,GLOBAL,R,I,0,,assessment
+Assessment Class,PROT,GLOBAL,R,F,0,,assessment
+Assessment Class,PROT,GLOBAL,R,H,0,,assessment
+Assessment Class,PROT,GLOBAL,R,S,0,,assessment
+Assessment Class,PROT,GLOBAL,R,G,0,,assessment
+Assessment Class,PROT,GLOBAL,R,II,0,,assessment
+Assessment Class,PROT,GLOBAL,D,I,0,,assessment
+Assessment Class,PROT,GLOBAL,D,F,0,,assessment
+Assessment Class,PROT,GLOBAL,D,H,0,,assessment
+Assessment Class,PROT,GLOBAL,D,S,0,,assessment
+Assessment Class,PROT,GLOBAL,D,G,0,,assessment
+Assessment Class,PROT,GLOBAL,D,II,0,,assessment
+Assessment Class,PROT,GLOBAL,A,I,0,,assessment
+Assessment Class,PROT,GLOBAL,A,F,0,,assessment
+Assessment Class,PROT,GLOBAL,A,H,0,,assessment
+Assessment Class,PROT,GLOBAL,A,S,0,,assessment
+Assessment Class,PROT,GLOBAL,A,G,0,,assessment
+Assessment Class,PROT,GLOBAL,A,II,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,I,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,F,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,H,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,S,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,G,0,,assessment
+Assessment Class,PROT,GLOBAL,TT,II,0,,assessment
+Assessment Class,PROT,EMEA,R,I,1,SCORE,assessment
+Assessment Class,PROT,EMEA,R,F,1,SCORE,assessment
+Assessment Class,PROT,EMEA,R,H,1,SCORE,assessment
+Assessment Class,PROT,EMEA,R,S,1,SCORE,assessment
+Assessment Class,PROT,EMEA,D,I,1,SCORE,assessment
+Assessment Class,PROT,EMEA,D,F,1,SCORE,assessment
+Assessment Class,PROT,EMEA,D,H,1,SCORE,assessment
+Assessment Class,PROT,EMEA,D,S,1,SCORE,assessment
+Assessment code,PROT,GLOBAL,R,I,1,,assessment
+Assessment code,PROT,GLOBAL,R,F,1,,assessment
+Assessment code,PROT,GLOBAL,R,H,1,,assessment
+Assessment code,PROT,GLOBAL,R,S,1,,assessment
+Assessment code,PROT,GLOBAL,R,G,1,,assessment
+Assessment code,PROT,GLOBAL,R,II,1,,assessment
+Assessment code,PROT,GLOBAL,D,I,1,,assessment
+Assessment code,PROT,GLOBAL,D,F,1,,assessment
+Assessment code,PROT,GLOBAL,D,H,1,,assessment
+Assessment code,PROT,GLOBAL,D,S,1,,assessment
+Assessment code,PROT,GLOBAL,D,G,1,,assessment
+Assessment code,PROT,GLOBAL,D,II,1,,assessment
+Assessment code,PROT,GLOBAL,A,I,1,,assessment
+Assessment code,PROT,GLOBAL,A,F,1,,assessment
+Assessment code,PROT,GLOBAL,A,H,1,,assessment
+Assessment code,PROT,GLOBAL,A,S,1,,assessment
+Assessment code,PROT,GLOBAL,A,G,1,,assessment
+Assessment code,PROT,GLOBAL,A,II,1,,assessment
+Assessment code,PROT,GLOBAL,TT,I,1,,assessment
+Assessment code,PROT,GLOBAL,TT,F,1,,assessment
+Assessment code,PROT,GLOBAL,TT,H,1,,assessment
+Assessment code,PROT,GLOBAL,TT,S,1,,assessment
+Assessment code,PROT,GLOBAL,TT,G,1,,assessment
+Assessment code,PROT,GLOBAL,TT,II,1,,assessment
+Assessment code,PROT,EMEA,R,I,0,,assessment
+Assessment code,PROT,EMEA,R,F,0,,assessment
+Assessment code,PROT,EMEA,R,H,0,,assessment
+Assessment code,PROT,EMEA,R,S,0,,assessment
+Assessment code,PROT,EMEA,D,I,0,,assessment
+Assessment code,PROT,EMEA,D,F,0,,assessment
+Assessment code,PROT,EMEA,D,H,0,,assessment
+Assessment code,PROT,EMEA,D,S,0,,assessment
+Responsible,PROT,GLOBAL,R,I,0,,responsible
+Responsible,PROT,GLOBAL,R,F,0,,responsible
+Responsible,PROT,GLOBAL,R,H,0,,responsible
+Responsible,PROT,GLOBAL,R,S,0,,responsible
+Responsible,PROT,GLOBAL,R,G,0,,responsible
+Responsible,PROT,GLOBAL,R,II,0,,responsible
+Responsible,PROT,GLOBAL,D,I,0,,responsible
+Responsible,PROT,GLOBAL,D,F,0,,responsible
+Responsible,PROT,GLOBAL,D,H,0,,responsible
+Responsible,PROT,GLOBAL,D,S,0,,responsible
+Responsible,PROT,GLOBAL,D,G,0,,responsible
+Responsible,PROT,GLOBAL,D,II,0,,responsible
+Responsible,PROT,GLOBAL,A,I,0,,responsible
+Responsible,PROT,GLOBAL,A,F,0,,responsible
+Responsible,PROT,GLOBAL,A,H,0,,responsible
+Responsible,PROT,GLOBAL,A,S,0,,responsible
+Responsible,PROT,GLOBAL,A,G,0,,responsible
+Responsible,PROT,GLOBAL,A,II,0,,responsible
+Responsible,PROT,GLOBAL,TT,I,0,,responsible
+Responsible,PROT,GLOBAL,TT,F,0,,responsible
+Responsible,PROT,GLOBAL,TT,H,0,,responsible
+Responsible,PROT,GLOBAL,TT,S,0,,responsible
+Responsible,PROT,GLOBAL,TT,G,0,,responsible
+Responsible,PROT,GLOBAL,TT,II,0,,responsible
+Responsible,PROT,EMEA,R,I,1,,responsible
+Responsible,PROT,EMEA,R,F,1,,responsible
+Responsible,PROT,EMEA,R,H,1,,responsible
+Responsible,PROT,EMEA,R,S,1,,responsible
+Responsible,PROT,EMEA,D,I,1,,responsible
+Responsible,PROT,EMEA,D,F,1,,responsible
+Responsible,PROT,EMEA,D,H,1,,responsible
+Responsible,PROT,EMEA,D,S,1,,responsible
+Test Type,PROT,GLOBAL,R,I,0,,responsible
+Test Type,PROT,GLOBAL,R,F,0,,responsible
+Test Type,PROT,GLOBAL,R,H,0,,responsible
+Test Type,PROT,GLOBAL,R,S,0,,responsible
+Test Type,PROT,GLOBAL,R,G,0,,responsible
+Test Type,PROT,GLOBAL,R,II,0,,responsible
+Test Type,PROT,GLOBAL,D,I,0,,responsible
+Test Type,PROT,GLOBAL,D,F,0,,responsible
+Test Type,PROT,GLOBAL,D,H,0,,responsible
+Test Type,PROT,GLOBAL,D,S,0,,responsible
+Test Type,PROT,GLOBAL,D,G,0,,responsible
+Test Type,PROT,GLOBAL,D,II,0,,responsible
+Test Type,PROT,GLOBAL,A,I,0,,responsible
+Test Type,PROT,GLOBAL,A,F,0,,responsible
+Test Type,PROT,GLOBAL,A,H,0,,responsible
+Test Type,PROT,GLOBAL,A,S,0,,responsible
+Test Type,PROT,GLOBAL,A,G,0,,responsible
+Test Type,PROT,GLOBAL,A,II,0,,responsible
+Test Type,PROT,GLOBAL,TT,I,0,,responsible
+Test Type,PROT,GLOBAL,TT,F,0,,responsible
+Test Type,PROT,GLOBAL,TT,H,0,,responsible
+Test Type,PROT,GLOBAL,TT,S,0,,responsible
+Test Type,PROT,GLOBAL,TT,G,0,,responsible
+Test Type,PROT,GLOBAL,TT,II,0,,responsible
+Test Type,PROT,EMEA,R,I,1,,responsible
+Test Type,PROT,EMEA,R,F,1,,responsible
+Test Type,PROT,EMEA,R,H,1,,responsible
+Test Type,PROT,EMEA,R,S,1,,responsible
+Test Type,PROT,EMEA,D,I,1,,responsible
+Test Type,PROT,EMEA,D,F,1,,responsible
+Test Type,PROT,EMEA,D,H,1,,responsible
+Test Type,PROT,EMEA,D,S,1,,responsible
+INT EXT,PROT,GLOBAL,R,I,0,,responsible
+INT EXT,PROT,GLOBAL,R,F,0,,responsible
+INT EXT,PROT,GLOBAL,R,H,0,,responsible
+INT EXT,PROT,GLOBAL,R,S,0,,responsible
+INT EXT,PROT,GLOBAL,R,G,0,,responsible
+INT EXT,PROT,GLOBAL,R,II,0,,responsible
+INT EXT,PROT,GLOBAL,D,I,0,,responsible
+INT EXT,PROT,GLOBAL,D,F,0,,responsible
+INT EXT,PROT,GLOBAL,D,H,0,,responsible
+INT EXT,PROT,GLOBAL,D,S,0,,responsible
+INT EXT,PROT,GLOBAL,D,G,0,,responsible
+INT EXT,PROT,GLOBAL,D,II,0,,responsible
+INT EXT,PROT,GLOBAL,A,I,0,,responsible
+INT EXT,PROT,GLOBAL,A,F,0,,responsible
+INT EXT,PROT,GLOBAL,A,H,0,,responsible
+INT EXT,PROT,GLOBAL,A,S,0,,responsible
+INT EXT,PROT,GLOBAL,A,G,0,,responsible
+INT EXT,PROT,GLOBAL,A,II,0,,responsible
+INT EXT,PROT,GLOBAL,TT,I,0,,responsible
+INT EXT,PROT,GLOBAL,TT,F,0,,responsible
+INT EXT,PROT,GLOBAL,TT,H,0,,responsible
+INT EXT,PROT,GLOBAL,TT,S,0,,responsible
+INT EXT,PROT,GLOBAL,TT,G,0,,responsible
+INT EXT,PROT,GLOBAL,TT,II,0,,responsible
+INT EXT,PROT,EMEA,R,I,1,,responsible
+INT EXT,PROT,EMEA,R,F,1,,responsible
+INT EXT,PROT,EMEA,R,H,1,,responsible
+INT EXT,PROT,EMEA,R,S,1,,responsible
+INT EXT,PROT,EMEA,D,I,1,,responsible
+INT EXT,PROT,EMEA,D,F,1,,responsible
+INT EXT,PROT,EMEA,D,H,1,,responsible
+INT EXT,PROT,EMEA,D,S,1,,responsible
+Site,PROT,GLOBAL,R,I,0,,responsible
+Site,PROT,GLOBAL,R,F,0,,responsible
+Site,PROT,GLOBAL,R,H,0,,responsible
+Site,PROT,GLOBAL,R,S,0,,responsible
+Site,PROT,GLOBAL,R,G,0,,responsible
+Site,PROT,GLOBAL,R,II,0,,responsible
+Site,PROT,GLOBAL,D,I,0,,responsible
+Site,PROT,GLOBAL,D,F,0,,responsible
+Site,PROT,GLOBAL,D,H,0,,responsible
+Site,PROT,GLOBAL,D,S,0,,responsible
+Site,PROT,GLOBAL,D,G,0,,responsible
+Site,PROT,GLOBAL,D,II,0,,responsible
+Site,PROT,GLOBAL,A,I,0,,responsible
+Site,PROT,GLOBAL,A,F,0,,responsible
+Site,PROT,GLOBAL,A,H,0,,responsible
+Site,PROT,GLOBAL,A,S,0,,responsible
+Site,PROT,GLOBAL,A,G,0,,responsible
+Site,PROT,GLOBAL,A,II,0,,responsible
+Site,PROT,GLOBAL,TT,I,0,,responsible
+Site,PROT,GLOBAL,TT,F,0,,responsible
+Site,PROT,GLOBAL,TT,H,0,,responsible
+Site,PROT,GLOBAL,TT,S,0,,responsible
+Site,PROT,GLOBAL,TT,G,0,,responsible
+Site,PROT,GLOBAL,TT,II,0,,responsible
+Site,PROT,EMEA,R,I,1,,responsible
+Site,PROT,EMEA,R,F,1,,responsible
+Site,PROT,EMEA,R,H,1,,responsible
+Site,PROT,EMEA,R,S,1,,responsible
+Site,PROT,EMEA,D,I,1,,responsible
+Site,PROT,EMEA,D,F,1,,responsible
+Site,PROT,EMEA,D,H,1,,responsible
+Site,PROT,EMEA,D,S,1,,responsible
+No. of trials,PROT,GLOBAL,R,I,0,,responsible
+No. of trials,PROT,GLOBAL,R,F,0,,responsible
+No. of trials,PROT,GLOBAL,R,H,0,,responsible
+No. of trials,PROT,GLOBAL,R,S,0,,responsible
+No. of trials,PROT,GLOBAL,R,G,0,,responsible
+No. of trials,PROT,GLOBAL,R,II,0,,responsible
+No. of trials,PROT,GLOBAL,D,I,0,,responsible
+No. of trials,PROT,GLOBAL,D,F,0,,responsible
+No. of trials,PROT,GLOBAL,D,H,0,,responsible
+No. of trials,PROT,GLOBAL,D,S,0,,responsible
+No. of trials,PROT,GLOBAL,D,G,0,,responsible
+No. of trials,PROT,GLOBAL,D,II,0,,responsible
+No. of trials,PROT,GLOBAL,A,I,0,,responsible
+No. of trials,PROT,GLOBAL,A,F,0,,responsible
+No. of trials,PROT,GLOBAL,A,H,0,,responsible
+No. of trials,PROT,GLOBAL,A,S,0,,responsible
+No. of trials,PROT,GLOBAL,A,G,0,,responsible
+No. of trials,PROT,GLOBAL,A,II,0,,responsible
+No. of trials,PROT,GLOBAL,TT,I,0,,responsible
+No. of trials,PROT,GLOBAL,TT,F,0,,responsible
+No. of trials,PROT,GLOBAL,TT,H,0,,responsible
+No. of trials,PROT,GLOBAL,TT,S,0,,responsible
+No. of trials,PROT,GLOBAL,TT,G,0,,responsible
+No. of trials,PROT,GLOBAL,TT,II,0,,responsible
+No. of trials,PROT,EMEA,R,I,1,,responsible
+No. of trials,PROT,EMEA,R,F,1,,responsible
+No. of trials,PROT,EMEA,R,H,1,,responsible
+No. of trials,PROT,EMEA,R,S,1,,responsible
+No. of trials,PROT,EMEA,D,I,1,,responsible
+No. of trials,PROT,EMEA,D,F,1,,responsible
+No. of trials,PROT,EMEA,D,H,1,,responsible
+No. of trials,PROT,EMEA,D,S,1,,responsible
+Entry No.,PROT,GLOBAL,R,I,0,,treatment
+Entry No.,PROT,GLOBAL,R,F,0,,treatment
+Entry No.,PROT,GLOBAL,R,H,0,,treatment
+Entry No.,PROT,GLOBAL,R,S,0,,treatment
+Entry No.,PROT,GLOBAL,R,G,0,,treatment
+Entry No.,PROT,GLOBAL,R,II,0,,treatment
+Entry No.,PROT,GLOBAL,D,I,0,,treatment
+Entry No.,PROT,GLOBAL,D,F,0,,treatment
+Entry No.,PROT,GLOBAL,D,H,0,,treatment
+Entry No.,PROT,GLOBAL,D,S,0,,treatment
+Entry No.,PROT,GLOBAL,D,G,0,,treatment
+Entry No.,PROT,GLOBAL,D,II,0,,treatment
+Entry No.,PROT,GLOBAL,A,I,0,,treatment
+Entry No.,PROT,GLOBAL,A,F,0,,treatment
+Entry No.,PROT,GLOBAL,A,H,0,,treatment
+Entry No.,PROT,GLOBAL,A,S,0,,treatment
+Entry No.,PROT,GLOBAL,A,G,0,,treatment
+Entry No.,PROT,GLOBAL,A,II,0,,treatment
+Entry No.,PROT,GLOBAL,TT,I,0,,treatment
+Entry No.,PROT,GLOBAL,TT,F,0,,treatment
+Entry No.,PROT,GLOBAL,TT,H,0,,treatment
+Entry No.,PROT,GLOBAL,TT,S,0,,treatment
+Entry No.,PROT,GLOBAL,TT,G,0,,treatment
+Entry No.,PROT,GLOBAL,TT,II,0,,treatment
+Entry No.,PROT,EMEA,R,I,1,,treatment
+Entry No.,PROT,EMEA,R,F,1,,treatment
+Entry No.,PROT,EMEA,R,H,1,,treatment
+Entry No.,PROT,EMEA,R,S,1,,treatment
+Entry No.,PROT,EMEA,D,I,1,,treatment
+Entry No.,PROT,EMEA,D,F,1,,treatment
+Entry No.,PROT,EMEA,D,H,1,,treatment
+Entry No.,PROT,EMEA,D,S,1,,treatment
+Appl. Code,PROT,GLOBAL,R,I,0,,application
+Appl. Code,PROT,GLOBAL,R,F,0,,application
+Appl. Code,PROT,GLOBAL,R,H,0,,application
+Appl. Code,PROT,GLOBAL,R,S,0,,application
+Appl. Code,PROT,GLOBAL,R,G,0,,application
+Appl. Code,PROT,GLOBAL,R,II,0,,application
+Appl. Code,PROT,GLOBAL,D,I,0,,application
+Appl. Code,PROT,GLOBAL,D,F,0,,application
+Appl. Code,PROT,GLOBAL,D,H,0,,application
+Appl. Code,PROT,GLOBAL,D,S,0,,application
+Appl. Code,PROT,GLOBAL,D,G,0,,application
+Appl. Code,PROT,GLOBAL,D,II,0,,application
+Appl. Code,PROT,GLOBAL,A,I,0,,application
+Appl. Code,PROT,GLOBAL,A,F,0,,application
+Appl. Code,PROT,GLOBAL,A,H,0,,application
+Appl. Code,PROT,GLOBAL,A,S,0,,application
+Appl. Code,PROT,GLOBAL,A,G,0,,application
+Appl. Code,PROT,GLOBAL,A,II,0,,application
+Appl. Code,PROT,GLOBAL,TT,I,0,,application
+Appl. Code,PROT,GLOBAL,TT,F,0,,application
+Appl. Code,PROT,GLOBAL,TT,H,0,,application
+Appl. Code,PROT,GLOBAL,TT,S,0,,application
+Appl. Code,PROT,GLOBAL,TT,G,0,,application
+Appl. Code,PROT,GLOBAL,TT,II,0,,application
+Appl. Code,PROT,EMEA,R,I,1,,application
+Appl. Code,PROT,EMEA,R,F,1,,application
+Appl. Code,PROT,EMEA,R,H,1,,application
+Appl. Code,PROT,EMEA,R,S,1,,application
+Appl. Code,PROT,EMEA,D,I,1,,application
+Appl. Code,PROT,EMEA,D,F,1,,application
+Appl. Code,PROT,EMEA,D,H,1,,application
+Appl. Code,PROT,EMEA,D,S,1,,application
+Application timing,PROT,GLOBAL,R,I,0,,application
+Application timing,PROT,GLOBAL,R,F,0,,application
+Application timing,PROT,GLOBAL,R,H,1,,application
+Application timing,PROT,GLOBAL,R,S,0,,application
+Application timing,PROT,GLOBAL,R,G,1,,application
+Application timing,PROT,GLOBAL,R,II,0,,application
+Application timing,PROT,GLOBAL,D,I,0,,application
+Application timing,PROT,GLOBAL,D,F,0,,application
+Application timing,PROT,GLOBAL,D,H,1,,application
+Application timing,PROT,GLOBAL,D,S,0,,application
+Application timing,PROT,GLOBAL,D,G,1,,application
+Application timing,PROT,GLOBAL,D,II,0,,application
+Application timing,PROT,GLOBAL,A,I,0,,application
+Application timing,PROT,GLOBAL,A,F,0,,application
+Application timing,PROT,GLOBAL,A,H,1,,application
+Application timing,PROT,GLOBAL,A,S,0,,application
+Application timing,PROT,GLOBAL,A,G,1,,application
+Application timing,PROT,GLOBAL,A,II,0,,application
+Application timing,PROT,GLOBAL,TT,I,0,,application
+Application timing,PROT,GLOBAL,TT,F,0,,application
+Application timing,PROT,GLOBAL,TT,H,1,,application
+Application timing,PROT,GLOBAL,TT,S,0,,application
+Application timing,PROT,GLOBAL,TT,G,1,,application
+Application timing,PROT,GLOBAL,TT,II,0,,application
+Application timing,PROT,EMEA,R,I,0,,application
+Application timing,PROT,EMEA,R,F,0,,application
+Application timing,PROT,EMEA,R,H,1,,application
+Application timing,PROT,EMEA,R,S,0,,application
+Application timing,PROT,EMEA,D,I,0,,application
+Application timing,PROT,EMEA,D,F,0,,application
+Application timing,PROT,EMEA,D,H,1,,application
+Application timing,PROT,EMEA,D,S,0,,application
+Application Method,PROT,GLOBAL,R,I,1,,application
+Application Method,PROT,GLOBAL,R,F,1,,application
+Application Method,PROT,GLOBAL,R,H,1,,application
+Application Method,PROT,GLOBAL,R,S,1,,application
+Application Method,PROT,GLOBAL,R,G,1,,application
+Application Method,PROT,GLOBAL,R,II,1,,application
+Application Method,PROT,GLOBAL,D,I,1,,application
+Application Method,PROT,GLOBAL,D,F,1,,application
+Application Method,PROT,GLOBAL,D,H,1,,application
+Application Method,PROT,GLOBAL,D,S,1,,application
+Application Method,PROT,GLOBAL,D,G,1,,application
+Application Method,PROT,GLOBAL,D,II,1,,application
+Application Method,PROT,GLOBAL,A,I,1,,application
+Application Method,PROT,GLOBAL,A,F,1,,application
+Application Method,PROT,GLOBAL,A,H,1,,application
+Application Method,PROT,GLOBAL,A,S,1,,application
+Application Method,PROT,GLOBAL,A,G,1,,application
+Application Method,PROT,GLOBAL,A,II,1,,application
+Application Method,PROT,GLOBAL,TT,I,1,,application
+Application Method,PROT,GLOBAL,TT,F,1,,application
+Application Method,PROT,GLOBAL,TT,H,1,,application
+Application Method,PROT,GLOBAL,TT,S,1,,application
+Application Method,PROT,GLOBAL,TT,G,1,,application
+Application Method,PROT,GLOBAL,TT,II,1,,application
+Application Method,PROT,EMEA,R,I,1,,application
+Application Method,PROT,EMEA,R,F,1,,application
+Application Method,PROT,EMEA,R,H,1,,application
+Application Method,PROT,EMEA,R,S,1,,application
+Application Method,PROT,EMEA,D,I,1,,application
+Application Method,PROT,EMEA,D,F,1,,application
+Application Method,PROT,EMEA,D,H,1,,application
+Application Method,PROT,EMEA,D,S,1,,application
+Application Placement,PROT,GLOBAL,R,I,1,,application
+Application Placement,PROT,GLOBAL,R,F,1,,application
+Application Placement,PROT,GLOBAL,R,H,1,,application
+Application Placement,PROT,GLOBAL,R,S,1,,application
+Application Placement,PROT,GLOBAL,R,G,1,,application
+Application Placement,PROT,GLOBAL,R,II,1,,application
+Application Placement,PROT,GLOBAL,D,I,0,,application
+Application Placement,PROT,GLOBAL,D,F,0,,application
+Application Placement,PROT,GLOBAL,D,H,0,,application
+Application Placement,PROT,GLOBAL,D,S,0,,application
+Application Placement,PROT,GLOBAL,D,G,0,,application
+Application Placement,PROT,GLOBAL,D,II,0,,application
+Application Placement,PROT,GLOBAL,A,I,0,,application
+Application Placement,PROT,GLOBAL,A,F,0,,application
+Application Placement,PROT,GLOBAL,A,H,0,,application
+Application Placement,PROT,GLOBAL,A,S,0,,application
+Application Placement,PROT,GLOBAL,A,G,0,,application
+Application Placement,PROT,GLOBAL,A,II,0,,application
+Application Placement,PROT,GLOBAL,TT,I,0,,application
+Application Placement,PROT,GLOBAL,TT,F,0,,application
+Application Placement,PROT,GLOBAL,TT,H,0,,application
+Application Placement,PROT,GLOBAL,TT,S,0,,application
+Application Placement,PROT,GLOBAL,TT,G,0,,application
+Application Placement,PROT,GLOBAL,TT,II,0,,application
+Application Placement,PROT,EMEA,R,I,1,,application
+Application Placement,PROT,EMEA,R,F,1,,application
+Application Placement,PROT,EMEA,R,H,1,,application
+Application Placement,PROT,EMEA,R,S,1,,application
+Application Placement,PROT,EMEA,D,I,1,,application
+Application Placement,PROT,EMEA,D,F,1,,application
+Application Placement,PROT,EMEA,D,H,1,,application
+Application Placement,PROT,EMEA,D,S,1,,application
+Stage Majority,PROT,GLOBAL,R,I,0,,application
+Stage Majority,PROT,GLOBAL,R,F,0,,application
+Stage Majority,PROT,GLOBAL,R,H,0,,application
+Stage Majority,PROT,GLOBAL,R,S,0,,application
+Stage Majority,PROT,GLOBAL,R,G,0,,application
+Stage Majority,PROT,GLOBAL,R,II,0,,application
+Stage Majority,PROT,GLOBAL,D,I,0,,application
+Stage Majority,PROT,GLOBAL,D,F,0,,application
+Stage Majority,PROT,GLOBAL,D,H,0,,application
+Stage Majority,PROT,GLOBAL,D,S,0,,application
+Stage Majority,PROT,GLOBAL,D,G,0,,application
+Stage Majority,PROT,GLOBAL,D,II,0,,application
+Stage Majority,PROT,GLOBAL,A,I,0,,application
+Stage Majority,PROT,GLOBAL,A,F,0,,application
+Stage Majority,PROT,GLOBAL,A,H,0,,application
+Stage Majority,PROT,GLOBAL,A,S,0,,application
+Stage Majority,PROT,GLOBAL,A,G,0,,application
+Stage Majority,PROT,GLOBAL,A,II,0,,application
+Stage Majority,PROT,GLOBAL,TT,I,0,,application
+Stage Majority,PROT,GLOBAL,TT,F,0,,application
+Stage Majority,PROT,GLOBAL,TT,H,0,,application
+Stage Majority,PROT,GLOBAL,TT,S,0,,application
+Stage Majority,PROT,GLOBAL,TT,G,0,,application
+Stage Majority,PROT,GLOBAL,TT,II,0,,application
+Stage Majority,PROT,EMEA,R,I,0,,application
+Stage Majority,PROT,EMEA,R,F,0,,application
+Stage Majority,PROT,EMEA,R,H,0,,application
+Stage Majority,PROT,EMEA,R,S,0,,application
+Stage Majority,PROT,EMEA,D,I,0,,application
+Stage Majority,PROT,EMEA,D,F,0,,application
+Stage Majority,PROT,EMEA,D,H,0,,application
+Stage Majority,PROT,EMEA,D,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,R,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,D,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,A,II,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,I,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,F,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,H,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,S,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,G,0,,application
+Leaf Wall Area,PROT,GLOBAL,TT,II,0,,application
+Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,R,H,0,,application
+Leaf Wall Area,PROT,EMEA,R,S,0,,application
+Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,application
+Leaf Wall Area,PROT,EMEA,D,H,0,,application
+Leaf Wall Area,PROT,EMEA,D,S,0,,application
+Project Number,PROT,GLOBAL,R,I,1,,general
+Project Number,PROT,GLOBAL,R,F,1,,general
+Project Number,PROT,GLOBAL,R,H,1,,general
+Project Number,PROT,GLOBAL,R,S,1,,general
+Project Number,PROT,GLOBAL,R,G,1,,general
+Project Number,PROT,GLOBAL,R,II,1,,general
+Project Number,PROT,GLOBAL,D,I,1,,general
+Project Number,PROT,GLOBAL,D,F,1,,general
+Project Number,PROT,GLOBAL,D,H,1,,general
+Project Number,PROT,GLOBAL,D,S,1,,general
+Project Number,PROT,GLOBAL,D,G,1,,general
+Project Number,PROT,GLOBAL,D,II,1,,general
+Project Number,PROT,GLOBAL,A,I,1,,general
+Project Number,PROT,GLOBAL,A,F,1,,general
+Project Number,PROT,GLOBAL,A,H,1,,general
+Project Number,PROT,GLOBAL,A,S,1,,general
+Project Number,PROT,GLOBAL,A,G,1,,general
+Project Number,PROT,GLOBAL,A,II,1,,general
+Project Number,PROT,GLOBAL,TT,I,1,,general
+Project Number,PROT,GLOBAL,TT,F,1,,general
+Project Number,PROT,GLOBAL,TT,H,1,,general
+Project Number,PROT,GLOBAL,TT,S,1,,general
+Project Number,PROT,GLOBAL,TT,G,1,,general
+Project Number,PROT,GLOBAL,TT,II,1,,general
+Project Number,PROT,EMEA,R,I,1,,general
+Project Number,PROT,EMEA,R,F,1,,general
+Project Number,PROT,EMEA,R,H,1,,general
+Project Number,PROT,EMEA,R,S,1,,general
+Project Number,PROT,EMEA,D,I,1,,general
+Project Number,PROT,EMEA,D,F,1,,general
+Project Number,PROT,EMEA,D,H,1,,general
+Project Number,PROT,EMEA,D,S,1,,general
+Country,PROT,GLOBAL,R,I,0,,general
+Country,PROT,GLOBAL,R,F,0,,general
+Country,PROT,GLOBAL,R,H,0,,general
+Country,PROT,GLOBAL,R,S,0,,general
+Country,PROT,GLOBAL,R,G,0,,general
+Country,PROT,GLOBAL,R,II,0,,general
+Country,PROT,GLOBAL,D,I,0,,general
+Country,PROT,GLOBAL,D,F,0,,general
+Country,PROT,GLOBAL,D,H,0,,general
+Country,PROT,GLOBAL,D,S,0,,general
+Country,PROT,GLOBAL,D,G,0,,general
+Country,PROT,GLOBAL,D,II,0,,general
+Country,PROT,GLOBAL,A,I,0,,general
+Country,PROT,GLOBAL,A,F,0,,general
+Country,PROT,GLOBAL,A,H,0,,general
+Country,PROT,GLOBAL,A,S,0,,general
+Country,PROT,GLOBAL,A,G,0,,general
+Country,PROT,GLOBAL,A,II,0,,general
+Country,PROT,GLOBAL,TT,I,0,,general
+Country,PROT,GLOBAL,TT,F,0,,general
+Country,PROT,GLOBAL,TT,H,0,,general
+Country,PROT,GLOBAL,TT,S,0,,general
+Country,PROT,GLOBAL,TT,G,0,,general
+Country,PROT,GLOBAL,TT,II,0,,general
+Country,PROT,EMEA,R,I,1,,general
+Country,PROT,EMEA,R,F,1,,general
+Country,PROT,EMEA,R,H,1,,general
+Country,PROT,EMEA,R,S,1,,general
+Country,PROT,EMEA,D,I,1,,general
+Country,PROT,EMEA,D,F,1,,general
+Country,PROT,EMEA,D,H,1,,general
+Country,PROT,EMEA,D,S,1,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,R,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,D,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,A,II,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,I,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,F,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,H,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,S,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,G,0,,general
+Harvest Destr. Flag,PROT,GLOBAL,TT,II,0,,general
+Harvest Destr. Flag,PROT,EMEA,R,I,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,F,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,H,1,,general
+Harvest Destr. Flag,PROT,EMEA,R,S,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,I,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,F,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,H,1,,general
+Harvest Destr. Flag,PROT,EMEA,D,S,1,,general
+Leaf Wall Area Unit,PROT,GLOBAL,R,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,R,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,D,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,A,II,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,I,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,F,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,H,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,S,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,G,0,,application
+Leaf Wall Area Unit,PROT,GLOBAL,TT,II,0,,application
+Leaf Wall Area Unit,PROT,EMEA,R,I,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,R,F,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,R,H,0,,application
+Leaf Wall Area Unit,PROT,EMEA,R,S,0,,application
+Leaf Wall Area Unit,PROT,EMEA,D,I,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,D,F,1,DOSE,application
+Leaf Wall Area Unit,PROT,EMEA,D,H,0,,application
+Leaf Wall Area Unit,PROT,EMEA,D,S,0,,application

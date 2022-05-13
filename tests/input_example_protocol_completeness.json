@@ -1,0 +1,1317 @@
+{
+  "data": {
+    "protocols": [
+      {
+        "tptIdKey": "HA21ESPA2K",
+        "keywords": [
+          "CROPSAFETY",
+          "EFFICACY"
+        ],
+        "guidelines": [],
+        "dataDeadline": "2021-08-21T00:00:00",
+        "controlField": "Included controls: plots are the same as other plots, randomized in the trial",
+        "plannedNumberOfApplications": null,
+        "protocolEditionNumber": 1.01,
+        "numberOfReplicates": 3,
+        "plotArea": 10,
+        "plotAreaUnit": "M2",
+        "siteType": "Open field",
+        "plotDescription": null,
+        "plotDescriptionBasis": null,
+        "experimentalSeason": "Spring",
+        "targets": [
+          {
+            "targetName": "Polygonum persicaria L."
+          },
+          {
+            "targetName": "Dicot weeds"
+          },
+          {
+            "targetName": "Monocot weeds"
+          }
+        ],
+        "gepCertification": "http://gepcertibase.eu/documents/Bayer%20CropScience,%20SL%20EOR%208%2096.pdf",
+        "plannedNumberOfAssessments": null,
+        "settings": null,
+        "fieldResponsibles": [
+          {
+            "type": "Licence User",
+            "typeCode": "2"
+          },
+          {
+            "type": "Technical Manager",
+            "typeCode": "1"
+          }
+        ],
+        "plannedAssessments": [
+          {
+            "standardEvaluationId": "PE12AD1",
+            "partRated": null,
+            "ratingType": "PHYGEN",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": null
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A1-A4"
+          },
+          {
+            "standardEvaluationId": "EE22AD1",
+            "partRated": null,
+            "ratingType": "CONTRO",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": null
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A2-A4"
+          },
+          {
+            "standardEvaluationId": "PE12AD3",
+            "partRated": null,
+            "ratingType": "PHYGEN",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": null
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "AX"
+          }
+        ],
+        "treatments": [
+          {
+            "treatmentKey": 1,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "UNTREATED",
+                    "synonyms": [
+                      "UNTREATED"
+                    ],
+                    "category": "Specific Variable Group (e.g. Untreated)",
+                    "dosage": {
+                      "quantity": null,
+                      "productDosageUnit": null,
+                      "transferDosage": null,
+                      "transferDosageUnit": null
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": null,
+                "treatmentRole": "Untreated + Reference",
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 2,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "AE 0172747 02 OD06 A1",
+                    "synonyms": [
+                      "LAUDIS OD"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.11220000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.7000000000000002,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 3,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "BCMOSI_19101601",
+                    "synonyms": [
+                      "RAKER PRO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 40,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "BCSCMA_20090301",
+                    "synonyms": [
+                      "PRIMUS A334"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.9299999999999999,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 4,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057835",
+                    "synonyms": [
+                      "BCS-DG65636"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0001789 00 SC43 A1",
+                    "synonyms": [
+                      "AE 0001789 00 SC43 A1"
+                    ],
+                    "category": "Identification Code (old)",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 5,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057835",
+                    "synonyms": [
+                      "BCS-DG65636"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0001789 00 SC43 A1",
+                    "synonyms": [
+                      "AE 0001789 00 SC43 A1"
+                    ],
+                    "category": "Identification Code (old)",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 6,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057835",
+                    "synonyms": [
+                      "BCS-DG65636"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 7,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057835",
+                    "synonyms": [
+                      "BCS-DG65636"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 8,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0001789 00 SC43 A1",
+                    "synonyms": [
+                      "AE 0001789 00 SC43 A1"
+                    ],
+                    "category": "Identification Code (old)",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 9,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0001789 00 SC43 A1",
+                    "synonyms": [
+                      "AE 0001789 00 SC43 A1"
+                    ],
+                    "category": "Identification Code (old)",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 10,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0001789 00 SC43 A1",
+                    "synonyms": [
+                      "AE 0001789 00 SC43 A1"
+                    ],
+                    "category": "Identification Code (old)",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 11,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.375,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 75,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.15,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 12,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 13,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 14,
+            "harvestDestruction": true,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "MIPOWE",
+                "products": [
+                  {
+                    "productName": "SP102000057834",
+                    "synonyms": [
+                      "BCS-DI12538"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.25,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000012902",
+                    "synonyms": [
+                      "IDF"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 50,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.1,
+                      "transferDosageUnit": "KG/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "SP102000034729",
+                    "synonyms": [
+                      "TBA"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 300,
+                      "productDosageUnit": "G A/HA",
+                      "transferDosage": 0.6,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  },
+                  {
+                    "productName": "AE 0297441 00 1R81 A1",
+                    "synonyms": [
+                      "MERO"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 1.0995000000000001,
+                      "productDosageUnit": "KG A/HA",
+                      "transferDosage": 1.5,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Soil"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "14",
+                    "leafWallArea": null,
+                    "leafWallAreaUnit": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              },
+              {
+                "tankMixCode": "Y",
+                "coreOtherTreatments": null,
+                "treatmentRole": null,
+                "applicationCodes": "A"
+              }
+            ]
+          }
+        ],
+        "trialResponsibles": [
+          {
+            "hasName": true,
+            "internalValue": "I",
+            "plannedNumberOfTrials": 1,
+            "siteName": null,
+            "testType": "TT01"
+          }
+        ],
+        "crops": [
+          {
+            "useGroupCode": "A2",
+            "cropName": "Zea mays L."
+          }
+        ],
+        "projectNumbers": [
+          "BIRXL057",
+          "SCREENING"
+        ],
+        "location": {
+          "country": "Spain"
+        }
+      }
+    ]
+  },
+    "tests": [
+      {
+        "ProtocolCompleteness": {
+          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_protocol.py",
+          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
+          "version": "completeness_Protocol_V1_0_0" 
+        }
+      }
+    ]
+  }
+  

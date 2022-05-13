@@ -6,6 +6,14 @@
         "colD": [1,2,3, "testD"],
         "colE": {
             "col_colEA": "testEA"
+        },
+        "colF": 15.0
+    },
+    "tests": [
+        {"range_check": {
+            "upper_bound": 100.0,
+            "lower_bound": 0.0
+            }
         }
-    }
+    ]
 }

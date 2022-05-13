@@ -1,3 +1,4 @@
+
 # importing the requests library 
 import requests 
 import json
@@ -5,8 +6,11 @@ import json
   
 # defining the api-endpoint  
 API_ENDPOINT = "http://127.0.0.1:8005/run"
-  
-with open('C:/cls/codigo/qualityEngine/DataQualityEngine/tests/input_example.json') as json_file:
+#API_ENDPOINT = "http://127.0.0.1:10020/run"
+
+
+#with open('C:/cls/codigo/QE/DataQualityEngine/tests/input_example_TD_completeness_1.json') as json_file:
+with open('/home/ubuntu/DataQualityEngine/tests/input_example_TD_completeness_1.json') as json_file:
     data = json.load(json_file)
 
 
@@ -17,3 +21,4 @@ r = requests.post(url = API_ENDPOINT, data=json.dumps(data), headers=headers)
 # extracting response text  
 pastebin_url = r.text 
 print("The pastebin URL is:%s"%pastebin_url) 
+

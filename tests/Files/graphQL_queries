@@ -1,0 +1,229 @@
+TDs status 0 -----------------------------
+
+  query{
+    trialDescriptions(filter: [{
+  tptIdKey:["SR20EUR26MBR"]
+    }]
+    ){
+      
+      tptIdKey
+      projectNumbers
+      keywords
+      siteType
+      experimentalSeason
+      numberOfReplicates
+      plannedNumberOfApplications
+      targets{
+        name
+      }
+      crops{
+        name
+      }
+      
+      protocolEditionNumber
+      guidelines
+      plotArea
+      plotAreaUnit
+      dataDeadline
+      
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      trialResponsibles{
+        hasName
+        siteName
+        testType
+        internalValue
+        plannedNumberOfTrials
+      }
+      
+    }}
+
+
+
+TDs status 1 ------------------------------
+
+  query{
+    trialDescriptions(filter: [{
+  tptIdKey:["IR21EUR76KTR"]
+    }]
+    ){
+      
+      tptIdKey
+      keywords
+      guidelines
+      dataDeadline
+      controlField
+      plannedNumberOfApplications
+      protocolEditionNumber
+      numberOfReplicates
+      plotArea
+      plotAreaUnit
+      siteType
+      
+      plotDescription
+      plotDescriptionBasis
+      experimentalSeason
+      targets{
+        targetName: name
+      }
+      
+      gepCertification   
+      
+            
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      
+      plannedAssessments {
+				standardEvaluationId
+        partRated
+        ratingType
+        sampleSize
+        sampleSizeUnit
+        target{
+          name
+        }
+        crop{
+          name
+        }
+        plannedUnit : unit
+        numberOfSubSamples
+        ratingClass        
+        assessmentCode
+      }
+      
+      treatments{
+        applications{
+          applicationCode
+          applicationTimingCode
+          products{
+            equipment{
+              method
+              placement
+            }
+          }
+          crops{
+            cropStageCode
+            leafWallArea
+          }
+        }
+      }
+      
+      trialResponsibles {
+        hasName
+        internalValue
+        plannedNumberOfTrials
+        siteName
+        testType
+      }
+      
+      crops{
+        useGroupCode
+      }
+    }}          
+      
+
+
+
+Protocols --------------------
+
+
+  query{
+    protocols(filter: [{
+			tptIdKey:["HA21ESPA2K"]
+    }]
+    ){
+      
+      tptIdKey
+      keywords
+      guidelines
+      dataDeadline
+      controlField
+      plannedNumberOfApplications
+      protocolEditionNumber
+      numberOfReplicates
+      plotArea
+      plotAreaUnit
+      siteType
+      
+      plotDescription
+      plotDescriptionBasis
+      experimentalSeason
+      targets{
+        targetName: name
+      }
+      
+      gepCertification
+      
+      
+     
+      fieldResponsibles {
+        type
+        typeCode
+      }
+      
+      
+      plannedAssessments
+       {
+				standardEvaluationId
+        partRated
+        ratingType
+        sampleSize
+        sampleSizeUnit
+        target{
+          name
+        }
+        crop{
+          name
+        }
+        plannedUnit : unit
+        numberOfSubSamples
+        ratingClass        
+        assessmentCode
+      }
+      
+      treatments{
+        treatmentKey
+				harvestDestruction
+        applications{
+          applicationCode
+          applicationTimingCode
+          products{
+            equipment{
+              method
+              placement
+            }
+          }
+          crops{
+            cropStageCode
+            leafWallArea
+            leafWallAreaUnit
+          }
+        }
+      }
+      
+      trialResponsibles {
+        hasName
+        internalValue
+        plannedNumberOfTrials
+        siteName
+        testType
+      }
+      
+      crops{
+        useGroupCode
+        cropName: name
+      }
+      
+      projectNumbers
+      
+      location{
+        country
+      }
+      
+    }}

@@ -1,0 +1,3399 @@
+{
+  "data": {
+    "fieldtrials": [
+      {
+        "tptIdKey": "HD21CANCKHGVN2",
+        "status": "Interim",
+        "quality": "Good quality (3)",
+        "objectivesFulfilled": "fully",
+        "location": {
+          "city": "Olds",
+          "country": "Canada",
+          "latitude": "51.78341",
+          "longitude": "-114.10199"
+        },
+        "tillageType": "Conventional-Till",
+        "soil": {
+          "texture": "Loam"
+        },
+        "crops": [
+          {
+            "name": "Pisum sativum L. var. arvense",
+            "variety": "CDC AMARILLO",
+            "planting": {
+              "date": "2021-05-29T00:00:00",
+              "rate": 170,
+              "rateUnit": "KG/HA",
+              "seedCount": null,
+              "seedCountUnit": null,
+              "depth": 5,
+              "depthUnit": "CM"
+            }
+          }
+        ],
+        "targets": [],
+        "treatments": [
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          },
+          {
+            "applications": [
+              {
+                "applicationCode": "A",
+                "date": "2021-05-28T07:20:00",
+                "applicationTiming": "Pre Plant",
+                "percentRelativeHumidity": 45,
+                "airTemperature": 9,
+                "airTemperatureUnit": "C",
+                "percentCloudCover": 30,
+                "windStrength": "Calm",
+                "plantCondition": null,
+                "soilMoisture": "Slightly Wet, Moist",
+                "soilCondition": "Fine",
+                "crops": [
+                  {
+                    "percentageCropCoverage": null,
+                    "plantingCondition": null,
+                    "cropStage": "Dry seed",
+                    "percentageAtCropStage": 100,
+                    "maxCropStage": "Dry seed",
+                    "percentageAtMaxCropStage": 100,
+                    "minCropStage": "Dry seed",
+                    "percentageAtMinCropStage": 100
+                  }
+                ],
+                "targets": [],
+                "products": [
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  },
+                  {
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Broadcast - Soil",
+                      "equipmentType": "Sprayer - Backpack, Knapsack, Hand-held",
+                      "propellantType": "Compressed CO2",
+                      "diluentCarrier": "Water",
+                      "sprayVolume": 46.8,
+                      "sprayVolumeUnit": "L/HA"
+                    }
+                  }
+                ]
+              }
+            ],
+            "assessmentMeanValues": [
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "3 leaves unfolded or 3 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-18T00:00:00",
+                "assessmentCode": "AE1"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "5 leaves unfolded or 5 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-06-25T00:00:00",
+                "assessmentCode": "AE2"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "8 leaves unfolded or 8 tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-02T00:00:00",
+                "assessmentCode": "AE3"
+              },
+              {
+                "standardEvaluationId": "PE12AD1",
+                "label": "Estimation % phytotoxicity (PHYGEN) (symptoms describe in comment)",
+                "target": null,
+                "targetStage": null,
+                "cropStage": "9 or more leaves unfolded or 9 or more tendrils developed",
+                "partRated": "PLANT",
+                "ratingType": "PHYGEN",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "PLOT",
+                "date": "2021-07-09T00:00:00",
+                "assessmentCode": "AE4"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "%",
+                "sampleSize": 1,
+                "sampleSizeUnit": "SAMPLE",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "GRAIN",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 9,
+                "sampleSizeUnit": "M2",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "KG",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%UNCK",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "%STAN",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              },
+              {
+                "standardEvaluationId": "HM41CA6",
+                "label": "harvest, measurement, weight-standard moisture, % MOICON for each plot",
+                "target": null,
+                "targetStage": null,
+                "cropStage": null,
+                "partRated": "YIELD",
+                "ratingType": "WEIGHT",
+                "unit": "T-MET",
+                "sampleSize": 1,
+                "sampleSizeUnit": "HA",
+                "date": "2021-09-04T00:00:00",
+                "assessmentCode": "H1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+    "tests": [
+      {
+        "TrialCompleteness": {
+          "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_trial.py",
+          "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_Trial_V1_0_0.csv",
+          "version": "completeness_Trial_V1_0_0"
+        }
+      }
+    ]
+  }
+  

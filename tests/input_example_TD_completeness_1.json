@@ -1,0 +1,546 @@
+{
+  "data": {
+    "trialDescriptions": [
+      {
+        "tptIdKey": "IR21EUR76KTR",
+        "keywords": [
+          "REGISTR",
+          "EFFICACY"
+        ],
+        "guidelines": [
+          "Design and analysis of efficacy evaluation trials",
+          "Dose expression of plant protection products",
+          "Hoplocampa spp. on orchards",
+          "Phytotoxicity assessment"
+        ],
+        "dataDeadline": null,
+        "controlField": "Included controls: plots are the same as other plots, randomized in the trial",
+        "plannedNumberOfApplications": "2",
+        "protocolEditionNumber": 0.01,
+        "numberOfReplicates": 4,
+        "plotArea": 40,
+        "plotAreaUnit": "M2",
+        "siteType": "Orchard",
+        "plotDescription": 1,
+        "plotDescriptionBasis": "Tree",
+        "experimentalSeason": "Spring",
+        "targets": [
+          {
+            "targetName": "Psylla piri"
+          }
+        ],
+        "gepCertification": null,
+        "plannedNumberOfAssessments": 4,
+        "settings": null,
+        "fieldResponsibles": [
+          {
+            "type": "Licence User",
+            "typeCode": "2"
+          },
+          {
+            "type": "Technical Manager",
+            "typeCode": "1"
+          }
+        ],
+        "plannedAssessments": [
+          {
+            "standardEvaluationId": "PE11AD1",
+            "partRated": null,
+            "ratingType": "PHYGEN",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": null
+            },
+            "crop": {
+              "name": "Pyrus communis L."
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A1-A4"
+          },
+          {
+            "standardEvaluationId": "EC16XXX",
+            "partRated": null,
+            "ratingType": "ECOUNT",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": "Psylla piri"
+            },
+            "crop": {
+              "name": "Pyrus communis L."
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A2-A4"
+          },
+          {
+            "standardEvaluationId": "EE44AD1",
+            "partRated": null,
+            "ratingType": "PESINC",
+            "sampleSize": null,
+            "sampleSizeUnit": null,
+            "target": {
+              "name": "Psylla piri"
+            },
+            "crop": {
+              "name": "Pyrus communis L."
+            },
+            "plannedUnit": null,
+            "numberOfSubSamples": null,
+            "ratingClass": null,
+            "assessmentCode": "A3-A4"
+          }
+        ],
+        "treatments": [
+          {
+            "treatmentKey": 1,
+            "applications": [],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": null,
+                "treatmentRole": "Untreated",
+                "applicationCodes": null
+              }
+            ]
+          },
+          {
+            "treatmentKey": 2,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "PREBLO",
+                "products": [
+                  {
+                    "productName": "UNKNOWN_PRODUCT",
+                    "synonyms": [
+                      "UNKNOWN PRODUCT"
+                    ],
+                    "category": "Other Code Group",
+                    "dosage": {
+                      "quantity": null,
+                      "productDosageUnit": null,
+                      "transferDosage": 0.32,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "69",
+                    "leafWallArea": null
+                  }
+                ]
+              },
+              {
+                "applicationCode": "C",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "UNKNOWN_PRODUCT",
+                    "synonyms": [
+                      "UNKNOWN PRODUCT"
+                    ],
+                    "category": "Other Code Group",
+                    "dosage": {
+                      "quantity": null,
+                      "productDosageUnit": null,
+                      "transferDosage": 0.32,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              },
+              {
+                "applicationCode": "D",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "UNKNOWN_PRODUCT",
+                    "synonyms": [
+                      "UNKNOWN PRODUCT"
+                    ],
+                    "category": "Other Code Group",
+                    "dosage": {
+                      "quantity": null,
+                      "productDosageUnit": null,
+                      "transferDosage": 0.32,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Reference",
+                "applicationCodes": "ACD"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 3,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "PREBLO",
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.299875,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 10,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "69",
+                    "leafWallArea": null
+                  }
+                ]
+              },
+              {
+                "applicationCode": "C",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.299875,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 10,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              },
+              {
+                "applicationCode": "D",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.299875,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 10,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Experimental",
+                "applicationCodes": "ACD"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 4,
+            "applications": [
+              {
+                "applicationCode": "A",
+                "applicationTimingCode": "PREBLO",
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.4798,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 16,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": "69",
+                    "leafWallArea": null
+                  }
+                ]
+              },
+              {
+                "applicationCode": "C",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.4798,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 16,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              },
+              {
+                "applicationCode": "D",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.4798,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 16,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Experimental",
+                "applicationCodes": "ACD"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 5,
+            "applications": [
+              {
+                "applicationCode": "B",
+                "applicationTimingCode": "POSTBL",
+                "products": [
+                  {
+                    "productName": "2007-001617",
+                    "synonyms": [
+                      "MOVENTO 100 SC"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 0.0125,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": ".",
+                    "leafWallArea": null
+                  }
+                ]
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Experimental",
+                "applicationCodes": "B"
+              }
+            ]
+          },
+          {
+            "treatmentKey": 6,
+            "applications": [
+              {
+                "applicationCode": "B",
+                "applicationTimingCode": "POSTBL",
+                "products": [
+                  {
+                    "productName": "2007-001617",
+                    "synonyms": [
+                      "MOVENTO 100 SC"
+                    ],
+                    "category": "Info-String, short",
+                    "dosage": {
+                      "quantity": 0.0125,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 2,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": "Spray",
+                      "placement": "Foliar-Topical"
+                    }
+                  }
+                ],
+                "crops": [
+                  {
+                    "cropStageCode": ".",
+                    "leafWallArea": null
+                  }
+                ]
+              },
+              {
+                "applicationCode": "C",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.299875,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 10,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              },
+              {
+                "applicationCode": "D",
+                "applicationTimingCode": null,
+                "products": [
+                  {
+                    "productName": "SP102000034231",
+                    "synonyms": [
+                      "FLIPPER"
+                    ],
+                    "category": "Commercial Name",
+                    "dosage": {
+                      "quantity": 0.299875,
+                      "productDosageUnit": "% A/V",
+                      "transferDosage": 10,
+                      "transferDosageUnit": "L/HA"
+                    },
+                    "equipment": {
+                      "method": null,
+                      "placement": null
+                    }
+                  }
+                ],
+                "crops": []
+              }
+            ],
+            "entries": [
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Experimental",
+                "applicationCodes": "B"
+              },
+              {
+                "tankMixCode": null,
+                "coreOtherTreatments": "C",
+                "treatmentRole": "Experimental",
+                "applicationCodes": "CD"
+              }
+            ]
+          }
+        ],
+        "trialResponsibles": [
+          {
+            "hasName": true,
+            "internalValue": "I",
+            "plannedNumberOfTrials": 1,
+            "siteName": "CHE",
+            "testType": "TT03"
+          }
+        ],
+        "crops": [
+          {
+            "useGroupCode": "C2"
+          }
+        ]
+      }
+    ]
+  },
+  "tests": [
+    {
+      "TDCompleteness_1": {
+        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_TD_1.py",
+        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
+        "version": "completeness_TD_V2_0_0"
+      }
+    }
+  ]
+}

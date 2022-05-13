@@ -1,0 +1,60 @@
+{
+  "data": {
+    "trialDescriptions": [
+      {
+        "tptIdKey": "FD21EUR14RMR",
+        "projectNumbers": [
+          "BIRX0056",
+          "DEVELOPMENT"
+        ],
+        "keywords": [
+          "CROPSAFETY",
+          "EFFICACY"
+        ],
+        "siteType": ".",
+        "experimentalSeason": "Northern hemisphere season",
+        "numberOfReplicates": null,
+        "plannedNumberOfApplications": "6",
+        "targets": [],
+        "crops": [],
+        "protocolEditionNumber": 1.01,
+        "guidelines": [],
+        "plotArea": null,
+        "plotAreaUnit": "?",
+        "dataDeadline": "2021-09-15T00:00:00",
+        "settings": null,
+        "fieldResponsibles": [
+          {
+            "type": "Technical Manager",
+            "typeCode": "1"
+          }
+        ],
+        "trialResponsibles": [
+          {
+            "hasName": true,
+            "siteName": "ITA",
+            "testType": "TT02",
+            "internalValue": "I",
+            "plannedNumberOfTrials": 1
+          },
+          {
+            "hasName": false,
+            "siteName": "?",
+            "testType": "*",
+            "internalValue": ".",
+            "plannedNumberOfTrials": 1
+          }
+        ]
+      }
+    ]
+  },
+  "tests": [
+    {     
+        "TDCompleteness_0": {
+        "attributeMapping": "/home/ubuntu/DataQualityEngine/tests/Files/attribute_mapping_TD_0.py",
+        "weights": "/home/ubuntu/DataQualityEngine/tests/Files/completeness_v2.csv",
+        "version": "completeness_TD_V2_0_0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,661 @@
+Field,Region,Trial,Indication,Weight,Exception,Section
+Assessment table/Part rated,TBD,R,I,5,PHSES,assessments
+Assessment table/Part rated,TBD,R,F,5,PHSES,assessments
+Assessment table/Part rated,TBD,R,H,5,PHSES,assessments
+Assessment table/Part rated,TBD,R,S,5,PHSES,assessments
+Assessment table/Part rated,TBD,R,II,5,PHSES,assessments
+Assessment table/Part rated,TBD,A,I,5,PHSES,assessments
+Assessment table/Part rated,TBD,A,F,5,PHSES,assessments
+Assessment table/Part rated,TBD,A,H,5,PHSES,assessments
+Assessment table/Part rated,TBD,A,S,5,PHSES,assessments
+Assessment table/Part rated,TBD,A,II,5,PHSES,assessments
+Assessment table/Part rated,TBD,D,I,5,PHSES,assessments
+Assessment table/Part rated,TBD,D,F,5,PHSES,assessments
+Assessment table/Part rated,TBD,D,H,5,PHSES,assessments
+Assessment table/Part rated,TBD,D,S,5,PHSES,assessments
+Assessment table/Part rated,TBD,D,II,5,PHSES,assessments
+Assessment table/Part rated,LOCAL,TT,I,5,PHSES,assessments
+Assessment table/Part rated,LOCAL,TT,F,5,PHSES,assessments
+Assessment table/Part rated,LOCAL,TT,H,5,PHSES,assessments
+Assessment table/Part rated,LOCAL,TT,S,5,PHSES,assessments
+Assessment table/Part rated,LOCAL,TT,II,5,PHSES,assessments
+Assessment table/Assessment type,TBD,R,I,5,,assessments
+Assessment table/Assessment type,TBD,R,F,5,,assessments
+Assessment table/Assessment type,TBD,R,H,5,,assessments
+Assessment table/Assessment type,TBD,R,S,5,,assessments
+Assessment table/Assessment type,TBD,R,II,5,,assessments
+Assessment table/Assessment type,TBD,A,I,5,,assessments
+Assessment table/Assessment type,TBD,A,F,5,,assessments
+Assessment table/Assessment type,TBD,A,H,5,,assessments
+Assessment table/Assessment type,TBD,A,S,5,,assessments
+Assessment table/Assessment type,TBD,A,II,5,,assessments
+Assessment table/Assessment type,TBD,D,I,5,,assessments
+Assessment table/Assessment type,TBD,D,F,5,,assessments
+Assessment table/Assessment type,TBD,D,H,5,,assessments
+Assessment table/Assessment type,TBD,D,S,5,,assessments
+Assessment table/Assessment type,TBD,D,II,5,,assessments
+Assessment table/Assessment type,LOCAL,TT,I,5,,assessments
+Assessment table/Assessment type,LOCAL,TT,F,5,,assessments
+Assessment table/Assessment type,LOCAL,TT,H,5,,assessments
+Assessment table/Assessment type,LOCAL,TT,S,5,,assessments
+Assessment table/Assessment type,LOCAL,TT,II,5,,assessments
+Assessment table/Sample size,TBD,R,I,5,,assessments
+Assessment table/Sample size,TBD,R,F,5,,assessments
+Assessment table/Sample size,TBD,R,H,5,,assessments
+Assessment table/Sample size,TBD,R,S,5,,assessments
+Assessment table/Sample size,TBD,R,II,5,,assessments
+Assessment table/Sample size,TBD,A,I,5,,assessments
+Assessment table/Sample size,TBD,A,F,5,,assessments
+Assessment table/Sample size,TBD,A,H,5,,assessments
+Assessment table/Sample size,TBD,A,S,5,,assessments
+Assessment table/Sample size,TBD,A,II,5,,assessments
+Assessment table/Sample size,TBD,D,I,5,,assessments
+Assessment table/Sample size,TBD,D,F,5,,assessments
+Assessment table/Sample size,TBD,D,H,5,,assessments
+Assessment table/Sample size,TBD,D,S,5,,assessments
+Assessment table/Sample size,TBD,D,II,5,,assessments
+Assessment table/Sample size,LOCAL,TT,I,5,,assessments
+Assessment table/Sample size,LOCAL,TT,F,5,,assessments
+Assessment table/Sample size,LOCAL,TT,H,5,,assessments
+Assessment table/Sample size,LOCAL,TT,S,5,,assessments
+Assessment table/Sample size,LOCAL,TT,II,5,,assessments
+Assessment table/Sample size unit,TBD,R,I,5,,assessments
+Assessment table/Sample size unit,TBD,R,F,5,,assessments
+Assessment table/Sample size unit,TBD,R,H,5,,assessments
+Assessment table/Sample size unit,TBD,R,S,5,,assessments
+Assessment table/Sample size unit,TBD,R,II,5,,assessments
+Assessment table/Sample size unit,TBD,A,I,5,,assessments
+Assessment table/Sample size unit,TBD,A,F,5,,assessments
+Assessment table/Sample size unit,TBD,A,H,5,,assessments
+Assessment table/Sample size unit,TBD,A,S,5,,assessments
+Assessment table/Sample size unit,TBD,A,II,5,,assessments
+Assessment table/Sample size unit,TBD,D,I,5,,assessments
+Assessment table/Sample size unit,TBD,D,F,5,,assessments
+Assessment table/Sample size unit,TBD,D,H,5,,assessments
+Assessment table/Sample size unit,TBD,D,S,5,,assessments
+Assessment table/Sample size unit,TBD,D,II,5,,assessments
+Assessment table/Sample size unit,LOCAL,TT,I,5,,assessments
+Assessment table/Sample size unit,LOCAL,TT,F,5,,assessments
+Assessment table/Sample size unit,LOCAL,TT,H,5,,assessments
+Assessment table/Sample size unit,LOCAL,TT,S,5,,assessments
+Assessment table/Sample size unit,LOCAL,TT,II,5,,assessments
+Assessment table/Target,TBD,R,I,5,PHSES,assessments
+Assessment table/Target,TBD,R,F,5,PHSES,assessments
+Assessment table/Target,TBD,R,H,5,PHSES,assessments
+Assessment table/Target,TBD,R,S,5,PHSES,assessments
+Assessment table/Target,TBD,R,II,5,PHSES,assessments
+Assessment table/Target,TBD,A,I,5,PHSES,assessments
+Assessment table/Target,TBD,A,F,5,PHSES,assessments
+Assessment table/Target,TBD,A,H,5,PHSES,assessments
+Assessment table/Target,TBD,A,S,5,PHSES,assessments
+Assessment table/Target,TBD,A,II,5,PHSES,assessments
+Assessment table/Target,TBD,D,I,5,PHSES,assessments
+Assessment table/Target,TBD,D,F,5,PHSES,assessments
+Assessment table/Target,TBD,D,H,5,PHSES,assessments
+Assessment table/Target,TBD,D,S,5,PHSES,assessments
+Assessment table/Target,TBD,D,II,5,PHSES,assessments
+Assessment table/Target,LOCAL,TT,I,5,PHSES,assessments
+Assessment table/Target,LOCAL,TT,F,5,PHSES,assessments
+Assessment table/Target,LOCAL,TT,H,5,PHSES,assessments
+Assessment table/Target,LOCAL,TT,S,5,PHSES,assessments
+Assessment table/Target,LOCAL,TT,II,5,PHSES,assessments
+Assessment table/Crop,TBD,R,I,5,PHSES,assessments
+Assessment table/Crop,TBD,R,F,5,PHSES,assessments
+Assessment table/Crop,TBD,R,H,5,PHSES,assessments
+Assessment table/Crop,TBD,R,S,5,PHSES,assessments
+Assessment table/Crop,TBD,R,II,5,PHSES,assessments
+Assessment table/Crop,TBD,A,I,5,PHSES,assessments
+Assessment table/Crop,TBD,A,F,5,PHSES,assessments
+Assessment table/Crop,TBD,A,H,5,PHSES,assessments
+Assessment table/Crop,TBD,A,S,5,PHSES,assessments
+Assessment table/Crop,TBD,A,II,5,PHSES,assessments
+Assessment table/Crop,TBD,D,I,5,PHSES,assessments
+Assessment table/Crop,TBD,D,F,5,PHSES,assessments
+Assessment table/Crop,TBD,D,H,5,PHSES,assessments
+Assessment table/Crop,TBD,D,S,5,PHSES,assessments
+Assessment table/Crop,TBD,D,II,5,PHSES,assessments
+Assessment table/Crop,LOCAL,TT,I,5,PHSES,assessments
+Assessment table/Crop,LOCAL,TT,F,5,PHSES,assessments
+Assessment table/Crop,LOCAL,TT,H,5,PHSES,assessments
+Assessment table/Crop,LOCAL,TT,S,5,PHSES,assessments
+Assessment table/Crop,LOCAL,TT,II,5,PHSES,assessments
+Assessment table/Assessment code,TBD,R,I,5,,assessments
+Assessment table/Assessment code,TBD,R,F,5,,assessments
+Assessment table/Assessment code,TBD,R,H,5,,assessments
+Assessment table/Assessment code,TBD,R,S,5,,assessments
+Assessment table/Assessment code,TBD,R,II,5,,assessments
+Assessment table/Assessment code,TBD,A,I,5,,assessments
+Assessment table/Assessment code,TBD,A,F,5,,assessments
+Assessment table/Assessment code,TBD,A,H,5,,assessments
+Assessment table/Assessment code,TBD,A,S,5,,assessments
+Assessment table/Assessment code,TBD,A,II,5,,assessments
+Assessment table/Assessment code,TBD,D,I,5,,assessments
+Assessment table/Assessment code,TBD,D,F,5,,assessments
+Assessment table/Assessment code,TBD,D,H,5,,assessments
+Assessment table/Assessment code,TBD,D,S,5,,assessments
+Assessment table/Assessment code,TBD,D,II,5,,assessments
+Assessment table/Assessment code,LOCAL,TT,I,5,,assessments
+Assessment table/Assessment code,LOCAL,TT,F,5,,assessments
+Assessment table/Assessment code,LOCAL,TT,H,5,,assessments
+Assessment table/Assessment code,LOCAL,TT,S,5,,assessments
+Assessment table/Assessment code,LOCAL,TT,II,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,R,I,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,R,F,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,R,H,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,R,S,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,R,II,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,A,I,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,A,F,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,A,H,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,A,S,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,A,II,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,D,I,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,D,F,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,D,H,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,D,S,5,,assessments
+Assessment table/Standard Evaluation (SE),TBD,D,II,5,,assessments
+Assessment table/Standard Evaluation (SE),LOCAL,TT,I,5,,assessments
+Assessment table/Standard Evaluation (SE),LOCAL,TT,F,5,,assessments
+Assessment table/Standard Evaluation (SE),LOCAL,TT,H,5,,assessments
+Assessment table/Standard Evaluation (SE),LOCAL,TT,S,5,,assessments
+Assessment table/Standard Evaluation (SE),LOCAL,TT,II,5,,assessments
+Protocol description/Application timing,TBD,R,I,0,,applications
+Protocol description/Application timing,TBD,R,F,0,,applications
+Protocol description/Application timing,TBD,R,H,5,,applications
+Protocol description/Application timing,TBD,R,S,0,,applications
+Protocol description/Application timing,TBD,R,II,0,,applications
+Protocol description/Application timing,TBD,A,I,0,,applications
+Protocol description/Application timing,TBD,A,F,0,,applications
+Protocol description/Application timing,TBD,A,H,5,,applications
+Protocol description/Application timing,TBD,A,S,0,,applications
+Protocol description/Application timing,TBD,A,II,0,,applications
+Protocol description/Application timing,TBD,D,I,0,,applications
+Protocol description/Application timing,TBD,D,F,0,,applications
+Protocol description/Application timing,TBD,D,H,5,,applications
+Protocol description/Application timing,TBD,D,S,0,,applications
+Protocol description/Application timing,TBD,D,II,0,,applications
+Protocol description/Application timing,LOCAL,TT,I,0,,applications
+Protocol description/Application timing,LOCAL,TT,F,0,,applications
+Protocol description/Application timing,LOCAL,TT,H,5,,applications
+Protocol description/Application timing,LOCAL,TT,S,0,,applications
+Protocol description/Application timing,LOCAL,TT,II,0,,applications
+Protocol description/Application Method,TBD,R,I,5,,applications
+Protocol description/Application Method,TBD,R,F,5,,applications
+Protocol description/Application Method,TBD,R,H,5,,applications
+Protocol description/Application Method,TBD,R,S,5,,applications
+Protocol description/Application Method,TBD,R,II,5,,applications
+Protocol description/Application Method,TBD,A,I,5,,applications
+Protocol description/Application Method,TBD,A,F,5,,applications
+Protocol description/Application Method,TBD,A,H,5,,applications
+Protocol description/Application Method,TBD,A,S,5,,applications
+Protocol description/Application Method,TBD,A,II,5,,applications
+Protocol description/Application Method,TBD,D,I,5,,applications
+Protocol description/Application Method,TBD,D,F,5,,applications
+Protocol description/Application Method,TBD,D,H,5,,applications
+Protocol description/Application Method,TBD,D,S,5,,applications
+Protocol description/Application Method,TBD,D,II,5,,applications
+Protocol description/Application Method,LOCAL,TT,I,5,,applications
+Protocol description/Application Method,LOCAL,TT,F,5,,applications
+Protocol description/Application Method,LOCAL,TT,H,5,,applications
+Protocol description/Application Method,LOCAL,TT,S,5,,applications
+Protocol description/Application Method,LOCAL,TT,II,5,,applications
+Protocol description/Application Placement,TBD,R,I,4,,applications
+Protocol description/Application Placement,TBD,R,F,4,,applications
+Protocol description/Application Placement,TBD,R,H,4,,applications
+Protocol description/Application Placement,TBD,R,S,4,,applications
+Protocol description/Application Placement,TBD,R,II,4,,applications
+Protocol description/Application Placement,TBD,A,I,0,,applications
+Protocol description/Application Placement,TBD,A,F,0,,applications
+Protocol description/Application Placement,TBD,A,H,0,,applications
+Protocol description/Application Placement,TBD,A,S,0,,applications
+Protocol description/Application Placement,TBD,A,II,0,,applications
+Protocol description/Application Placement,TBD,D,I,0,,applications
+Protocol description/Application Placement,TBD,D,F,0,,applications
+Protocol description/Application Placement,TBD,D,H,0,,applications
+Protocol description/Application Placement,TBD,D,S,0,,applications
+Protocol description/Application Placement,TBD,D,II,0,,applications
+Protocol description/Application Placement,LOCAL,TT,I,0,,applications
+Protocol description/Application Placement,LOCAL,TT,F,0,,applications
+Protocol description/Application Placement,LOCAL,TT,H,0,,applications
+Protocol description/Application Placement,LOCAL,TT,S,0,,applications
+Protocol description/Application Placement,LOCAL,TT,II,0,,applications
+crop,TBD,R,I,5,,crop
+crop,TBD,R,F,5,,crop
+crop,TBD,R,H,5,,crop
+crop,TBD,R,S,5,,crop
+crop,TBD,R,II,5,,crop
+crop,TBD,A,I,5,,crop
+crop,TBD,A,F,5,,crop
+crop,TBD,A,H,5,,crop
+crop,TBD,A,S,5,,crop
+crop,TBD,A,II,5,,crop
+crop,TBD,D,I,5,,crop
+crop,TBD,D,F,5,,crop
+crop,TBD,D,H,5,,crop
+crop,TBD,D,S,5,,crop
+crop,TBD,D,II,5,,crop
+crop,LOCAL,TT,I,5,,crop
+crop,LOCAL,TT,F,5,,crop
+crop,LOCAL,TT,H,5,,crop
+crop,LOCAL,TT,S,5,,crop
+crop,LOCAL,TT,II,5,,crop
+Crop stage/App./Majority,TBD,R,I,4,,applications
+Crop stage/App./Majority,TBD,R,F,0,,applications
+Crop stage/App./Majority,TBD,R,H,4,,applications
+Crop stage/App./Majority,TBD,R,S,0,,applications
+Crop stage/App./Majority,TBD,R,II,0,,applications
+Crop stage/App./Majority,TBD,A,I,4,,applications
+Crop stage/App./Majority,TBD,A,F,0,,applications
+Crop stage/App./Majority,TBD,A,H,4,,applications
+Crop stage/App./Majority,TBD,A,S,0,,applications
+Crop stage/App./Majority,TBD,A,II,0,,applications
+Crop stage/App./Majority,TBD,D,I,4,,applications
+Crop stage/App./Majority,TBD,D,F,0,,applications
+Crop stage/App./Majority,TBD,D,H,4,,applications
+Crop stage/App./Majority,TBD,D,S,0,,applications
+Crop stage/App./Majority,TBD,D,II,0,,applications
+Crop stage/App./Majority,LOCAL,TT,I,4,,applications
+Crop stage/App./Majority,LOCAL,TT,F,0,,applications
+Crop stage/App./Majority,LOCAL,TT,H,4,,applications
+Crop stage/App./Majority,LOCAL,TT,S,0,,applications
+Crop stage/App./Majority,LOCAL,TT,II,0,,applications
+Objective,TBD,R,I,5,,general
+Objective,TBD,R,F,5,,general
+Objective,TBD,R,H,5,,general
+Objective,TBD,R,S,5,,general
+Objective,TBD,R,II,5,,general
+Objective,TBD,A,I,5,,general
+Objective,TBD,A,F,5,,general
+Objective,TBD,A,H,5,,general
+Objective,TBD,A,S,5,,general
+Objective,TBD,A,II,5,,general
+Objective,TBD,D,I,5,,general
+Objective,TBD,D,F,5,,general
+Objective,TBD,D,H,5,,general
+Objective,TBD,D,S,5,,general
+Objective,TBD,D,II,5,,general
+Objective,LOCAL,TT,I,5,,general
+Objective,LOCAL,TT,F,5,,general
+Objective,LOCAL,TT,H,5,,general
+Objective,LOCAL,TT,S,5,,general
+Objective,LOCAL,TT,II,5,,general
+INT EXT,TBD,R,I,5,,responsible
+INT EXT,TBD,R,F,5,,responsible
+INT EXT,TBD,R,H,5,,responsible
+INT EXT,TBD,R,S,5,,responsible
+INT EXT,TBD,R,II,5,,responsible
+INT EXT,TBD,A,I,5,,responsible
+INT EXT,TBD,A,F,5,,responsible
+INT EXT,TBD,A,H,5,,responsible
+INT EXT,TBD,A,S,5,,responsible
+INT EXT,TBD,A,II,5,,responsible
+INT EXT,TBD,D,I,5,,responsible
+INT EXT,TBD,D,F,5,,responsible
+INT EXT,TBD,D,H,5,,responsible
+INT EXT,TBD,D,S,5,,responsible
+INT EXT,TBD,D,II,5,,responsible
+INT EXT,LOCAL,TT,I,5,,responsible
+INT EXT,LOCAL,TT,F,5,,responsible
+INT EXT,LOCAL,TT,H,5,,responsible
+INT EXT,LOCAL,TT,S,5,,responsible
+INT EXT,LOCAL,TT,II,5,,responsible
+Test Type,TBD,R,I,5,,responsible
+Test Type,TBD,R,F,5,,responsible
+Test Type,TBD,R,H,5,,responsible
+Test Type,TBD,R,S,5,,responsible
+Test Type,TBD,R,II,5,,responsible
+Test Type,TBD,A,I,5,,responsible
+Test Type,TBD,A,F,5,,responsible
+Test Type,TBD,A,H,5,,responsible
+Test Type,TBD,A,S,5,,responsible
+Test Type,TBD,A,II,5,,responsible
+Test Type,TBD,D,I,5,,responsible
+Test Type,TBD,D,F,5,,responsible
+Test Type,TBD,D,H,5,,responsible
+Test Type,TBD,D,S,5,,responsible
+Test Type,TBD,D,II,5,,responsible
+Test Type,LOCAL,TT,I,5,,responsible
+Test Type,LOCAL,TT,F,5,,responsible
+Test Type,LOCAL,TT,H,5,,responsible
+Test Type,LOCAL,TT,S,5,,responsible
+Test Type,LOCAL,TT,II,5,,responsible
+Project Number,TBD,R,I,5,,general
+Project Number,TBD,R,F,5,,general
+Project Number,TBD,R,H,5,,general
+Project Number,TBD,R,S,5,,general
+Project Number,TBD,R,II,5,,general
+Project Number,TBD,A,I,5,,general
+Project Number,TBD,A,F,5,,general
+Project Number,TBD,A,H,5,,general
+Project Number,TBD,A,S,5,,general
+Project Number,TBD,A,II,5,,general
+Project Number,TBD,D,I,5,,general
+Project Number,TBD,D,F,5,,general
+Project Number,TBD,D,H,5,,general
+Project Number,TBD,D,S,5,,general
+Project Number,TBD,D,II,5,,general
+Project Number,LOCAL,TT,I,5,,general
+Project Number,LOCAL,TT,F,5,,general
+Project Number,LOCAL,TT,H,5,,general
+Project Number,LOCAL,TT,S,5,,general
+Project Number,LOCAL,TT,II,5,,general
+Site Code,TBD,R,I,5,,responsible
+Site Code,TBD,R,F,5,,responsible
+Site Code,TBD,R,H,5,,responsible
+Site Code,TBD,R,S,5,,responsible
+Site Code,TBD,R,II,5,,responsible
+Site Code,TBD,A,I,5,,responsible
+Site Code,TBD,A,F,5,,responsible
+Site Code,TBD,A,H,5,,responsible
+Site Code,TBD,A,S,5,,responsible
+Site Code,TBD,A,II,5,,responsible
+Site Code,TBD,D,I,5,,responsible
+Site Code,TBD,D,F,5,,responsible
+Site Code,TBD,D,H,5,,responsible
+Site Code,TBD,D,S,5,,responsible
+Site Code,TBD,D,II,5,,responsible
+Site Code,LOCAL,TT,I,5,,responsible
+Site Code,LOCAL,TT,F,5,,responsible
+Site Code,LOCAL,TT,H,5,,responsible
+Site Code,LOCAL,TT,S,5,,responsible
+Site Code,LOCAL,TT,II,5,,responsible
+GEP level,TBD,R,I,5,,general
+GEP level,TBD,R,F,5,,general
+GEP level,TBD,R,H,5,,general
+GEP level,TBD,R,S,5,,general
+GEP level,TBD,R,II,5,,general
+GEP level,TBD,A,I,0,,general
+GEP level,TBD,A,F,0,,general
+GEP level,TBD,A,H,0,,general
+GEP level,TBD,A,S,0,,general
+GEP level,TBD,A,II,0,,general
+GEP level,TBD,D,I,0,,general
+GEP level,TBD,D,F,0,,general
+GEP level,TBD,D,H,0,,general
+GEP level,TBD,D,S,0,,general
+GEP level,TBD,D,II,0,,general
+GEP level,LOCAL,TT,I,0,,general
+GEP level,LOCAL,TT,F,0,,general
+GEP level,LOCAL,TT,H,0,,general
+GEP level,LOCAL,TT,S,0,,general
+GEP level,LOCAL,TT,II,0,,general
+GEP certificate link,TBD,R,I,4,,general
+GEP certificate link,TBD,R,F,4,,general
+GEP certificate link,TBD,R,H,4,,general
+GEP certificate link,TBD,R,S,4,,general
+GEP certificate link,TBD,R,II,4,,general
+GEP certificate link,TBD,A,I,0,,general
+GEP certificate link,TBD,A,F,0,,general
+GEP certificate link,TBD,A,H,0,,general
+GEP certificate link,TBD,A,S,0,,general
+GEP certificate link,TBD,A,II,0,,general
+GEP certificate link,TBD,D,I,0,,general
+GEP certificate link,TBD,D,F,0,,general
+GEP certificate link,TBD,D,H,0,,general
+GEP certificate link,TBD,D,S,0,,general
+GEP certificate link,TBD,D,II,0,,general
+GEP certificate link,LOCAL,TT,I,0,,general
+GEP certificate link,LOCAL,TT,F,0,,general
+GEP certificate link,LOCAL,TT,H,0,,general
+GEP certificate link,LOCAL,TT,S,0,,general
+GEP certificate link,LOCAL,TT,II,0,,general
+Guidelines,TBD,R,I,4,,general
+Guidelines,TBD,R,F,4,,general
+Guidelines,TBD,R,H,4,,general
+Guidelines,TBD,R,S,4,,general
+Guidelines,TBD,R,II,4,,general
+Guidelines,TBD,A,I,0,,general
+Guidelines,TBD,A,F,0,,general
+Guidelines,TBD,A,H,0,,general
+Guidelines,TBD,A,S,0,,general
+Guidelines,TBD,A,II,0,,general
+Guidelines,TBD,D,I,0,,general
+Guidelines,TBD,D,F,0,,general
+Guidelines,TBD,D,H,0,,general
+Guidelines,TBD,D,S,0,,general
+Guidelines,TBD,D,II,0,,general
+Guidelines,LOCAL,TT,I,0,,general
+Guidelines,LOCAL,TT,F,0,,general
+Guidelines,LOCAL,TT,H,0,,general
+Guidelines,LOCAL,TT,S,0,,general
+Guidelines,LOCAL,TT,II,0,,general
+Site Type,TBD,R,I,5,,general
+Site Type,TBD,R,F,5,,general
+Site Type,TBD,R,H,5,,general
+Site Type,TBD,R,S,5,,general
+Site Type,TBD,R,II,5,,general
+Site Type,TBD,A,I,5,,general
+Site Type,TBD,A,F,5,,general
+Site Type,TBD,A,H,5,,general
+Site Type,TBD,A,S,5,,general
+Site Type,TBD,A,II,5,,general
+Site Type,TBD,D,I,5,,general
+Site Type,TBD,D,F,5,,general
+Site Type,TBD,D,H,5,,general
+Site Type,TBD,D,S,5,,general
+Site Type,TBD,D,II,5,,general
+Site Type,LOCAL,TT,I,5,,general
+Site Type,LOCAL,TT,F,5,,general
+Site Type,LOCAL,TT,H,5,,general
+Site Type,LOCAL,TT,S,5,,general
+Site Type,LOCAL,TT,II,5,,general
+Planned No. of Appl.,TBD,R,I,4,,general
+Planned No. of Appl.,TBD,R,F,4,,general
+Planned No. of Appl.,TBD,R,H,4,,general
+Planned No. of Appl.,TBD,R,S,4,,general
+Planned No. of Appl.,TBD,R,II,4,,general
+Planned No. of Appl.,TBD,A,I,4,,general
+Planned No. of Appl.,TBD,A,F,4,,general
+Planned No. of Appl.,TBD,A,H,4,,general
+Planned No. of Appl.,TBD,A,S,4,,general
+Planned No. of Appl.,TBD,A,II,4,,general
+Planned No. of Appl.,TBD,D,I,4,,general
+Planned No. of Appl.,TBD,D,F,4,,general
+Planned No. of Appl.,TBD,D,H,4,,general
+Planned No. of Appl.,TBD,D,S,4,,general
+Planned No. of Appl.,TBD,D,II,4,,general
+Planned No. of Appl.,LOCAL,TT,I,4,,general
+Planned No. of Appl.,LOCAL,TT,F,4,,general
+Planned No. of Appl.,LOCAL,TT,H,4,,general
+Planned No. of Appl.,LOCAL,TT,S,4,,general
+Planned No. of Appl.,LOCAL,TT,II,4,,general
+No. of Applications/Trial,TBD,R,I,5,,general
+No. of Applications/Trial,TBD,R,F,5,,general
+No. of Applications/Trial,TBD,R,H,5,,general
+No. of Applications/Trial,TBD,R,S,5,,general
+No. of Applications/Trial,TBD,R,II,5,,general
+No. of Applications/Trial,TBD,A,I,5,,general
+No. of Applications/Trial,TBD,A,F,5,,general
+No. of Applications/Trial,TBD,A,H,5,,general
+No. of Applications/Trial,TBD,A,S,5,,general
+No. of Applications/Trial,TBD,A,II,5,,general
+No. of Applications/Trial,TBD,D,I,5,,general
+No. of Applications/Trial,TBD,D,F,5,,general
+No. of Applications/Trial,TBD,D,H,5,,general
+No. of Applications/Trial,TBD,D,S,5,,general
+No. of Applications/Trial,TBD,D,II,5,,general
+No. of Applications/Trial,LOCAL,TT,I,5,,general
+No. of Applications/Trial,LOCAL,TT,F,5,,general
+No. of Applications/Trial,LOCAL,TT,H,5,,general
+No. of Applications/Trial,LOCAL,TT,S,5,,general
+No. of Applications/Trial,LOCAL,TT,II,5,,general
+No. of Assessments/Trial,TBD,R,I,5,,general
+No. of Assessments/Trial,TBD,R,F,5,,general
+No. of Assessments/Trial,TBD,R,H,5,,general
+No. of Assessments/Trial,TBD,R,S,5,,general
+No. of Assessments/Trial,TBD,R,II,5,,general
+No. of Assessments/Trial,TBD,A,I,5,,general
+No. of Assessments/Trial,TBD,A,F,5,,general
+No. of Assessments/Trial,TBD,A,H,5,,general
+No. of Assessments/Trial,TBD,A,S,5,,general
+No. of Assessments/Trial,TBD,A,II,5,,general
+No. of Assessments/Trial,TBD,D,I,5,,general
+No. of Assessments/Trial,TBD,D,F,5,,general
+No. of Assessments/Trial,TBD,D,H,5,,general
+No. of Assessments/Trial,TBD,D,S,5,,general
+No. of Assessments/Trial,TBD,D,II,5,,general
+No. of Assessments/Trial,LOCAL,TT,I,5,,general
+No. of Assessments/Trial,LOCAL,TT,F,5,,general
+No. of Assessments/Trial,LOCAL,TT,H,5,,general
+No. of Assessments/Trial,LOCAL,TT,S,5,,general
+No. of Assessments/Trial,LOCAL,TT,II,5,,general
+Location of control,TBD,R,I,5,,general
+Location of control,TBD,R,F,5,,general
+Location of control,TBD,R,H,5,,general
+Location of control,TBD,R,S,5,,general
+Location of control,TBD,R,II,5,,general
+Location of control,TBD,A,I,5,,general
+Location of control,TBD,A,F,5,,general
+Location of control,TBD,A,H,5,,general
+Location of control,TBD,A,S,5,,general
+Location of control,TBD,A,II,5,,general
+Location of control,TBD,D,I,5,,general
+Location of control,TBD,D,F,5,,general
+Location of control,TBD,D,H,5,,general
+Location of control,TBD,D,S,5,,general
+Location of control,TBD,D,II,5,,general
+Location of control,LOCAL,TT,I,5,,general
+Location of control,LOCAL,TT,F,5,,general
+Location of control,LOCAL,TT,H,5,,general
+Location of control,LOCAL,TT,S,5,,general
+Location of control,LOCAL,TT,II,5,,general
+Data deadline,TBD,R,I,5,,general
+Data deadline,TBD,R,F,5,,general
+Data deadline,TBD,R,H,5,,general
+Data deadline,TBD,R,S,5,,general
+Data deadline,TBD,R,II,5,,general
+Data deadline,TBD,A,I,5,,general
+Data deadline,TBD,A,F,5,,general
+Data deadline,TBD,A,H,5,,general
+Data deadline,TBD,A,S,5,,general
+Data deadline,TBD,A,II,5,,general
+Data deadline,TBD,D,I,5,,general
+Data deadline,TBD,D,F,5,,general
+Data deadline,TBD,D,H,5,,general
+Data deadline,TBD,D,S,5,,general
+Data deadline,TBD,D,II,5,,general
+Data deadline,LOCAL,TT,I,5,,general
+Data deadline,LOCAL,TT,F,5,,general
+Data deadline,LOCAL,TT,H,5,,general
+Data deadline,LOCAL,TT,S,5,,general
+Data deadline,LOCAL,TT,II,5,,general
+Number of replicates/Plot Area,TBD,R,I,5,,general
+Number of replicates/Plot Area,TBD,R,F,5,,general
+Number of replicates/Plot Area,TBD,R,H,5,,general
+Number of replicates/Plot Area,TBD,R,S,5,,general
+Number of replicates/Plot Area,TBD,R,II,5,,general
+Number of replicates/Plot Area,TBD,A,I,5,,general
+Number of replicates/Plot Area,TBD,A,F,5,,general
+Number of replicates/Plot Area,TBD,A,H,5,,general
+Number of replicates/Plot Area,TBD,A,S,5,,general
+Number of replicates/Plot Area,TBD,A,II,5,,general
+Number of replicates/Plot Area,TBD,D,I,5,,general
+Number of replicates/Plot Area,TBD,D,F,5,,general
+Number of replicates/Plot Area,TBD,D,H,5,,general
+Number of replicates/Plot Area,TBD,D,S,5,,general
+Number of replicates/Plot Area,TBD,D,II,5,,general
+Number of replicates/Plot Area,LOCAL,TT,I,5,,general
+Number of replicates/Plot Area,LOCAL,TT,F,5,,general
+Number of replicates/Plot Area,LOCAL,TT,H,5,,general
+Number of replicates/Plot Area,LOCAL,TT,S,5,,general
+Number of replicates/Plot Area,LOCAL,TT,II,5,,general
+Responsible,TBD,R,I,4,,responsible
+Responsible,TBD,R,F,4,,responsible
+Responsible,TBD,R,H,4,,responsible
+Responsible,TBD,R,S,4,,responsible
+Responsible,TBD,R,II,4,,responsible
+Responsible,TBD,A,I,4,,responsible
+Responsible,TBD,A,F,4,,responsible
+Responsible,TBD,A,H,4,,responsible
+Responsible,TBD,A,S,4,,responsible
+Responsible,TBD,A,II,4,,responsible
+Responsible,TBD,D,I,4,,responsible
+Responsible,TBD,D,F,4,,responsible
+Responsible,TBD,D,H,4,,responsible
+Responsible,TBD,D,S,4,,responsible
+Responsible,TBD,D,II,4,,responsible
+Responsible,LOCAL,TT,I,4,,responsible
+Responsible,LOCAL,TT,F,4,,responsible
+Responsible,LOCAL,TT,H,4,,responsible
+Responsible,LOCAL,TT,S,4,,responsible
+Responsible,LOCAL,TT,II,4,,responsible
+No. Of trials,TBD,R,I,5,,responsible
+No. Of trials,TBD,R,F,5,,responsible
+No. Of trials,TBD,R,H,5,,responsible
+No. Of trials,TBD,R,S,5,,responsible
+No. Of trials,TBD,R,II,5,,responsible
+No. Of trials,TBD,A,I,5,,responsible
+No. Of trials,TBD,A,F,5,,responsible
+No. Of trials,TBD,A,H,5,,responsible
+No. Of trials,TBD,A,S,5,,responsible
+No. Of trials,TBD,A,II,5,,responsible
+No. Of trials,TBD,D,I,5,,responsible
+No. Of trials,TBD,D,F,5,,responsible
+No. Of trials,TBD,D,H,5,,responsible
+No. Of trials,TBD,D,S,5,,responsible
+No. Of trials,TBD,D,II,5,,responsible
+No. Of trials,LOCAL,TT,I,5,,responsible
+No. Of trials,LOCAL,TT,F,5,,responsible
+No. Of trials,LOCAL,TT,H,5,,responsible
+No. Of trials,LOCAL,TT,S,5,,responsible
+No. Of trials,LOCAL,TT,II,5,,responsible
+Experimental season,TBD,R,I,4,,general
+Experimental season,TBD,R,F,4,,general
+Experimental season,TBD,R,H,4,,general
+Experimental season,TBD,R,S,4,,general
+Experimental season,TBD,R,II,4,,general
+Experimental season,TBD,A,I,4,,general
+Experimental season,TBD,A,F,4,,general
+Experimental season,TBD,A,H,4,,general
+Experimental season,TBD,A,S,4,,general
+Experimental season,TBD,A,II,4,,general
+Experimental season,TBD,D,I,4,,general
+Experimental season,TBD,D,F,4,,general
+Experimental season,TBD,D,H,4,,general
+Experimental season,TBD,D,S,4,,general
+Experimental season,TBD,D,II,4,,general
+Experimental season,LOCAL,TT,I,4,,general
+Experimental season,LOCAL,TT,F,4,,general
+Experimental season,LOCAL,TT,H,4,,general
+Experimental season,LOCAL,TT,S,4,,general
+Experimental season,LOCAL,TT,II,4,,general
+target,TBD,R,I,5,CROPSAFETY,target
+target,TBD,R,F,5,CROPSAFETY,target
+target,TBD,R,H,5,CROPSAFETY,target
+target,TBD,R,S,5,CROPSAFETY,target
+target,TBD,R,II,5,CROPSAFETY,target
+target,TBD,A,I,5,CROPSAFETY,target
+target,TBD,A,F,5,CROPSAFETY,target
+target,TBD,A,H,5,CROPSAFETY,target
+target,TBD,A,S,5,CROPSAFETY,target
+target,TBD,A,II,5,CROPSAFETY,target
+target,TBD,D,I,5,CROPSAFETY,target
+target,TBD,D,F,5,CROPSAFETY,target
+target,TBD,D,H,5,CROPSAFETY,target
+target,TBD,D,S,5,CROPSAFETY,target
+target,TBD,D,II,5,CROPSAFETY,target
+target,LOCAL,TT,I,5,CROPSAFETY,target
+target,LOCAL,TT,F,5,CROPSAFETY,target
+target,LOCAL,TT,H,5,CROPSAFETY,target
+target,LOCAL,TT,S,5,CROPSAFETY,target
+target,LOCAL,TT,II,5,CROPSAFETY,target
+Application code,TBD,R,I,5,,applications
+Application code,TBD,R,F,5,,applications
+Application code,TBD,R,H,5,,applications
+Application code,TBD,R,S,5,,applications
+Application code,TBD,R,II,5,,applications
+Application code,TBD,A,I,5,,applications
+Application code,TBD,A,F,5,,applications
+Application code,TBD,A,H,5,,applications
+Application code,TBD,A,S,5,,applications
+Application code,TBD,A,II,5,,applications
+Application code,TBD,D,I,5,,applications
+Application code,TBD,D,F,5,,applications
+Application code,TBD,D,H,5,,applications
+Application code,TBD,D,S,5,,applications
+Application code,TBD,D,II,5,,applications
+Application code,LOCAL,TT,I,5,,applications
+Application code,LOCAL,TT,F,5,,applications
+Application code,LOCAL,TT,H,5,,applications
+Application code,LOCAL,TT,S,5,,applications
+Application code,LOCAL,TT,II,5,,applications

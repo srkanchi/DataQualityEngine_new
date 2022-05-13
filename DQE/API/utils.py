@@ -1,3 +1,4 @@
+from DQE.Tester.Tester import *
 
 
 def check_inputs(inputs):
@@ -10,10 +11,21 @@ def check_inputs(inputs):
     assert isinstance(inputs.get('tests'), list)
     # manage error criation
 
+
 def call_tester(inputs):
     """
     """
-    return None
+    # TODO understand how inputs come thru, so we can split them up and feed the kwargs to the function
+    tester = Tester()
+    data = inputs['data']
+    tests = inputs['tests']
+    schema_name = None
+    for t in tests:
+        for k,v in t.items():
+            if k == "format_check":
+                schema_name = v['schema_name']
+                break
+    return tester.run_tests(data=data, list_of_tests=tests, schema_name=schema_name)
 
 
 def get_all_available_schemas():
@@ -21,3 +33,4 @@ def get_all_available_schemas():
     function to get all schemas on the registry
     """
     return None
+
