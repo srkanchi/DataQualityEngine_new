@@ -30,8 +30,7 @@
           }
         ],
         "gepCertification": null,
-        "plannedNumberOfAssessments": 4,
-        "settings": null,
+  
         "fieldResponsibles": [
           {
             "type": "Licence User",
