@@ -1793,27 +1793,27 @@ Application Placement,TD 1,EMEA,D,H,1,,application
 Application Placement,TD 1,EMEA,D,S,1,,application
 Stage Majority,TD 1,GLOBAL,R,I,0,,application
 Stage Majority,TD 1,GLOBAL,R,F,0,,application
-Stage Majority,TD 1,GLOBAL,R,H,0,,application
+Stage Majority,TD 1,GLOBAL,R,H,1,,application
 Stage Majority,TD 1,GLOBAL,R,S,0,,application
-Stage Majority,TD 1,GLOBAL,R,G,0,,application
+Stage Majority,TD 1,GLOBAL,R,G,1,,application
 Stage Majority,TD 1,GLOBAL,R,II,0,,application
 Stage Majority,TD 1,GLOBAL,D,I,0,,application
 Stage Majority,TD 1,GLOBAL,D,F,0,,application
-Stage Majority,TD 1,GLOBAL,D,H,0,,application
+Stage Majority,TD 1,GLOBAL,D,H,1,,application
 Stage Majority,TD 1,GLOBAL,D,S,0,,application
-Stage Majority,TD 1,GLOBAL,D,G,0,,application
+Stage Majority,TD 1,GLOBAL,D,G,1,,application
 Stage Majority,TD 1,GLOBAL,D,II,0,,application
 Stage Majority,TD 1,GLOBAL,A,I,0,,application
 Stage Majority,TD 1,GLOBAL,A,F,0,,application
-Stage Majority,TD 1,GLOBAL,A,H,0,,application
+Stage Majority,TD 1,GLOBAL,A,H,1,,application
 Stage Majority,TD 1,GLOBAL,A,S,0,,application
-Stage Majority,TD 1,GLOBAL,A,G,0,,application
+Stage Majority,TD 1,GLOBAL,A,G,1,,application
 Stage Majority,TD 1,GLOBAL,A,II,0,,application
 Stage Majority,TD 1,GLOBAL,TT,I,0,,application
 Stage Majority,TD 1,GLOBAL,TT,F,0,,application
-Stage Majority,TD 1,GLOBAL,TT,H,0,,application
+Stage Majority,TD 1,GLOBAL,TT,H,1,,application
 Stage Majority,TD 1,GLOBAL,TT,S,0,,application
-Stage Majority,TD 1,GLOBAL,TT,G,0,,application
+Stage Majority,TD 1,GLOBAL,TT,G,1,,application
 Stage Majority,TD 1,GLOBAL,TT,II,0,,application
 Stage Majority,TD 1,EMEA,R,I,0,,application
 Stage Majority,TD 1,EMEA,R,F,0,,application
@@ -1823,38 +1823,6 @@ Stage Majority,TD 1,EMEA,D,I,0,,application
 Stage Majority,TD 1,EMEA,D,F,0,,application
 Stage Majority,TD 1,EMEA,D,H,0,,application
 Stage Majority,TD 1,EMEA,D,S,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,I,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,F,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,H,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,S,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,G,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,R,II,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,I,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,F,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,H,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,S,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,G,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,D,II,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,I,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,F,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,H,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,S,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,G,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,A,II,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,I,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,F,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,H,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,S,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,G,0,,application
-Treated Leaf Wall Area,TD 1,GLOBAL,TT,II,0,,application
-Treated Leaf Wall Area,TD 1,EMEA,R,I,1,DOSE,application
-Treated Leaf Wall Area,TD 1,EMEA,R,F,1,DOSE,application
-Treated Leaf Wall Area,TD 1,EMEA,R,H,0,,application
-Treated Leaf Wall Area,TD 1,EMEA,R,S,0,,application
-Treated Leaf Wall Area,TD 1,EMEA,D,I,1,DOSE,application
-Treated Leaf Wall Area,TD 1,EMEA,D,F,1,DOSE,application
-Treated Leaf Wall Area,TD 1,EMEA,D,H,0,,application
-Treated Leaf Wall Area,TD 1,EMEA,D,S,0,,application
 ,,,,,,,
 ,,,,,,,
 ,,,,,,,
@@ -3075,38 +3043,6 @@ Stage Majority,PROT,EMEA,D,I,0,,application
 Stage Majority,PROT,EMEA,D,F,0,,application
 Stage Majority,PROT,EMEA,D,H,0,,application
 Stage Majority,PROT,EMEA,D,S,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,I,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,F,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,H,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,S,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,G,0,,application
-Leaf Wall Area,PROT,GLOBAL,R,II,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,I,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,F,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,H,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,S,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,G,0,,application
-Leaf Wall Area,PROT,GLOBAL,D,II,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,I,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,F,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,H,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,S,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,G,0,,application
-Leaf Wall Area,PROT,GLOBAL,A,II,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,I,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,F,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,H,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,S,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,G,0,,application
-Leaf Wall Area,PROT,GLOBAL,TT,II,0,,application
-Leaf Wall Area,PROT,EMEA,R,I,1,DOSE,application
-Leaf Wall Area,PROT,EMEA,R,F,1,DOSE,application
-Leaf Wall Area,PROT,EMEA,R,H,0,,application
-Leaf Wall Area,PROT,EMEA,R,S,0,,application
-Leaf Wall Area,PROT,EMEA,D,I,1,DOSE,application
-Leaf Wall Area,PROT,EMEA,D,F,1,DOSE,application
-Leaf Wall Area,PROT,EMEA,D,H,0,,application
-Leaf Wall Area,PROT,EMEA,D,S,0,,application
 Project Number,PROT,GLOBAL,R,I,1,,general
 Project Number,PROT,GLOBAL,R,F,1,,general
 Project Number,PROT,GLOBAL,R,H,1,,general
@@ -3203,35 +3139,3 @@ Harvest Destr. Flag,PROT,EMEA,D,I,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,F,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,H,1,,general
 Harvest Destr. Flag,PROT,EMEA,D,S,1,,general
-Leaf Wall Area Unit,PROT,GLOBAL,R,I,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,R,F,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,R,H,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,R,S,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,R,G,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,R,II,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,I,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,F,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,H,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,S,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,G,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,D,II,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,I,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,F,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,H,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,S,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,G,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,A,II,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,I,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,F,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,H,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,S,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,G,0,,application
-Leaf Wall Area Unit,PROT,GLOBAL,TT,II,0,,application
-Leaf Wall Area Unit,PROT,EMEA,R,I,1,DOSE,application
-Leaf Wall Area Unit,PROT,EMEA,R,F,1,DOSE,application
-Leaf Wall Area Unit,PROT,EMEA,R,H,0,,application
-Leaf Wall Area Unit,PROT,EMEA,R,S,0,,application
-Leaf Wall Area Unit,PROT,EMEA,D,I,1,DOSE,application
-Leaf Wall Area Unit,PROT,EMEA,D,F,1,DOSE,application
-Leaf Wall Area Unit,PROT,EMEA,D,H,0,,application
-Leaf Wall Area Unit,PROT,EMEA,D,S,0,,application

@@ -109,7 +109,6 @@ TDs status 1 ------------------------------
           }
           crops{
             cropStageCode
-            leafWallArea
           }
         }
       }
@@ -201,8 +200,6 @@ Protocols --------------------
           }
           crops{
             cropStageCode
-            leafWallArea
-            leafWallAreaUnit
           }
         }
       }

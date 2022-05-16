@@ -906,7 +906,7 @@ class TD:
 
     def formatCrops(self, value):
         if value is None or len(value) <1:   
-            return {'cropStageCode': None, 'leafWallArea': None, 'leafWallAreaUnit':None}
+            return {'cropStageCode': None}
         else:
             return value[0]
 
@@ -968,8 +968,7 @@ class TD:
             "method": "Missing",
             "placement": "Missing",
             "applicationTimingCode": "Missing",
-            "cropStageCode": "Missing",
-            "leafWallArea": "Missing"
+            "cropStageCode": "Missing"
           }
 
 
